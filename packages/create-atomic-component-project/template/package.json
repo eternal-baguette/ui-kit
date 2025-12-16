@@ -1,7 +1,7 @@
 {
   "name": "@eternal-baguette/sample-component-project",
   "private": true,
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A project containing Coveo Atomic components",
   "scripts": {
     "!prepublishOnly": "npm run build && npm version patch",
