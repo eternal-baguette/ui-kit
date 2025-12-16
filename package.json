@@ -3,6 +3,7 @@
   "private": true,
   "version": "3.0.81",
   "scripts": {
+    "changeset": "changeset",
     "postinstall": "husky install",
     "reset:install": "git checkout origin/main pnpm-lock.yaml && pnpm install",
     "clean:install": "git clean -xfd && pnpm run reset:install",
@@ -33,6 +34,7 @@
     "@biomejs/biome": "2.1.4",
     "@eternal-baguette/ci": "workspace:*",
     "@cspell/dict-fr-fr": "2.3.2",
+    "@changesets/cli": "2.29.8",
     "@tsconfig/node20": "20.1.6",
     "@types/jest": "catalog:",
     "@types/node": "catalog:",
