@@ -1,6 +1,6 @@
 {
   "name": "@samples/atomic-search-commerce-angular",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "scripts": {
     "ng": "ng",
     "build": "pnpm --filter @coveo/ci if-not-cdn -- \"pnpm run build:assets\" && pnpm --filter @coveo/ci if-not-cdn -- \"pnpm run build:angular\"",
