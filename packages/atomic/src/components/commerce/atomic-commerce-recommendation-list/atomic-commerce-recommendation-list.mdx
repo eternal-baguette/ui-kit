@@ -1,0 +1,32 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import * as AtomicCommerceRecommendationListStories from './atomic-commerce-recommendation-list.new.stories';
+import { AtomicDocTemplate } from '@/storybook-utils/documentation/atomic-doc-template';
+
+
+<Meta of={AtomicCommerceRecommendationListStories} />
+
+<AtomicDocTemplate
+  stories={AtomicCommerceRecommendationListStories}
+  githubPath="commerce/atomic-commerce-recommendation-list/atomic-commerce-recommendation-list.ts"
+  tagName="atomic-commerce-recommendation-list"
+  className="AtomicCommerceRecommendationList"
+>
+
+The `atomic-commerce-recommendation-list` component must be placed inside an `atomic-commerce-recommendation-interface` to work properly.
+
+```html
+<atomic-commerce-recommendation-interface>
+  <atomic-commerce-recommendation-list></atomic-commerce-recommendation-list>
+</atomic-commerce-recommendation-interface>
+```
+
+You can include multiple recommendation lists within a single interface:
+
+```html
+<atomic-commerce-recommendation-interface>
+  <atomic-commerce-recommendation-list></atomic-commerce-recommendation-list>
+  <atomic-commerce-recommendation-list></atomic-commerce-recommendation-list>
+</atomic-commerce-recommendation-interface>
+```
+
+</AtomicDocTemplate>

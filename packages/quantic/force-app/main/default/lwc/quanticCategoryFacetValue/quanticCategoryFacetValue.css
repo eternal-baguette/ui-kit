@@ -1,0 +1,22 @@
+@import 'c/quanticFacetStyles';
+
+:host {
+  width: 100%;
+}
+
+.facet__path {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  color: var(--slds-g-color-palette-neutral-60, #8E959D);
+  float: left;
+}
+
+.facet__search-results{
+  display: flex;
+  align-items: baseline;
+}
+
+.facet__value:hover {
+  color: var(--slds-g-color-palette-neutral-60, #8E959D);
+}

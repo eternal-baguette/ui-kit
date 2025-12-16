@@ -1,0 +1,12 @@
+{
+  "navigation": {
+    "includeCategories": true,
+    "includeGroups": true,
+    "includeFolders": true
+  },
+  "categorizeByGroup": true,
+  "name": "SSR Search",
+  "entryPoints": ["../src/ssr/index.ts"],
+  "gitRevision": "main",
+  "plugin": ["@coveo/documentation"]
+}

@@ -1,0 +1,152 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`generated answer analytics actions > when analyticsMode is \`next\` > should log #logCopyGeneratedAnswer with the right payload 1`] = `
+[
+  "Rga.AnswerAction",
+  {
+    "action": "copyToClipboard",
+    "answerId": "94b77748-2479-4e4b-a4e8-010fa62b04a0",
+  },
+]
+`;
+
+exports[`generated answer analytics actions > when analyticsMode is \`next\` > should log #logDislikeGeneratedAnswer with the right payload 1`] = `
+[
+  "Rga.AnswerAction",
+  {
+    "action": "dislike",
+    "answerId": "94b77748-2479-4e4b-a4e8-010fa62b04a0",
+  },
+]
+`;
+
+exports[`generated answer analytics actions > when analyticsMode is \`next\` > should log #logGeneratedAnswerCollapse with the right payload 1`] = `
+[
+  "Rga.AnswerAction",
+  {
+    "action": "collapse",
+    "answerId": "94b77748-2479-4e4b-a4e8-010fa62b04a0",
+  },
+]
+`;
+
+exports[`generated answer analytics actions > when analyticsMode is \`next\` > should log #logGeneratedAnswerExpand with the right payload 1`] = `
+[
+  "Rga.AnswerAction",
+  {
+    "action": "expand",
+    "answerId": "94b77748-2479-4e4b-a4e8-010fa62b04a0",
+  },
+]
+`;
+
+exports[`generated answer analytics actions > when analyticsMode is \`next\` > should log #logGeneratedAnswerFeedback with the right payload 1`] = `
+[
+  "Rga.SubmitFeedback",
+  {
+    "additionalNotes": undefined,
+    "answerId": "94b77748-2479-4e4b-a4e8-010fa62b04a0",
+    "correctAnswerUrl": undefined,
+    "details": {
+      "correctTopic": false,
+      "documented": true,
+      "hallucinationFree": undefined,
+      "readable": true,
+    },
+    "helpful": true,
+  },
+]
+`;
+
+exports[`generated answer analytics actions > when analyticsMode is \`next\` > should log #logGeneratedAnswerHideAnswers with the right payload 1`] = `
+[
+  "Rga.AnswerAction",
+  {
+    "action": "hide",
+    "answerId": "94b77748-2479-4e4b-a4e8-010fa62b04a0",
+  },
+]
+`;
+
+exports[`generated answer analytics actions > when analyticsMode is \`next\` > should log #logGeneratedAnswerResponseLinked with the response id and answer id 1`] = `
+[
+  "Rga.ResponseLinked",
+  {
+    "answerId": "94b77748-2479-4e4b-a4e8-010fa62b04a0",
+    "responseId": "456",
+  },
+]
+`;
+
+exports[`generated answer analytics actions > when analyticsMode is \`next\` > should log #logGeneratedAnswerShowAnswers with the right payload 1`] = `
+[
+  "Rga.AnswerAction",
+  {
+    "action": "show",
+    "answerId": "94b77748-2479-4e4b-a4e8-010fa62b04a0",
+  },
+]
+`;
+
+exports[`generated answer analytics actions > when analyticsMode is \`next\` > should log #logGeneratedAnswerStreamEnd with generated and 'empty' answer 1`] = `
+[
+  "Rga.AnswerReceived",
+  {
+    "answerGenerated": true,
+    "answerId": "94b77748-2479-4e4b-a4e8-010fa62b04a0",
+  },
+]
+`;
+
+exports[`generated answer analytics actions > when analyticsMode is \`next\` > should log #logGeneratedAnswerStreamEnd with not generated and 'empty' answer 1`] = `
+[
+  "Rga.AnswerReceived",
+  {
+    "answerGenerated": false,
+    "answerId": "94b77748-2479-4e4b-a4e8-010fa62b04a0",
+  },
+]
+`;
+
+exports[`generated answer analytics actions > when analyticsMode is \`next\` > should log #logHoverCitation with the right payload 1`] = `
+[
+  "Rga.CitationHover",
+  {
+    "answerId": "94b77748-2479-4e4b-a4e8-010fa62b04a0",
+    "citationHoverTimeInMs": 1234,
+    "citationId": "some-citation-id",
+    "itemMetadata": {
+      "title": "Sample citation",
+      "uniqueFieldName": "permanentid",
+      "uniqueFieldValue": "citation-permanent-id",
+      "url": "http://localhost/citations/some-citation-id",
+    },
+  },
+]
+`;
+
+exports[`generated answer analytics actions > when analyticsMode is \`next\` > should log #logLikeGeneratedAnswer with the right payload 1`] = `
+[
+  "Rga.AnswerAction",
+  {
+    "action": "like",
+    "answerId": "94b77748-2479-4e4b-a4e8-010fa62b04a0",
+  },
+]
+`;
+
+exports[`generated answer analytics actions > when analyticsMode is \`next\` > should log #logOpenGeneratedAnswerSource with the right payload 1`] = `
+[
+  "Rga.CitationClick",
+  {
+    "answerId": "94b77748-2479-4e4b-a4e8-010fa62b04a0",
+    "citationId": "some-citation-id",
+    "itemMetadata": {
+      "title": "Sample citation",
+      "uniqueFieldName": "permanentid",
+      "uniqueFieldValue": "citation-permanent-id",
+      "url": "http://localhost/citations/some-citation-id",
+    },
+  },
+]
+`;

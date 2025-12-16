@@ -1,0 +1,20 @@
+{
+  "name": "@coveo/cdn",
+  "private": true,
+  "authors": "Coveo",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "serve": "node ./scripts/serve.mjs",
+    "deploy": "node ./scripts/deploy-local-cdn.mjs"
+  },
+  "engines": {
+    "node": ">=22.14.0"
+  },
+  "dependencies": {
+    "local-web-server": "catalog:"
+  },
+  "devDependencies": {
+    "@coveo/bueno": "workspace:*"
+  }
+}

@@ -1,0 +1,12 @@
+import {test, expect} from './fixture';
+
+test.describe('{{name}}', () => {
+  test.beforeEach(async ({ {{shorterName}} }) => {
+    await {{shorterName}}.load();
+  });
+
+  // Add your tests here
+  test('should render properly', async ({ {{shorterName}} }) => {
+    // TODO: Add test implementation
+  });
+});

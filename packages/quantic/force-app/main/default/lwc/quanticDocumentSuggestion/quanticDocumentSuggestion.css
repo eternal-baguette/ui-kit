@@ -1,0 +1,15 @@
+.excerpt {
+  font-size: var(--slds-g-font-scale-1, 14px);
+}
+.loading-holder {
+  position: relative;
+  height: 3.5rem;
+}
+
+.card-border {
+  border: 1px solid #dddbda;
+}
+
+.no-suggestion-message {
+  background-color: #f6f7f9;
+}

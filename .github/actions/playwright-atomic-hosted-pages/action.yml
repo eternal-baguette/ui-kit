@@ -1,0 +1,20 @@
+name: 'Playwright Atomic Hosted Pages'
+description: 'Run Playwright tests for Atomic Hosted Pages'
+inputs:
+  uploadArtifacts:
+    description: 'Whether to upload artifacts'
+    required: false
+    default: 'true'
+runs:
+  using: composite
+  steps:
+    - name: Run Playwright tests
+      run: pnpm exec playwright test
+      working-directory: packages/atomic-hosted-page
+      shell: bash
+    - uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4
+      if: ${{ inputs.uploadArtifacts == 'true' }}
+      with:
+        name: atomic-hosted-page-playwright-report
+        path: packages/atomic-hosted-page/playwright-report/
+        retention-days: 5

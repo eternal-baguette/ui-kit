@@ -1,0 +1,5 @@
+node_modules/
+dist
+
+# Stencil generated files
+stencil-generated/

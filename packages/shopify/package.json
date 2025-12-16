@@ -1,0 +1,71 @@
+{
+  "name": "@coveo/shopify",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coveo/ui-kit.git",
+    "directory": "packages/shopify"
+  },
+  "main": "./dist/headless.esm.js",
+  "module": "./dist/headless.esm.js",
+  "license": "Apache-2.0",
+  "version": "1.9.9",
+  "files": [
+    "dist/"
+  ],
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./dist/headless/index.d.ts",
+      "import": "./dist/headless.esm.js",
+      "default": "./dist/headless.esm.js"
+    },
+    "./headless": {
+      "types": "./dist/headless/index.d.ts",
+      "import": "./dist/headless.esm.js",
+      "default": "./dist/headless.esm.js"
+    },
+    "./headless/commerce": {
+      "types": "./dist/headless/commerce.d.ts",
+      "import": "./dist/headless/commerce.esm.js",
+      "default": "./dist/headless/commerce.esm.js"
+    },
+    "./headless/search": {
+      "types": "./dist/headless/search.d.ts",
+      "import": "./dist/headless/search.esm.js",
+      "default": "./dist/headless/search.esm.js"
+    },
+    "./utilities": {
+      "types": "./dist/utilities/index.d.ts",
+      "import": "./dist/utilities.esm.js",
+      "default": "./dist/utilities.esm.js"
+    },
+    "./constants": {
+      "types": "./dist/constants.d.ts",
+      "import": "./dist/constants.esm.js",
+      "default": "./dist/constants.esm.js"
+    }
+  },
+  "scripts": {
+    "dev": "pnpm run build:bundles -- dev",
+    "build": "pnpm run build:bundles && pnpm run build:definitions",
+    "build:bundles": "node esbuild.mjs",
+    "build:definitions": "tsc -p src/tsconfig.build.json && node ./scripts/copy-types.mjs",
+    "test": "vitest run",
+    "clean": "node ../../utils/ci/rm-rf.mjs dist/* cdn/",
+    "release:phase3": "pnpm --filter @coveo/ci npm-publish",
+    "release:phase1": "pnpm --filter @coveo/ci bump",
+    "promote:npm:latest": "pnpm --filter @coveo/ci promote-npm-prod"
+  },
+  "devDependencies": {
+    "@types/node": "catalog:",
+    "vitest": "catalog:"
+  },
+  "dependencies": {
+    "@coveo/headless": "workspace:*",
+    "@coveo/relay": "1.2.7",
+    "uuid": "^11.0.0"
+  },
+  "engines": {
+    "node": "^20.9.0 || ^22.11.0"
+  }
+}

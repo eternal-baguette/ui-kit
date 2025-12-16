@@ -1,0 +1,19 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import * as {{namePascalCase}}Stories from './{{name}}.new.stories';
+import { AtomicDocTemplate } from '@/storybook-utils/documentation/atomic-doc-template';
+
+<Meta of={ {{namePascalCase}}Stories } />
+
+<AtomicDocTemplate
+  stories={ {{namePascalCase}}Stories }
+  githubPath="{{githubPath}}"
+  tagName="{{name}}"
+  className="{{namePascalCase}}"
+>
+
+// TODO: Add usage instructions here.
+
+// * See atomic-product-link.mdx for typical template component.
+// * See atomic-commerce-pager.mdx for typical non-template component.
+
+</AtomicDocTemplate>

@@ -1,0 +1,7 @@
+.tab-bar_dropdown {
+  max-width: 150px;
+}
+
+.tab-bar__more-button:focus {
+  text-decoration: none;
+}

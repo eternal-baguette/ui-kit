@@ -1,0 +1,34 @@
+lightning-icon {
+  --slds-c-icon-color-foreground-default: var(--slds-g-color-brand-base-100, white);
+}
+.case-classification-visual-picker__figure {
+  width: 9.6rem;
+  height: 2rem;
+}
+
+.loading-holder {
+  width: 9.6rem;
+  height: 2rem;
+}
+
+.text-color-inherit {
+  color: unset;
+}
+
+.visual-picker__hidden {
+  animation: hideAnimation 0.3s ease-in-out forwards;
+}
+
+@keyframes hideAnimation {
+  100% {
+    width: 0;
+    opacity: 0;
+    margin-right: 0;
+  }
+}
+
+.slds-visual-picker input:checked ~ label .visual-picker__figure:after {
+  border-right-color: var(--lwc-colorBorderRowSelectedHover, rgb(27, 150, 255));
+  border-top-color: var(--lwc-colorBorderRowSelectedHover, rgb(27, 150, 255));
+  border-radius: 4px;
+}

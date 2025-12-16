@@ -1,0 +1,24 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import * as AtomicCommerceRecommendationInterfaceStories from './atomic-commerce-recommendation-interface.new.stories';
+import { AtomicDocTemplate } from '@/storybook-utils/documentation/atomic-doc-template';
+
+
+<Meta of={AtomicCommerceRecommendationInterfaceStories} />
+
+<AtomicDocTemplate
+  stories={AtomicCommerceRecommendationInterfaceStories}
+  githubPath="commerce/atomic-commerce-recommendation-interface/atomic-commerce-recommendation-interface.ts"
+  tagName="atomic-commerce-recommendation-interface"
+  className="AtomicCommerceRecommendationInterface"
+>
+
+This component must be used to wrap every recommendation list. It is necessary for the correct functioning recommendations. A multiple amount of recommendations can be placed within it.
+
+```html
+<atomic-commerce-recommendation-interface>
+
+  ...
+
+</atomic-commerce-recommendation-interface>
+```
+</AtomicDocTemplate>

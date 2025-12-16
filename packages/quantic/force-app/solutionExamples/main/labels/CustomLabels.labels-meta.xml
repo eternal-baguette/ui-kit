@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+  <labels>
+    <fullName>ActionIsUnavailable</fullName>
+    <value>[{{0}}] Unable to complete "{{0}}" action: no response received from the Aura layer. Ensure that this component is wrapped inside the "ExampleInsightPanelWrapper" Aura component.</value>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>Unable to complete action.</shortDescription>
+  </labels>
+  <labels>
+    <fullName>ErrorWithQuickAction</fullName>
+    <value>Error with Quick Action {{0}}</value>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>Error with Quick Action FeedItem.TextPost</shortDescription>
+  </labels>
+  <labels>
+    <fullName>PostToFeed</fullName>
+    <value>Post to feed</value>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>Post to feed</shortDescription>
+  </labels>
+  <labels>
+    <fullName>SendAsEmail</fullName>
+    <value>Send as email</value>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>Send as email</shortDescription>
+  </labels>
+  <labels>
+    <fullName>AttachResult</fullName>
+    <value>Attach result</value>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>Attach result</shortDescription>
+  </labels>
+  <labels>
+    <fullName>DetachResult</fullName>
+    <value>Detach result</value>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>Detach result</shortDescription>
+  </labels>
+  <labels>
+    <fullName>ResultIsAttached</fullName>
+    <value>Result is attached</value>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>Result is attached</shortDescription>
+  </labels>
+  <labels>
+    <fullName>GenerateAnswer</fullName>
+    <value>Generate answer</value>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>Generate answer</shortDescription>
+  </labels>
+  <labels>
+    <fullName>NoGeneratedAnswer</fullName>
+    <value>No generated answer available.</value>
+    <language>en_US</language>
+    <protected>false</protected>
+    <shortDescription>No generated answer available.</shortDescription>
+  </labels>
+</CustomLabels>

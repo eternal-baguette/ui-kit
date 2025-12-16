@@ -1,0 +1,31 @@
+{
+  "name": "@coveo/sample-component-project",
+  "private": true,
+  "version": "0.0.1",
+  "description": "A project containing Coveo Atomic components",
+  "scripts": {
+    "!prepublishOnly": "npm run build && npm version patch",
+    "!build": "npm run build --workspaces",
+    "!start": "stencil build --dev --watch --serve",
+    "!test": "stencil test --spec --e2e",
+    "!test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "dependencies": {
+    "@coveo/atomic": "workspace:*",
+    "@coveo/headless": "workspace:*"
+  },
+  "devDependencies": {
+    "@rollup/plugin-url": "catalog:",
+    "@coveo/headless": "workspace:*",
+    "@types/jest": "catalog:",
+    "jest": "catalog:",
+    "jest-cli": "catalog:",
+    "puppeteer": "catalog:",
+    "rollup-plugin-string": "catalog:",
+    "@coveo/create-atomic-rollup-plugin": "catalog:"
+  },
+  "license": "Apache-2.0",
+  "workspaces": [
+    "src/components/*"
+  ]
+}

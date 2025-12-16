@@ -1,0 +1,12 @@
+{
+  "navigation": {
+    "includeCategories": true,
+    "includeGroups": true,
+    "includeFolders": true
+  },
+  "categorizeByGroup": true,
+  "name": "SSR Commerce",
+  "entryPoints": ["../src/ssr-commerce/index.ts"],
+  "gitRevision": "main",
+  "plugin": ["@coveo/documentation"]
+}

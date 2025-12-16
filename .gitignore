@@ -1,0 +1,31 @@
+.idea
+node_modules
+npm-debug.log
+.ds_store
+dist
+.size-snapshot.json
+reports/*.xml
+.dccache
+sarifs
+**.cy.ts.mp4
+.cspellcache
+scripts/translation-gpt/temporary.json
+packages/headless/docs
+
+# CI Release
+topology.json
+topology-raw.json
+.git-message
+packages/atomic/custom-elements.json
+.nx
+
+# .vscode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/mcp.json
+
+# turbo
+.turbo
+
+# Test screenshots
+**/__screenshots__/

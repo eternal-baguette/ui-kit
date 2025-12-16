@@ -1,0 +1,19 @@
+@reference '../coveo.tw.css';
+
+@utility link-style {
+  @apply text-on-background;
+
+  &:hover,
+  &:focus-visible {
+    text-decoration: underline;
+    @apply text-primary;
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  &:visited {
+    @apply text-visited;
+  }
+}
