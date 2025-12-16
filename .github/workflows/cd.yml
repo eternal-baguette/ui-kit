@@ -163,8 +163,6 @@ jobs:
         with:
           ref: ${{ needs.version.outputs.merge-commit-sha }}
       - uses: ./.github/actions/setup
-        with:
-          save-cache: "true"
       - name: Generate a token
         id: generate-token
         uses: actions/create-github-app-token@v2
