@@ -12,6 +12,8 @@ jobs:
     name: "NPM Release"
     environment: NPM
     runs-on: ubuntu-latest
+    env:
+      commit: "chore: update versions"
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
@@ -33,50 +35,54 @@ jobs:
         id: changeset
         uses: changesets/action@v1
         with:
-          commit: "chore: update versions"
-          title: "chore: update versions"
+          commit: ${{ env.commit }}
+          title: ${{ env.commit }}
           publish: pnpm ci:publish
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # Temporary, to be replaced by NPM TP after first publish
+      - name: Checkout PR branch
+        if: steps.changeset.outputs.pullRequestNumber != ''
+        run: gh pr checkout ${{ steps.changeset.outputs.pullRequestNumber }}
+      - name: Extract commit information
+        if: steps.changeset.outputs.pullRequestNumber != ''
+        id: git-info
+        run: |
+          echo "head-sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+          echo "tree-sha=$(git rev-parse HEAD^{tree})" >> $GITHUB_OUTPUT
+          echo "parent-sha=$(git rev-parse HEAD~1)" >> $GITHUB_OUTPUT
       - name: Doctor commit with signature
         if: steps.changeset.outputs.pullRequestNumber != ''
         uses: actions/github-script@v8
         env:
           PR_NUMBER: ${{ steps.changeset.outputs.pullRequestNumber }}
+          TREE_SHA: ${{ steps.git-info.outputs.tree-sha }}
+          HEAD_SHA: ${{ steps.git-info.outputs.head-sha }}
+          PARENT_SHA: ${{ steps.git-info.outputs.parent-sha }}
+          COMMIT_MESSAGE: ${{ env.commit }}
+          HEAD_REF: "changeset-release/main"
         with:
           github-token: ${{ steps.generate-token.outputs.token }}
           script: |
             const prNumber = process.env.PR_NUMBER;
-            
-            // Get PR details
-            const { data: pr } = await github.rest.pulls.get({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number: prNumber
-            });
-            
-            const headSha = pr.head.sha;
-            const headRef = pr.head.ref;
-            
-            // Get the commit to extract tree SHA, parents, and message
-            const { data: commit } = await github.rest.git.getCommit({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              commit_sha: headSha
-            });
+            const headSha = process.env.HEAD_SHA;
+            const treeSha = process.env.TREE_SHA;
+            const commitMessage = process.env.COMMIT_MESSAGE;
+            const parentSha = process.env.PARENT_SHA;
+            const headRef = process.env.HEAD_REF;
             
             core.info(`Original commit: ${headSha}`);
-            core.info(`Tree SHA: ${commit.tree.sha}`);
-            core.info(`Message: ${commit.message}`);
+            core.info(`Tree SHA: ${treeSha}`);
+            core.info(`Message: ${commitMessage}`);
+            core.info(`Parent: ${parentSha}`);
             
             // Create a new signed commit with the same tree
             const { data: newCommit } = await github.rest.git.createCommit({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              message: commit.message,
-              tree: commit.tree.sha,
-              parents: commit.parents.map(p => p.sha)
+              message: commitMessage,
+              tree: treeSha,
+              parents: [parentSha]
             });
             
             core.info(`New signed commit: ${newCommit.sha}`);
