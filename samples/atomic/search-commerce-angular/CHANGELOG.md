@@ -1,5 +1,13 @@
 # @samples/atomic-search-commerce-angular
 
+## 0.0.2
+
+### Patch Changes
+
+- 6eff147: Bump all once to sync it all
+- Updated dependencies [6eff147]
+  - @eternal-baguette/atomic-angular@3.8.2
+
 ## 0.0.1
 
 ### Patch Changes

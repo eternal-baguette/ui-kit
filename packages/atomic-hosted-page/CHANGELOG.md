@@ -1,5 +1,14 @@
 # @eternal-baguette/atomic-hosted-page
 
+## 1.2.24
+
+### Patch Changes
+
+- 6eff147: Bump all once to sync it all
+- Updated dependencies [6eff147]
+  - @eternal-baguette/headless@3.37.2
+  - @eternal-baguette/bueno@1.1.6
+
 ## 1.2.23
 
 ### Patch Changes

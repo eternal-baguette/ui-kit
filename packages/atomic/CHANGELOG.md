@@ -1,5 +1,14 @@
 # @eternal-baguette/atomic
 
+## 3.42.3
+
+### Patch Changes
+
+- 6eff147: Bump all once to sync it all
+- Updated dependencies [6eff147]
+  - @eternal-baguette/headless@3.37.2
+  - @eternal-baguette/bueno@1.1.6
+
 ## 3.42.2
 
 ### Patch Changes

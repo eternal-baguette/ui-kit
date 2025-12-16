@@ -2,7 +2,7 @@
   "name": "@eternal-baguette/ci",
   "private": true,
   "author": "Coveo",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "dependencies": {
     "@coveo/semantic-monorepo-tools": "2.7.0",
