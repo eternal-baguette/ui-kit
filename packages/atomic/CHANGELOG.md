@@ -1,5 +1,11 @@
 # @eternal-baguette/atomic
 
+## 3.42.4
+
+### Patch Changes
+
+- d26ed9f: Swim swim
+
 ## 3.42.3
 
 ### Patch Changes
