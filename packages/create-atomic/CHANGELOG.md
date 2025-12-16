@@ -1,3 +1,5 @@
+# @eternal-baguette/create-atomic
+
 ## <small>1.41.5 (2025-10-30)</small>
 
 * ci: fix pnpm pack including node_modules for create-atomic packages (#6333) ([c9debba](https://github.com/coveo/ui-kit/commits/c9debba)), closes [#6333](https://github.com/coveo/ui-kit/issues/6333)

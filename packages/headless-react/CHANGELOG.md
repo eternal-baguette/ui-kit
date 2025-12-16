@@ -1,3 +1,5 @@
+# @eternal-baguette/headless-react
+
 ## 2.8.0 (2025-12-12)
 
 * feat: migrating content from docs.coveo.com to typedoc (#6624) ([8a85527](https://github.com/coveo/ui-kit/commits/8a85527)), closes [#6624](https://github.com/coveo/ui-kit/issues/6624)
