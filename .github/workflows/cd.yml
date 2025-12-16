@@ -8,12 +8,14 @@ permissions:
   id-token: write
 
 jobs:
-  cd:
-    name: "NPM Release"
-    environment: NPM
+  version:
+    name: "Create Version PR & Merge"
     runs-on: ubuntu-latest
+    outputs:
+      merge-commit-sha: ${{ steps.merge-pr.outputs.merge-commit-sha }}
     env:
       commit: "chore: update versions"
+      RULESET_ID: "11169046"
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
@@ -27,20 +29,31 @@ jobs:
           private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
           owner: eternal-baguette
           repositories: "ui-kit"
+      - name: Freeze main branch
+        uses: actions/github-script@v8
+        with:
+          github-token: ${{ steps.generate-token.outputs.token }}
+          script: |
+            core.info(`Enabling ruleset ${process.env.RULESET_ID} to freeze main branch`);
+            await github.rest.repos.updateRepoRuleset({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ruleset_id: process.env.RULESET_ID,
+              enforcement: 'active'
+            });
+            core.info(`✓ Main branch frozen`);
       - name: Setup Git user
         run: |
           git config --global user.name '${{ steps.generate-token.outputs.app-slug }}[bot]'
           git config --global user.email '${{ vars.GH_APP_UID }}+${{ steps.generate-token.outputs.app-slug }}[bot]@users.noreply.github.com'
-      - name: Create and publish versions
+      - name: Create version PR
         id: changeset
         uses: changesets/action@v1
         with:
           commit: ${{ env.commit }}
           title: ${{ env.commit }}
-          publish: pnpm ci:publish
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # Temporary, to be replaced by NPM TP after first publish
       - name: Checkout PR branch
         if: steps.changeset.outputs.pullRequestNumber != ''
         run: gh pr checkout ${{ steps.changeset.outputs.pullRequestNumber }}
@@ -109,4 +122,69 @@ jobs:
             });
             
             core.info(`✓ Added 'release' label to PR #${prNumber}`);
+      - name: Merge PR forcefully
+        if: steps.changeset.outputs.pullRequestNumber != ''
+        id: merge-pr
+        uses: actions/github-script@v8
+        env:
+          PR_NUMBER: ${{ steps.changeset.outputs.pullRequestNumber }}
+        with:
+          github-token: ${{ steps.generate-token.outputs.token }}
+          script: |
+            const prNumber = process.env.PR_NUMBER;
+            
+            core.info(`Force merging PR #${prNumber}`);
+            
+            const { data: mergeResult } = await github.rest.pulls.merge({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber,
+              merge_method: 'squash'
+            });
+            
+            core.info(`✓ PR merged successfully`);
+            core.info(`Merge commit SHA: ${mergeResult.sha}`);
+            core.setOutput('merge-commit-sha', mergeResult.sha);
+  
+  publish:
+    name: "NPM Publish"
+    needs: version
+    if: needs.version.outputs.merge-commit-sha != ''
+    environment: NPM
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ needs.version.outputs.merge-commit-sha }}
+      - uses: ./.github/actions/setup
+        with:
+          save-cache: "true"
+      - name: Generate a token
+        id: generate-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: eternal-baguette
+          repositories: "ui-kit"
+      - name: Publish to NPM
+        run: pnpm ci:publish
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - name: Thaw main branch
+        uses: actions/github-script@v8
+        if: always()
+        env:
+          RULESET_ID: "11169046"
+        with:
+          github-token: ${{ steps.generate-token.outputs.token }}
+          script: |
+            core.info(`Disabling ruleset ${process.env.RULESET_ID} to thaw main branch`);
+            await github.rest.repos.updateRepoRuleset({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ruleset_id: process.env.RULESET_ID,
+              enforcement: 'disabled'
+            });
+            core.info(`✓ Main branch thawed`);
 
