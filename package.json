@@ -4,7 +4,6 @@
   "version": "3.0.81",
   "scripts": {
     "changeset": "changeset",
-    "postinstall": "husky install",
     "reset:install": "git checkout origin/main pnpm-lock.yaml && pnpm install",
     "clean:install": "git clean -xfd && pnpm run reset:install",
     "dev:atomic": "concurrently \"pnpm --filter @coveo/headless dev\" \"pnpm --filter @coveo/atomic start\"",
@@ -33,9 +32,10 @@
     "@actions/core": "1.11.1",
     "@actions/github": "6.0.1",
     "@biomejs/biome": "2.1.4",
-    "@eternal-baguette/ci": "workspace:*",
-    "@cspell/dict-fr-fr": "2.3.2",
     "@changesets/cli": "2.29.8",
+    "@cspell/dict-fr-fr": "2.3.2",
+    "@eternal-baguette/ci": "workspace:*",
+    "@playwright/mcp": "catalog:",
     "@tsconfig/node20": "20.1.6",
     "@types/jest": "catalog:",
     "@types/node": "catalog:",
@@ -44,10 +44,8 @@
     "esbuild": "catalog:",
     "esbuild-plugin-alias": "0.2.1",
     "esbuild-plugin-umd-wrapper": "3.0.0",
-    "husky": "9.1.7",
     "knip": "5.62.0",
     "lint-staged": "16.1.2",
-    "@playwright/mcp": "catalog:",
     "playwright": "catalog:",
     "publint": "0.3.12",
     "semver": "7.7.2",
@@ -83,5 +81,8 @@
     "node": "^22.14.0",
     "pnpm": ">=10.0.0"
   },
-  "packageManager": "pnpm@10.24.0"
+  "packageManager": "pnpm@10.24.0",
+  "dependencies": {
+    "lefthook": "2.0.9"
+  }
 }
