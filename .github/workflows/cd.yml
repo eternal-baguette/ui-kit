@@ -25,6 +25,10 @@ jobs:
           private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
           owner: eternal-baguette
           repositories: "ui-kit"
+      - name: Setup Git user
+        run: |
+          git config --global user.name '${{ steps.generate-token.outputs.app-slug }}[bot]'
+          git config --global user.email '${{ vars.GH_APP_UID }}+${{ steps.generate-token.outputs.app-slug }}[bot]@users.noreply.github.com'
       - name: Create and publish versions
         id: changeset
         uses: changesets/action@v1
