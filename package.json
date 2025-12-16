@@ -26,7 +26,8 @@
     "release:phase2": "pnpm --filter @coveo/ci bump:root",
     "release:phase3": "turbo release:phase3 --concurrency=1",
     "release:phase4": "pnpm --filter @coveo/ci git-publish-all",
-    "knip": "knip"
+    "knip": "knip",
+    "ci:publish": "pnpm publish -r"
   },
   "devDependencies": {
     "@actions/core": "1.11.1",

@@ -1,4 +1,4 @@
-name: Create release
+name: release
 on:
   workflow_dispatch:
 
@@ -6,9 +6,28 @@ permissions:
   contents: read
 
 jobs:
-  todo:
-    name: "Todo"
+  cd:
+    name: "NPM Release"
+    environment: NPM
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "This is a placeholder job for CD workflow."
+      - uses: ./.github/actions/setup
+      - name: Generate a token
+        id: generate-token
+        uses: actions/create-github-app-token@v4
+        with:
+          app-id: ${{ secrets.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: eternal-baguette
+          repositories: "ui-kit"
+      - name: Create and publish versions
+        uses: changesets/action@v1
+        with:
+          commit: "chore: update versions"
+          commitMode: 'github-api'
+          title: "chore: update versions"
+          publish: pnpm ci:publish
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # Temporary, to be replaced by NPM TP after first publish
