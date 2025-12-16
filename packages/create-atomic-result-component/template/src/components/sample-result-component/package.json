@@ -29,13 +29,13 @@
     "@stencil/core": "catalog:"
   },
   "devDependencies": {
-    "@eternal-baguette/atomic-component-health-check": "2.2.19",
+    "@coveo/atomic-component-health-check": "2.2.19",
     "@rollup/plugin-url": "catalog:",
     "@types/jest": "catalog:",
     "jest": "catalog:",
     "jest-cli": "catalog:",
     "rollup-plugin-string": "catalog:",
-    "@eternal-baguette/create-atomic-rollup-plugin": "catalog:"
+    "@eternal-baguette/create-atomic-rollup-plugin": "workspace:*"
   },
   "keywords": [
     "coveo-atomic-component"

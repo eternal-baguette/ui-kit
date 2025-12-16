@@ -8,7 +8,7 @@
     "node": "^20.9.0 || ^22.11.0"
   },
   "dependencies": {
-    "@eternal-baguette/auth": "2.1.1",
+    "@eternal-baguette/auth": "workspace:*",
     "@eternal-baguette/headless": "workspace:*",
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "catalog:",

@@ -6,9 +6,6 @@ settings:
 
 catalogs:
   default:
-    '@eternal-baguette/create-atomic-rollup-plugin':
-      specifier: 1.2.1
-      version: 1.2.1
     '@coveo/relay-event-types':
       specifier: 15.1.0
       version: 15.1.0
@@ -115,7 +112,7 @@ overrides:
 
 patchedDependencies:
   '@stencil/angular-output-target@0.8.4':
-    hash: ffa6652e9d95e4699aeb937bae0dc81fc675329b4fc1c26251086764254c2e1f
+    hash: f375780f1e860a72e52c69942a3504d12efc6cc949fc6c0c4fa7a97b53a0261b
     path: patches/@stencil+angular-output-target+0.8.4.patch
   '@stencil/core@4.20.0':
     hash: 2123526aa2d364115336a3e2011c3176111fbe4942b3c2eef9ab94d76e6c18f9
@@ -146,12 +143,12 @@ importers:
       '@biomejs/biome':
         specifier: 2.1.4
         version: 2.1.4
-      '@eternal-baguette/ci':
-        specifier: workspace:*
-        version: link:utils/ci
       '@cspell/dict-fr-fr':
         specifier: 2.3.2
         version: 2.3.2
+      '@eternal-baguette/ci':
+        specifier: workspace:*
+        version: link:utils/ci
       '@playwright/mcp':
         specifier: 'catalog:'
         version: 0.0.48
@@ -209,15 +206,15 @@ importers:
 
   packages/atomic:
     dependencies:
+      '@coveo/relay-event-types':
+        specifier: 'catalog:'
+        version: 15.1.0
       '@eternal-baguette/bueno':
         specifier: workspace:*
         version: link:../bueno
       '@eternal-baguette/headless':
         specifier: workspace:*
         version: link:../headless
-      '@coveo/relay-event-types':
-        specifier: 'catalog:'
-        version: 15.1.0
       '@lit/context':
         specifier: 1.1.6
         version: 1.1.6
@@ -290,7 +287,7 @@ importers:
         version: 2.2.0(@stencil/core@4.20.0(patch_hash=2123526aa2d364115336a3e2011c3176111fbe4942b3c2eef9ab94d76e6c18f9))
       '@stencil/angular-output-target':
         specifier: 0.8.4
-        version: 0.8.4(patch_hash=ffa6652e9d95e4699aeb937bae0dc81fc675329b4fc1c26251086764254c2e1f)(@stencil/core@4.20.0(patch_hash=2123526aa2d364115336a3e2011c3176111fbe4942b3c2eef9ab94d76e6c18f9))
+        version: 0.8.4(patch_hash=f375780f1e860a72e52c69942a3504d12efc6cc949fc6c0c4fa7a97b53a0261b)(@stencil/core@4.20.0(patch_hash=2123526aa2d364115336a3e2011c3176111fbe4942b3c2eef9ab94d76e6c18f9))
       '@stencil/react-output-target':
         specifier: 0.5.3
         version: 0.5.3(patch_hash=bca691c52b3fa2f491c35229af7f145e17fd520326f997c6a15ca31fd19b937e)(@stencil/core@4.20.0(patch_hash=2123526aa2d364115336a3e2011c3176111fbe4942b3c2eef9ab94d76e6c18f9))
@@ -623,8 +620,8 @@ importers:
   packages/create-atomic-component:
     dependencies:
       '@eternal-baguette/create-atomic-component-project':
-        specifier: 1.5.8
-        version: 1.5.8
+        specifier: workspace:*
+        version: link:../create-atomic-component-project
 
   packages/create-atomic-component-project: {}
 
@@ -638,8 +635,8 @@ importers:
         version: link:../../headless
     devDependencies:
       '@eternal-baguette/create-atomic-rollup-plugin':
-        specifier: 'catalog:'
-        version: 1.2.1
+        specifier: workspace:*
+        version: link:../../create-atomic-rollup-plugin
       '@rollup/plugin-url':
         specifier: 'catalog:'
         version: 8.0.2(rollup@4.46.2)
@@ -671,12 +668,12 @@ importers:
         specifier: 'catalog:'
         version: 4.20.0(patch_hash=2123526aa2d364115336a3e2011c3176111fbe4942b3c2eef9ab94d76e6c18f9)
     devDependencies:
-      '@eternal-baguette/atomic-component-health-check':
+      '@coveo/atomic-component-health-check':
         specifier: 2.2.19
         version: 2.2.19
       '@eternal-baguette/create-atomic-rollup-plugin':
-        specifier: 'catalog:'
-        version: 1.2.1
+        specifier: workspace:*
+        version: link:../../../../../create-atomic-rollup-plugin
       '@rollup/plugin-url':
         specifier: 'catalog:'
         version: 8.0.2(rollup@4.46.2)
@@ -699,8 +696,8 @@ importers:
   packages/create-atomic-result-component:
     dependencies:
       '@eternal-baguette/create-atomic-component-project':
-        specifier: 1.4.2
-        version: 1.4.2
+        specifier: workspace:*
+        version: link:../create-atomic-component-project
 
   packages/create-atomic-result-component/template/src/components/sample-result-component:
     dependencies:
@@ -714,12 +711,12 @@ importers:
         specifier: 'catalog:'
         version: 4.20.0(patch_hash=2123526aa2d364115336a3e2011c3176111fbe4942b3c2eef9ab94d76e6c18f9)
     devDependencies:
-      '@eternal-baguette/atomic-component-health-check':
+      '@coveo/atomic-component-health-check':
         specifier: 2.2.19
         version: 2.2.19
       '@eternal-baguette/create-atomic-rollup-plugin':
-        specifier: 'catalog:'
-        version: 1.2.1
+        specifier: workspace:*
+        version: link:../../../../../create-atomic-rollup-plugin
       '@rollup/plugin-url':
         specifier: 'catalog:'
         version: 8.0.2(rollup@4.46.2)
@@ -758,8 +755,8 @@ importers:
         version: 4.20.0(patch_hash=2123526aa2d364115336a3e2011c3176111fbe4942b3c2eef9ab94d76e6c18f9)
     devDependencies:
       '@eternal-baguette/create-atomic-rollup-plugin':
-        specifier: 'catalog:'
-        version: 1.2.1
+        specifier: workspace:*
+        version: link:../create-atomic-rollup-plugin
       '@rollup/plugin-replace':
         specifier: 'catalog:'
         version: 6.0.2(rollup@4.46.2)
@@ -793,15 +790,15 @@ importers:
 
   packages/headless:
     dependencies:
-      '@eternal-baguette/bueno':
-        specifier: workspace:*
-        version: link:../bueno
       '@coveo/relay':
         specifier: 1.2.7
         version: 1.2.7
       '@coveo/relay-event-types':
         specifier: 'catalog:'
         version: 15.1.0
+      '@eternal-baguette/bueno':
+        specifier: workspace:*
+        version: link:../bueno
       '@reduxjs/toolkit':
         specifier: 2.6.0
         version: 2.6.0(react@19.2.1)
@@ -922,12 +919,12 @@ importers:
       '@babel/plugin-transform-async-to-generator':
         specifier: 7.27.1
         version: 7.27.1(@babel/core@7.28.5)
-      '@eternal-baguette/ci':
-        specifier: workspace:*
-        version: link:../../utils/ci
       '@coveo/relay-event-types':
         specifier: 'catalog:'
         version: 15.1.0
+      '@eternal-baguette/ci':
+        specifier: workspace:*
+        version: link:../../utils/ci
       '@octokit/graphql':
         specifier: 9.0.1
         version: 9.0.1
@@ -988,12 +985,12 @@ importers:
 
   packages/shopify:
     dependencies:
-      '@eternal-baguette/headless':
-        specifier: workspace:*
-        version: link:../headless
       '@coveo/relay':
         specifier: 1.2.7
         version: 1.2.7
+      '@eternal-baguette/headless':
+        specifier: workspace:*
+        version: link:../headless
       uuid:
         specifier: ^11.0.0
         version: 11.1.0
@@ -1493,8 +1490,8 @@ importers:
   samples/headless/search-react:
     dependencies:
       '@eternal-baguette/auth':
-        specifier: 2.1.1
-        version: 2.1.1
+        specifier: workspace:*
+        version: link:../../../packages/auth
       '@eternal-baguette/headless':
         specifier: workspace:*
         version: link:../../../packages/headless
@@ -2586,24 +2583,9 @@ packages:
     resolution: {integrity: sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==}
     engines: {node: '>=0.1.90'}
 
-  '@eternal-baguette/atomic-component-health-check@2.2.19':
+  '@coveo/atomic-component-health-check@2.2.19':
     resolution: {integrity: sha512-n/llxt8mLYW5P9G8R0ozbrMrqtnDT03oMix7tQ796+F2AFwL6F3FcXyRPVMqsWuTnKH6jOwZ04HcAoP+868Ejw==}
     hasBin: true
-
-  '@eternal-baguette/auth@2.1.1':
-    resolution: {integrity: sha512-m51EdkcG47/LJmCXOPrpKvYBaeiyNrs0JXpA0BaFiqnhdje/ap84iJxpXKnRUHMZvC9vxufdWExGTwXyt2NdNA==}
-    engines: {node: ^20.9.0 || ^22.11.0}
-
-  '@eternal-baguette/create-atomic-component-project@1.4.2':
-    resolution: {integrity: sha512-CC83e/8uO4fEqgf1pLcIotvEcR9jE5YS31wuSGbWRPA03Wjm1/nPKhGec5lDDcq1jyHp0harKMRkePiUDdb0fQ==}
-    hasBin: true
-
-  '@eternal-baguette/create-atomic-component-project@1.5.8':
-    resolution: {integrity: sha512-sX/vjP/7jtXF8XF8jrWUDoe8TiObA5fq/5ZGCWTKpgk/AHeTv3KkfGvd8yliCMALr6EMPKLzRqRER0tkrQRZVw==}
-    hasBin: true
-
-  '@eternal-baguette/create-atomic-rollup-plugin@1.2.1':
-    resolution: {integrity: sha512-dYokNIv1ImmGMbvbBs9LwXfKG/onolYUYMoOCUEXURmb3m3/JaRA9KmVvNpP42M4sSMKkrXf2SdfX8bitXrQIg==}
 
   '@coveo/explorer-messenger@0.4.1':
     resolution: {integrity: sha512-MX+alPTsRQLAC99b7cUwMGtaGcDw44ftEJOFwoS8alTgFlY7oaUP4jyZSJ/BCOMXlYpkhU2VYDERr/HD5P1Dtw==}
@@ -4042,7 +4024,6 @@ packages:
   '@mswjs/source@0.5.0':
     resolution: {integrity: sha512-0zZT5wHnutBWInb/IAl2wGCy9M4i5nm4mRdunw7Pe5tyei07MvLATZEckC/uvNVTSEJMgJ0Kgj5GKzL/I9ZIMQ==}
     engines: {node: '>=20'}
-    deprecated: This package is renamed to . It will no longer receive any updates. Please migrate to the new package name. Thank you.
     peerDependencies:
       msw: ^2.10.0
 
@@ -15412,18 +15393,10 @@ snapshots:
   '@colors/colors@1.5.0':
     optional: true
 
-  '@eternal-baguette/atomic-component-health-check@2.2.19':
+  '@coveo/atomic-component-health-check@2.2.19':
     dependencies:
       chalk: 4.1.2
       zod: 3.22.4
-
-  '@eternal-baguette/auth@2.1.1': {}
-
-  '@eternal-baguette/create-atomic-component-project@1.4.2': {}
-
-  '@eternal-baguette/create-atomic-component-project@1.5.8': {}
-
-  '@eternal-baguette/create-atomic-rollup-plugin@1.2.1': {}
 
   '@coveo/explorer-messenger@0.4.1': {}
 
@@ -17939,7 +17912,7 @@ snapshots:
       '@stencil/core': 4.20.0(patch_hash=2123526aa2d364115336a3e2011c3176111fbe4942b3c2eef9ab94d76e6c18f9)
       postcss: 8.4.49
 
-  '@stencil/angular-output-target@0.8.4(patch_hash=ffa6652e9d95e4699aeb937bae0dc81fc675329b4fc1c26251086764254c2e1f)(@stencil/core@4.20.0(patch_hash=2123526aa2d364115336a3e2011c3176111fbe4942b3c2eef9ab94d76e6c18f9))':
+  '@stencil/angular-output-target@0.8.4(patch_hash=f375780f1e860a72e52c69942a3504d12efc6cc949fc6c0c4fa7a97b53a0261b)(@stencil/core@4.20.0(patch_hash=2123526aa2d364115336a3e2011c3176111fbe4942b3c2eef9ab94d76e6c18f9))':
     dependencies:
       '@stencil/core': 4.20.0(patch_hash=2123526aa2d364115336a3e2011c3176111fbe4942b3c2eef9ab94d76e6c18f9)
 
