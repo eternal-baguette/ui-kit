@@ -1,3 +1,5 @@
+# @eternal-baguette/atomic-angular
+
 ## 3.8.0 (2025-11-12)
 
 * chore: remove stencil-generated build artifacts from git tracking (#6500) ([e9f418f](https://github.com/coveo/ui-kit/commits/e9f418f)), closes [#6500](https://github.com/coveo/ui-kit/issues/6500)

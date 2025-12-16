@@ -1,3 +1,5 @@
+# @eternal-baguette/create-atomic-component-project
+
 ## <small>1.5.11 (2025-12-12)</small>
 
 * chore: seed all picsum pictures (#6755) ([62aa6e0](https://github.com/coveo/ui-kit/commits/62aa6e0)), closes [#6755](https://github.com/coveo/ui-kit/issues/6755)

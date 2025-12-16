@@ -1,3 +1,5 @@
+# @eternal-baguette/atomic-react
+
 ## <small>3.7.1 (2025-12-12)</small>
 
 * refactor(atomic): migrate atomic-category-facet from Stencil to Lit (#6690) ([acb6d28](https://github.com/coveo/ui-kit/commits/acb6d28)), closes [#6690](https://github.com/coveo/ui-kit/issues/6690)

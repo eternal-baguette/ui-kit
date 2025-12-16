@@ -1,3 +1,5 @@
+# @eternal-baguette/atomic-hosted-page
+
 ## <small>1.2.22 (2025-11-12)</small>
 
 * docs: correct JSDoc grammar and terminology across packages (#6531) ([356975a](https://github.com/coveo/ui-kit/commits/356975a)), closes [#6531](https://github.com/coveo/ui-kit/issues/6531)

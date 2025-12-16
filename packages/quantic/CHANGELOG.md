@@ -1,3 +1,5 @@
+# @eternal-baguette/quantic
+
 ## 3.34.0 (2025-12-10)
 
 * fix(quantic): better handle pushing recent results to avoid salesforce proxy extensibility errors (# ([c0b0b71](https://github.com/coveo/ui-kit/commits/c0b0b71)), closes [#6706](https://github.com/coveo/ui-kit/issues/6706)

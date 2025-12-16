@@ -1,3 +1,5 @@
+# @eternal-baguette/shopify
+
 ## <small>1.9.9 (2025-11-05)</small>
 
 * fix(shopify): correct malformed PR reference in CHANGELOG (#6330) ([74b1de7](https://github.com/coveo/ui-kit/commits/74b1de7)), closes [#6330](https://github.com/coveo/ui-kit/issues/6330)

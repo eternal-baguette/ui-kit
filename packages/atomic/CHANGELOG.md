@@ -1,3 +1,5 @@
+# @eternal-baguette/atomic
+
 ## <small>3.42.1 (2025-12-12)</small>
 
 * test(atomic): Create test shell for timeframe-facet-common (Step 0: Stencil→Lit migration) (#6797) ([43115dd](https://github.com/coveo/ui-kit/commits/43115dd)), closes [#6797](https://github.com/coveo/ui-kit/issues/6797)

@@ -1,3 +1,5 @@
+# @eternal-baguette/create-atomic-rollup-plugin
+
 ## <small>1.2.3 (2025-10-30)</small>
 
 * [Version Bump][skip ci]: ui-kit publish ([b33d02f](https://github.com/coveo/ui-kit/commits/b33d02f))
