@@ -1,5 +1,12 @@
 # @samples/headless-search-react
 
+## 0.0.1
+
+### Patch Changes
+
+- Updated dependencies [7f7fbdb]
+  - @eternal-baguette/headless@3.37.1
+
 # Change Log
 
 All notable changes to this project will be documented in this file.
