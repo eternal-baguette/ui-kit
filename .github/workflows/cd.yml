@@ -7,15 +7,16 @@ permissions:
   pull-requests: write
   id-token: write
 
+env:
+  commit: "chore: update versions"
+  RULESET_ID: "11169046"
+
 jobs:
   version:
     name: "Create Version PR & Merge"
     runs-on: ubuntu-latest
     outputs:
       merge-commit-sha: ${{ steps.merge-pr.outputs.merge-commit-sha }}
-    env:
-        commit: "chore: update versions"
-        RULESET_ID: "11169046"
     environment: NPM
     steps:
       - uses: actions/checkout@v4
@@ -172,14 +173,34 @@ jobs:
           owner: eternal-baguette
           repositories: "ui-kit"
       - name: Publish to NPM
-        run: pnpm ci:publish
+        id: changeset
+        uses: changesets/action@v1
+        with:
+          publish: "pnpm ci:publish"
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+  
+  clean:
+    name: "Clean up - Thaw main branch"
+    needs: publish
+    if: ${{ always() }}
+    environment: NPM
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate a token
+        id: generate-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: eternal-baguette
+          repositories: "ui-kit"
       - name: Thaw main branch
         uses: actions/github-script@v8
         if: always()
         env:
-          RULESET_ID: "11169046"
+          RULESET_ID: ${{ env.RULESET_ID }}
         with:
           github-token: ${{ steps.generate-token.outputs.token }}
           script: |
