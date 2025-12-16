@@ -91,3 +91,14 @@ jobs:
             });
             
             core.info(`✓ Updated branch ${headRef} to signed commit ${newCommit.sha}`);
+            
+            // Add label to the PR
+            await github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+              labels: ['release']
+            });
+            
+            core.info(`✓ Added 'release' label to PR #${prNumber}`);
+
