@@ -104,7 +104,7 @@ const commonExternal = [
   '@eternal-baguette/atomic',
   '@eternal-baguette/atomic/loader',
   '@eternal-baguette/headless',
-  /@coveo\/headless\/.*/,
+  /@eternal-baguette\/headless\/.*/,
 ];
 
 const esmExternal = [...commonExternal, '@eternal-baguette/atomic/components'];
