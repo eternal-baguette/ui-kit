@@ -1,7 +1,7 @@
 import {
   buildParameterSerializer,
   type ContextOptions,
-} from '@coveo/headless-react/ssr-commerce-next';
+} from '@eternal-baguette/headless-react/ssr-commerce-next';
 import {headers} from 'next/headers';
 import {notFound} from 'next/navigation';
 import * as externalCartAPI from '@/actions/external-cart-api';

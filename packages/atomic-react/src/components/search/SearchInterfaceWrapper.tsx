@@ -1,8 +1,8 @@
-import type {i18n} from '@coveo/atomic';
+import type {i18n} from '@eternal-baguette/atomic';
 import {
   buildSearchEngine,
   getSampleSearchEngineConfiguration,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 // biome-ignore lint/style/useImportType: <React is needed>
 import React, {useEffect, useRef} from 'react';
 import {AtomicSearchInterface} from './components';

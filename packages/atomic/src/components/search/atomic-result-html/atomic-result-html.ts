@@ -1,5 +1,5 @@
-import {BooleanValue, Schema, StringValue} from '@coveo/bueno';
-import type {Result} from '@coveo/headless';
+import {BooleanValue, Schema, StringValue} from '@eternal-baguette/bueno';
+import type {Result} from '@eternal-baguette/headless';
 import {html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';

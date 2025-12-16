@@ -1,7 +1,7 @@
 import type {
   BreadcrumbManager,
   BreadcrumbManagerState,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {vi} from 'vitest';
 import {genericSubscribe} from '../common';
 

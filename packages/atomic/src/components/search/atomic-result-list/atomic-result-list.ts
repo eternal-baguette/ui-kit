@@ -1,4 +1,4 @@
-import {ArrayValue, Schema, StringValue} from '@coveo/bueno';
+import {ArrayValue, Schema, StringValue} from '@eternal-baguette/bueno';
 import {
   buildInteractiveResult,
   buildResultList,
@@ -11,7 +11,7 @@ import {
   type ResultsPerPageState,
   type TabManager,
   type TabManagerState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {type CSSResultGroup, html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {keyed} from 'lit/directives/keyed.js';

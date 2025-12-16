@@ -1,5 +1,5 @@
 {
-  "name": "@coveo/sample-component",
+  "name": "@eternal-baguette/sample-component",
   "version": "0.0.1",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -23,8 +23,8 @@
     "!generate": "stencil generate"
   },
   "dependencies": {
-    "@coveo/atomic": "workspace:*",
-    "@coveo/headless": "workspace:*",
+    "@eternal-baguette/atomic": "workspace:*",
+    "@eternal-baguette/headless": "workspace:*",
     "@stencil/core": "catalog:"
   },
   "devDependencies": {
@@ -35,7 +35,7 @@
     "jest-cli": "catalog:",
     "puppeteer": "catalog:",
     "rollup-plugin-string": "catalog:",
-    "@coveo/create-atomic-rollup-plugin": "catalog:"
+    "@eternal-baguette/create-atomic-rollup-plugin": "workspace:*"
   },
   "keywords": [
     "coveo-atomic-component"

@@ -7,7 +7,7 @@ import type {AtomicResultChildren} from './atomic-result-children';
 import './atomic-result-children';
 import '@/src/components/search/atomic-result-children-template/atomic-result-children-template';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-result-children', () => {
   const mockedEngine = buildFakeSearchEngine();

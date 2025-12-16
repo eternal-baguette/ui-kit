@@ -1,4 +1,7 @@
-import type {CartItemWithMetadata, CartState} from '@coveo/headless/commerce';
+import type {
+  CartItemWithMetadata,
+  CartState,
+} from '@eternal-baguette/headless/commerce';
 
 export function saveCartItemsToLocaleStorage(cartState: CartState): void {
   try {

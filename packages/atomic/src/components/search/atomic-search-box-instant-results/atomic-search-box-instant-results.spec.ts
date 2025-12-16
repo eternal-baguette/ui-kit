@@ -1,4 +1,4 @@
-import {buildInstantResults} from '@coveo/headless';
+import {buildInstantResults} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {beforeEach, describe, expect, it, type MockInstance, vi} from 'vitest';
 import {page} from 'vitest/browser';
@@ -8,7 +8,7 @@ import {buildFakeInstantResults} from '@/vitest-utils/testing-helpers/fixtures/h
 import type {AtomicSearchBoxInstantResults} from './atomic-search-box-instant-results';
 import './atomic-search-box-instant-results';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-search-box-instant-results', () => {
   beforeEach(() => {

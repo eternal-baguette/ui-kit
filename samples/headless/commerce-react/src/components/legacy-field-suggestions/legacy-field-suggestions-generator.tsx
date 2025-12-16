@@ -8,7 +8,7 @@ import type {
   CategoryFacetSearchResult,
   CategoryFieldSuggestions,
   FieldSuggestionsGenerator,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useEffect, useState} from 'react';
 import LegacyFieldSuggestions from './legacy-field-suggestions.js';
 

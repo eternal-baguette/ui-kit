@@ -6,12 +6,12 @@ If you are migrating across a major version, be aware of the following breaking 
 
 ```
 // v0
-import {SearchActions} from '@coveo/headless';
+import {SearchActions} from '@eternal-baguette/headless';
 
 SearchActions.executeSearch(...)
 
 // v1
-import {loadSearchActions} from '@coveo/headless';
+import {loadSearchActions} from '@eternal-baguette/headless';
 
 const actions =  loadSearchActions(engine);
 actions.executeSearch(...)
@@ -21,13 +21,13 @@ actions.executeSearch(...)
 
 ```
 // For a search interface
-import {buildSearchEngine} from '@coveo/headless';
+import {buildSearchEngine} from '@eternal-baguette/headless';
 
 // For a recommendation interface
-import {buildRecommendationEngine} from '@coveo/headless/recommendation';
+import {buildRecommendationEngine} from '@eternal-baguette/headless/recommendation';
 
 // For a product recommendation interface
-import {buildProductRecommendationEngine} from '@coveo/headless/product-recommendation'
+import {buildProductRecommendationEngine} from '@eternal-baguette/headless/product-recommendation'
 ```
 
 - The `renewAccessToken` concept is now only exposed as an engine configuration option. When the function is specified, a headless engine will call it to obtain a new token if it detects a `419` HTTP status code.

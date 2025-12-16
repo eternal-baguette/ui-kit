@@ -1,4 +1,4 @@
-import type {Pager, PagerState} from '@coveo/headless';
+import type {Pager, PagerState} from '@eternal-baguette/headless';
 import {vi} from 'vitest';
 import {genericSubscribe} from '../common';
 

@@ -1,4 +1,4 @@
-import type {TermsToHighlight} from '@coveo/headless';
+import type {TermsToHighlight} from '@eternal-baguette/headless';
 import {QuickviewWordHighlight} from './quickview-word-highlight';
 import {TextParser} from './text-parser';
 

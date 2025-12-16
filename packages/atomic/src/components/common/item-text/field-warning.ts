@@ -1,4 +1,4 @@
-import {isArray} from '@coveo/bueno';
+import {isArray} from '@eternal-baguette/bueno';
 
 export function possiblyWarnOnBadFieldType(
   field: string,

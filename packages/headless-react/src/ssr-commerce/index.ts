@@ -1,4 +1,4 @@
-export * from '@coveo/headless/ssr-commerce';
+export * from '@eternal-baguette/headless/ssr-commerce';
 export {MissingEngineProviderError} from '../errors.js';
 export type {ReactCommerceEngineDefinition} from './commerce-engine.js';
 export {defineCommerceEngine} from './commerce-engine.js';

@@ -1,4 +1,4 @@
-import type {NumericFilter as HeadlessNumericFilter} from '@coveo/headless';
+import type {NumericFilter as HeadlessNumericFilter} from '@eternal-baguette/headless';
 import {Fragment, type FunctionComponent, useEffect, useState} from 'react';
 
 interface NumericFilterProps {

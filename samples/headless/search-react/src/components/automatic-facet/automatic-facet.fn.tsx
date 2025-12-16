@@ -1,4 +1,4 @@
-import type {AutomaticFacet as HeadlessAutomaticFacet} from '@coveo/headless';
+import type {AutomaticFacet as HeadlessAutomaticFacet} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface AutomaticFacetProps {

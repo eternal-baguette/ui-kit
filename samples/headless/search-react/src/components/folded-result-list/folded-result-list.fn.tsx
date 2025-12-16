@@ -1,7 +1,7 @@
 import type {
   FoldedResult,
   FoldedResultList as HeadlessFoldedResultList,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 import {ResultLink} from '../result-list/result-link';
 

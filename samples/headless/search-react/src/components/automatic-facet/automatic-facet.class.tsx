@@ -2,7 +2,7 @@ import type {
   AutomaticFacetState,
   AutomaticFacet as HeadlessAutomaticFacet,
   Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component} from 'react';
 
 interface AutomaticFacetProps {

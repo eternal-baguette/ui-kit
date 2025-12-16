@@ -1,4 +1,4 @@
-import type {i18n} from '@coveo/atomic';
+import type {i18n} from '@eternal-baguette/atomic';
 // biome-ignore lint/style/useImportType: <React is needed>
 import React, {useEffect, useRef} from 'react';
 import {AtomicCommerceInterface} from './components';

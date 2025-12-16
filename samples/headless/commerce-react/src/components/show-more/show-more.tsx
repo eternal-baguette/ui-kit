@@ -1,4 +1,4 @@
-import type {Pagination, Summary} from '@coveo/headless/commerce';
+import type {Pagination, Summary} from '@eternal-baguette/headless/commerce';
 import {useEffect, useState} from 'react';
 
 interface IShowMoreProps {

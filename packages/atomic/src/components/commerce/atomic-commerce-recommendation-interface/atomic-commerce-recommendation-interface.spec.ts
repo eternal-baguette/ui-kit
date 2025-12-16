@@ -1,4 +1,4 @@
-import * as headless from '@coveo/headless/commerce';
+import * as headless from '@eternal-baguette/headless/commerce';
 import i18next from 'i18next';
 import {html, LitElement} from 'lit';
 import {customElement, state} from 'lit/decorators.js';
@@ -25,10 +25,10 @@ import {fixture} from '@/vitest-utils/testing-helpers/fixture';
 import {buildFakeContext} from '@/vitest-utils/testing-helpers/fixtures/headless/commerce/context-controller';
 import {buildFakeCommerceEngine} from '@/vitest-utils/testing-helpers/fixtures/headless/commerce/engine';
 import './atomic-commerce-recommendation-interface';
-import type {ContextActionCreators} from '@coveo/headless/commerce';
+import type {ContextActionCreators} from '@eternal-baguette/headless/commerce';
 
 vi.mock('i18next', {spy: true});
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 vi.mock(
   '@/src/components/commerce/atomic-commerce-recommendation-interface/store',
   {spy: true}
@@ -199,7 +199,7 @@ describe('atomic-commerce-recommendation-interface', () => {
 
       expect(updateAnalyticsConfigurationMock).toHaveBeenCalledExactlyOnceWith({
         trackingId: engine.configuration.analytics.trackingId,
-        source: {'@coveo/atomic': '0.0.0'},
+        source: {'@eternal-baguette/atomic': '0.0.0'},
       });
     });
 

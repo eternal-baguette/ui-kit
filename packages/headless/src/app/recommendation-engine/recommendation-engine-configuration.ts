@@ -1,4 +1,4 @@
-import {Schema, StringValue} from '@coveo/bueno';
+import {Schema, StringValue} from '@eternal-baguette/bueno';
 import type {PostprocessSearchResponseMiddleware} from '../../api/search/search-api-client-middleware.js';
 import {nonEmptyString} from '../../utils/validate-payload.js';
 import {

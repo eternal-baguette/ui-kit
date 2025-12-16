@@ -1,7 +1,7 @@
 import type {
   InstantResults as HeadlessInstantResults,
   SearchBox as HeadlessSearchBox,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface InstantResultsProps {

@@ -1,4 +1,4 @@
-import type {RecentQueriesList as HeadlessRecentQueriesList} from '@coveo/headless';
+import type {RecentQueriesList as HeadlessRecentQueriesList} from '@eternal-baguette/headless';
 import {useEffect, useState} from 'react';
 
 interface RecentQueriesProps {

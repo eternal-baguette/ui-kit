@@ -1,5 +1,5 @@
 import {type AfterViewInit, Component, ViewChild} from '@angular/core';
-import type {AtomicCommerceInterface} from '@coveo/atomic-angular';
+import type {AtomicCommerceInterface} from '@eternal-baguette/atomic-angular';
 
 @Component({
   standalone: false,

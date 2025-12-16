@@ -4,7 +4,7 @@ import {
   type InteractiveProduct,
   type InteractiveProductProps,
   type Product,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {beforeEach, describe, expect, it, type MockInstance, vi} from 'vitest';
 import {page} from 'vitest/browser';
@@ -24,7 +24,7 @@ import './atomic-commerce-product-list';
 
 vi.mock('@/src/components/common/item-list/table-layout', {spy: true});
 vi.mock('@/src/components/common/interface/store', {spy: true});
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-commerce-product-list', () => {
   const interactiveProduct = vi.fn();

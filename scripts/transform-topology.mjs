@@ -22,7 +22,7 @@ try {
 
   // Process each task to build package-level dependency graph
   for (const task of turboOutput.tasks) {
-    const packageName = task.package.replace('@coveo/', '');
+    const packageName = task.package.replace('@eternal-baguette/', '');
 
     // Store package node information
     if (!packageNodes[packageName]) {
@@ -40,10 +40,10 @@ try {
 
     // Extract package-level dependencies from task dependencies
     for (const dependency of task.dependencies) {
-      // Parse dependency format: "@coveo/package#task" or just "@coveo/package"
+      // Parse dependency format: "@eternal-baguette/package#task" or just "@eternal-baguette/package"
       const [depPackage] = dependency.split('#');
-      if (depPackage.startsWith('@coveo/')) {
-        const depPackageName = depPackage.replace('@coveo/', '');
+      if (depPackage.startsWith('@eternal-baguette/')) {
+        const depPackageName = depPackage.replace('@eternal-baguette/', '');
 
         // Only add if it's a different package and not already in dependencies
         if (

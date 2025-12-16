@@ -1,5 +1,5 @@
 {
-  "name": "@coveo/create-atomic-component-project",
+  "name": "@eternal-baguette/create-atomic-component-project",
   "version": "1.5.11",
   "description": "Initialize a Coveo Atomic Library Project",
   "type": "module",

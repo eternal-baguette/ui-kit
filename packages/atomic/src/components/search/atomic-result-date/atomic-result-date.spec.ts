@@ -1,4 +1,4 @@
-import type {Result} from '@coveo/headless';
+import type {Result} from '@eternal-baguette/headless';
 import dayjs from 'dayjs';
 import type {i18n} from 'i18next';
 import {html} from 'lit';
@@ -10,7 +10,7 @@ import {createTestI18n} from '@/vitest-utils/testing-helpers/i18n-utils';
 import {AtomicResultDate} from './atomic-result-date';
 import './atomic-result-date';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-result-date', () => {
   let i18n: i18n;

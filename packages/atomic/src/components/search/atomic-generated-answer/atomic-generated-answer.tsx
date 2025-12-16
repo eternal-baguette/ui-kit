@@ -9,7 +9,7 @@ import {
   buildTabManager,
   TabManagerState,
   TabManager,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, Element, State, Prop, Watch, h} from '@stencil/core';
 import {debounce} from '../../../utils/debounce-utils';
 import {

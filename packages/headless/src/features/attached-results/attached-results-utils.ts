@@ -1,4 +1,4 @@
-import {isString} from '@coveo/bueno';
+import {isString} from '@eternal-baguette/bueno';
 import type {Result} from '../../api/search/search/result.js';
 import type {AttachedResult} from './attached-results-state.js';
 

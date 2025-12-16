@@ -1,4 +1,4 @@
-import {FacetValueState} from '@coveo/headless';
+import {FacetValueState} from '@eternal-baguette/headless';
 import {
   doSortAlphanumeric,
   doSortAlphanumericDescending,

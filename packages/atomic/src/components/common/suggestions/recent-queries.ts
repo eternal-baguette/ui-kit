@@ -1,4 +1,4 @@
-import {HighlightUtils} from '@coveo/headless';
+import {HighlightUtils} from '@eternal-baguette/headless';
 import type {i18n} from 'i18next';
 import {html, render} from 'lit';
 import {when} from 'lit/directives/when.js';

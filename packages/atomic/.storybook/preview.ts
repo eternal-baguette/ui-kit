@@ -1,4 +1,4 @@
-import '@coveo/atomic/themes/coveo.css';
+import '@eternal-baguette/atomic/themes/coveo.css';
 import type {Preview} from '@storybook/web-components-vite';
 import {
   type Parameters,

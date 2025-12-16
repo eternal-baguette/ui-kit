@@ -56,7 +56,7 @@ function getImports(sourceFile, filePath, compilerOptions) {
 
       if (
         !alreadyResolved.has(importPath) &&
-        importPath.startsWith('@coveo/headless')
+        importPath.startsWith('@eternal-baguette/headless')
       ) {
         alreadyResolved.add(importPath);
         imports.add(importPath);

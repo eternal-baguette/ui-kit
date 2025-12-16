@@ -1,7 +1,10 @@
 import type {NextConfig} from 'next';
 
 const nextConfig: NextConfig = {
-  transpilePackages: ['@coveo/atomic-react', '@coveo/atomic'],
+  transpilePackages: [
+    '@eternal-baguette/atomic-react',
+    '@eternal-baguette/atomic',
+  ],
 };
 
 export default nextConfig;

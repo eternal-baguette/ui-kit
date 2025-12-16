@@ -27,7 +27,7 @@ export const buildMockBaseCommerceAPIRequest = (
       },
       capture: true,
       cart: [{productId: 'mock-product-id-1', quantity: 1}],
-      source: ['@coveo/headless@mock-version'],
+      source: ['@eternal-baguette/headless@mock-version'],
       ...config,
     },
   };

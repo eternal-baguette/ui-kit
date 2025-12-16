@@ -3,7 +3,7 @@
  *
  * @example
  * ```typescript
- * import { buildRecommendationList, buildRecommendationEngine, getSampleRecommendationEngineConfiguration } from '@coveo/headless/recommendation';
+ * import { buildRecommendationList, buildRecommendationEngine, getSampleRecommendationEngineConfiguration } from '@eternal-baguette/headless/recommendation';
  *
  * const engine = buildRecommendationEngine({
  *    configuration: getSampleRecommendationEngineConfiguration()

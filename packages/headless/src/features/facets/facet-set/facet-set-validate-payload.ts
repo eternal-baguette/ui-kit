@@ -1,4 +1,4 @@
-import {NumberValue} from '@coveo/bueno';
+import {NumberValue} from '@eternal-baguette/bueno';
 import {requiredNonEmptyString} from '../../../utils/validate-payload.js';
 
 export const facetValueDefinition = {

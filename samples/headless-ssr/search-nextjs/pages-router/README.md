@@ -11,7 +11,7 @@ When using Headless SSR with Next.js Pages Router, you need to add configuration
 ```js
 const nextConfig = {
   // Workaround for ESM incompatibility issue
-  transpilePackages: ['@coveo/headless', '@coveo/headless-react'],
+  transpilePackages: ['@eternal-baguette/headless', '@eternal-baguette/headless-react'],
 };
 module.exports = nextConfig;
 ```

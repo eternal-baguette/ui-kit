@@ -1,7 +1,7 @@
 import type {
   CategoryFacetValue,
   CategoryFacet as HeadlessCategoryFacet,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 import {CategoryFacetSearch} from './category-facet-search';
 

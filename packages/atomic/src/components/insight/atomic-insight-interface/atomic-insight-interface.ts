@@ -1,4 +1,4 @@
-import {VERSION as HEADLESS_VERSION} from '@coveo/headless'; // TODO - KIT-4886 import from @coveo/headless/insight
+import {VERSION as HEADLESS_VERSION} from '@eternal-baguette/headless'; // TODO - KIT-4886 import from @coveo/headless/insight
 import {
   buildInsightEngine,
   buildResultsPerPage as buildInsightResultsPerPage,
@@ -6,7 +6,7 @@ import {
   type InsightEngineConfiguration,
   type LogLevel as InsightLogLevel,
   loadFieldActions,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {provide} from '@lit/context';
 import i18next, {type i18n} from 'i18next';
 import {type CSSResultGroup, css, html, LitElement} from 'lit';

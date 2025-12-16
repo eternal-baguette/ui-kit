@@ -6,7 +6,7 @@ import {fixture} from '@/vitest-utils/testing-helpers/fixture';
 import type {AtomicExternal} from './atomic-external';
 import './atomic-external';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-external', () => {
   let mockInterface: HTMLElement;

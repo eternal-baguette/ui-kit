@@ -1,4 +1,4 @@
-export {Bindings, i18n} from '@coveo/atomic';
+export {Bindings, i18n} from '@eternal-baguette/atomic';
 export * from '../stencil-generated/search/index.js';
 export * from './components.js';
 export {FoldedResultListWrapper as AtomicFoldedResultList} from './FoldedResultListWrapper.js';

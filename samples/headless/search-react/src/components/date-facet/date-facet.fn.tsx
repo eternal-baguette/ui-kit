@@ -1,7 +1,7 @@
 import type {
   DateFacetValue,
   DateFacet as HeadlessDateFacet,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 import {parseDate} from './date-utils';
 

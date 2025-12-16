@@ -1,4 +1,4 @@
-import type {AutomaticFacetGenerator as HeadlessAutomaticFacetGenerator} from '@coveo/headless';
+import type {AutomaticFacetGenerator as HeadlessAutomaticFacetGenerator} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 import {AutomaticFacet as AutomaticFacetFn} from '../automatic-facet/automatic-facet.fn';
 

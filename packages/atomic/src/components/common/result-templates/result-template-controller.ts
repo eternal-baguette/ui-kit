@@ -1,4 +1,7 @@
-import type {ResultTemplate, ResultTemplateCondition} from '@coveo/headless';
+import type {
+  ResultTemplate,
+  ResultTemplateCondition,
+} from '@eternal-baguette/headless';
 import type {ReactiveControllerHost} from 'lit';
 import {
   BaseTemplateController,

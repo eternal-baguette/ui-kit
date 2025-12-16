@@ -1,4 +1,7 @@
-import type {NotifyTrigger, NotifyTriggerState} from '@coveo/headless';
+import type {
+  NotifyTrigger,
+  NotifyTriggerState,
+} from '@eternal-baguette/headless';
 import {genericSubscribe} from '../common';
 
 export const defaultState = {

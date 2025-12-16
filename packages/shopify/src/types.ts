@@ -1,4 +1,4 @@
-import type {CommerceEngineOptions} from '@coveo/headless/commerce';
+import type {CommerceEngineOptions} from '@eternal-baguette/headless/commerce';
 
 export interface AppProxyOptions {
   appProxyUrl?: string;

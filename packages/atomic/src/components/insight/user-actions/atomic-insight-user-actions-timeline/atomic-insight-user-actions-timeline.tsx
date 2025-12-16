@@ -3,7 +3,7 @@ import {
   UserActions as InsightUserActions,
   UserActionsState as InsightUserActionsState,
   UserSession as InsightUserSession,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Component, h, State, Prop} from '@stencil/core';
 import ArrowDownIcon from '../../../../images/big-arrow-down.svg';
 import ArrowUpIcon from '../../../../images/big-arrow-up.svg';

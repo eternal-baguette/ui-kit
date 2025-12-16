@@ -4,5 +4,5 @@
   "lib": {
     "entryFile": "src/public-api.ts"
   },
-  "allowedNonPeerDependencies": ["@coveo/atomic"]
+  "allowedNonPeerDependencies": ["@eternal-baguette/atomic"]
 }

@@ -1,4 +1,4 @@
-import {NumberValue, RecordValue} from '@coveo/bueno';
+import {NumberValue, RecordValue} from '@eternal-baguette/bueno';
 
 export const parametersDefinition = {
   f: new RecordValue(),

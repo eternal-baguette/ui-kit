@@ -2,7 +2,7 @@ import {
   buildCart,
   buildContext,
   type CommerceEngine,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useEffect, useState, useTransition} from 'react';
 import Layout from '../layout/layout.js';
 import CartPage from '../pages/cart-page.js';

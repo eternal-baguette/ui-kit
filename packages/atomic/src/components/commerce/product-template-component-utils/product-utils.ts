@@ -1,4 +1,7 @@
-import {type Product, ProductTemplatesHelpers} from '@coveo/headless/commerce';
+import {
+  type Product,
+  ProductTemplatesHelpers,
+} from '@eternal-baguette/headless/commerce';
 import {readFromObject} from '@/src/utils/object-utils';
 import type {CommerceBindings} from '../atomic-commerce-interface/atomic-commerce-interface';
 import {FieldValueIsNaNError} from './error';

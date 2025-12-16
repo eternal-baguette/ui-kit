@@ -1,5 +1,5 @@
-import type {SearchEngine} from '@coveo/headless/ssr';
-import type {CommerceEngine} from '@coveo/headless/ssr-commerce';
+import type {SearchEngine} from '@eternal-baguette/headless/ssr';
+import type {CommerceEngine} from '@eternal-baguette/headless/ssr-commerce';
 import {vi} from 'vitest';
 
 export const createMockCommerceEngine = () =>

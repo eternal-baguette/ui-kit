@@ -1,4 +1,4 @@
-import {BooleanValue, Schema} from '@coveo/bueno';
+import {BooleanValue, Schema} from '@eternal-baguette/bueno';
 import type {FieldDescription} from '../../api/search/fields/fields-response.js';
 import type {
   ExecutionReport,

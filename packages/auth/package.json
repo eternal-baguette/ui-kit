@@ -1,5 +1,5 @@
 {
-  "name": "@coveo/auth",
+  "name": "@eternal-baguette/auth",
   "version": "2.1.4",
   "description": "Functions to help authenticate with the Coveo platform.",
   "main": "./dist/auth.js",

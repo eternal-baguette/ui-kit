@@ -4,7 +4,7 @@ import {
   type ProductListingSummaryState,
   type SearchSummaryState,
   type Summary,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {describe, expect, it, vi} from 'vitest';
 import {renderInAtomicCommerceInterface} from '@/vitest-utils/testing-helpers/fixtures/atomic/commerce/atomic-commerce-interface-fixture';
@@ -16,7 +16,7 @@ import MagnifyingGlassIcon from '../../../images/magnifying-glass.svg';
 import type {AtomicCommerceNoProducts} from './atomic-commerce-no-products';
 import './atomic-commerce-no-products';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-commerce-no-products', () => {
   const mockedEngine = buildFakeCommerceEngine();

@@ -1,4 +1,4 @@
-import type {SmartSnippetFeedback} from '@coveo/headless';
+import type {SmartSnippetFeedback} from '@eternal-baguette/headless';
 import {FunctionalComponent, h} from '@stencil/core';
 import {i18n} from 'i18next';
 import {Button} from '../../stencil-button';

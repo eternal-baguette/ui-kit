@@ -1,5 +1,5 @@
 {
-  "name": "@coveo/cdn",
+  "name": "@eternal-baguette/cdn",
   "private": true,
   "authors": "Coveo",
   "version": "1.0.0",
@@ -15,6 +15,6 @@
     "local-web-server": "catalog:"
   },
   "devDependencies": {
-    "@coveo/bueno": "workspace:*"
+    "@eternal-baguette/bueno": "workspace:*"
   }
 }

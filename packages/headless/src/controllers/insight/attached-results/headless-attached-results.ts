@@ -1,4 +1,4 @@
-import {isNullOrUndefined} from '@coveo/bueno';
+import {isNullOrUndefined} from '@eternal-baguette/bueno';
 import type {Result} from '../../../api/search/search/result.js';
 import {configuration} from '../../../app/common-reducers.js';
 import type {InsightEngine} from '../../../app/insight-engine/insight-engine.js';

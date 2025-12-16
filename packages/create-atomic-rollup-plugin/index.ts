@@ -3,28 +3,28 @@ import {spawnSync} from 'node:child_process';
 export function coveoCdnResolve() {
   return {
     resolveId(source: string) {
-      if (source === '@coveo/atomic/loader') {
+      if (source === '@eternal-baguette/atomic/loader') {
         return {
           id: 'https://static.cloud.coveo.com/atomic/v3/index.js',
           external: true,
         };
       }
-      if (source.startsWith('@coveo/atomic/themes')) {
+      if (source.startsWith('@eternal-baguette/atomic/themes')) {
         return {
           id: source.replace(
-            '@coveo/atomic/themes',
+            '@eternal-baguette/atomic/themes',
             'https://static.cloud.coveo.com/atomic/v3/themes'
           ),
           external: true,
         };
       }
-      if (source === '@coveo/atomic') {
+      if (source === '@eternal-baguette/atomic') {
         return {
           id: 'https://static.cloud.coveo.com/atomic/v3/index.esm.js',
           external: true,
         };
       }
-      if (source === '@coveo/headless') {
+      if (source === '@eternal-baguette/headless') {
         return {
           id: 'https://static.cloud.coveo.com/headless/v3/headless.esm.js',
           external: true,

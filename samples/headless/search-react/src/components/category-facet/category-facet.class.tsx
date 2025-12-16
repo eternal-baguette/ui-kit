@@ -5,7 +5,7 @@ import {
   type CategoryFacetValue,
   type CategoryFacet as HeadlessCategoryFacet,
   type Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, type ContextType} from 'react';
 import {AppContext} from '../../context/engine';
 import {CategoryFacetSearch} from './category-facet-search';

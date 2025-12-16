@@ -48,7 +48,7 @@ function main() {
   }
 
   try {
-    // path to source directory: project_name/node_modules/@coveo/quantic/force-app/main/default
+    // path to source directory: project_name/node_modules/@eternal-baguette/quantic/force-app/main/default
     const sourceDirectory = pathlib.join(
       __dirname,
       '..',

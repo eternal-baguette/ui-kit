@@ -6,7 +6,7 @@ import {
   buildSearchStatus as buildInsightSearchStatus,
   GeneratedAnswer as InsightGeneratedAnswer,
   GeneratedAnswerState as InsightGeneratedAnswerState,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Component, Element, State, Prop, Watch} from '@stencil/core';
 import {debounce} from '../../../utils/debounce-utils';
 import {

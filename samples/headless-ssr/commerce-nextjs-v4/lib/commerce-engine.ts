@@ -1,4 +1,4 @@
-import {defineCommerceEngine} from '@coveo/headless-react/ssr-commerce-next';
+import {defineCommerceEngine} from '@eternal-baguette/headless-react/ssr-commerce-next';
 import engineConfig from './commerce-engine-config';
 
 const engineDefinition = defineCommerceEngine(engineConfig);

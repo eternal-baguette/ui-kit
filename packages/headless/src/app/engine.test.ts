@@ -77,8 +77,8 @@ describe('engine', () => {
       proxyBaseUrl: 'https://example.com/analytics',
       trackingId: 'trackingId',
       source: {
-        '@coveo/atomic': '1.0.0',
-        '@coveo/quantic': '1.0.0',
+        '@eternal-baguette/atomic': '1.0.0',
+        '@eternal-baguette/quantic': '1.0.0',
       },
       userDisplayName: 'userDisplayName',
     };

@@ -1,4 +1,4 @@
-import {isNullOrUndefined} from '@coveo/bueno';
+import {isNullOrUndefined} from '@eternal-baguette/bueno';
 import {createSelector} from '@reduxjs/toolkit';
 import type {
   CommercePaginationSection,

@@ -1,7 +1,7 @@
 import {
   buildSearchEngine,
   getSampleSearchEngineConfiguration,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {useMemo} from 'react';
 import {StandaloneSearchBox} from '../components/standalone-search-box/standalone-search-box.class';
 import {StandaloneSearchBox as StandaloneSearchBoxFn} from '../components/standalone-search-box/standalone-search-box.fn';

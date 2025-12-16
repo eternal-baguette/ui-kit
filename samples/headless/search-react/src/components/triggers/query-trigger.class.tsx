@@ -3,7 +3,7 @@ import {
   type QueryTrigger as HeadlessQueryTrigger,
   type QueryTriggerState,
   type Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, type ContextType} from 'react';
 import {AppContext} from '../../context/engine';
 

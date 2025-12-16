@@ -1,4 +1,4 @@
-import type {InteractiveProduct} from '@coveo/headless/commerce';
+import type {InteractiveProduct} from '@eternal-baguette/headless/commerce';
 import {vi} from 'vitest';
 
 export const buildFakeInteractiveProduct = (

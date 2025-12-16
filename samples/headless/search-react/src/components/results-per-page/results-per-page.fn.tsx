@@ -1,4 +1,4 @@
-import type {ResultsPerPage as HeadlessResultsPerPage} from '@coveo/headless';
+import type {ResultsPerPage as HeadlessResultsPerPage} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface ResultsPerPageProps {

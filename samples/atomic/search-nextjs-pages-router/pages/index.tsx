@@ -41,8 +41,8 @@ import {
   AtomicText,
   AtomicTimeframe,
   AtomicTimeframeFacet,
-} from '@coveo/atomic-react';
-import {buildSearchEngine, type Result} from '@coveo/headless';
+} from '@eternal-baguette/atomic-react';
+import {buildSearchEngine, type Result} from '@eternal-baguette/headless';
 import type {NextPage} from 'next';
 import dynamic from 'next/dynamic';
 import {useMemo} from 'react';

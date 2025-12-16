@@ -1,4 +1,4 @@
-import {Schema, StringValue} from '@coveo/bueno';
+import {Schema, StringValue} from '@eternal-baguette/bueno';
 import {
   buildDidYouMean,
   buildQueryTrigger,
@@ -6,7 +6,7 @@ import {
   type DidYouMeanState,
   type QueryTrigger,
   type QueryTriggerState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';

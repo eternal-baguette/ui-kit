@@ -1,4 +1,4 @@
-import type {HistoryManager as HeadlessHistoryManager} from '@coveo/headless';
+import type {HistoryManager as HeadlessHistoryManager} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface HistoryManagerProps {

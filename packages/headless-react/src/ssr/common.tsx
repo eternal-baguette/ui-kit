@@ -5,7 +5,7 @@ import type {
   InferControllerFromDefinition,
   InferControllerStaticStateMapFromDefinitions,
   InferControllersMapFromDefinition,
-} from '@coveo/headless/ssr';
+} from '@eternal-baguette/headless/ssr';
 import {
   type Context,
   type PropsWithChildren,

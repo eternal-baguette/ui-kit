@@ -20,11 +20,11 @@ import {
   AtomicResultSectionVisual,
   AtomicResultText,
   AtomicText,
-} from '@coveo/atomic-react/recommendation';
+} from '@eternal-baguette/atomic-react/recommendation';
 import {
   buildRecommendationEngine,
   type Result,
-} from '@coveo/headless/recommendation';
+} from '@eternal-baguette/headless/recommendation';
 import {type FunctionComponent, useMemo} from 'react';
 
 export const RecsPage: FunctionComponent = () => {

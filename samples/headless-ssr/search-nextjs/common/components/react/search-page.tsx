@@ -1,6 +1,6 @@
 'use client';
 
-import type {NavigatorContext} from '@coveo/headless/ssr';
+import type {NavigatorContext} from '@eternal-baguette/headless/ssr';
 import {type PropsWithChildren, useEffect, useState} from 'react';
 import {
   HydratedStateProvider,

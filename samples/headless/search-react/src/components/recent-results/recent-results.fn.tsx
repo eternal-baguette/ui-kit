@@ -1,4 +1,4 @@
-import type {RecentResultsList as HeadlessRecentResultsList} from '@coveo/headless';
+import type {RecentResultsList as HeadlessRecentResultsList} from '@eternal-baguette/headless';
 import {useEffect, useState} from 'react';
 
 interface RecentResultsProps {

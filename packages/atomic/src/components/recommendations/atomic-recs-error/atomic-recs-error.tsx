@@ -1,10 +1,10 @@
-import {isNullOrUndefined} from '@coveo/bueno';
+import {isNullOrUndefined} from '@eternal-baguette/bueno';
 import {
   buildRecommendationList,
   getOrganizationEndpoint,
   RecommendationList,
   RecommendationListState,
-} from '@coveo/headless/recommendation';
+} from '@eternal-baguette/headless/recommendation';
 import {Component, h, State} from '@stencil/core';
 import {
   BindStateToController,

@@ -1,4 +1,4 @@
-import {Schema} from '@coveo/bueno';
+import {Schema} from '@eternal-baguette/bueno';
 import type {CommerceEngine} from '../../../../app/commerce-engine/commerce-engine.js';
 import {stateKey} from '../../../../app/state-key.js';
 import {

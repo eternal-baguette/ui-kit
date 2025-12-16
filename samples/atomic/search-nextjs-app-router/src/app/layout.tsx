@@ -1,7 +1,7 @@
 import type {Metadata} from 'next';
 import {Geist, Geist_Mono} from 'next/font/google';
 import './globals.css';
-import '@coveo/atomic/themes/coveo.css';
+import '@eternal-baguette/atomic/themes/coveo.css';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',

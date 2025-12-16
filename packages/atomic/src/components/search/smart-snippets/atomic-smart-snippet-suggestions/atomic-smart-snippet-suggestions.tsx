@@ -15,7 +15,7 @@ import {
   SmartSnippetQuestionsList,
   SmartSnippetQuestionsListState,
   SmartSnippetRelatedQuestion,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, Prop, State, Element, h} from '@stencil/core';
 import ArrowDown from '../../../../images/arrow-down.svg';
 import ArrowRight from '../../../../images/arrow-right.svg';

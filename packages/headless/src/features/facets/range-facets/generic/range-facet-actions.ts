@@ -1,4 +1,4 @@
-import {Value} from '@coveo/bueno';
+import {Value} from '@eternal-baguette/bueno';
 import {createAction} from '@reduxjs/toolkit';
 import {validatePayload} from '../../../../utils/validate-payload.js';
 import {facetIdDefinition} from '../../generic/facet-actions-validation.js';

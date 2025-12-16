@@ -1,11 +1,11 @@
 import {
   getSampleRecommendationEngineConfiguration,
   type RecommendationEngineConfiguration,
-} from '@coveo/headless/recommendation';
+} from '@eternal-baguette/headless/recommendation';
 import {describe, expect, it, vi} from 'vitest';
 import {getAnalyticsConfig} from './analytics-config';
 
-vi.mock('@coveo/headless/recommendation', {spy: true});
+vi.mock('@eternal-baguette/headless/recommendation', {spy: true});
 
 describe('#getAnalyticsConfig', () => {
   it('should return default configuration when analytics is not defined in recommendationEngineConfig', () => {
@@ -16,7 +16,7 @@ describe('#getAnalyticsConfig', () => {
     expect(config).toEqual(
       expect.objectContaining({
         enabled,
-        source: {'@coveo/atomic': '0.0.0'},
+        source: {'@eternal-baguette/atomic': '0.0.0'},
         documentLocation: expect.any(String),
       })
     );
@@ -41,7 +41,7 @@ describe('#getAnalyticsConfig', () => {
     expect(config).toEqual(
       expect.objectContaining({
         enabled,
-        source: {'@coveo/atomic': '0.0.0'},
+        source: {'@eternal-baguette/atomic': '0.0.0'},
         trackingId: 'test-tracking-id',
         documentLocation: expect.any(String),
       })
@@ -67,7 +67,7 @@ describe('#getAnalyticsConfig', () => {
     expect(config).toEqual(
       expect.objectContaining({
         enabled,
-        source: {'@coveo/atomic': '0.0.0'},
+        source: {'@eternal-baguette/atomic': '0.0.0'},
         trackingId: 'next-tracking-id',
         documentLocation: expect.any(String),
       })

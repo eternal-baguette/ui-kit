@@ -1,5 +1,5 @@
-import type {Tab, TabState} from '@coveo/headless';
-import {buildTab} from '@coveo/headless';
+import type {Tab, TabState} from '@eternal-baguette/headless';
+import {buildTab} from '@eternal-baguette/headless';
 import {css, html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';

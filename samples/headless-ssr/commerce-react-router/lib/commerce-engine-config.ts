@@ -20,7 +20,7 @@ import {
   defineStandaloneSearchBox,
   defineSummary,
   getSampleCommerceEngineConfiguration,
-} from '@coveo/headless-react/ssr-commerce';
+} from '@eternal-baguette/headless-react/ssr-commerce';
 import {fetchToken} from './fetch-token.js';
 
 const getAccessToken = async (usePublicApiKey: boolean) => {

@@ -1,4 +1,4 @@
-import {ArrayValue, NumberValue} from '@coveo/bueno';
+import {ArrayValue, NumberValue} from '@eternal-baguette/bueno';
 import {stateKey} from '../../../app/state-key.js';
 import {clearAllCoreFacets} from '../../../features/commerce/facets/core-facet/core-facet-actions.js';
 import {

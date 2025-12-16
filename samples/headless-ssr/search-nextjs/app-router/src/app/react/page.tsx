@@ -1,4 +1,4 @@
-import {buildSSRSearchParameterSerializer} from '@coveo/headless-react/ssr';
+import {buildSSRSearchParameterSerializer} from '@eternal-baguette/headless-react/ssr';
 import {headers} from 'next/headers';
 import {AuthorFacet} from '@/common/components/react/facets';
 import ResultList from '@/common/components/react/result-list';

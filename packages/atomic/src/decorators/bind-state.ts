@@ -1,4 +1,4 @@
-import type {Controller} from '@coveo/headless';
+import type {Controller} from '@eternal-baguette/headless';
 import type {ReactiveElement} from 'lit';
 import type {InitializableComponent} from './types';
 

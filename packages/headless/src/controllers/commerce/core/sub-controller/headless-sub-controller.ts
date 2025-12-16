@@ -1,4 +1,4 @@
-import type {SchemaDefinition} from '@coveo/bueno';
+import type {SchemaDefinition} from '@eternal-baguette/bueno';
 import type {UnknownAction} from '@reduxjs/toolkit';
 import type {CommerceAPIErrorStatusResponse} from '../../../../api/commerce/commerce-api-error-response.js';
 import type {FacetSearchType} from '../../../../api/commerce/facet-search/facet-search-request.js';

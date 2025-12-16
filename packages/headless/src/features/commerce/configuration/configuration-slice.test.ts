@@ -21,7 +21,7 @@ describe('commerce configuration slice', () => {
     analytics: {
       enabled: true,
       trackingId: 'my-current-tracking-id',
-      source: {'@coveo/quantic': '1.0.0'},
+      source: {'@eternal-baguette/quantic': '1.0.0'},
     },
     commerce: {
       apiBaseUrl: 'https://commerce.example.com/v1',
@@ -146,7 +146,7 @@ describe('commerce configuration slice', () => {
           updateAnalyticsConfiguration({
             enabled: false,
             trackingId: 'my-new-tracking-id',
-            source: {'@coveo/atomic': '3.0.0'},
+            source: {'@eternal-baguette/atomic': '3.0.0'},
           })
         )
       ).toEqual({
@@ -154,7 +154,7 @@ describe('commerce configuration slice', () => {
         analytics: {
           enabled: false,
           trackingId: 'my-new-tracking-id',
-          source: {'@coveo/atomic': '3.0.0'},
+          source: {'@eternal-baguette/atomic': '3.0.0'},
         },
       });
     });
@@ -166,7 +166,7 @@ describe('commerce configuration slice', () => {
           updateAnalyticsConfiguration({
             enabled: false,
             trackingId: 'my-new-tracking-id',
-            source: {'@coveo/atomic': '3.0.0'},
+            source: {'@eternal-baguette/atomic': '3.0.0'},
           })
         )
       ).toEqual({
@@ -174,7 +174,7 @@ describe('commerce configuration slice', () => {
         analytics: {
           enabled: false,
           trackingId: 'my-new-tracking-id',
-          source: {'@coveo/atomic': '3.0.0'},
+          source: {'@eternal-baguette/atomic': '3.0.0'},
         },
       });
     });

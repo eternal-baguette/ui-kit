@@ -4,7 +4,7 @@ import {
   NumberValue,
   RecordValue,
   StringValue,
-} from '@coveo/bueno';
+} from '@eternal-baguette/bueno';
 import {createAction, createAsyncThunk} from '@reduxjs/toolkit';
 import type {AsyncThunkGeneratedAnswerOptions} from '../../api/generated-answer/generated-answer-client.js';
 import type {

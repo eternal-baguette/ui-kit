@@ -4,7 +4,7 @@ import {
   type ProductListingSummaryState,
   type SearchSummaryState,
   type Summary,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {type CSSResultGroup, css, html, LitElement} from 'lit';
 import {customElement, state} from 'lit/decorators.js';
 import {bindStateToController} from '@/src/decorators/bind-state';

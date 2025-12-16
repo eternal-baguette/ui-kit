@@ -7,7 +7,7 @@ import {
   type SearchBoxState,
   type StandaloneSearchBox,
   type StandaloneSearchBoxState,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {type CSSResultGroup, css, html, LitElement} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {classMap} from 'lit/directives/class-map.js';

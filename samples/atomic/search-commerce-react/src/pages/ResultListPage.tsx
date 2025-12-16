@@ -1,4 +1,7 @@
-import {AtomicResultLink, AtomicResultList} from '@coveo/atomic-react';
+import {
+  AtomicResultLink,
+  AtomicResultList,
+} from '@eternal-baguette/atomic-react';
 import type {FunctionComponent} from 'react';
 import {AtomicPageWrapper} from '../components/AtomicPageWrapper';
 

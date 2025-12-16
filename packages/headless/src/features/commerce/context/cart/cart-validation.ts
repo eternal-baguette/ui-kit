@@ -4,7 +4,7 @@ import {
   RecordValue,
   Schema,
   StringValue,
-} from '@coveo/bueno';
+} from '@eternal-baguette/bueno';
 import type {CartInitialState} from '../../../../controllers/commerce/context/cart/headless-cart.js';
 import {requiredNonEmptyString} from '../../../../utils/validate-payload.js';
 

@@ -1,4 +1,4 @@
-import { GeneratedAnswerCitation, InteractiveCitation } from '@coveo/headless';
+import { GeneratedAnswerCitation, InteractiveCitation } from '@eternal-baguette/headless';
 import {
   createPopper,
   preventOverflow,

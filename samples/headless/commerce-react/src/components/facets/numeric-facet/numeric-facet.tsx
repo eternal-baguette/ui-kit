@@ -1,4 +1,4 @@
-import type {NumericFacet as HeadlessNumericFacet} from '@coveo/headless/commerce';
+import type {NumericFacet as HeadlessNumericFacet} from '@eternal-baguette/headless/commerce';
 import {useEffect, useRef, useState} from 'react';
 
 interface INumericFacetProps {

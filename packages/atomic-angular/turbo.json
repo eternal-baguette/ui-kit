@@ -6,7 +6,7 @@
       "outputs": ["projects/atomic-angular/dist/**/*"]
     },
     "gen:lit": {
-      "dependsOn": ["@coveo/atomic#build:cem"],
+      "dependsOn": ["@eternal-baguette/atomic#build:cem"],
       "outputs": ["projects/atomic-angular/src/lib/stencil-generated/**/*"]
     }
   }

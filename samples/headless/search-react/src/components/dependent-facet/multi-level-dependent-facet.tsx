@@ -2,7 +2,7 @@ import {
   buildFacetConditionsManager,
   type CoreEngine,
   type Facet as HeadlessFacet,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {useEffect, useState} from 'react';
 import {Facet} from '../facet/facet.fn';
 

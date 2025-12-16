@@ -1,4 +1,4 @@
-import {buildDateRange} from '@coveo/headless';
+import {buildDateRange} from '@eternal-baguette/headless';
 
 export const relativeDateRanges = [
   buildDateRange({

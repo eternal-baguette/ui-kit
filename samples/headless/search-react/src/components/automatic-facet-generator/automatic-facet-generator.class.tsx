@@ -4,7 +4,7 @@ import {
   buildAutomaticFacetGenerator,
   type AutomaticFacetGenerator as HeadlessAutomaticFacetGenerator,
   type Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, type ContextType} from 'react';
 import {AppContext} from '../../context/engine';
 import {AutomaticFacet} from '../automatic-facet/automatic-facet.class';

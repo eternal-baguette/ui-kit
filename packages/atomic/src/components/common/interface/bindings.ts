@@ -1,7 +1,7 @@
-import type {SearchEngine} from '@coveo/headless';
-import type {CommerceEngine} from '@coveo/headless/commerce';
-import type {InsightEngine} from '@coveo/headless/insight';
-import type {RecommendationEngine} from '@coveo/headless/recommendation';
+import type {SearchEngine} from '@eternal-baguette/headless';
+import type {CommerceEngine} from '@eternal-baguette/headless/commerce';
+import type {InsightEngine} from '@eternal-baguette/headless/insight';
+import type {RecommendationEngine} from '@eternal-baguette/headless/recommendation';
 import type {i18n} from 'i18next';
 import type {CommerceStore} from '../../commerce/atomic-commerce-interface/store';
 import type {CommerceRecommendationStore} from '../../commerce/atomic-commerce-recommendation-interface/store';

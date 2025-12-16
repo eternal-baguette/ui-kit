@@ -42,7 +42,7 @@ import {html} from 'lit';
 
 **Mock at file top** (after imports, before tests):
 ```typescript
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 // Custom implementation:
 vi.mock('@/src/utils/xss-utils', () => ({
   filterProtocol: vi.fn((url: string) => url)
@@ -192,7 +192,7 @@ describe('when validation fails', () => {
 
 **❌ Don't mock console at top level** - this hides unexpected errors in other tests.
 
-- **Always mock headless at the top level** with `vi.mock('@coveo/headless/commerce', {spy: true})`
+- **Always mock headless at the top level** with `vi.mock('@eternal-baguette/headless/commerce', {spy: true})`
 - **Use `beforeEach` for setup, not `afterEach`** - the framework handles cleanup automatically
 - **Use page locators** from `vitest/browser` for better test reliability
 - **Create reusable render functions** to avoid duplication and ensure consistent setup

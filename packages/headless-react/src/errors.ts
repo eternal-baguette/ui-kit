@@ -1,4 +1,4 @@
-import type {SolutionType} from '@coveo/headless/ssr-commerce';
+import type {SolutionType} from '@eternal-baguette/headless/ssr-commerce';
 import {capitalize} from './utils.js';
 
 export class MissingEngineProviderError extends Error {

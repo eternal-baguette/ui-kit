@@ -1,4 +1,4 @@
-import {ArrayValue, StringValue} from '@coveo/bueno';
+import {ArrayValue, StringValue} from '@eternal-baguette/bueno';
 import {createAction, createAsyncThunk} from '@reduxjs/toolkit';
 import {isErrorResponse} from '../../api/search/search-api-client.js';
 import type {AsyncThunkInsightOptions} from '../../api/service/insight/insight-api-client.js';

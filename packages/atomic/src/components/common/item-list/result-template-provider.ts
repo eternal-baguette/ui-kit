@@ -2,7 +2,7 @@ import {
   buildResultTemplatesManager,
   type Result,
   type Template,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import type {ItemTarget} from '@/src/components/common/layout/item-layout-utils';
 import type {AnyBindings} from '../interface/bindings';
 import {

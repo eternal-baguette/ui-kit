@@ -5,7 +5,7 @@ import {
   type ResultsPerPageState,
   type SearchStatus,
   type SearchStatusState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html, LitElement} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';

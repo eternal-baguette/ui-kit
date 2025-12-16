@@ -1,4 +1,4 @@
-import type {Pagination} from '@coveo/headless/commerce';
+import type {Pagination} from '@eternal-baguette/headless/commerce';
 import {useEffect, useState} from 'react';
 
 interface IProductsPerPageProps {

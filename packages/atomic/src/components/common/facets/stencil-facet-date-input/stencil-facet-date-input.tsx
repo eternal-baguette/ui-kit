@@ -2,7 +2,7 @@ import {
   buildDateRange,
   DateFilterRange,
   DateRangeRequest,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, h, State, Prop, Event, EventEmitter} from '@stencil/core';
 import {parseDate} from '../../../../utils/date-utils';
 import {Button} from '../../../common/stencil-button';

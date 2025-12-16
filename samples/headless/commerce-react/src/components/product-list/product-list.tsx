@@ -4,7 +4,7 @@ import type {
   InteractiveProduct as HeadlessInteractiveProduct,
   Product as HeadlessProduct,
   InteractiveProductProps,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import InteractiveProduct from '../interactive-product/interactive-product.js';
 
 interface IProductListProps {

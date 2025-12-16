@@ -6,7 +6,7 @@ import type {
   InferControllerFromDefinition,
   InferControllerStaticStateMapFromDefinitions,
   InferControllersMapFromDefinition,
-} from '@coveo/headless/ssr';
+} from '@eternal-baguette/headless/ssr';
 import type {FunctionComponent, PropsWithChildren} from 'react';
 
 type ContextStaticState<

@@ -2,7 +2,7 @@ import {
   getSampleInsightEngineConfiguration,
   type InsightEngine,
   type InsightEngineConfiguration,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {vi} from 'vitest';
 
 export const buildFakeInsightEngine = ({

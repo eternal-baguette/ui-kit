@@ -14,11 +14,11 @@ import {
   AtomicProductSectionName,
   AtomicProductSectionVisual,
   AtomicProductText,
-} from '@coveo/atomic-react/commerce';
+} from '@eternal-baguette/atomic-react/commerce';
 import {
   buildCommerceEngine,
   getSampleCommerceEngineConfiguration,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useMemo} from 'react';
 
 export const CommerceRecommendationPage = () => {

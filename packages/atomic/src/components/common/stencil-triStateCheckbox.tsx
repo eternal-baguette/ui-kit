@@ -1,4 +1,4 @@
-import {FacetValueState} from '@coveo/headless';
+import {FacetValueState} from '@eternal-baguette/headless';
 import {FunctionalComponent, h} from '@stencil/core';
 import Tick from '../../images/checkbox.svg';
 import Close from '../../images/close.svg';

@@ -25,8 +25,8 @@ const buenoVersion = isNightly
     ? `v${buenoJson.version.split('-').shift()}.${process.env.PR_NUMBER}`
     : `v${buenoJson.version}`;
 const packageMappings = {
-  '@coveo/headless': `/headless/${headlessVersion}/headless.esm.js`,
-  '@coveo/bueno': `/bueno/${buenoVersion}/bueno.esm.js`,
+  '@eternal-baguette/headless': `/headless/${headlessVersion}/headless.esm.js`,
+  '@eternal-baguette/bueno': `/bueno/${buenoVersion}/bueno.esm.js`,
 };
 
 const externalizeDependenciesPlugin = {

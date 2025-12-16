@@ -1,4 +1,4 @@
-export {i18n, RecsBindings} from '@coveo/atomic';
+export {i18n, RecsBindings} from '@eternal-baguette/atomic';
 export * from '../search/components.js';
 export * from '../stencil-generated/search/index.js';
 

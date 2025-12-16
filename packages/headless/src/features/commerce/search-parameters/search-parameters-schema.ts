@@ -1,4 +1,4 @@
-import {type SchemaDefinition, StringValue} from '@coveo/bueno';
+import {type SchemaDefinition, StringValue} from '@eternal-baguette/bueno';
 import {parametersDefinition} from '../parameters/parameters-schema.js';
 import type {CommerceSearchParameters} from './search-parameters-actions.js';
 

@@ -1,4 +1,4 @@
-import type {Facet, FacetState, FacetValue} from '@coveo/headless';
+import type {Facet, FacetState, FacetValue} from '@eternal-baguette/headless';
 import {vi} from 'vitest';
 import {genericSubscribe} from '../common';
 

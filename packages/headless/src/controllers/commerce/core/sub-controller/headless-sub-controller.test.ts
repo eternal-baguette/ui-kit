@@ -1,4 +1,4 @@
-import type {SchemaDefinition} from '@coveo/bueno';
+import type {SchemaDefinition} from '@eternal-baguette/bueno';
 import type {Parameters} from '../../../../features/commerce/parameters/parameters-actions.js';
 import type {CommerceSearchParameters} from '../../../../features/commerce/search-parameters/search-parameters-actions.js';
 import {buildMockCommerceState} from '../../../../test/mock-commerce-state.js';

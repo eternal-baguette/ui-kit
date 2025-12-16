@@ -2,7 +2,7 @@ import { AtomicCommerceInterface } from '@/src/components/commerce/atomic-commer
 import {
   CommerceEngineConfiguration,
   getSampleCommerceEngineConfiguration,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import { Decorator, StoryContext } from '@storybook/web-components-vite';
 import { html } from 'lit';
 import type * as _ from '../../src/components.js';

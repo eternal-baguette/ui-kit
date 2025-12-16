@@ -1,5 +1,8 @@
-import {isNullOrUndefined} from '@coveo/bueno';
-import {type Product, ProductTemplatesHelpers} from '@coveo/headless/commerce';
+import {isNullOrUndefined} from '@eternal-baguette/bueno';
+import {
+  type Product,
+  ProductTemplatesHelpers,
+} from '@eternal-baguette/headless/commerce';
 import {html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';

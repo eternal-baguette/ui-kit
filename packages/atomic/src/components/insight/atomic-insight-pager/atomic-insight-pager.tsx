@@ -5,7 +5,7 @@ import {
   PagerState as InsightPagerState,
   SearchStatus as InsightSearchStatus,
   SearchStatusState as InsightSearchStatusState,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {
   Component,
   Event,

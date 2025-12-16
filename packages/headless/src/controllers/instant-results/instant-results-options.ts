@@ -1,4 +1,4 @@
-import {NumberValue, Schema} from '@coveo/bueno';
+import {NumberValue, Schema} from '@eternal-baguette/bueno';
 import {nonEmptyString} from '../../utils/validate-payload.js';
 
 export interface InstantResultOptions {

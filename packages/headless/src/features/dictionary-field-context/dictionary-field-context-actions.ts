@@ -1,4 +1,4 @@
-import {ArrayValue, RecordValue} from '@coveo/bueno';
+import {ArrayValue, RecordValue} from '@eternal-baguette/bueno';
 import {createAction} from '@reduxjs/toolkit';
 import {
   requiredEmptyAllowedString,

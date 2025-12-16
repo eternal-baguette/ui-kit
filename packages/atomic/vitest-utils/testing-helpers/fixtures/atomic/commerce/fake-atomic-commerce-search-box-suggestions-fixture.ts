@@ -1,4 +1,4 @@
-import type {SearchBox} from '@coveo/headless/commerce';
+import type {SearchBox} from '@eternal-baguette/headless/commerce';
 import {LitElement} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import type {CommerceBindings} from '@/src/components/commerce/atomic-commerce-interface/atomic-commerce-interface';

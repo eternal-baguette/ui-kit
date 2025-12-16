@@ -1,7 +1,7 @@
 import type {
   NumericFacet as HeadlessNumericFacet,
   NumericFacetValue,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface NumericFacetProps {

@@ -1,4 +1,4 @@
-import {buildRecentQueriesList} from '@coveo/headless';
+import {buildRecentQueriesList} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {beforeEach, describe, expect, it, type MockInstance, vi} from 'vitest';
@@ -10,7 +10,7 @@ import {buildFakeRecentQueriesList} from '@/vitest-utils/testing-helpers/fixture
 import type {AtomicSearchBoxRecentQueries} from './atomic-search-box-recent-queries';
 import './atomic-search-box-recent-queries';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-search-box-recent-queries', () => {
   beforeEach(() => {

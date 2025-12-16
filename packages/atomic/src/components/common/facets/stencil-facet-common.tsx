@@ -1,4 +1,4 @@
-import {FacetValue, SearchStatusState} from '@coveo/headless';
+import {FacetValue, SearchStatusState} from '@eternal-baguette/headless';
 import {i18n} from 'i18next';
 
 export interface FacetValueProps {

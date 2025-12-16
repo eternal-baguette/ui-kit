@@ -1,4 +1,4 @@
-import type {CommerceEngine} from '@coveo/headless/commerce';
+import type {CommerceEngine} from '@eternal-baguette/headless/commerce';
 import {provide} from '@lit/context';
 import type {i18n} from 'i18next';
 import {html, LitElement, nothing, type TemplateResult} from 'lit';

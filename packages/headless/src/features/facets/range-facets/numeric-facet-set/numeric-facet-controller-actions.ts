@@ -1,4 +1,4 @@
-import {RecordValue} from '@coveo/bueno';
+import {RecordValue} from '@eternal-baguette/bueno';
 import {createAsyncThunk} from '@reduxjs/toolkit';
 import type {AsyncThunkOptions} from '../../../../app/async-thunk-options.js';
 import type {

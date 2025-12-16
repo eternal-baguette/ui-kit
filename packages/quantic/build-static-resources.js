@@ -45,11 +45,11 @@ const LIBRARY_CONFIG = {
     ],
     files: [
       {
-        src: resolveLibraryPath('@coveo/bueno', '../cdn/bueno.js'),
+        src: resolveLibraryPath('@eternal-baguette/bueno', '../cdn/bueno.js'),
         dest: `${STATIC_RESOURCES_PATH}/coveobueno/browser/bueno.js`,
       },
       {
-        src: resolveLibraryPath('@coveo/bueno', '../dist/definitions'),
+        src: resolveLibraryPath('@eternal-baguette/bueno', '../dist/definitions'),
         dest: `${STATIC_RESOURCES_PATH}/coveobueno/definitions`,
       },
     ],
@@ -79,7 +79,7 @@ const LIBRARY_CONFIG = {
         dest: `${STATIC_RESOURCES_PATH}/coveoheadless/recommendation/headless.js`,
       },
       {
-        src: resolveLibraryPath('@coveo/headless', '../../dist/definitions'),
+        src: resolveLibraryPath('@eternal-baguette/headless', '../../dist/definitions'),
         dest: `${STATIC_RESOURCES_PATH}/coveoheadless/definitions`,
       },
     ],

@@ -29,7 +29,7 @@ describe('#fromAnalyticsStateToAnalyticsParams', () => {
       originLevel2: 'mock-origin-level-2',
       originLevel3: 'mock-origin-level-3',
       source: {
-        '@coveo/atomic': 'mock-version',
+        '@eternal-baguette/atomic': 'mock-version',
       },
       ...options,
     };
@@ -267,8 +267,8 @@ describe('#fromAnalyticsStateToAnalyticsParams', () => {
 
   it('sets #source to the value returned by #getAnalyticsSource(#state)', () => {
     const getAnalyticsSourceMockReturnValue = [
-      '@coveo/atomic@10.0.1',
-      '@coveo/headless@10.1.2',
+      '@eternal-baguette/atomic@10.0.1',
+      '@eternal-baguette/headless@10.1.2',
     ];
 
     vi.mocked(getAnalyticsSource).mockReturnValue(

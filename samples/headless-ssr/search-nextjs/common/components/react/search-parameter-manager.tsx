@@ -1,6 +1,6 @@
 'use client';
 
-import {buildSSRSearchParameterSerializer} from '@coveo/headless/ssr';
+import {buildSSRSearchParameterSerializer} from '@eternal-baguette/headless/ssr';
 import {useEffect, useMemo} from 'react';
 import {useSearchParameterManager} from '../../lib/react/engine';
 import {useAppHistoryRouter} from '../common/history-router';

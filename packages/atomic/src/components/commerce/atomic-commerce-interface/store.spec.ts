@@ -1,8 +1,11 @@
-import {type CommerceEngine, Selectors} from '@coveo/headless/commerce';
+import {
+  type CommerceEngine,
+  Selectors,
+} from '@eternal-baguette/headless/commerce';
 import {describe, expect, it, vi} from 'vitest';
 import {createCommerceStore} from './store';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('CommerceStore', () => {
   it('should set and unset loading flags correctly', () => {

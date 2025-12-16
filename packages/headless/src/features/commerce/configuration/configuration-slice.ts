@@ -1,4 +1,4 @@
-import {isNullOrUndefined} from '@coveo/bueno';
+import {isNullOrUndefined} from '@eternal-baguette/bueno';
 import {createReducer} from '@reduxjs/toolkit';
 import {updateBasicConfiguration} from '../../configuration/configuration-actions.js';
 import {

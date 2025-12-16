@@ -4,7 +4,7 @@ import {
   RecordValue,
   Schema,
   StringValue,
-} from '@coveo/bueno';
+} from '@eternal-baguette/bueno';
 import type {SuggestionHighlightingOptions} from '../../../utils/highlight.js';
 import {requiredNonEmptyString} from '../../../utils/validate-payload.js';
 

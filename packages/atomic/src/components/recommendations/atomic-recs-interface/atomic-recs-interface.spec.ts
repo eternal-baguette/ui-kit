@@ -6,7 +6,7 @@ import {
   loadRecommendationActions,
   loadSearchConfigurationActions,
   type RecommendationEngineConfiguration,
-} from '@coveo/headless/recommendation';
+} from '@eternal-baguette/headless/recommendation';
 import {html, LitElement} from 'lit';
 import {customElement, state} from 'lit/decorators.js';
 import {ifDefined} from 'lit/directives/if-defined.js';
@@ -23,8 +23,8 @@ import {getAnalyticsConfig} from './analytics-config';
 import type {RecsBindings} from './atomic-recs-interface';
 import {AtomicRecsInterface} from './atomic-recs-interface';
 
-vi.mock('@coveo/headless/recommendation', {spy: true});
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless/recommendation', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 vi.mock('@/src/components/common/interface/analytics-config', {spy: true});
 vi.mock('@/src/components/recommendations/atomic-recs-interface/store', {
   spy: true,

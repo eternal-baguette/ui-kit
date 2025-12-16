@@ -1,4 +1,4 @@
-import type {UrlManager} from '@coveo/headless';
+import type {UrlManager} from '@eternal-baguette/headless';
 import {vi} from 'vitest';
 import {genericSubscribe} from '../common';
 

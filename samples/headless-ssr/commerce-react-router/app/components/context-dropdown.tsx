@@ -3,7 +3,7 @@ import {
   type ContextOptions,
   loadProductListingActions,
   loadSearchActions,
-} from '@coveo/headless-react/ssr-commerce';
+} from '@eternal-baguette/headless-react/ssr-commerce';
 import {useState} from 'react';
 import type {LoaderFunctionArgs} from 'react-router';
 import {Form, useFetcher, useLoaderData} from 'react-router';

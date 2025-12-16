@@ -3,7 +3,7 @@ import type {
   CategoryFacetState,
   CategoryFacetValue,
   CategoryFacet as HeadlessCategoryFacet,
-} from '@coveo/headless-react/ssr-commerce';
+} from '@eternal-baguette/headless-react/ssr-commerce';
 import {useEffect, useRef, useState} from 'react';
 
 export default function CategoryFacet({

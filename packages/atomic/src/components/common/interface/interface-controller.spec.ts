@@ -1,4 +1,7 @@
-import {type CommerceEngine, VERSION} from '@coveo/headless/commerce';
+import {
+  type CommerceEngine,
+  VERSION,
+} from '@eternal-baguette/headless/commerce';
 import Backend from 'i18next-http-backend';
 import {html} from 'lit';
 import {describe, expect, it, vi} from 'vitest';

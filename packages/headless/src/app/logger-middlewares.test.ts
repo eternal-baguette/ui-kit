@@ -1,4 +1,4 @@
-import {SchemaValidationError} from '@coveo/bueno';
+import {SchemaValidationError} from '@eternal-baguette/bueno';
 import type {Logger} from 'pino';
 import {serializeSchemaValidationError} from '../utils/validate-payload.js';
 import {

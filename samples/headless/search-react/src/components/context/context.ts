@@ -1,4 +1,4 @@
-import {buildContext} from '@coveo/headless';
+import {buildContext} from '@eternal-baguette/headless';
 import {useContext} from 'react';
 import {AppContext} from '../../context/engine';
 

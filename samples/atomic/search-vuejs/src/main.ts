@@ -1,5 +1,5 @@
-import {defineCustomElements} from '@coveo/atomic/loader';
-import '@coveo/atomic/themes/coveo.css';
+import {defineCustomElements} from '@eternal-baguette/atomic/loader';
+import '@eternal-baguette/atomic/themes/coveo.css';
 import {createApp, defineCustomElement} from 'vue';
 import App from './App.vue';
 import ResultTextField from './components/ResultTextField.vue';

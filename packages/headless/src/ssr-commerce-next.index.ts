@@ -13,7 +13,7 @@
  *   InferHydratedState,
  *   defineProductList,
  *   getSampleCommerceEngineConfiguration,
- * } from '@coveo/headless/ssr-commerce';
+ * } from '@eternal-baguette/headless/ssr-commerce';
  *
  * type CommerceEngineConfig = CommerceEngineDefinitionOptions<
  *   ControllerDefinitionsMap<CommerceEngine, Controller>

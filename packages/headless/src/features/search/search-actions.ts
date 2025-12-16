@@ -1,4 +1,4 @@
-import {BooleanValue, NumberValue, StringValue} from '@coveo/bueno';
+import {BooleanValue, NumberValue, StringValue} from '@eternal-baguette/bueno';
 import {createAction, createAsyncThunk} from '@reduxjs/toolkit';
 import type {EventDescription} from 'coveo.analytics';
 import HistoryStore from '../../api/analytics/coveo.analytics/history-store.js';

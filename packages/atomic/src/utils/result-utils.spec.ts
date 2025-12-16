@@ -4,7 +4,7 @@ import {
   getSampleSearchEngineConfiguration,
   type Raw,
   type Result,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {describe, expect, it, vi} from 'vitest';
 import type {Bindings} from '../components/search/atomic-search-interface/atomic-search-interface';
 import {buildStringTemplateFromResult} from './result-utils';

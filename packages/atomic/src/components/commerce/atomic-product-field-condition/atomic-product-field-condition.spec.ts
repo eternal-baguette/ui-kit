@@ -1,6 +1,6 @@
 import {describe, expect, it} from 'vitest';
 import './atomic-product-field-condition';
-import type {Product} from '@coveo/headless/commerce';
+import type {Product} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {renderInAtomicProduct} from '@/vitest-utils/testing-helpers/fixtures/atomic/commerce/atomic-product-fixture';
 import {buildFakeProduct} from '@/vitest-utils/testing-helpers/fixtures/headless/commerce/product';

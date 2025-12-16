@@ -1,4 +1,4 @@
-import type {SmartSnippet as HeadlessSmartSnippet} from '@coveo/headless';
+import type {SmartSnippet as HeadlessSmartSnippet} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useRef, useState} from 'react';
 import {filterProtocol} from '../../utils/filter-protocol';
 

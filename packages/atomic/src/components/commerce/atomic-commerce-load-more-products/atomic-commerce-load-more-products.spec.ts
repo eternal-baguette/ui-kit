@@ -2,7 +2,7 @@ import {
   buildProductListing,
   buildSearch,
   type Pagination,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {beforeEach, describe, expect, it, type Mock, vi} from 'vitest';
 import {page} from 'vitest/browser';
@@ -17,7 +17,7 @@ import {buildFakeSearch} from '@/vitest-utils/testing-helpers/fixtures/headless/
 import type {AtomicCommerceLoadMoreProducts} from './atomic-commerce-load-more-products';
 import './atomic-commerce-load-more-products';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 vi.mock('@/src/components/common/interface/store', {spy: true});
 
 describe('atomic-commerce-load-more-products', () => {

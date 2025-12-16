@@ -1,4 +1,4 @@
-import type {Facet as HeadlessFacet} from '@coveo/headless';
+import type {Facet as HeadlessFacet} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 import {FacetSearch} from './facet-search';
 

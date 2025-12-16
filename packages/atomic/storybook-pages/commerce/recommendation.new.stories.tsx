@@ -1,7 +1,7 @@
 import {
   buildCommerceEngine,
   getSampleCommerceEngineConfiguration,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import type {Meta, StoryObj as Story} from '@storybook/web-components-vite';
 import {html} from 'lit';
 import {MockCommerceApi} from '@/storybook-utils/api/commerce/mock.js';

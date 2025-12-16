@@ -1,4 +1,4 @@
-import type {Tab, TabState} from '@coveo/headless/ssr';
+import type {Tab, TabState} from '@eternal-baguette/headless/ssr';
 
 interface TabCommonProps {
   state: TabState;

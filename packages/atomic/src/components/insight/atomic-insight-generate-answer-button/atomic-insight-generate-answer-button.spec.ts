@@ -2,7 +2,7 @@ import {
   buildQuerySummary,
   type QuerySummary,
   type QuerySummaryState,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {html} from 'lit';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
 import {fixture} from '@/vitest-utils/testing-helpers/fixture.js';
@@ -11,7 +11,7 @@ import {buildFakeInsightEngine} from '@/vitest-utils/testing-helpers/fixtures/he
 import type {AtomicInsightGenerateAnswerButton} from './atomic-insight-generate-answer-button.js';
 import './atomic-insight-generate-answer-button.js';
 
-vi.mock('@coveo/headless/insight', {spy: true});
+vi.mock('@eternal-baguette/headless/insight', {spy: true});
 
 const buildFakeQuerySummary = ({
   state = {},

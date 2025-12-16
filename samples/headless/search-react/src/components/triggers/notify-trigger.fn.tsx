@@ -1,4 +1,4 @@
-import type {NotifyTrigger as HeadlessNotifyTrigger} from '@coveo/headless';
+import type {NotifyTrigger as HeadlessNotifyTrigger} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface HeadlessNotifyTriggerProps {

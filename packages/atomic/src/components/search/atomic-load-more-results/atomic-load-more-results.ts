@@ -5,7 +5,7 @@ import {
   type QuerySummaryState,
   type ResultList,
   type ResultListState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html, LitElement} from 'lit';
 import {customElement, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';

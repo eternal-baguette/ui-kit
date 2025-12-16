@@ -1,4 +1,4 @@
-import type {LogLevel} from '@coveo/headless';
+import type {LogLevel} from '@eternal-baguette/headless';
 import type {i18n, TFunction} from 'i18next';
 import Backend from 'i18next-http-backend';
 import type {LitElement, ReactiveController} from 'lit';

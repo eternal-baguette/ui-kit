@@ -1,7 +1,7 @@
 import type {
   DateFacetState,
   DateFacet as HeadlessDateFacet,
-} from '@coveo/headless-react/ssr-commerce';
+} from '@eternal-baguette/headless-react/ssr-commerce';
 import {useEffect, useState} from 'react';
 
 export default function DateFacet({

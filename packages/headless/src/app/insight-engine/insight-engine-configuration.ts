@@ -1,4 +1,4 @@
-import {RecordValue, Schema} from '@coveo/bueno';
+import {RecordValue, Schema} from '@eternal-baguette/bueno';
 import {
   nonEmptyString,
   requiredNonEmptyString,

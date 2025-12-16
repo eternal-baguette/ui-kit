@@ -41,7 +41,7 @@ This function doesn't return a value but publishes a custom event that web pixel
 #### Example
 
 ```typescript
-import {init} from '@coveo/shopify/utilities';
+import {init} from '@eternal-baguette/shopify/utilities';
 
 // Initialize on every page
 init({
@@ -57,7 +57,7 @@ init({
 You can combine the `init` function with `fetchAppProxyConfig` to initialize the integration:
 
 ```typescript
-import {init, fetchAppProxyConfig} from '@coveo/shopify/utilities';
+import {init, fetchAppProxyConfig} from '@eternal-baguette/shopify/utilities';
 
 const config = await fetchAppProxyConfig({
   marketId: 'market_123432',
@@ -87,7 +87,7 @@ A promise that resolves to an object containing:
 #### Example
 
 ```typescript
-import {fetchAppProxyConfig} from '@coveo/shopify/headless/commerce';
+import {fetchAppProxyConfig} from '@eternal-baguette/shopify/headless/commerce';
 
 const config = await fetchAppProxyConfig({
   marketId: 'market_123432',

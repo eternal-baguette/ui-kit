@@ -1,4 +1,4 @@
-import type {ResultsPerPage} from '@coveo/headless';
+import type {ResultsPerPage} from '@eternal-baguette/headless';
 import {vi} from 'vitest';
 import {genericSubscribe} from '../common.js';
 

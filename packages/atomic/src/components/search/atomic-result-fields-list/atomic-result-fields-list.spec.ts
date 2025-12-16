@@ -1,4 +1,4 @@
-import type {Result} from '@coveo/headless';
+import type {Result} from '@eternal-baguette/headless';
 import type {i18n} from 'i18next';
 import {html} from 'lit';
 import {unsafeHTML} from 'lit/directives/unsafe-html.js';
@@ -10,7 +10,7 @@ import {createTestI18n} from '@/vitest-utils/testing-helpers/i18n-utils';
 import type {AtomicResultFieldsList} from './atomic-result-fields-list';
 import './atomic-result-fields-list';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-result-fields-list', () => {
   let i18n: i18n;

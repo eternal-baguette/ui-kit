@@ -19,7 +19,7 @@ import {
   buildTabManager,
   TabManager,
   TabManagerState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, Element, h, Listen, Prop, State} from '@stencil/core';
 import {
   BindStateToController,

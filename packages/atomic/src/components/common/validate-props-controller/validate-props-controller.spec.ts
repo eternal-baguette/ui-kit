@@ -1,4 +1,4 @@
-import {Schema, StringValue} from '@coveo/bueno';
+import {Schema, StringValue} from '@eternal-baguette/bueno';
 import {LitElement} from 'lit';
 import {customElement, state} from 'lit/decorators.js';
 import {

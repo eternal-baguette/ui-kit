@@ -1,4 +1,4 @@
-import type {Sort, SortState} from '@coveo/headless';
+import type {Sort, SortState} from '@eternal-baguette/headless';
 import {vi} from 'vitest';
 import {genericSubscribe} from '../common';
 

@@ -1,4 +1,4 @@
-import {NumberValue} from '@coveo/bueno';
+import {NumberValue} from '@eternal-baguette/bueno';
 import {createAsyncThunk} from '@reduxjs/toolkit';
 import type {EventDescription} from 'coveo.analytics';
 import HistoryStore from '../../../api/analytics/coveo.analytics/history-store.js';

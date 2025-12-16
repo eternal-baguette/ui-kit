@@ -2,7 +2,7 @@ import {
   type ChildProduct,
   type CommerceEngine,
   Selectors,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {DEFAULT_MOBILE_BREAKPOINT} from '../../../utils/replace-breakpoint-utils';
 import {
   type BaseStore,

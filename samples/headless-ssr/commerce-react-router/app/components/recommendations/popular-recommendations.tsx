@@ -1,4 +1,4 @@
-import type {Product} from '@coveo/headless-react/ssr-commerce';
+import type {Product} from '@eternal-baguette/headless-react/ssr-commerce';
 import {useNavigate} from 'react-router';
 import {
   usePopularBoughtRecs,

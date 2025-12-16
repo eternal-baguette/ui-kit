@@ -1,4 +1,4 @@
-import {Result} from '@coveo/headless';
+import {Result} from '@eternal-baguette/headless';
 import {i18n} from 'i18next';
 import {SearchResponseSuccess} from '../../../headless/dist/definitions/api/search/search/search-response';
 import {i18nCompatibilityVersion} from '../../src/components';

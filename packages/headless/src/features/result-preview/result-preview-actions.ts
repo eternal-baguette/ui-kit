@@ -1,4 +1,4 @@
-import {ArrayValue} from '@coveo/bueno';
+import {ArrayValue} from '@eternal-baguette/bueno';
 import {createAction, createAsyncThunk} from '@reduxjs/toolkit';
 import {
   buildContentURL,

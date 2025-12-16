@@ -1,4 +1,4 @@
-import type {RedirectionTrigger as HeadlessRedirectionTrigger} from '@coveo/headless';
+import type {RedirectionTrigger as HeadlessRedirectionTrigger} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface HeadlessRedirectionTriggerProps {

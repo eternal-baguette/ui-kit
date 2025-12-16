@@ -2,7 +2,7 @@ import {
   buildProductListing,
   buildSearch,
   type PaginationState,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {beforeEach, describe, expect, it, type MockInstance, vi} from 'vitest';
@@ -14,7 +14,7 @@ import {buildFakeSearch} from '@/vitest-utils/testing-helpers/fixtures/headless/
 import type {AtomicCommercePager} from './atomic-commerce-pager';
 import './atomic-commerce-pager';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-commerce-pager', () => {
   const locators = {

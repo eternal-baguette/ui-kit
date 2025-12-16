@@ -15,8 +15,8 @@ import {
   AtomicResultSectionVisual,
   AtomicResultText,
   AtomicText,
-} from '@coveo/atomic-react';
-import type {FoldedResult} from '@coveo/headless';
+} from '@eternal-baguette/atomic-react';
+import type {FoldedResult} from '@eternal-baguette/headless';
 import type {FunctionComponent} from 'react';
 import {AtomicPageWrapper} from '../components/AtomicPageWrapper';
 

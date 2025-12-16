@@ -1,5 +1,5 @@
 /** biome-ignore-all lint/suspicious/noExplicitAny: <> */
-import type {SearchEngine} from '@coveo/headless/ssr';
+import type {SearchEngine} from '@eternal-baguette/headless/ssr';
 import {cleanup, render, screen} from '@testing-library/react';
 import React, {type Context, createContext} from 'react';
 import {afterEach, describe, expect, test, vi} from 'vitest';

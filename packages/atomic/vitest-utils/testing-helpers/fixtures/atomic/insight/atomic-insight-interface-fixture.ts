@@ -1,4 +1,4 @@
-import type {InsightEngine} from '@coveo/headless/insight';
+import type {InsightEngine} from '@eternal-baguette/headless/insight';
 import {provide} from '@lit/context';
 import type {i18n} from 'i18next';
 import {html, LitElement, type TemplateResult} from 'lit';

@@ -5,7 +5,7 @@ import {
   type DateFacetValue,
   type DateFacet as HeadlessDateFacet,
   type Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, type ContextType} from 'react';
 import {AppContext} from '../../context/engine';
 import {parseDate} from './date-utils';

@@ -1,4 +1,4 @@
-import {isNullOrUndefined} from '@coveo/bueno';
+import {isNullOrUndefined} from '@eternal-baguette/bueno';
 import type {AsyncThunkOptions} from '../../app/async-thunk-options.js';
 import type {ClientThunkExtraArguments} from '../../app/thunk-extra-arguments.js';
 import {emptyQuestionAnswer} from '../../features/search/search-state.js';

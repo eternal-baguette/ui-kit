@@ -1,4 +1,4 @@
-import type {BreadcrumbManager as HeadlessBreadcrumbManager} from '@coveo/headless';
+import type {BreadcrumbManager as HeadlessBreadcrumbManager} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface BreadcrumbManagerProps {

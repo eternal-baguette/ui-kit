@@ -5,7 +5,7 @@ import {
   type DidYouMeanState,
   type QueryTrigger,
   type QueryTriggerState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
@@ -17,7 +17,7 @@ import {buildFakeQueryTrigger} from '@/vitest-utils/testing-helpers/fixtures/hea
 import type {AtomicDidYouMean} from './atomic-did-you-mean';
 import './atomic-did-you-mean';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-did-you-mean', () => {
   const mockedEngine = buildFakeSearchEngine();

@@ -4,7 +4,7 @@ import {
   RecordValue,
   type SchemaDefinition,
   StringValue,
-} from '@coveo/bueno';
+} from '@eternal-baguette/bueno';
 import type {SearchParameters} from './search-parameter-actions.js';
 
 export const searchParametersDefinition: SchemaDefinition<

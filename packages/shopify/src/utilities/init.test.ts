@@ -4,7 +4,7 @@ import {init} from './init';
 import {publishCustomShopifyEvent} from './shopify';
 
 // Mock only the external dependencies we need to control
-vi.mock('@coveo/headless', () => ({
+vi.mock('@eternal-baguette/headless', () => ({
   getAnalyticsNextApiBaseUrl: vi.fn(() => 'https://analytics.coveo.com'),
 }));
 
@@ -29,7 +29,9 @@ describe('init', () => {
   });
 
   it('should call getAnalyticsNextApiBaseUrl with correct parameters', async () => {
-    const {getAnalyticsNextApiBaseUrl} = await import('@coveo/headless');
+    const {getAnalyticsNextApiBaseUrl} = await import(
+      '@eternal-baguette/headless'
+    );
 
     init(mockOptions);
 

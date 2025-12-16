@@ -13,7 +13,7 @@ import {
   type ProductListingSummaryState,
   type SearchSummaryState,
   type UrlManager,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html, LitElement} from 'lit';
 import {customElement, state} from 'lit/decorators.js';
 import {ifDefined} from 'lit/directives/if-defined.js';
@@ -50,7 +50,7 @@ import {
 import {createCommerceStore} from './store';
 import './atomic-commerce-interface';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 vi.mock('@/src/utils/init-queue', {spy: true});
 vi.mock('./analytics-config', {spy: true});
 vi.mock('./store', {spy: true});
@@ -882,7 +882,7 @@ describe('atomic-commerce-interface', () => {
 
           expect(updateAnalyticsConfigurationMock).toHaveBeenCalledWith({
             trackingId: 'test-tracking-id',
-            source: {'@coveo/atomic': '0.0.0'},
+            source: {'@eternal-baguette/atomic': '0.0.0'},
           });
         });
 

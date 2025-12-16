@@ -1,7 +1,7 @@
 import type {
   InstantProducts,
   InstantProductsState,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {vi} from 'vitest';
 
 export const defaultState = {

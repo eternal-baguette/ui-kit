@@ -3,7 +3,7 @@ import {
   type InteractiveProduct,
   type InteractiveProductProps,
   type Product,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
 import {page} from 'vitest/browser';
@@ -21,7 +21,7 @@ import {AtomicCommerceRecommendationList} from './atomic-commerce-recommendation
 import './atomic-commerce-recommendation-list';
 
 vi.mock('@/src/components/common/interface/store', {spy: true});
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-commerce-recommendation-list', () => {
   const interactiveProduct = vi.fn();

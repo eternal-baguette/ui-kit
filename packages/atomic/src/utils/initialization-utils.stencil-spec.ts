@@ -3,7 +3,7 @@ import {
   buildSearchEngine,
   type Controller,
   type SearchEngine,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, h} from '@stencil/core';
 import {newSpecPage, type SpecPage} from '@stencil/core/testing';
 import i18next, {type i18n} from 'i18next';

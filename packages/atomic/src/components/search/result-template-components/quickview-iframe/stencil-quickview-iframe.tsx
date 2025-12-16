@@ -1,5 +1,5 @@
 import {eventPromise} from '@/src/utils/event-utils';
-import {SearchEngine} from '@coveo/headless';
+import {SearchEngine} from '@eternal-baguette/headless';
 import {FunctionalComponent, h} from '@stencil/core';
 
 const documentIdentifierInIframe = 'CoveoDocIdentifier';

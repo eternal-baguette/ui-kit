@@ -5,7 +5,7 @@ import {
   buildSearchStatus,
   getSampleSearchEngineConfiguration,
   type SearchEngine,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import escapeHtml from 'escape-html';
 import express from 'express';
 // biome-ignore lint/correctness/noUnusedImports: <>

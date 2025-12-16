@@ -1,9 +1,9 @@
-import {NumberValue, Schema} from '@coveo/bueno';
+import {NumberValue, Schema} from '@eternal-baguette/bueno';
 import {
   FacetManager,
   buildFacetManager,
   FacetManagerState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, h, Element, State, Prop} from '@stencil/core';
 import {
   BindStateToController,

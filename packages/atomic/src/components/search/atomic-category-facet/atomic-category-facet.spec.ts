@@ -6,7 +6,7 @@ import {
   type CategoryFacetState,
   type SearchStatusState,
   type TabManagerState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {beforeEach, describe, expect, it, type Mock, vi} from 'vitest';
@@ -18,7 +18,7 @@ import {mockConsole} from '@/vitest-utils/testing-helpers/testing-utils/mock-con
 import type {AtomicCategoryFacet} from './atomic-category-facet';
 import './atomic-category-facet';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-category-facet', () => {
   let mockedConsole: ReturnType<typeof mockConsole>;

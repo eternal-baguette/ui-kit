@@ -2,7 +2,7 @@ import {
   buildSearchStatus,
   buildUrlManager,
   type SearchEngine,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 
 /**
  * Search parameters, defined in the url's hash, should not be restored until all components are registered.

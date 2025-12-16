@@ -1,4 +1,4 @@
-import {NumericFilter, NumericFilterState} from '@coveo/headless';
+import {NumericFilter, NumericFilterState} from '@eternal-baguette/headless';
 import {Component, h, State, Prop, Event, EventEmitter} from '@stencil/core';
 import {AnyBindings} from '../../interface/bindings';
 import {Button} from '../../stencil-button';

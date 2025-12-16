@@ -1,7 +1,7 @@
 import {
   buildStandaloneSearchBox,
   type StandaloneSearchBoxOptions,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {type FunctionComponent, useContext, useEffect, useState} from 'react';
 import {AppContext} from '../../context/engine';
 import {standaloneSearchBoxStorageKey} from './standalone-search-box-storage-key';

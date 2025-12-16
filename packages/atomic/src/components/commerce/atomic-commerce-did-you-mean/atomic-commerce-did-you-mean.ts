@@ -5,7 +5,7 @@ import {
   type DidYouMeanState,
   type QueryTrigger,
   type QueryTriggerState,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html, LitElement, nothing} from 'lit';
 import {customElement, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';

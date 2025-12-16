@@ -1,7 +1,7 @@
 import type {Decorator, StoryContext} from '@storybook/web-components-vite';
 import {html} from 'lit';
 import type {ItemDisplayLayout} from '@/src/components/common/layout/display-options';
-import type {CommerceEngineConfiguration} from '@coveo/headless/commerce';
+import type {CommerceEngineConfiguration} from '@eternal-baguette/headless/commerce';
 import {wrapInCommerceProductList} from './commerce-product-list-wrapper';
 import {wrapInCommerceInterface} from './commerce-interface-wrapper';
 import {wrapInProductTemplateForSections} from './product-template-section-wrapper';

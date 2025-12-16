@@ -7,7 +7,7 @@ import {
   ViewChild,
 } from '@angular/core';
 // biome-ignore lint/style/useImportType: <>
-import {AtomicResultText} from '@coveo/atomic-angular';
+import {AtomicResultText} from '@eternal-baguette/atomic-angular';
 
 @Component({
   standalone: false,

@@ -5,7 +5,7 @@ import {
   BreadcrumbManagerState as InsightBreadcrumbManagerState,
   SearchStatus as InsightSearchStatus,
   SearchStatusState as InsightSearchStatusState,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Component, h, State, Element} from '@stencil/core';
 import FilterIcon from '../../../images/filter.svg';
 import {

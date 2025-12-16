@@ -54,7 +54,7 @@
     "./temp/insight.json",
     "./temp/recommendation.json"
   ],
-  "plugin": ["@coveo/documentation"],
+  "plugin": ["@eternal-baguette/documentation"],
   "hoistOther.topLevelOrder": [
     "Home",
     "Usage",

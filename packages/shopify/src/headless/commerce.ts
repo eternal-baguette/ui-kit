@@ -1,12 +1,12 @@
 import {
   buildCommerceEngine,
   type CommerceEngineOptions,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {COVEO_SHOPIFY_CONFIG_KEY} from '../constants';
 import type {CoveoShopifyOptions} from '../types';
 import {publishCustomShopifyEvent} from '../utilities/shopify';
 
-export * from '@coveo/headless/commerce';
+export * from '@eternal-baguette/headless/commerce';
 export * from '../constants';
 export type * from '../types';
 export * from '../utilities';

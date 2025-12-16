@@ -1,7 +1,7 @@
 import type {
   ResultList as ResultListController,
   ResultListState,
-} from '@coveo/headless/ssr';
+} from '@eternal-baguette/headless/ssr';
 import {type FunctionComponent, useEffect, useState} from 'react';
 import ResultListCommon from '../common/result-list';
 

@@ -6,7 +6,7 @@ import {
   type ControllerDefinitionsMap,
   defineCommerceEngine as defineBaseCommerceEngine,
   SolutionType,
-} from '@coveo/headless/ssr-commerce';
+} from '@eternal-baguette/headless/ssr-commerce';
 // Workaround to prevent Next.js erroring about importing CSR only hooks
 import React from 'react';
 import {type SingletonGetter, singleton} from '../utils.js';

@@ -1,4 +1,4 @@
-import {InlineLink} from '@coveo/headless';
+import {InlineLink} from '@eternal-baguette/headless';
 import {generateComponentHTML, TestFixture} from '../fixtures/test-fixture';
 import {AnalyticsTracker} from '../utils/analyticsUtils';
 import * as CommonAssertions from './common-assertions';

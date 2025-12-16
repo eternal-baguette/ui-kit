@@ -1,5 +1,5 @@
-import {getAnalyticsNextApiBaseUrl} from '@coveo/headless';
 import {createRelay} from '@coveo/relay';
+import {getAnalyticsNextApiBaseUrl} from '@eternal-baguette/headless';
 import {COVEO_SHOPIFY_CONFIG_KEY} from '../constants';
 import type {CoveoShopifyOptions} from '../types';
 import {publishCustomShopifyEvent} from './shopify';

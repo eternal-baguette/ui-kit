@@ -1,4 +1,4 @@
-import type {SmartSnippetFeedback} from '@coveo/headless';
+import type {SmartSnippetFeedback} from '@eternal-baguette/headless';
 
 export const feedbackOptions: {
   id: string;

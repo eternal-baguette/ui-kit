@@ -5,7 +5,7 @@ import {
   RecordValue,
   StringValue,
   Value,
-} from '@coveo/bueno';
+} from '@eternal-baguette/bueno';
 import {createAction} from '@reduxjs/toolkit';
 import {
   allowedValues,

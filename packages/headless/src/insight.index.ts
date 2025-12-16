@@ -3,7 +3,7 @@
  *
  * @example
  * ```typescript
- * import { buildSearchBox, buildInsightEngine, getSampleInsightEngineConfiguration } from '@coveo/headless/insight';
+ * import { buildSearchBox, buildInsightEngine, getSampleInsightEngineConfiguration } from '@eternal-baguette/headless/insight';
  *
  * const engine = buildInsightEngine({
  *    configuration: getSampleInsightEngineConfiguration()

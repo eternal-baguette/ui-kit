@@ -1,4 +1,4 @@
-import {isNullOrUndefined} from '@coveo/bueno';
+import {isNullOrUndefined} from '@eternal-baguette/bueno';
 import type {AnyAction, ThunkDispatch} from '@reduxjs/toolkit';
 import type {StateNeededByInsightAnalyticsProvider} from '../../../api/analytics/insight-analytics.js';
 import type {SearchResponseSuccess} from '../../../api/search/search/search-response.js';

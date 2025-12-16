@@ -1,4 +1,4 @@
-import type {Pager as HeadlessPager} from '@coveo/headless';
+import type {Pager as HeadlessPager} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface PagerProps {

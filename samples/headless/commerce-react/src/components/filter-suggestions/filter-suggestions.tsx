@@ -8,7 +8,7 @@ import type {
   CategoryFilterSuggestions,
   FilterSuggestions as HeadlessFilterSuggestions,
   RegularFacetSearchResult,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useEffect, useState} from 'react';
 
 interface IFilterSuggestionsProps {

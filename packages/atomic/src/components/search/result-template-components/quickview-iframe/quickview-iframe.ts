@@ -1,4 +1,4 @@
-import type {SearchEngine} from '@coveo/headless';
+import type {SearchEngine} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {ref} from 'lit/directives/ref.js';

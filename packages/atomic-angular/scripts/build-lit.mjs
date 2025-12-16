@@ -1,5 +1,7 @@
 import {readFileSync, writeFileSync} from 'node:fs';
-import cem from '@coveo/atomic/custom-elements-manifest' with {type: 'json'};
+import cem from '@eternal-baguette/atomic/custom-elements-manifest' with {
+  type: 'json',
+};
 
 const atomicAngularModuleFilePath =
   'projects/atomic-angular/src/lib/stencil-generated/atomic-angular.module.ts';
@@ -124,11 +126,11 @@ for (const module of sortedModules) {
 }
 
 if (litImports.size > 0) {
-  atomicAngularComponentFileContent += `\nimport {${[...litImports].sort().join(', ')}} from '@coveo/atomic/components';\n`;
+  atomicAngularComponentFileContent += `\nimport {${[...litImports].sort().join(', ')}} from '@eternal-baguette/atomic/components';\n`;
 }
 
 if (defineCustomElementImports.size > 0) {
-  atomicAngularComponentFileContent += `\nimport {${[...defineCustomElementImports].sort().join(', ')}} from '@coveo/atomic/components';\n`;
+  atomicAngularComponentFileContent += `\nimport {${[...defineCustomElementImports].sort().join(', ')}} from '@eternal-baguette/atomic/components';\n`;
 }
 atomicAngularComponentFileContent += `${endTag}`;
 

@@ -1,4 +1,4 @@
-import {SearchEngineConfiguration} from '@coveo/headless';
+import {SearchEngineConfiguration} from '@eternal-baguette/headless';
 import {Decorator} from '@storybook/web-components-vite';
 import {html, render} from 'lit';
 import {unsafeHTML} from 'lit/directives/unsafe-html.js';

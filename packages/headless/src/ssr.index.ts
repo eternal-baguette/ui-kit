@@ -14,7 +14,7 @@
  *     getSampleSearchEngineConfiguration,
  *     defineResultList,
  *     defineSearchBox,
- *   } from '@coveo/headless/ssr';
+ *   } from '@eternal-baguette/headless/ssr';
  *
  *  const config = {
  *     configuration: {

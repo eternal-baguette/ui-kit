@@ -1,7 +1,7 @@
 import {setCoveoGlobal} from '@/src/global/environment.js';
 import {loadDayjsLocale} from '@/src/utils/dayjs-locales.js';
 import {InitializeEvent} from '@/src/utils/initialization-utils.js';
-import {LogLevel, VERSION} from '@coveo/headless';
+import {LogLevel, VERSION} from '@eternal-baguette/headless';
 import {ComponentInterface, h} from '@stencil/core';
 import {i18n, TFunction} from 'i18next';
 import Backend from 'i18next-http-backend';

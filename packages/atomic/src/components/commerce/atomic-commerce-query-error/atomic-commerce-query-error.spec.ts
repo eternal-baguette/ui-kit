@@ -1,4 +1,7 @@
-import {buildProductListing, buildSearch} from '@coveo/headless/commerce';
+import {
+  buildProductListing,
+  buildSearch,
+} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
 import {userEvent} from 'vitest/browser';
@@ -10,7 +13,7 @@ import {buildFakeSearch} from '@/vitest-utils/testing-helpers/fixtures/headless/
 import type {AtomicCommerceQueryError} from './atomic-commerce-query-error';
 import './atomic-commerce-query-error';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 vi.mock('@/src/components/common/query-error/utils', {spy: true});
 
 describe('atomic-commerce-query-error', () => {

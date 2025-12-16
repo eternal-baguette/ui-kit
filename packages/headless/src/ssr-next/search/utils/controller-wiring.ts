@@ -1,4 +1,4 @@
-import {RecordValue, Schema} from '@coveo/bueno';
+import {RecordValue, Schema} from '@eternal-baguette/bueno';
 import type {Controller} from '../../../controllers/controller/headless-controller.js';
 import {nonRequiredEmptyAllowedString} from '../../../utils/validate-payload.js';
 import type {ControllersPropsMap} from '../../common/types/controllers.js';

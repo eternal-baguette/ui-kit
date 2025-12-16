@@ -1,4 +1,4 @@
-import {NumberValue, Schema} from '@coveo/bueno';
+import {NumberValue, Schema} from '@eternal-baguette/bueno';
 import {
   type Breadcrumb,
   type BreadcrumbManager,
@@ -16,7 +16,7 @@ import {
   type ProductListing,
   type RegularFacetValue,
   type Search,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {type CSSResultGroup, css, html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import type {CommerceBindings} from '@/src/components/commerce/atomic-commerce-interface/atomic-commerce-interface';

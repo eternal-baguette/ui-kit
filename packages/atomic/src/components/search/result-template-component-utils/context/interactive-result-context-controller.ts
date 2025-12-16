@@ -1,4 +1,4 @@
-import type {InteractiveResult} from '@coveo/headless';
+import type {InteractiveResult} from '@eternal-baguette/headless';
 import type {LitElement} from 'lit';
 import {InteractiveItemContextController} from '@/src/components/common/item-list/context/interactive-item-context-controller';
 

@@ -4,7 +4,7 @@ import {
   getSampleSearchEngineConfiguration,
   type Facet as HeadlessFacet,
   type SearchEngine,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component} from 'react';
 import {MultilevelDependentFacet} from '../components/dependent-facet/multi-level-dependent-facet';
 import {SingleParentMultipleDependentFacet} from '../components/dependent-facet/single-parent-multiple-dependent.fn';

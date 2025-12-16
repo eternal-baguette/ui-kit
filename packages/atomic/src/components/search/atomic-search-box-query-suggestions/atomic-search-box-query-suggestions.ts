@@ -3,7 +3,7 @@ import {
   type SearchBox,
   type SearchEngine,
   type Suggestion,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {

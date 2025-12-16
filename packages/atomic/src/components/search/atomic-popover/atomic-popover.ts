@@ -1,5 +1,5 @@
-import type {SearchStatus, SearchStatusState} from '@coveo/headless';
-import {buildSearchStatus} from '@coveo/headless';
+import type {SearchStatus, SearchStatusState} from '@eternal-baguette/headless';
+import {buildSearchStatus} from '@eternal-baguette/headless';
 import {
   createPopperLite as createPopper,
   type Instance as PopperInstance,

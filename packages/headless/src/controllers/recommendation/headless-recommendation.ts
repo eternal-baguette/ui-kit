@@ -1,4 +1,4 @@
-import {NumberValue, Schema, StringValue} from '@coveo/bueno';
+import {NumberValue, Schema, StringValue} from '@eternal-baguette/bueno';
 import type {Result} from '../../api/search/search/result.js';
 import {configuration} from '../../app/common-reducers.js';
 import type {RecommendationEngine} from '../../app/recommendation-engine/recommendation-engine.js';

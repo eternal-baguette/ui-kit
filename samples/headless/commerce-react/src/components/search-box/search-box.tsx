@@ -7,7 +7,7 @@ import type {
   SearchBox as HeadlessSearchBox,
   RegularFacetSearchResult,
   Suggestion,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useEffect, useRef, useState} from 'react';
 import FilterSuggestionsGenerator from '../filter-suggestions/filter-suggestions-generator.js';
 import InstantProducts from '../instant-products/instant-products.js';

@@ -1,4 +1,4 @@
-import type {Product} from '@coveo/headless/commerce';
+import type {Product} from '@eternal-baguette/headless/commerce';
 import type {i18n} from 'i18next';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
@@ -9,7 +9,7 @@ import {createTestI18n} from '@/vitest-utils/testing-helpers/i18n-utils';
 import {AtomicProductText} from './atomic-product-text';
 import './atomic-product-text';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-product-text', () => {
   let i18n: i18n;

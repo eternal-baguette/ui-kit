@@ -1,4 +1,4 @@
-import {isNullOrUndefined} from '@coveo/bueno';
+import {isNullOrUndefined} from '@eternal-baguette/bueno';
 import type {Result} from '../../api/search/search/result.js';
 import {isArray} from '../../utils/utils.js';
 import type {ResultTemplateCondition} from './result-templates-manager.js';

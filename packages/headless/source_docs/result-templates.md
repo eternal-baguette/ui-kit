@@ -9,7 +9,7 @@ In Headless, a `ResultTemplate` is an object that specifies the content of a tem
 **Example**
 
 ```typescript
-import { ResultTemplate, Result } from "@coveo/headless";
+import { ResultTemplate, Result } from "@eternal-baguette/headless";
 import React from "React"
 
 const myResultTemplate: ResultTemplate = { ①
@@ -38,7 +38,7 @@ The following example code shows a basic use case of the `ResultTemplatesManager
 import { buildResultTemplatesManager,
          ResultTemplatesManager,
          Result,
-         ResultTemplatesHelpers } from "@coveo/headless";
+         ResultTemplatesHelpers } from "@eternal-baguette/headless";
 import { headlessEngine } from "../Engine";
 // ...
  

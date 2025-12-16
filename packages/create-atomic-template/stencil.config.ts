@@ -3,7 +3,7 @@ import type { Config } from "@stencil/core";
 import dotenvPlugin from "rollup-plugin-dotenv";
 import { string as html } from "rollup-plugin-string";
 import nodePolyfills from "rollup-plugin-node-polyfills";
-import { coveoCdnResolve } from "@coveo/create-atomic-rollup-plugin";
+import { coveoCdnResolve } from "@eternal-baguette/create-atomic-rollup-plugin";
 
 // https://stenciljs.com/docs/config
 

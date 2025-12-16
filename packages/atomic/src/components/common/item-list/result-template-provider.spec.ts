@@ -1,11 +1,14 @@
-import {buildResultTemplatesManager, type Result} from '@coveo/headless';
+import {
+  buildResultTemplatesManager,
+  type Result,
+} from '@eternal-baguette/headless';
 import {afterEach, beforeEach, describe, expect, it, vi} from 'vitest';
 import type {ItemTarget} from '@/src/components/common/layout/item-layout-utils';
 import type {TemplateProviderProps} from '@/src/components/common/template-provider/template-provider';
 import type {AnyBindings} from '../interface/bindings';
 import {ResultTemplateProvider} from './result-template-provider';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('ResultTemplateProvider', () => {
   const registerTemplates = vi.fn();

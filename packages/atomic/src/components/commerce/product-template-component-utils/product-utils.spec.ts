@@ -1,5 +1,8 @@
 /** biome-ignore-all lint/suspicious/noTemplateCurlyInString: <> */
-import {type Product, ProductTemplatesHelpers} from '@coveo/headless/commerce';
+import {
+  type Product,
+  ProductTemplatesHelpers,
+} from '@eternal-baguette/headless/commerce';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
 import type {CommerceBindings} from '@/src/components/commerce/atomic-commerce-interface/atomic-commerce-interface';
 import {readFromObject} from '@/src/utils/object-utils';
@@ -12,7 +15,7 @@ import {
   parseValue,
 } from './product-utils';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 vi.mock('@/src/utils/object-utils', {spy: true});
 
 describe('product-utils', () => {

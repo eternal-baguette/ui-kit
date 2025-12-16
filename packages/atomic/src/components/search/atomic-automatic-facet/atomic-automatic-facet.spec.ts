@@ -2,7 +2,7 @@ import type {
   AutomaticFacet,
   AutomaticFacetState,
   SearchStatus,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {describe, expect, it, vi} from 'vitest';
 import {page, userEvent} from 'vitest/browser';
@@ -13,7 +13,7 @@ import {buildFakeSearchStatus} from '@/vitest-utils/testing-helpers/fixtures/hea
 import type {AtomicAutomaticFacet} from './atomic-automatic-facet';
 import './atomic-automatic-facet';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-automatic-facet', () => {
   const mockedEngine = buildFakeSearchEngine();

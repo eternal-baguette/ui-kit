@@ -1,4 +1,7 @@
-import {buildResultsPerPage, buildSearchStatus} from '@coveo/headless';
+import {
+  buildResultsPerPage,
+  buildSearchStatus,
+} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
@@ -9,7 +12,7 @@ import {buildFakeSearchStatus} from '@/vitest-utils/testing-helpers/fixtures/hea
 import type {AtomicResultsPerPage} from './atomic-results-per-page';
 import './atomic-results-per-page';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 vi.mock('@/src/mixins/bindings-mixin', () => ({
   InitializeBindingsMixin: vi.fn().mockImplementation((superClass) => {
     return class extends superClass {

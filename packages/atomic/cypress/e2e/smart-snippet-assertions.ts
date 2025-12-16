@@ -1,4 +1,4 @@
-import {InlineLink} from '@coveo/headless';
+import {InlineLink} from '@eternal-baguette/headless';
 import {AnalyticsTracker} from '../utils/analyticsUtils';
 import {should} from './common-assertions';
 import {SmartSnippetSelectors} from './smart-snippet-selectors';

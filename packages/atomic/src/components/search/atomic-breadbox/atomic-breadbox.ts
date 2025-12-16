@@ -1,4 +1,4 @@
-import {NumberValue, Schema} from '@coveo/bueno';
+import {NumberValue, Schema} from '@eternal-baguette/bueno';
 import {
   type BreadcrumbManager,
   type BreadcrumbManagerState,
@@ -6,7 +6,7 @@ import {
   buildFacetManager,
   type FacetManager,
   type FacetManagerState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {type CSSResultGroup, css, html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {renderBreadcrumbButton} from '@/src/components/common/breadbox/breadcrumb-button';

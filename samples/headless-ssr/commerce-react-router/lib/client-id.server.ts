@@ -1,5 +1,5 @@
 import {randomUUID} from 'node:crypto';
-import type {NavigatorContext} from '@coveo/headless-react/ssr-commerce';
+import type {NavigatorContext} from '@eternal-baguette/headless-react/ssr-commerce';
 import {coveo_capture, coveo_visitorId} from '../app/cookies.server.js';
 
 interface CoveoAnalyticsContext

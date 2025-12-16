@@ -1,7 +1,7 @@
 import type {
   CommerceEngine,
   ContextOptions,
-} from '@coveo/headless/ssr-commerce';
+} from '@eternal-baguette/headless/ssr-commerce';
 import {render, renderHook, screen} from '@testing-library/react';
 import type {PropsWithChildren} from 'react';
 import {afterEach, beforeEach, describe, expect, it, vi} from 'vitest';

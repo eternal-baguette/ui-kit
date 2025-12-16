@@ -3,7 +3,7 @@ import type {
   AtomicRecsInterface,
   Bindings,
   Result,
-} from '@coveo/atomic-angular';
+} from '@eternal-baguette/atomic-angular';
 
 @Component({
   standalone: false,

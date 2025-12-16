@@ -1,4 +1,4 @@
-import {Raw, Result} from '@coveo/headless';
+import {Raw, Result} from '@eternal-baguette/headless';
 
 export function buildMockResult(config: Partial<Result> = {}): Result {
   return {

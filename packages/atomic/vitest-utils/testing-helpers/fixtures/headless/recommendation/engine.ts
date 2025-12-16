@@ -1,7 +1,7 @@
 import type {
   RecommendationEngine,
   RecommendationEngineConfiguration,
-} from '@coveo/headless/recommendation';
+} from '@eternal-baguette/headless/recommendation';
 import {vi} from 'vitest';
 
 export const buildFakeRecommendationEngine = ({

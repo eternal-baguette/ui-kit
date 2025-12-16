@@ -2,7 +2,7 @@ import type {
   Tab as TabController,
   TabManager,
   TabState,
-} from '@coveo/headless/ssr';
+} from '@eternal-baguette/headless/ssr';
 import {type FunctionComponent, useEffect, useState} from 'react';
 import TabCommon from '../common/tab';
 

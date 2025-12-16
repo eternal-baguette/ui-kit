@@ -14,7 +14,7 @@ import {
   type SearchStatus,
   type Unsubscribe,
   type UrlManager,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {provide} from '@lit/context';
 import i18next, {type i18n} from 'i18next';
 import {type CSSResultGroup, css, html, LitElement} from 'lit';

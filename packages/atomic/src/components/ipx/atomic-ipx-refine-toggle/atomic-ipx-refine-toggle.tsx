@@ -5,7 +5,7 @@ import {
   buildSearchStatus,
   SearchStatus,
   SearchStatusState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, h, State, Element, Prop} from '@stencil/core';
 import FilterIcon from '../../../images/filter.svg';
 import {

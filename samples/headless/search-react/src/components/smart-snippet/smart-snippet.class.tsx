@@ -3,7 +3,7 @@ import {
   type SmartSnippet as HeadlessSmartSnippet,
   type SmartSnippetState,
   type Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, type ContextType, createRef} from 'react';
 import {AppContext} from '../../context/engine';
 import {filterProtocol} from '../../utils/filter-protocol';

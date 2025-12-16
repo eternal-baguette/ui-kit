@@ -3,7 +3,7 @@ import {
   Result,
   InteractiveResult,
   TermsToHighlight,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {
   Component,
   Event,

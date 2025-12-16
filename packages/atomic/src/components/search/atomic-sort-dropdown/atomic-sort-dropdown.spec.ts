@@ -8,7 +8,7 @@ import {
   SortOrder,
   type SortState,
   type TabManagerState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {unsafeHTML} from 'lit/directives/unsafe-html.js';
 import {describe, expect, it, vi} from 'vitest';
@@ -20,7 +20,7 @@ import {buildFakeTabManager} from '@/vitest-utils/testing-helpers/fixtures/headl
 import type {AtomicSortDropdown} from './atomic-sort-dropdown';
 import './atomic-sort-dropdown';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-sort-dropdown', () => {
   const mockedSortBy = vi.fn();

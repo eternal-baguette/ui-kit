@@ -1,7 +1,7 @@
 import {
   buildSearchEngine,
   getSampleSearchEngineConfiguration,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {render} from '@testing-library/react';
 import {beforeEach, expect, type MockInstance, test, vi} from 'vitest';
 import App from './App';

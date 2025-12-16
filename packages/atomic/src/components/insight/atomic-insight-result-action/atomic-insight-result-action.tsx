@@ -1,8 +1,8 @@
-import {Result} from '@coveo/headless';
+import {Result} from '@eternal-baguette/headless';
 import {
   InsightAnalyticsActionCreators,
   loadInsightAnalyticsActions,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Component, Event, EventEmitter, Prop, State, h} from '@stencil/core';
 import AttachIcon from '../../../images/attach.svg';
 import CopyIcon from '../../../images/copy-dark.svg';

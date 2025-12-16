@@ -1,8 +1,8 @@
-import type {RecommendationEngine} from '@coveo/headless/recommendation';
+import type {RecommendationEngine} from '@eternal-baguette/headless/recommendation';
 import {describe, expect, it, vi} from 'vitest';
 import {createRecsStore} from './store';
 
-vi.mock('@coveo/headless/recommendation', {spy: true});
+vi.mock('@eternal-baguette/headless/recommendation', {spy: true});
 
 describe('RecsStore', () => {
   it('should set and unset loading flags correctly', () => {

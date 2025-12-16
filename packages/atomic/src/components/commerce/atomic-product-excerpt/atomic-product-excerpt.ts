@@ -1,5 +1,5 @@
-import {Schema, StringValue} from '@coveo/bueno';
-import type {Product} from '@coveo/headless/commerce';
+import {Schema, StringValue} from '@eternal-baguette/bueno';
+import type {Product} from '@eternal-baguette/headless/commerce';
 import {html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {createRef} from 'lit/directives/ref.js';

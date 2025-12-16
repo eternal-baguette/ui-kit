@@ -29,7 +29,6 @@ packages:
   - 'utils/ci'
 
 catalog:
-  '@coveo/create-atomic-rollup-plugin': 1.2.1
   '@coveo/relay-event-types': 15.1.0
   '@playwright/mcp': 0.0.48
   '@playwright/test': 1.56.1
@@ -72,7 +71,7 @@ publicHoistPattern:
   - '*prettier*'
 minimumReleaseAge: 10080
 minimumReleaseAgeExclude:
-  - '@coveo/*'
+  - '@eternal-baguette/*'
   - '@vitest/*'
   - vitest 
   - '@wc-toolkit/storybook-helpers'

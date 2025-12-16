@@ -17,7 +17,7 @@ import {
   defineStandaloneSearchBox,
   defineSummary,
   getSampleCommerceEngineConfiguration,
-} from '@coveo/headless-react/ssr-commerce-next';
+} from '@eternal-baguette/headless-react/ssr-commerce-next';
 
 export default {
   // By default, the logger level is set to 'warn'. This level may not provide enough information for some server-side errors. To get more detailed error messages, set the logger level to a more verbose level, such as 'debug'.

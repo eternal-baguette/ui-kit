@@ -54,7 +54,7 @@ import {
   AtomicProductSectionName as LitAtomicProductSectionName,
   AtomicProductSectionVisual as LitAtomicProductSectionVisual,
   AtomicProductText as LitAtomicProductText,
-} from '@coveo/atomic/components';
+} from '@eternal-baguette/atomic/components';
 import {createComponent} from '@lit/react';
 import React from 'react';
 

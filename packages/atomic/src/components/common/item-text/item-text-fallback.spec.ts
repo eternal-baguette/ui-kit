@@ -1,9 +1,9 @@
-import {isUndefined} from '@coveo/bueno';
+import {isUndefined} from '@eternal-baguette/bueno';
 import {html, nothing} from 'lit';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
 import {type ItemTextProps, renderItemTextFallback} from './item-text-fallback';
 
-vi.mock('@coveo/bueno', {spy: true});
+vi.mock('@eternal-baguette/bueno', {spy: true});
 vi.mock('./field-warning', {spy: true});
 
 describe('#renderItemTextFallback', () => {

@@ -1,6 +1,6 @@
 import {randomUUID} from 'node:crypto';
-import type {Result} from '@coveo/headless/ssr';
-import type {Product} from '@coveo/headless/ssr-commerce';
+import type {Result} from '@eternal-baguette/headless/ssr';
+import type {Product} from '@eternal-baguette/headless/ssr-commerce';
 import {generateMockProducts} from './mock-products.js';
 
 export const createProductListComponent = (productCount = 5) => {

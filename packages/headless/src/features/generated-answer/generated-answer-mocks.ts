@@ -27,7 +27,7 @@ export const streamAnswerAPIStateMock: StreamAnswerAPIState = {
       trackingId: '',
       analyticsMode: 'next',
       source: {
-        '@coveo/atomic': atomicVersion,
+        '@eternal-baguette/atomic': atomicVersion,
       },
     },
     knowledge: {
@@ -1825,6 +1825,9 @@ export const expectedStreamAnswerAPIParam = {
     documentLocation: '',
     documentReferrer: 'some-test-referrer',
     originContext: 'Search',
-    source: [`@coveo/atomic@${atomicVersion}`, '@coveo/headless@Test version'],
+    source: [
+      `@coveo/atomic@${atomicVersion}`,
+      '@eternal-baguette/headless@Test version',
+    ],
   },
 };

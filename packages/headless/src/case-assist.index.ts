@@ -3,7 +3,7 @@
  *
  * @example
  * ```typescript
- * import { buildCaseInput, buildCaseAssistEngine } from '@coveo/headless/case-assist';
+ * import { buildCaseInput, buildCaseAssistEngine } from '@eternal-baguette/headless/case-assist';
  *
  * const engine = buildCaseAssistEngine({
  *    configuration: ...

@@ -2,7 +2,7 @@ import {
   buildCommerceEngine,
   buildSearch,
   getSampleCommerceEngineConfiguration,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useMemo} from 'react';
 import {Search} from '../../components/commerce/search.fn';
 import {AppContext} from '../../context/engine';

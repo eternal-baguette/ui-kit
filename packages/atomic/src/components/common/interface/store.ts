@@ -1,4 +1,7 @@
-import type {DateFacetValue, NumericFacetValue} from '@coveo/headless';
+import type {
+  DateFacetValue,
+  NumericFacetValue,
+} from '@eternal-baguette/headless';
 import {isInDocument} from '../../../utils/utils';
 import type {
   FacetInfo,

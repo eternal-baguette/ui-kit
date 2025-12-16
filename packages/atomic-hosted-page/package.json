@@ -1,5 +1,5 @@
 {
-  "name": "@coveo/atomic-hosted-page",
+  "name": "@eternal-baguette/atomic-hosted-page",
   "description": "Web Component used to inject a Coveo Hosted Search Page in the DOM.",
   "version": "1.2.22",
   "repository": {
@@ -41,8 +41,8 @@
     "promote:npm:latest": "pnpm --filter @coveo/ci promote-npm-prod"
   },
   "dependencies": {
-    "@coveo/bueno": "workspace:*",
-    "@coveo/headless": "workspace:*",
+    "@eternal-baguette/bueno": "workspace:*",
+    "@eternal-baguette/headless": "workspace:*",
     "lit": "3.3.1"
   },
   "devDependencies": {

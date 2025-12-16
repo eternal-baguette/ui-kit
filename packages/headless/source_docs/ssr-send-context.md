@@ -11,7 +11,7 @@ For both of the following examples, assume that there’s a shared configuration
 ```ts
 // engine.ts
 
-import { defineSearchEngine, defineContext } from '@coveo/headless-react/ssr';
+import { defineSearchEngine, defineContext } from '@eternal-baguette/headless-react/ssr';
 
 const engineDefinition = defineSearchEngine({
   // ...

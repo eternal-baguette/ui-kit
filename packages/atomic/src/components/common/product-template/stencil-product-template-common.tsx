@@ -3,7 +3,7 @@ import {
   ProductTemplate,
   ProductTemplateCondition,
   ProductTemplatesHelpers,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {h} from '@stencil/core';
 import {tableElementTagName} from '../table-element-utils';
 import {ItemTarget} from '../layout/display-options';

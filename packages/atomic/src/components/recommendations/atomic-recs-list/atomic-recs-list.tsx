@@ -1,4 +1,4 @@
-import {NumberValue} from '@coveo/bueno';
+import {NumberValue} from '@eternal-baguette/bueno';
 import {
   buildRecommendationList,
   RecommendationList,
@@ -6,7 +6,7 @@ import {
   loadConfigurationActions,
   buildInteractiveResult as buildRecsInteractiveResult,
   Result as RecsResult,
-} from '@coveo/headless/recommendation';
+} from '@eternal-baguette/headless/recommendation';
 import {
   Component,
   State,

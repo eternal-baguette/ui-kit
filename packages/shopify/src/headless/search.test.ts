@@ -1,7 +1,7 @@
 import {
   buildSearchEngine,
   getSampleSearchEngineConfiguration,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {afterEach, beforeEach, describe, expect, it, vi} from 'vitest';
 import {
   type AppProxyOptions,

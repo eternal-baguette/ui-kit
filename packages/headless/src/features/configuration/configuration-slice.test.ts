@@ -124,7 +124,7 @@ describe('configuration slice', () => {
           ...initialState.analytics,
           enabled: false,
           trackingId: 'someTrackingId',
-          source: {'@coveo/atomic': '3.0.0'},
+          source: {'@eternal-baguette/atomic': '3.0.0'},
         },
       };
       expect(
@@ -133,7 +133,7 @@ describe('configuration slice', () => {
           updateAnalyticsConfiguration({
             enabled: false,
             trackingId: 'someTrackingId',
-            source: {'@coveo/atomic': '3.0.0'},
+            source: {'@eternal-baguette/atomic': '3.0.0'},
           })
         )
       ).toEqual(expectedState);
@@ -146,7 +146,7 @@ describe('configuration slice', () => {
           enabled: false,
           trackingId: 'someTrackingId',
           analyticsMode: 'next',
-          source: {'@coveo/atomic': '3.0.0'},
+          source: {'@eternal-baguette/atomic': '3.0.0'},
         },
       };
 
@@ -156,7 +156,7 @@ describe('configuration slice', () => {
           updateAnalyticsConfiguration({
             enabled: false,
             trackingId: 'someTrackingId',
-            source: {'@coveo/atomic': '3.0.0'},
+            source: {'@eternal-baguette/atomic': '3.0.0'},
           })
         )
       ).toEqual(expectedState);

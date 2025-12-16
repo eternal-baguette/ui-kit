@@ -1,9 +1,9 @@
-import {BooleanValue, Schema, StringValue} from '@coveo/bueno';
+import {BooleanValue, Schema, StringValue} from '@eternal-baguette/bueno';
 import {
   HighlightUtils,
   type Result,
   ResultTemplatesHelpers,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';

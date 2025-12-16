@@ -2,7 +2,7 @@ import {
   buildParameterSerializer,
   type NavigatorContext,
   SolutionType,
-} from '@coveo/headless-react/ssr-commerce';
+} from '@eternal-baguette/headless-react/ssr-commerce';
 import type {LoaderFunctionArgs, MetaFunction} from 'react-router';
 import {
   Links,

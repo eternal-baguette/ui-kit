@@ -5,7 +5,7 @@ import {
   NumberValue,
   Schema,
   StringValue,
-} from '@coveo/bueno';
+} from '@eternal-baguette/bueno';
 import type {CoreEngine} from '../../../app/engine.js';
 import type {UpdateQueryActionCreatorPayload} from '../../../features/query/query-actions.js';
 import {queryReducer as query} from '../../../features/query/query-slice.js';

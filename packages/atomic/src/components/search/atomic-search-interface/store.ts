@@ -3,7 +3,7 @@ import type {
   NumericFacetValue,
   SearchEngine,
   SortCriterion,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {DEFAULT_MOBILE_BREAKPOINT} from '../../../utils/replace-breakpoint-utils';
 import type {
   FacetInfo,

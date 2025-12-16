@@ -1,4 +1,4 @@
-import type {DidYouMean, DidYouMeanState} from '@coveo/headless';
+import type {DidYouMean, DidYouMeanState} from '@eternal-baguette/headless';
 import {vi} from 'vitest';
 import {genericSubscribe} from '../common';
 

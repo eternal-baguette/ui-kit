@@ -1,4 +1,7 @@
-import {type Product, ProductTemplatesHelpers} from '@coveo/headless/commerce';
+import {
+  type Product,
+  ProductTemplatesHelpers,
+} from '@eternal-baguette/headless/commerce';
 import {html, LitElement} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';

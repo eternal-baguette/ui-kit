@@ -1,13 +1,13 @@
 import {
   buildProductTemplatesManager,
   type Product,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {afterEach, beforeEach, describe, expect, it, vi} from 'vitest';
 import type {ItemTarget} from '@/src/components/common/layout/item-layout-utils';
 import type {TemplateProviderProps} from '@/src/components/common/template-provider/template-provider';
 import {ProductTemplateProvider} from './product-template-provider';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('ProductTemplateProvider', () => {
   const registerTemplates = vi.fn();

@@ -3,7 +3,7 @@ import {
   type Tab as HeadlessTab,
   type TabState,
   type Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, type ContextType, type PropsWithChildren} from 'react';
 import {AppContext} from '../../context/engine';
 

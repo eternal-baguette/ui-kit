@@ -1,4 +1,4 @@
-import type {InteractiveResult, Result} from '@coveo/headless';
+import type {InteractiveResult, Result} from '@eternal-baguette/headless';
 import {html, LitElement, nothing, type TemplateResult} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import type {Bindings} from '@/src/components/search/atomic-search-interface/interfaces.js';

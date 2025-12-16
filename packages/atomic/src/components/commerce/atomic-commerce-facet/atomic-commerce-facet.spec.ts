@@ -1,4 +1,4 @@
-import type {RegularFacet, Summary} from '@coveo/headless/commerce';
+import type {RegularFacet, Summary} from '@eternal-baguette/headless/commerce';
 import {html, LitElement} from 'lit';
 import {
   afterEach,
@@ -16,7 +16,7 @@ import {buildFakeSummary} from '@/vitest-utils/testing-helpers/fixtures/headless
 import type {AtomicCommerceFacet} from './atomic-commerce-facet';
 import './atomic-commerce-facet';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-commerce-facet', () => {
   let mockedSummary: Summary;

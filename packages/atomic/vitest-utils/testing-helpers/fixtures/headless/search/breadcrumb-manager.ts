@@ -1,4 +1,7 @@
-import type {BreadcrumbManager, BreadcrumbManagerState} from '@coveo/headless';
+import type {
+  BreadcrumbManager,
+  BreadcrumbManagerState,
+} from '@eternal-baguette/headless';
 import {vi} from 'vitest';
 
 export const defaultState = {

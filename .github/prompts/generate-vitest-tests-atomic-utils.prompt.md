@@ -76,7 +76,7 @@ import {
 
 // Preferred mocking style - use {spy: true} when possible
 vi.mock('@/src/utils/utils', {spy: true});
-vi.mock('@coveo/headless/commerce');
+vi.mock('@eternal-baguette/headless/commerce');
 
 // Mock external dependencies only when necessary
 vi.mock('external-library', () => ({

@@ -3,7 +3,7 @@ import {
   type ResultList as ResultListController,
   type ResultListState,
   type Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, type ContextType} from 'react';
 import {AppContext} from '../../context/engine';
 import {Quickview} from '../quickview/quickview.class';

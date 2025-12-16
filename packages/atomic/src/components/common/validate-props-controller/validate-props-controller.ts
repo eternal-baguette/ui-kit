@@ -1,4 +1,4 @@
-import type {Schema} from '@coveo/bueno';
+import type {Schema} from '@eternal-baguette/bueno';
 import type {ReactiveController, ReactiveControllerHost} from 'lit';
 import {deepEqual} from '@/src/utils/compare-utils';
 

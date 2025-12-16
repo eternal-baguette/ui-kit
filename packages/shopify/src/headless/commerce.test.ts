@@ -1,7 +1,7 @@
 import {
   buildCommerceEngine,
   getSampleCommerceEngineConfiguration,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {afterEach, beforeEach, describe, expect, it, vi} from 'vitest';
 import {
   type AppProxyOptions,

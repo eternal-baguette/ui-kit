@@ -3,7 +3,7 @@ import {
   type BreadcrumbManagerState,
   buildBreadcrumbManager,
   type Result,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import type {i18n} from 'i18next';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
@@ -15,7 +15,7 @@ import {createTestI18n} from '@/vitest-utils/testing-helpers/i18n-utils';
 import {AtomicResultMultiValueText} from './atomic-result-multi-value-text';
 import './atomic-result-multi-value-text';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-result-multi-value-text', () => {
   let i18n: i18n;

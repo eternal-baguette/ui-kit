@@ -1,4 +1,4 @@
-import {NumberValue, Schema} from '@coveo/bueno';
+import {NumberValue, Schema} from '@eternal-baguette/bueno';
 import {
   AutomaticFacetGenerator,
   AutomaticFacetGeneratorState,
@@ -6,7 +6,7 @@ import {
   SearchStatusState,
   buildAutomaticFacetGenerator,
   buildSearchStatus,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, Method, Prop, State, h} from '@stencil/core';
 import {
   BindStateToController,

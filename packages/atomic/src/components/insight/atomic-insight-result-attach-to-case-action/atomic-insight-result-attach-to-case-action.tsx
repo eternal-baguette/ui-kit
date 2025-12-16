@@ -1,4 +1,4 @@
-import {AttachToCase, buildAttachToCase, Result} from '@coveo/headless/insight';
+import {AttachToCase, buildAttachToCase, Result} from '@eternal-baguette/headless/insight';
 import {Component, Event, State, h, Element, EventEmitter} from '@stencil/core';
 import AttachIcon from '../../../images/attach.svg';
 import DetachIcon from '../../../images/detach.svg';

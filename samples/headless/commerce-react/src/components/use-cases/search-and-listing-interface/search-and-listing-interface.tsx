@@ -3,7 +3,7 @@ import type {
   ChildProduct,
   Search as HeadlessSearch,
   ProductListing,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useEffect, useState} from 'react';
 import BreadcrumbManager from '../../breadcrumb-manager/breadcrumb-manager.js';
 import FacetGenerator from '../../facets/facet-generator/facet-generator.js';

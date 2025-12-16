@@ -1,4 +1,4 @@
-import type {TermsToHighlight} from '@coveo/headless';
+import type {TermsToHighlight} from '@eternal-baguette/headless';
 import {describe, expect, it} from 'vitest';
 import {TextParser} from './text-parser';
 

@@ -2,7 +2,7 @@ import {
   HighlightUtils,
   type Product,
   ProductTemplatesHelpers,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';

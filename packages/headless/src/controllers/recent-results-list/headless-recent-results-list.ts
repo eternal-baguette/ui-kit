@@ -1,4 +1,4 @@
-import {ArrayValue, NumberValue, Schema} from '@coveo/bueno';
+import {ArrayValue, NumberValue, Schema} from '@eternal-baguette/bueno';
 import type {Result} from '../../api/search/search/result.js';
 import type {SearchEngine} from '../../app/search-engine/search-engine.js';
 import {

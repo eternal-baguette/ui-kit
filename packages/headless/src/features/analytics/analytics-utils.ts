@@ -1,12 +1,13 @@
 /** biome-ignore-all lint/suspicious/noConfusingVoidType: <> */
+
+import type {createRelay} from '@coveo/relay';
+import type {ItemMetaData} from '@coveo/relay-event-types';
 import {
   isNullOrUndefined,
   RecordValue,
   Schema,
   StringValue,
-} from '@coveo/bueno';
-import type {createRelay} from '@coveo/relay';
-import type {ItemMetaData} from '@coveo/relay-event-types';
+} from '@eternal-baguette/bueno';
 import {
   type AsyncThunk,
   type AsyncThunkPayloadCreator,

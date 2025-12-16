@@ -1,4 +1,4 @@
-import type {SpecificFacetSearchResult} from '@coveo/headless/ssr';
+import type {SpecificFacetSearchResult} from '@eternal-baguette/headless/ssr';
 
 interface FacetSearchProps {
   query: string;

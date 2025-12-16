@@ -1,4 +1,4 @@
-import {getOrganizationEndpoint} from '@coveo/headless';
+import {getOrganizationEndpoint} from '@eternal-baguette/headless';
 import {html, LitElement, nothing} from 'lit';
 import {customElement, state} from 'lit/decorators.js';
 import {renderButton} from '@/src/components/common/button';

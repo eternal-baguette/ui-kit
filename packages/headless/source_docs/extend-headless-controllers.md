@@ -25,7 +25,7 @@ import {
   loadPaginationActions,
   loadSearchActions,
   loadSearchAnalyticsActions,
-} from '@coveo/headless'
+} from '@eternal-baguette/headless'
  
 function buildCustomSearchBox(engine: SearchEngine, id: string) {
   const baseSearchBox = buildSearchBox(engine, {options: {id}});

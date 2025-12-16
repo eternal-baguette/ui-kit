@@ -10,7 +10,7 @@ import {
   SortBy,
   type SortState,
   type Summary,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {describe, expect, it, vi} from 'vitest';
@@ -25,7 +25,7 @@ import {buildFakeSummary} from '@/vitest-utils/testing-helpers/fixtures/headless
 import type {AtomicCommerceRefineModal} from './atomic-commerce-refine-modal';
 import './atomic-commerce-refine-modal';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-commerce-refine-modal', () => {
   let mockedQuerySummary: Summary<

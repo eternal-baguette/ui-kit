@@ -1,4 +1,7 @@
-import type {SearchBox, StandaloneSearchBox} from '@coveo/headless/commerce';
+import type {
+  SearchBox,
+  StandaloneSearchBox,
+} from '@eternal-baguette/headless/commerce';
 import type {i18n} from 'i18next';
 import {html, LitElement, nothing, render, type TemplateResult} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';

@@ -7,7 +7,7 @@ import {
   buildResultsPerPage as buildInsightResultsPerPage,
   ResultsPerPage as InsightResultsPerPage,
   ResultsPerPageState as InsightResultsPerPageState,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Component, h, Element, State, Prop, Method} from '@stencil/core';
 import {
   BindStateToController,

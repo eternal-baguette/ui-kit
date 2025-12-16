@@ -2,7 +2,7 @@ import {
   type CommerceEngine,
   type CommerceEngineConfiguration,
   getSampleCommerceEngineConfiguration,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {vi} from 'vitest';
 
 export const buildFakeCommerceEngine = ({

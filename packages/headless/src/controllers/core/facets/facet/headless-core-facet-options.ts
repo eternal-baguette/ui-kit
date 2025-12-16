@@ -1,4 +1,9 @@
-import {ArrayValue, RecordValue, Schema, StringValue} from '@coveo/bueno';
+import {
+  ArrayValue,
+  RecordValue,
+  Schema,
+  StringValue,
+} from '@eternal-baguette/bueno';
 import {
   type FacetResultsMustMatch,
   facetResultsMustMatch,

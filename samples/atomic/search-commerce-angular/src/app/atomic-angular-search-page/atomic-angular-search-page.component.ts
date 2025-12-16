@@ -1,5 +1,5 @@
 import {type AfterViewInit, Component, ViewChild} from '@angular/core';
-import type {AtomicSearchInterface} from '@coveo/atomic-angular';
+import type {AtomicSearchInterface} from '@eternal-baguette/atomic-angular';
 
 @Component({
   standalone: false,

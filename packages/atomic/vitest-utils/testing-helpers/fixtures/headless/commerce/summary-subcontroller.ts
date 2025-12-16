@@ -2,7 +2,7 @@ import type {
   ProductListingSummaryState,
   SearchSummaryState,
   Summary,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {genericSubscribe} from '../common';
 
 type SummaryType = Summary<SearchSummaryState | ProductListingSummaryState>;

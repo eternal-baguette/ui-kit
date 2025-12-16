@@ -1,7 +1,7 @@
 import type {
   SearchBox as SearchBoxController,
   SearchBoxState,
-} from '@coveo/headless/ssr';
+} from '@eternal-baguette/headless/ssr';
 import {type FunctionComponent, useEffect, useState} from 'react';
 import SearchBoxCommon from '../common/search-box';
 

@@ -4,7 +4,7 @@ import {
   type FoldedResultList as FoldedResultListController,
   type FoldedResultListState,
   type Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, type ContextType} from 'react';
 import {AppContext} from '../../context/engine';
 import {ResultLink} from '../result-list/result-link';

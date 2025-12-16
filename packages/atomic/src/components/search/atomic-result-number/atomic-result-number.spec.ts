@@ -1,4 +1,4 @@
-import {type Result, ResultTemplatesHelpers} from '@coveo/headless';
+import {type Result, ResultTemplatesHelpers} from '@eternal-baguette/headless';
 import {html, LitElement, type TemplateResult} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
@@ -11,9 +11,10 @@ import type {i18n} from 'i18next';
 import {customElement} from 'lit/decorators.js';
 import {createTestI18n} from '@/vitest-utils/testing-helpers/i18n-utils';
 
-vi.mock('@coveo/headless', async () => {
-  const actual =
-    await vi.importActual<typeof import('@coveo/headless')>('@coveo/headless');
+vi.mock('@eternal-baguette/headless', async () => {
+  const actual = await vi.importActual<
+    typeof import('@eternal-baguette/headless')
+  >('@eternal-baguette/headless');
   return {
     ...actual,
     ResultTemplatesHelpers: {

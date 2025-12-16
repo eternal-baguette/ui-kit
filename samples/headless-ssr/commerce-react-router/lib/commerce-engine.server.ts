@@ -1,7 +1,7 @@
 import {
   type NavigatorContext,
   SolutionType,
-} from '@coveo/headless-react/ssr-commerce';
+} from '@eternal-baguette/headless-react/ssr-commerce';
 import {coveo_accessToken} from '@/app/cookies.server';
 import externalCartService from '@/external-services/external-cart-service';
 import externalContextService from '@/external-services/external-context-service';

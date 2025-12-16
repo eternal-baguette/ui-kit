@@ -1,4 +1,4 @@
-import type {Result} from '@coveo/headless';
+import type {Result} from '@eternal-baguette/headless';
 import type {i18n} from 'i18next';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
@@ -11,7 +11,7 @@ import {mockConsole} from '@/vitest-utils/testing-helpers/testing-utils/mock-con
 import {AtomicResultRating} from './atomic-result-rating';
 import './atomic-result-rating';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-result-rating', () => {
   let i18n: i18n;

@@ -1,4 +1,4 @@
-import {BooleanValue, Schema, StringValue} from '@coveo/bueno';
+import {BooleanValue, Schema, StringValue} from '@eternal-baguette/bueno';
 import {
   type SearchBoxOptions,
   searchBoxOptionDefinitions,

@@ -2,7 +2,7 @@ import type {
   CategoryFacetSearchResult,
   CategoryFacetValue,
   CategoryFacet as HeadlessCategoryFacet,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useEffect, useRef, useState} from 'react';
 
 interface ICategoryFacetProps {

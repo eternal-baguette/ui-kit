@@ -4,7 +4,7 @@ import {
   NumberValue,
   StringValue,
   Value,
-} from '@coveo/bueno';
+} from '@eternal-baguette/bueno';
 import {
   requiredNonEmptyString,
   validatePayloadAndThrow,

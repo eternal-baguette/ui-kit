@@ -4,7 +4,7 @@ import type {
   FoldedResultList,
   FoldedResultListState,
   Result,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {vi} from 'vitest';
 import {genericSubscribe} from '../common.js';
 import {buildFakeResult} from './result.js';

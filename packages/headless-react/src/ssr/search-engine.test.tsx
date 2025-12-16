@@ -1,7 +1,7 @@
 import {
   getSampleSearchEngineConfiguration,
   type SearchEngine,
-} from '@coveo/headless/ssr';
+} from '@eternal-baguette/headless/ssr';
 import {render, renderHook, screen} from '@testing-library/react';
 import type {PropsWithChildren} from 'react';
 import {

@@ -1,4 +1,4 @@
-import {buildContext} from '@coveo/headless/commerce';
+import {buildContext} from '@eternal-baguette/headless/commerce';
 import {getEngine} from '../context/engine.js';
 
 const engine = getEngine();

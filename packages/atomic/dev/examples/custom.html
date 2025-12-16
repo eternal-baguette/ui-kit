@@ -7,8 +7,8 @@
 
     <script type="module">
       if (import.meta.env) {
-        const {defineCustomElements} = await import('@coveo/atomic/loader');
-        import('@coveo/atomic/themes/coveo.css');
+        const {defineCustomElements} = await import('@eternal-baguette/atomic/loader');
+        import('@eternal-baguette/atomic/themes/coveo.css');
         defineCustomElements();
       } else {
         import('http://localhost:3000/atomic/v0.0.0/atomic.esm.js');
@@ -32,10 +32,10 @@
     <!-- Custom Atomic Component using the initializeBindings method -->
     <script type="module">
       const {initializeBindings} = await (import.meta.env
-        ? import('@coveo/atomic')
+        ? import('@eternal-baguette/atomic')
         : import('http://localhost:3000/atomic/v0.0.0/index.esm.js'));
       const {buildSearchBox} = await (import.meta.env
-        ? import('@coveo/headless')
+        ? import('@eternal-baguette/headless')
         : import('http://localhost:3000/headless/v0.0.0/headless.esm.js'));
 
       class CustomComponent extends HTMLElement {
@@ -71,7 +71,7 @@
     <!-- Custom Atomic Result Template Component using the resultContext method -->
     <script type="module">
       const {resultContext} = await (import.meta.env
-        ? import('@coveo/atomic')
+        ? import('@eternal-baguette/atomic')
         : import('http://localhost:3000/atomic/v0.0.0/index.esm.js'));
 
       class CustomTemplateComponent extends HTMLElement {

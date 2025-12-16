@@ -44,7 +44,7 @@ You also need to set the correct query.
 You can configure `originLevel3` using the `document.referrer` value when initializing the engine, as shown below:
 
 ```typescript
-import { buildSearchEngine } from '@coveo/headless';
+import { buildSearchEngine } from '@eternal-baguette/headless';
 ​
 const engine = buildSearchEngine({
   configuration: {
@@ -59,7 +59,7 @@ const engine = buildSearchEngine({
 In your full search page, you can set the query using the [`updateQuery`](https://docs.coveo.com/en/headless/latest/reference/interfaces/Search.QueryActionCreators.html#updateQuery) action, as shown below:
 
 ```typescript
-import {loadQueryActions} from '@coveo/headless';
+import {loadQueryActions} from '@eternal-baguette/headless';
 ​
 const {updateQuery} = loadQueryActions(engine);
 const data = localStorage.getItem('coveo_standalone_search_box_data');
@@ -73,7 +73,7 @@ The final steps are to delete the data in local storage and to handle the case w
 If you do all of this, here’s what the code for your full search page will look like:
 
 ```typescript
-import {buildSearchEngine, loadQueryActions, loadSearchAnalyticsActions} from '@coveo/headless';
+import {buildSearchEngine, loadQueryActions, loadSearchAnalyticsActions} from '@eternal-baguette/headless';
 ​
 const engine = buildSearchEngine({
   configuration: {

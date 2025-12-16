@@ -79,7 +79,7 @@ Starting with Headless v3, the usage of organization endpoints will be enforced 
 **Headless Version 2**
 
 ```ts
-import {buildSearchEngine} from '@coveo/headless';
+import {buildSearchEngine} from '@eternal-baguette/headless';
 
 const engine = buildSearchEngine({
     configuration: {
@@ -93,7 +93,7 @@ const engine = buildSearchEngine({
 **Headless Version 3**
 
 ```js
-import {buildSearchEngine} from '@coveo/headless';
+import {buildSearchEngine} from '@eternal-baguette/headless';
 
 const engine = buildSearchEngine({
     configuration: {
@@ -108,7 +108,7 @@ For [HIPAA](https://docs.coveo.com/en/1853/) organizations, rather than specifyi
 **Headless Version 2**
 
 ```ts
-import {buildSearchEngine} from '@coveo/headless';
+import {buildSearchEngine} from '@eternal-baguette/headless';
 
 const engine = buildSearchEngine({
     configuration: {
@@ -122,7 +122,7 @@ const engine = buildSearchEngine({
 **Headless Version 3**
 
 ```js
-import {buildSearchEngine} from '@coveo/headless';
+import {buildSearchEngine} from '@eternal-baguette/headless';
 
 const engine = buildSearchEngine({
     configuration: {
@@ -140,7 +140,7 @@ Headless v3 introduces the `search.proxyBaseUrl`, `analytics.proxyBaseUrl`, and 
 **Headless Version 2**
 
 ```ts
-import {buildSearchEngine} from '@coveo/headless';
+import {buildSearchEngine} from '@eternal-baguette/headless';
 
 const engine = buildSearchEngine({
     configuration: {
@@ -158,7 +158,7 @@ const engine = buildSearchEngine({
 **Headless Version 3**
 
 ```js
-import {buildSearchEngine} from '@coveo/headless';
+import {buildSearchEngine} from '@eternal-baguette/headless';
 
 const engine = buildSearchEngine({
     configuration: {
@@ -210,7 +210,7 @@ This means that implementation relying on non-public modules of the package will
 
 ```js
 // This will be blocked entirely
-import {nonPubliclyDocumentedFunction} from '@coveo/headless/dist/nonPublicFile.js';
+import {nonPubliclyDocumentedFunction} from '@eternal-baguette/headless/dist/nonPublicFile.js';
 
 // Will throw an error, or won't compile
 nonPubliclyDocumentedFunction();

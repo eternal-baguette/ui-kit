@@ -2,7 +2,7 @@ import {
   buildSearchStatus,
   type SearchStatus,
   type SearchStatusState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {describe, expect, it, vi} from 'vitest';
 import {userEvent} from 'vitest/browser';
@@ -12,7 +12,7 @@ import {buildFakeSearchStatus} from '@/vitest-utils/testing-helpers/fixtures/hea
 import type {AtomicRefineToggle} from './atomic-refine-toggle';
 import './atomic-refine-toggle';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-refine-toggle', () => {
   const mockedEngine = buildFakeSearchEngine();

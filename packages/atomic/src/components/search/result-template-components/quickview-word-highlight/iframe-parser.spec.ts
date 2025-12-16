@@ -1,4 +1,4 @@
-import type {TermsToHighlight} from '@coveo/headless';
+import type {TermsToHighlight} from '@eternal-baguette/headless';
 import {afterEach, beforeEach, describe, expect, it} from 'vitest';
 import {unsafeHTMLElement} from '@/vitest-utils/testing-helpers/testing-utils/unsafe-html-element';
 import {getWordsHighlights, HIGHLIGHT_PREFIX} from './iframe-parser';

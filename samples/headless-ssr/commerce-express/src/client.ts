@@ -13,7 +13,7 @@ import type {
   ProductList,
   SearchBox,
   Summary,
-} from '@coveo/headless/ssr-commerce-next';
+} from '@eternal-baguette/headless/ssr-commerce-next';
 import type {SearchStaticState} from './common/types.js';
 import {ErrorMessage} from './components/ErrorMessage.js';
 import {ProductGrid} from './components/ProductGrid.js';

@@ -49,7 +49,7 @@ The response includes highlights and may look like this:
 To highlight query suggestions, update the target `SearchBox` controller instance as shown in the following code:
 
 ```typescript
-import {SearchBox as HeadlessSearchBox, buildSearchBox} from '@coveo/headless';
+import {SearchBox as HeadlessSearchBox, buildSearchBox} from '@eternal-baguette/headless';
 import {headlessEngine} from '../engine';
 import {FunctionComponent, useEffect, useState} from 'react';
 
@@ -127,7 +127,7 @@ import {
   ResultList as HeadlessResultList,
   buildResultList,
   HighlightUtils, ①
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {headlessEngine} from '../engine';
 import {FunctionComponent, useEffect, useState} from 'react';
 

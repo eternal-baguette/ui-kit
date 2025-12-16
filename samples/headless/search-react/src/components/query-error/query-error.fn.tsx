@@ -1,4 +1,4 @@
-import type {QueryError as HeadlessQueryError} from '@coveo/headless';
+import type {QueryError as HeadlessQueryError} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface QueryErrorProps {

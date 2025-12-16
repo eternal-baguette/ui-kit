@@ -1,4 +1,4 @@
-import type {Tab as HeadlessTab} from '@coveo/headless';
+import type {Tab as HeadlessTab} from '@eternal-baguette/headless';
 import {
   type FunctionComponent,
   type PropsWithChildren,

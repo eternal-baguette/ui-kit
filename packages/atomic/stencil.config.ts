@@ -71,7 +71,7 @@ export const config: Config = {
   outputTargets: [
     !isDevWatch &&
       react({
-        componentCorePackage: '@coveo/atomic',
+        componentCorePackage: '@eternal-baguette/atomic',
         proxiesFile:
           '../atomic-react/src/components/stencil-generated/search/index.ts',
         includeDefineCustomElements: true,
@@ -87,7 +87,7 @@ export const config: Config = {
       }),
     !isDevWatch &&
       react({
-        componentCorePackage: '@coveo/atomic',
+        componentCorePackage: '@eternal-baguette/atomic',
         proxiesFile:
           '../atomic-react/src/components/stencil-generated/commerce/index.ts',
         includeDefineCustomElements: true,
@@ -104,7 +104,7 @@ export const config: Config = {
       }),
     !isDevWatch &&
       angular({
-        componentCorePackage: '@coveo/atomic',
+        componentCorePackage: '@eternal-baguette/atomic',
         directivesProxyFile:
           '../atomic-angular/projects/atomic-angular/src/lib/stencil-generated/components.ts',
       }),

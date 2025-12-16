@@ -1,4 +1,4 @@
-import {NumberValue, Schema, StringValue} from '@coveo/bueno';
+import {NumberValue, Schema, StringValue} from '@eternal-baguette/bueno';
 import dayjs, {type QUnitType} from 'dayjs';
 import quarterOfYear from 'dayjs/plugin/quarterOfYear.js';
 import {

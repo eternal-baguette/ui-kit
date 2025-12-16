@@ -2,7 +2,7 @@ import {
   buildQuerySummary,
   type QuerySummary,
   type QuerySummaryState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {type CSSResultGroup, css, html, LitElement} from 'lit';
 import {customElement, state} from 'lit/decorators.js';
 import {bindStateToController} from '@/src/decorators/bind-state';

@@ -1,5 +1,5 @@
 {
-  "name": "@coveo/atomic-react",
+  "name": "@eternal-baguette/atomic-react",
   "sideEffects": false,
   "type": "module",
   "version": "3.7.1",
@@ -31,7 +31,7 @@
     "commerce/"
   ],
   "dependencies": {
-    "@coveo/atomic": "workspace:*",
+    "@eternal-baguette/atomic": "workspace:*",
     "@lit/react": "1.0.8"
   },
   "devDependencies": {
@@ -49,7 +49,7 @@
     "rollup-plugin-polyfill-node": "^0.13.0"
   },
   "peerDependencies": {
-    "@coveo/headless": "workspace:*",
+    "@eternal-baguette/headless": "workspace:*",
     "react": ">=18.0.0",
     "react-dom": ">=18.0.0"
   },

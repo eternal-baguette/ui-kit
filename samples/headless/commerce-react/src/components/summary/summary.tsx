@@ -1,4 +1,4 @@
-import type {Summary as HeadlessSummary} from '@coveo/headless/commerce';
+import type {Summary as HeadlessSummary} from '@eternal-baguette/headless/commerce';
 import {useEffect, useState} from 'react';
 
 interface ISummaryProps {

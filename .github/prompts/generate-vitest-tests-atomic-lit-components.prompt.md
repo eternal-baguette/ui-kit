@@ -81,7 +81,7 @@ Before writing tests:
 Reference: `packages/atomic/scripts/generate-component-templates/component.spec.ts.hbs`
 
 ```typescript
-import {buildController, type ControllerState} from '@coveo/headless';
+import {buildController, type ControllerState} from '@eternal-baguette/headless';
 import {page} from 'vitest/browser';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
@@ -92,7 +92,7 @@ import {buildFakeController} from '@/vitest-utils/testing-helpers/fixtures/headl
 import type {AtomicComponent} from './atomic-component';
 import './atomic-component';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-component', () => {
   const mockedEngine = buildFakeSearchEngine();
@@ -166,7 +166,7 @@ For result/product template components, use context fixtures:
 
 **✅ DO:**
 ```typescript
-import {type Result, ResultTemplatesHelpers} from '@coveo/headless';
+import {type Result, ResultTemplatesHelpers} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {describe, expect, it, vi} from 'vitest';
@@ -175,8 +175,8 @@ import {buildFakeSearchEngine} from '@/vitest-utils/testing-helpers/fixtures/hea
 import type {AtomicResultNumber} from './atomic-result-number';
 import './atomic-result-number';
 
-vi.mock('@coveo/headless', async () => {
-  const actual = await vi.importActual<typeof import('@coveo/headless')>('@coveo/headless');
+vi.mock('@eternal-baguette/headless', async () => {
+  const actual = await vi.importActual<typeof import('@eternal-baguette/headless')>('@eternal-baguette/headless');
   return {
     ...actual,
     ResultTemplatesHelpers: {
@@ -220,7 +220,7 @@ describe('atomic-result-number', () => {
 - Return `{element, locators, parts}` from render function for clean test access
 - Use `page.getByRole()` for semantic locators
 - Define `parts()` function for shadow DOM queries
-- Mock headless controllers with `vi.mock('@coveo/headless', {spy: true})`
+- Mock headless controllers with `vi.mock('@eternal-baguette/headless', {spy: true})`
 - Mock `ResultTemplatesHelpers` with partial import for result/product templates
 - Use `ifDefined()` for optional props/content
 

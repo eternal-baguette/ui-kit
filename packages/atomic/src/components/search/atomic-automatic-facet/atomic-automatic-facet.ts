@@ -1,5 +1,9 @@
-import {isNullOrUndefined} from '@coveo/bueno';
-import type {AutomaticFacet, FacetValue, SearchStatus} from '@coveo/headless';
+import {isNullOrUndefined} from '@eternal-baguette/bueno';
+import type {
+  AutomaticFacet,
+  FacetValue,
+  SearchStatus,
+} from '@eternal-baguette/headless';
 import {html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';

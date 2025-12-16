@@ -1,4 +1,4 @@
-import {isNullOrUndefined} from '@coveo/bueno';
+import {isNullOrUndefined} from '@eternal-baguette/bueno';
 import {
   buildProductListing,
   buildSearch,
@@ -7,7 +7,7 @@ import {
   type ProductListingState,
   type Search,
   type SearchState,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html, LitElement} from 'lit';
 import {customElement, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';

@@ -1,4 +1,4 @@
-import type {NumericFacet} from '@coveo/headless/commerce';
+import type {NumericFacet} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {describe, expect, it, vi} from 'vitest';
 import {page} from 'vitest/browser';

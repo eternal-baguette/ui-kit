@@ -1,4 +1,4 @@
-import type {Result} from '@coveo/headless';
+import type {Result} from '@eternal-baguette/headless';
 
 type DeepPartialResult = Partial<Omit<Result, 'raw'>> & {
   raw?: Record<string, unknown>;

@@ -1,4 +1,4 @@
-import {NumberValue, Schema} from '@coveo/bueno';
+import {NumberValue, Schema} from '@eternal-baguette/bueno';
 import {
   buildProductListing,
   buildSearch,
@@ -6,7 +6,7 @@ import {
   type PaginationState,
   type ProductListing,
   type Search,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html, LitElement} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {keyed} from 'lit/directives/keyed.js';

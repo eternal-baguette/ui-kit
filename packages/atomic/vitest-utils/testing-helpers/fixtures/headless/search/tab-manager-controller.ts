@@ -1,4 +1,4 @@
-import type {TabManager} from '@coveo/headless';
+import type {TabManager} from '@eternal-baguette/headless';
 import {vi} from 'vitest';
 import {genericSubscribe} from '@/vitest-utils/testing-helpers/fixtures/headless/common';
 

@@ -1,4 +1,4 @@
-import {AtomicTableElement} from '@coveo/atomic-react';
+import {AtomicTableElement} from '@eternal-baguette/atomic-react';
 import {
   AtomicCommerceFacets,
   AtomicCommerceInterface,
@@ -20,11 +20,11 @@ import {
   AtomicProductSectionName,
   AtomicProductSectionVisual,
   AtomicProductText,
-} from '@coveo/atomic-react/commerce';
+} from '@eternal-baguette/atomic-react/commerce';
 import {
   buildCommerceEngine,
   getSampleCommerceEngineConfiguration,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import type {FunctionComponent} from 'react';
 import {useMemo} from 'react';
 

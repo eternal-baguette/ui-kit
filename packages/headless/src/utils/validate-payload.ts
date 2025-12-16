@@ -6,7 +6,7 @@ import {
   SchemaValidationError,
   type SchemaValue,
   StringValue,
-} from '@coveo/bueno';
+} from '@eternal-baguette/bueno';
 import type {SerializedError} from '@reduxjs/toolkit';
 import type {CoreEngine, CoreEngineNext} from '../app/engine.js';
 

@@ -1,7 +1,7 @@
 import {
   type NavigatorContext,
   SolutionType,
-} from '@coveo/headless-react/ssr-commerce';
+} from '@eternal-baguette/headless-react/ssr-commerce';
 import type {LoaderFunctionArgs} from 'react-router';
 import {useLoaderData} from 'react-router';
 import Cart from '@/app/components/cart';

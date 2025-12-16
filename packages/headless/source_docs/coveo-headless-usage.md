@@ -51,10 +51,10 @@ For testing purposes, you can pass the sample configuration for the engine build
 ```ts
 // app/Engine.ts
 
-import { buildSearchEngine, getSampleSearchEngineConfiguration } from '@coveo/headless';
+import { buildSearchEngine, getSampleSearchEngineConfiguration } from '@eternal-baguette/headless';
 
 // If you're using a different engine builder function, this would be something like the following:
-// import {buildRecommendationEngine, getSampleRecommendationEngineConfiguration} from '@coveo/headless/recommendation';
+// import {buildRecommendationEngine, getSampleRecommendationEngineConfiguration} from '@eternal-baguette/headless/recommendation';
 
 export const headlessEngine = buildSearchEngine({
   configuration: getSampleSearchEngineConfiguration()
@@ -71,7 +71,7 @@ However, most of the time, your initialization and export will look like this:
 ```ts
 // app/Engine.ts
 
-import { buildSearchEngine } from '@coveo/headless';
+import { buildSearchEngine } from '@eternal-baguette/headless';
 
 export const headlessEngine = buildSearchEngine({
   configuration: {
@@ -123,7 +123,7 @@ A controller’s builder function always requires a Headless engine instance as 
 ```typescript
 // src/Components/MySearchBox.ts
  
-import { SearchBox, buildSearchBox } from '@coveo/headless';
+import { SearchBox, buildSearchBox } from '@eternal-baguette/headless';
 import { engine } from '../Engine';
  
 const mySearchBox: SearchBox = buildSearchBox(engine);
@@ -134,7 +134,7 @@ Many builder functions also accept, and sometimes require, an options object as 
 ```typescript
 // src/Components/MyStandaloneSearchBox.ts
  
-import { SearchBox, SearchBoxOptions, buildSearchBox } from '@coveo/headless';
+import { SearchBox, SearchBoxOptions, buildSearchBox } from '@eternal-baguette/headless';
 import { engine } from '../Engine';
  
 const options: SearchBoxOptions = { ①
@@ -149,7 +149,7 @@ const myStandaloneSearchBox: SearchBox = buildSearchBox(engine, { options });
 ```typescript
 // src/Components/MyAuthorFacet.ts
  
-import { Facet, FacetOptions, buildFacet } from '@coveo/headless';
+import { Facet, FacetOptions, buildFacet } from '@eternal-baguette/headless';
 import { engine } from '../Engine';
  
 const options: FacetOptions = { field: "author" }; ①
@@ -169,7 +169,7 @@ When you call a method on a controller instance, one or more actions are dispatc
 Calling some of the `SearchBox` controller’s methods.
 
 ```typescript
-import { SearchBox, buildSearchBox } from '@coveo/headless';
+import { SearchBox, buildSearchBox } from '@eternal-baguette/headless';
 import { engine } from '../Engine';
 
 const mySearchBox: SearchBox = buildSearchBox(engine);
@@ -190,7 +190,7 @@ You can use the `subscribe` method on a controller instance to listen to its sta
 The listener function you pass when calling the `subscribe` method will be executed every time an action is dispatched.
 
 ```typescript
-import { SearchBox, buildSearchBox } from '@coveo/headless';
+import { SearchBox, buildSearchBox } from '@eternal-baguette/headless';
 import { engine } from '../Engine';
 
 const mySearchBox: SearchBox = buildSearchBox(engine);
@@ -284,7 +284,7 @@ You’ll often use controller methods to interact with the state. However, you m
 
 ```typescript
 import { engine } from './engine';
-import { loadFieldActions } from '@coveo/headless';
+import { loadFieldActions } from '@eternal-baguette/headless';
  
 const FieldActionCreators = loadFieldActions(engine); ①
 const action = FieldActionCreators.registerFieldsToInclude(['field1', 'field2']); ②

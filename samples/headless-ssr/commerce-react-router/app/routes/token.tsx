@@ -1,4 +1,4 @@
-import {getOrganizationEndpoint} from '@coveo/headless-react/ssr-commerce';
+import {getOrganizationEndpoint} from '@eternal-baguette/headless-react/ssr-commerce';
 import type {LoaderFunctionArgs} from 'react-router';
 import engineDefinitionOptions from '@/lib/commerce-engine-config';
 import {isExpired, parseJwt} from '@/utils/access-token-utils';

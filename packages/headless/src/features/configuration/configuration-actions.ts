@@ -5,7 +5,7 @@ import {
   type SchemaDefinition,
   StringValue,
   Value,
-} from '@coveo/bueno';
+} from '@eternal-baguette/bueno';
 import {createAction} from '@reduxjs/toolkit';
 import type {IRuntimeEnvironment} from 'coveo.analytics';
 import type {PlatformEnvironment} from '../../utils/url-utils.js';

@@ -1,4 +1,4 @@
-import {RecordValue, Schema} from '@coveo/bueno';
+import {RecordValue, Schema} from '@eternal-baguette/bueno';
 import type {CoreEngine} from '../../../app/engine.js';
 import type {AutomaticFacetResponse} from '../../../features/facets/automatic-facet-set/interfaces/response.js';
 import {findActiveValueAncestry} from '../../../features/facets/category-facet-set/category-facet-utils.js';

@@ -1,4 +1,7 @@
-import type {NumericFacetValue, SearchStatusState} from '@coveo/headless';
+import type {
+  NumericFacetValue,
+  SearchStatusState,
+} from '@eternal-baguette/headless';
 import {describe, expect, it} from 'vitest';
 import {
   collapseFacetsAfter,
