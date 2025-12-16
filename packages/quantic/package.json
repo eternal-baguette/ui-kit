@@ -92,5 +92,8 @@
     "docs/out/quantic-docs.json",
     "!force-app/main/default/lwc/**/__tests__",
     "!force-app/main/default/lwc/**/e2e"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
