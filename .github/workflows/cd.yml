@@ -24,12 +24,64 @@ jobs:
           owner: eternal-baguette
           repositories: "ui-kit"
       - name: Create and publish versions
+        id: changeset
         uses: changesets/action@v1
         with:
           commit: "chore: update versions"
-          commitMode: 'github-api'
           title: "chore: update versions"
           publish: pnpm ci:publish
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # Temporary, to be replaced by NPM TP after first publish
+      - name: Doctor commit with signature
+        if: steps.changeset.outputs.pullRequestNumber != ''
+        uses: actions/github-script@v8
+        env:
+          PR_NUMBER: ${{ steps.changeset.outputs.pullRequestNumber }}
+        with:
+          github-token: ${{ steps.generate-token.outputs.token }}
+          script: |
+            const prNumber = process.env.PR_NUMBER;
+            
+            // Get PR details
+            const { data: pr } = await github.rest.pulls.get({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: prNumber
+            });
+            
+            const headSha = pr.head.sha;
+            const headRef = pr.head.ref;
+            
+            // Get the commit to extract tree SHA, parents, and message
+            const { data: commit } = await github.rest.git.getCommit({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              commit_sha: headSha
+            });
+            
+            core.info(`Original commit: ${headSha}`);
+            core.info(`Tree SHA: ${commit.tree.sha}`);
+            core.info(`Message: ${commit.message}`);
+            
+            // Create a new signed commit with the same tree
+            const { data: newCommit } = await github.rest.git.createCommit({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              message: commit.message,
+              tree: commit.tree.sha,
+              parents: commit.parents.map(p => p.sha)
+            });
+            
+            core.info(`New signed commit: ${newCommit.sha}`);
+            
+            // Force update the PR branch to point to the new signed commit
+            await github.rest.git.updateRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: `heads/${headRef}`,
+              sha: newCommit.sha,
+              force: true
+            });
+            
+            core.info(`✓ Updated branch ${headRef} to signed commit ${newCommit.sha}`);
