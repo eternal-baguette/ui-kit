@@ -14,8 +14,9 @@ jobs:
     outputs:
       merge-commit-sha: ${{ steps.merge-pr.outputs.merge-commit-sha }}
     env:
-      commit: "chore: update versions"
-      RULESET_ID: "11169046"
+        commit: "chore: update versions"
+        RULESET_ID: "11169046"
+    environment: NPM
     steps:
       - uses: actions/checkout@v4
       - uses: ./.github/actions/setup
