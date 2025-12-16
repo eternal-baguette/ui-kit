@@ -27,7 +27,7 @@
   "main": "index.mjs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coveo/ui-kit.git",
+    "url": "git+https://github.com/eternal-baguette/ui-kit.git",
     "directory": "packages/create-atomic"
   },
   "scripts": {

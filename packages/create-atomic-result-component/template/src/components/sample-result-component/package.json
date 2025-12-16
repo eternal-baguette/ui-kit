@@ -1,5 +1,6 @@
 {
   "name": "@eternal-baguette/sample-result-component",
+  "private": true,
   "version": "0.0.3",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -40,8 +41,5 @@
   "keywords": [
     "coveo-atomic-component"
   ],
-  "license": "Apache-2.0",
-  "publishConfig": {
-    "access": "public"
-  }
+  "license": "Apache-2.0"
 }

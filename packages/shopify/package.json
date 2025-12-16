@@ -2,7 +2,7 @@
   "name": "@eternal-baguette/shopify",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coveo/ui-kit.git",
+    "url": "git+https://github.com/eternal-baguette/ui-kit.git",
     "directory": "packages/shopify"
   },
   "main": "./dist/headless.esm.js",

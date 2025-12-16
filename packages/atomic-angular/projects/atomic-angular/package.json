@@ -3,7 +3,8 @@
   "version": "3.8.2",
   "license": "Apache-2.0",
   "repository": {
-    "url": "https://github.com/coveo/ui-kit"
+    "url": "git+https://github.com/eternal-baguette/ui-kit.git",
+    "directory": "packages/atomic-angular/projects/atomic-angular"
   },
   "peerDependencies": {
     "@angular/common": "14 - 19",

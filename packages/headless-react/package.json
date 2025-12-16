@@ -5,7 +5,7 @@
   "homepage": "https://docs.coveo.com/en/headless/latest/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coveo/ui-kit.git",
+    "url": "git+https://github.com/eternal-baguette/ui-kit.git",
     "directory": "packages/headless-react"
   },
   "keywords": [
