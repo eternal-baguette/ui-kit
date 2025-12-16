@@ -3,7 +3,7 @@ import {
   type SearchStatus as HeadlessSearchStatus,
   type SearchStatusState,
   type Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, type ContextType} from 'react';
 import {AppContext} from '../../context/engine';
 

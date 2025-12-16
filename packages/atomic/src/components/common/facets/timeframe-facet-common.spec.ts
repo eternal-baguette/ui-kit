@@ -4,7 +4,7 @@ import type {
   DateFilter,
   DateRangeRequest,
   SearchStatusState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html, nothing} from 'lit';
 import {beforeEach, describe, expect, it, type Mock, vi} from 'vitest';
 import type {Bindings} from '@/src/components/search/atomic-search-interface/atomic-search-interface';

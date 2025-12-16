@@ -1,7 +1,7 @@
 import type {Decorator, StoryContext} from '@storybook/web-components-vite';
 import {html} from 'lit';
 import type {ItemDisplayLayout} from '@/src/components/common/layout/display-options';
-import type {SearchEngineConfiguration} from '@coveo/headless';
+import type {SearchEngineConfiguration} from '@eternal-baguette/headless';
 import {wrapInResultList} from './result-list-wrapper';
 import {wrapInSearchInterface} from './search-interface-wrapper';
 import {wrapInResultTemplateForSections} from './result-template-section-wrapper';

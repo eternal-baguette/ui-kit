@@ -1,4 +1,4 @@
-import type {SmartSnippetQuestionsList as HeadlessSmartSnippetQuestionsList} from '@coveo/headless';
+import type {SmartSnippetQuestionsList as HeadlessSmartSnippetQuestionsList} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface SmartSnippetQuestionsListProps {

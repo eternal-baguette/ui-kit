@@ -1,5 +1,5 @@
 {
-  "name": "@coveo/atomic-angular",
+  "name": "@eternal-baguette/atomic-angular",
   "version": "3.8.0",
   "license": "Apache-2.0",
   "repository": {
@@ -8,10 +8,10 @@
   "peerDependencies": {
     "@angular/common": "14 - 19",
     "@angular/core": "14 - 19",
-    "@coveo/headless": "workspace:*"
+    "@eternal-baguette/headless": "workspace:*"
   },
   "dependencies": {
-    "@coveo/atomic": "workspace:*"
+    "@eternal-baguette/atomic": "workspace:*"
   },
   "engines": {
     "node": "^20.9.0 || ^22.11.0"

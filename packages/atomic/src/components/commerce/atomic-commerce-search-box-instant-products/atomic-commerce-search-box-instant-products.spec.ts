@@ -1,4 +1,4 @@
-import {buildInstantProducts} from '@coveo/headless/commerce';
+import {buildInstantProducts} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {
   beforeEach,
@@ -25,7 +25,7 @@ import {mockConsole} from '@/vitest-utils/testing-helpers/testing-utils/mock-con
 import {AtomicCommerceSearchBoxInstantProducts} from './atomic-commerce-search-box-instant-products';
 import './atomic-commerce-search-box-instant-products';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-commerce-search-box-instant-products', () => {
   let mockedConsole: MockedObject<Console>;

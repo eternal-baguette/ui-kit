@@ -1,10 +1,10 @@
-import {Schema, StringValue} from '@coveo/bueno';
+import {Schema, StringValue} from '@eternal-baguette/bueno';
 import {
   Result,
   buildQuickview,
   Quickview,
   QuickviewState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, h, Listen, Prop, State} from '@stencil/core';
 import QuickviewIcon from '../../../../images/quickview.svg';
 import {

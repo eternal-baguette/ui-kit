@@ -1,7 +1,7 @@
 import type {
   AnalyticsConfiguration,
   RecommendationEngineConfiguration,
-} from '@coveo/headless/recommendation';
+} from '@eternal-baguette/headless/recommendation';
 import {
   type AnalyticsPayload,
   augmentAnalyticsConfigWithAtomicVersion,

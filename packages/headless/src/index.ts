@@ -3,7 +3,7 @@
  *
  * @example
  * ```typescript
- * import { buildSearchBox, buildSearchEngine, getSampleSearchEngineConfiguration } from '@coveo/headless';
+ * import { buildSearchBox, buildSearchEngine, getSampleSearchEngineConfiguration } from '@eternal-baguette/headless';
  *
  * const engine = buildSearchEngine({
  *    configuration: getSampleSearchEngineConfiguration()

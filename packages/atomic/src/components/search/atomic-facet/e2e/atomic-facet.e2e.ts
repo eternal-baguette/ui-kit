@@ -1,4 +1,4 @@
-import type {FacetSortCriterion} from '@coveo/headless';
+import type {FacetSortCriterion} from '@eternal-baguette/headless';
 import {orderBy} from 'natural-orderby';
 import {expect, test} from './fixture';
 

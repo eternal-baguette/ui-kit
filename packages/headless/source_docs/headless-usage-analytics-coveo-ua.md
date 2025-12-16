@@ -140,8 +140,8 @@ If you want to use `SearchAnalyticsActions`, we recommend implementing logic suc
 
 ```jsx
 import {headlessEngine} from '../engine'; ①
-import {loadSearchActions} from '@coveo/headless'; ②
-import {loadSearchAnalyticsActions} from '@coveo/headless'; ③
+import {loadSearchActions} from '@eternal-baguette/headless'; ②
+import {loadSearchAnalyticsActions} from '@eternal-baguette/headless'; ③
 
 const searchAction = () => {
     const {executeSearch} = loadSearchActions(headlessEngine); ④
@@ -185,7 +185,7 @@ If you want to use `GenericAnalyticsActions`, we recommend implementing logic su
 
 ```jsx
 import {headlessEngine} from '../engine'; ①
-import {loadGenericAnalyticsActions} from '@coveo/headless'; ②
+import {loadGenericAnalyticsActions} from '@eternal-baguette/headless'; ②
 
 const genericCustomAction = () => {
     const {logCustomEvent} = loadGenericAnalyticsActions(headlessEngine) ③

@@ -1,4 +1,4 @@
-import type {Result} from '@coveo/headless';
+import type {Result} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
 import type {
@@ -11,7 +11,7 @@ import {renderInAtomicSearchInterface} from '@/vitest-utils/testing-helpers/fixt
 import {buildFakeResult} from '@/vitest-utils/testing-helpers/fixtures/headless/search/result';
 import {AtomicResult} from './atomic-result';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-result', () => {
   let consoleWarnSpy: ReturnType<typeof vi.spyOn>;

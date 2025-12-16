@@ -5,7 +5,7 @@ import {
   type DidYouMeanState,
   type QueryTrigger,
   type QueryTriggerState,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
 import {userEvent} from 'vitest/browser';
@@ -17,7 +17,7 @@ import {buildFakeSearch} from '@/vitest-utils/testing-helpers/fixtures/headless/
 import type {AtomicCommerceDidYouMean} from './atomic-commerce-did-you-mean';
 import './atomic-commerce-did-you-mean';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-commerce-did-you-mean', () => {
   const mockedEngine = buildFakeCommerceEngine();

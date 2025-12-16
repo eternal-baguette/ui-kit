@@ -3,7 +3,7 @@ import {
   defineSearchBox,
   defineSummary,
   getSampleCommerceEngineConfiguration,
-} from '@coveo/headless/ssr-commerce-next';
+} from '@eternal-baguette/headless/ssr-commerce-next';
 
 export const engineConfig = {
   configuration: getSampleCommerceEngineConfiguration(),

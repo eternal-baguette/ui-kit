@@ -2,7 +2,7 @@ import type {
   ProductList,
   SearchBox,
   Summary,
-} from '@coveo/headless/ssr-commerce-next';
+} from '@eternal-baguette/headless/ssr-commerce-next';
 import {ErrorMessage} from '../components/ErrorMessage.js';
 import {renderProductGrid, selectProducts} from '../components/ProductGrid.js';
 import {formatQuerySummary, selectSummary} from '../components/QuerySummary.js';

@@ -1,4 +1,4 @@
-import type {ResultList as HeadlessResultList} from '@coveo/headless';
+import type {ResultList as HeadlessResultList} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 import {Quickview} from '../quickview/quickview.fn';
 import {ResultLink} from './result-link';

@@ -1,6 +1,6 @@
-import type {Result} from '@coveo/headless';
+import type {Result} from '@eternal-baguette/headless';
 import {Component, h, Element, State} from '@stencil/core';
-import {resultContext} from '@coveo/atomic';
+import {resultContext} from '@eternal-baguette/atomic';
 
 /**
  * Sample custom Atomic result component, to be used inside an Atomic Result Template.

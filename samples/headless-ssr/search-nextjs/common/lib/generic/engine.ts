@@ -2,7 +2,7 @@ import {
   defineSearchEngine,
   type InferHydratedState,
   type InferStaticState,
-} from '@coveo/headless/ssr';
+} from '@eternal-baguette/headless/ssr';
 import {config} from '../../components/common/search-engine-config';
 
 const engineDefinition = defineSearchEngine(config);

@@ -1,5 +1,9 @@
-import {Schema, StringValue} from '@coveo/bueno';
-import type {FoldedResult, InteractiveResult, Result} from '@coveo/headless';
+import {Schema, StringValue} from '@eternal-baguette/bueno';
+import type {
+  FoldedResult,
+  InteractiveResult,
+  Result,
+} from '@eternal-baguette/headless';
 import {type CSSResultGroup, css, html, LitElement} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {ref} from 'lit/directives/ref.js';

@@ -7,7 +7,7 @@
 import type {
   CategoryFacetSearchResult,
   CategoryFieldSuggestions,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useEffect, useState} from 'react';
 
 interface ILegacyFieldSuggestionsProps {

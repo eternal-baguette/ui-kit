@@ -1,4 +1,4 @@
-import type {FacetValueState} from '@coveo/headless';
+import type {FacetValueState} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {classMap} from 'lit/directives/class-map.js';
 import {ifDefined} from 'lit/directives/if-defined.js';

@@ -1,4 +1,7 @@
-import {buildStaticFilter, type StaticFilterOptions} from '@coveo/headless';
+import {
+  buildStaticFilter,
+  type StaticFilterOptions,
+} from '@eternal-baguette/headless';
 import {type FunctionComponent, useContext, useEffect, useState} from 'react';
 import {AppContext} from '../../context/engine';
 

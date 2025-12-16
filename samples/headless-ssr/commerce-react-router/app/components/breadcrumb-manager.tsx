@@ -4,7 +4,7 @@ import type {
   LocationFacetValue,
   NumericFacetValue,
   RegularFacetValue,
-} from '@coveo/headless-react/ssr-commerce';
+} from '@eternal-baguette/headless-react/ssr-commerce';
 import {useBreadcrumbManager} from '@/lib/commerce-engine';
 
 export default function BreadcrumbManager() {

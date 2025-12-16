@@ -4,7 +4,7 @@ import {
   type Cart,
   type CommerceEngine,
   type Context,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useCallback, useEffect} from 'react';
 import NotifyTrigger from '../components/triggers/notify-trigger.js';
 import SearchAndListingInterface from '../components/use-cases/search-and-listing-interface/search-and-listing-interface.js';

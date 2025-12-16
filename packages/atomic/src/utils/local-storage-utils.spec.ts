@@ -1,7 +1,7 @@
 import {
   buildSearchEngine,
   getSampleSearchEngineConfiguration,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
 import {SafeStorage, StorageItems} from './local-storage-utils';
 

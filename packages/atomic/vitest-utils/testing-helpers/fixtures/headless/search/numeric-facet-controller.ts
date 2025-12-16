@@ -2,7 +2,7 @@ import type {
   NumericFacet,
   NumericFacetState,
   NumericFacetValue,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {vi} from 'vitest';
 import {genericSubscribe} from '../common';
 

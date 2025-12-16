@@ -1,4 +1,4 @@
-import {ArrayValue, isString} from '@coveo/bueno';
+import {ArrayValue, isString} from '@eternal-baguette/bueno';
 import {createAction} from '@reduxjs/toolkit';
 import {
   requiredNonEmptyString,

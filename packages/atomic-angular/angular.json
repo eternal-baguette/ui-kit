@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "@coveo/atomic-angular": {
+    "@eternal-baguette/atomic-angular": {
       "projectType": "library",
       "root": "projects/atomic-angular",
       "sourceRoot": "projects/atomic-angular/src",
@@ -27,7 +27,7 @@
       }
     }
   },
-  "defaultProject": "@coveo/atomic-angular",
+  "defaultProject": "@eternal-baguette/atomic-angular",
   "cli": {
     "analytics": false
   }

@@ -1,4 +1,4 @@
-import {type Bindings, initializeBindings} from '@coveo/atomic';
+import {type Bindings, initializeBindings} from '@eternal-baguette/atomic';
 import {
   buildPager,
   buildSearchStatus,
@@ -6,7 +6,7 @@ import {
   type PagerState,
   type SearchStatusState,
   type Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, Element, forceUpdate, h, State} from '@stencil/core';
 
 /**

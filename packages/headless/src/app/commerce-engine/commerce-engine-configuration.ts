@@ -1,4 +1,9 @@
-import {BooleanValue, RecordValue, Schema, StringValue} from '@coveo/bueno';
+import {
+  BooleanValue,
+  RecordValue,
+  Schema,
+  StringValue,
+} from '@eternal-baguette/bueno';
 import type {CartInitialState} from '../../controllers/commerce/context/cart/headless-cart.js';
 import type {ContextOptions} from '../../controllers/commerce/context/headless-context.js';
 import {cartDefinition} from '../../features/commerce/context/cart/cart-validation.js';
@@ -52,8 +57,8 @@ export const commerceEngineConfigurationSchema =
         source: new RecordValue({
           options: {required: false},
           values: {
-            '@coveo/atomic': nonEmptyString,
-            '@coveo/quantic': nonEmptyString,
+            '@eternal-baguette/atomic': nonEmptyString,
+            '@eternal-baguette/quantic': nonEmptyString,
           },
         }),
         trackingId: new StringValue({

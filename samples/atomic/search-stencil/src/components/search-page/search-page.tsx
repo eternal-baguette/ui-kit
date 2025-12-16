@@ -2,7 +2,7 @@ import {
   loadSearchActions,
   loadSearchAnalyticsActions,
   type SearchEngine,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 // biome-ignore lint/correctness/noUnusedImports: <>
 import {Component, h, Prop} from '@stencil/core';
 import template from './template.html';

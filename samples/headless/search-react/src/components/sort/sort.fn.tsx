@@ -2,7 +2,7 @@ import {
   buildCriterionExpression,
   type Sort as HeadlessSort,
   type SortCriterion,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface SortProps {

@@ -1,4 +1,4 @@
-import {isArray} from '@coveo/bueno';
+import {isArray} from '@eternal-baguette/bueno';
 import {type ComponentInterface, getElement} from '@stencil/core';
 import type {ReactiveElement} from 'lit';
 import {camelToKebab, kebabToCamel} from './utils';

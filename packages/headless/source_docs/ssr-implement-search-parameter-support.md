@@ -30,7 +30,7 @@ In `src/engine.ts`:
 import {
   defineSearchEngine,
   defineSearchParameterManager,
-} from '@coveo/headless-react/ssr';
+} from '@eternal-baguette/headless-react/ssr';
 
 const accessToken = "<ACCESS_TOKEN>";
 const organizationId = "<ORGANIZATION_ID>";
@@ -123,7 +123,7 @@ Any search filter (such as [facet](https://docs.coveo.com/en/198/) value, [query
 Add the following code in `src/components/search-parameter-manager.tsx`:
 
 ```ts
-import { buildSSRSearchParameterSerializer } from '@coveo/headless/ssr';
+import { buildSSRSearchParameterSerializer } from '@eternal-baguette/headless/ssr';
 import { useEffect, useMemo } from 'react';
 
 // ...
@@ -183,7 +183,7 @@ You can consult a [working demo](https://github.com/coveo/ui-kit/tree/master/sam
 import { SearchParameterManager } from './components/search-parameter-manager';
 import { SearchPageProvider } from '...';
 import { fetchStaticState } from './engine';
-import { buildSSRSearchParameterSerializer } from '@coveo/headless-react/ssr';
+import { buildSSRSearchParameterSerializer } from '@eternal-baguette/headless-react/ssr';
 
 export default async function Search({searchParams}) {
   const {toSearchParameters} = buildSSRSearchParameterSerializer();

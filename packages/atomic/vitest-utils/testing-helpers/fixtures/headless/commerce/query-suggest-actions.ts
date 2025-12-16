@@ -1,4 +1,4 @@
-import type {loadQuerySuggestActions} from '@coveo/headless/commerce';
+import type {loadQuerySuggestActions} from '@eternal-baguette/headless/commerce';
 import {vi} from 'vitest';
 
 export const defaultMockedActions = {

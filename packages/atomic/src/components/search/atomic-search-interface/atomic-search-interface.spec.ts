@@ -10,7 +10,7 @@ import {
   loadSearchConfigurationActions,
   type SearchEngineConfiguration,
   type UrlManager,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html, LitElement} from 'lit';
 import {customElement, state} from 'lit/decorators.js';
 import {ifDefined} from 'lit/directives/if-defined.js';
@@ -34,7 +34,7 @@ import {AtomicSearchInterface, type Bindings} from './atomic-search-interface';
 import './atomic-search-interface';
 import '@/src/components/search/atomic-search-layout/atomic-search-layout';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 vi.mock('@/src/components/common/interface/analytics-config', {spy: true});
 vi.mock('@/src/components/search/atomic-search-interface/store', {spy: true});
 vi.mock('@/src/utils/init-queue', {spy: true});
@@ -163,7 +163,7 @@ describe('atomic-search-interface', () => {
 
     vi.mocked(augmentAnalyticsConfigWithAtomicVersion).mockReturnValue({
       source: {
-        '@coveo/atomic': '1.0.0',
+        '@eternal-baguette/atomic': '1.0.0',
       },
     });
   });
@@ -735,7 +735,7 @@ describe('atomic-search-interface', () => {
           expect(loadConfigurationActions).toHaveBeenCalledWith(engine);
           expect(mockUpdateAnalyticsConfiguration).toHaveBeenCalledWith({
             source: {
-              '@coveo/atomic': '1.0.0',
+              '@eternal-baguette/atomic': '1.0.0',
             },
           });
           expect(mockDispatch).toHaveBeenCalledWith(

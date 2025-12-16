@@ -1,4 +1,4 @@
-import type {Result} from '@coveo/headless';
+import type {Result} from '@eternal-baguette/headless';
 import type {i18n} from 'i18next';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
@@ -9,7 +9,7 @@ import {createTestI18n} from '@/vitest-utils/testing-helpers/i18n-utils';
 import {AtomicResultText} from './atomic-result-text';
 import './atomic-result-text';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-result-text', () => {
   let i18n: i18n;

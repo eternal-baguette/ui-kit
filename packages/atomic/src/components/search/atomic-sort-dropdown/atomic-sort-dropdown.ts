@@ -1,4 +1,4 @@
-import {Schema, StringValue} from '@coveo/bueno';
+import {Schema, StringValue} from '@eternal-baguette/bueno';
 import {
   buildSearchStatus,
   buildSort,
@@ -11,7 +11,7 @@ import {
   type SortState,
   type TabManager,
   type TabManagerState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html, LitElement} from 'lit';
 import {customElement, state} from 'lit/decorators.js';
 import {guard} from 'lit/directives/guard.js';

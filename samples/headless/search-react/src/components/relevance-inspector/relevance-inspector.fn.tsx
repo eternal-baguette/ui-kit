@@ -1,4 +1,4 @@
-import type {RelevanceInspector as HeadlessRelevanceInspector} from '@coveo/headless';
+import type {RelevanceInspector as HeadlessRelevanceInspector} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface RelevanceInspectorProps {

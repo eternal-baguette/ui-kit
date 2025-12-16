@@ -8,7 +8,7 @@ import {
   type QuerySummaryState,
   type SearchStatus,
   type SearchStatusState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {describe, expect, it, vi} from 'vitest';
 import {renderInAtomicSearchInterface} from '@/vitest-utils/testing-helpers/fixtures/atomic/search/atomic-search-interface-fixture';
@@ -20,7 +20,7 @@ import MagnifyingGlassIcon from '../../../images/magnifying-glass.svg';
 import type {AtomicNoResults} from './atomic-no-results';
 import './atomic-no-results';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-no-results', () => {
   const mockedEngine = buildFakeSearchEngine();

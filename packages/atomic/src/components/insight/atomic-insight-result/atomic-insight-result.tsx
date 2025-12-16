@@ -2,7 +2,7 @@ import {
   Result as InsightResult,
   InteractiveResult as InsightInteractiveResult,
   FoldedResult as InsightFoldedResult,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Component, h, Prop, Element, Listen, Host} from '@stencil/core';
 import {
   DisplayConfig,

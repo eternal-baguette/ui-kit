@@ -1,5 +1,5 @@
-import type {Result} from '@coveo/headless';
-import {ResultTemplatesHelpers} from '@coveo/headless';
+import type {Result} from '@eternal-baguette/headless';
+import {ResultTemplatesHelpers} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {describe, expect, it, vi} from 'vitest';
 import {ResultTemplateController} from '@/src/components/common/result-templates/result-template-controller.js';

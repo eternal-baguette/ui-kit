@@ -1,4 +1,4 @@
-import type {SortCriterion} from '@coveo/headless/commerce';
+import type {SortCriterion} from '@eternal-baguette/headless/commerce';
 import type {FunctionalComponent} from '@/src/utils/functional-component-utils';
 import {renderSortOption, type SortOptionProps} from '../../common/sort/option';
 

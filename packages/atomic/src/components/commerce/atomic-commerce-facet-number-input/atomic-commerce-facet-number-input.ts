@@ -1,5 +1,5 @@
-import {isUndefined} from '@coveo/bueno';
-import type {NumericFacet} from '@coveo/headless/commerce';
+import {isUndefined} from '@eternal-baguette/bueno';
+import type {NumericFacet} from '@eternal-baguette/headless/commerce';
 import {css, html, LitElement} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {ref} from 'lit/directives/ref.js';

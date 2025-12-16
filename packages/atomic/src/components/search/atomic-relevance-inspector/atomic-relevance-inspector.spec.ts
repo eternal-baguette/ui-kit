@@ -1,4 +1,4 @@
-import {getOrganizationEndpoint} from '@coveo/headless';
+import {getOrganizationEndpoint} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
 import {page} from 'vitest/browser';
@@ -8,7 +8,7 @@ import {buildFakeSearchEngine} from '@/vitest-utils/testing-helpers/fixtures/hea
 import type {AtomicRelevanceInspector} from './atomic-relevance-inspector';
 import './atomic-relevance-inspector';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 const ORG_ENDPOINT = 'https://searchuisamples.admin.org.coveo.com';
 

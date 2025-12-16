@@ -2,7 +2,7 @@ import {
   buildSearchStatus,
   type SearchStatus,
   type SearchStatusState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {type CSSResultGroup, css, html, LitElement, nothing} from 'lit';
 import {customElement, state} from 'lit/decorators.js';
 import {createRef, type Ref, ref} from 'lit/directives/ref.js';

@@ -1,4 +1,4 @@
-import {buildInteractiveResult, type Result} from '@coveo/headless';
+import {buildInteractiveResult, type Result} from '@eternal-baguette/headless';
 import {
   type FunctionComponent,
   type PropsWithChildren,

@@ -13,7 +13,7 @@ import {
   AtomicResultSectionVisual,
   AtomicResultText,
   AtomicTableElement,
-} from '@coveo/atomic-react';
+} from '@eternal-baguette/atomic-react';
 import type {FunctionComponent} from 'react';
 import {AtomicPageWrapper} from '../components/AtomicPageWrapper';
 

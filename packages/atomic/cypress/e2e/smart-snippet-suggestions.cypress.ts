@@ -1,4 +1,4 @@
-import {InlineLink} from '@coveo/headless';
+import {InlineLink} from '@eternal-baguette/headless';
 import {interceptSearchResponse} from '../fixtures/fixture-common';
 import {generateComponentHTML, TestFixture} from '../fixtures/test-fixture';
 import {AnalyticsTracker} from '../utils/analyticsUtils';

@@ -3,7 +3,7 @@ import {
   buildFacetConditionsManager,
   buildSearchStatus,
   buildTabManager,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {beforeEach, describe, expect, it, type Mock, vi} from 'vitest';
 import {page} from 'vitest/browser';
@@ -17,7 +17,7 @@ import {buildFakeTabManager} from '@/vitest-utils/testing-helpers/fixtures/headl
 import {mockConsole} from '@/vitest-utils/testing-helpers/testing-utils/mock-console';
 import type {AtomicColorFacet} from './atomic-color-facet';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-color-facet', () => {
   let mockedRegisterFacet: Mock;

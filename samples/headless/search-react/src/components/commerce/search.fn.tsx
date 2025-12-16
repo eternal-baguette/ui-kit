@@ -1,4 +1,4 @@
-import type {Search as HeadlessSearch} from '@coveo/headless/commerce';
+import type {Search as HeadlessSearch} from '@eternal-baguette/headless/commerce';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface SearchProps {

@@ -14,7 +14,7 @@ import {
   buildSmartSnippet,
   SmartSnippet,
   SmartSnippetFeedback,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {
   Component,
   State,

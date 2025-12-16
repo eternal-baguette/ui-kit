@@ -11,7 +11,7 @@ import {
   getSampleSearchEngineConfiguration,
   type SearchEngine,
   type SearchEngineDefinitionOptions,
-} from '@coveo/headless/ssr';
+} from '@eternal-baguette/headless/ssr';
 
 export const config = {
   configuration: {

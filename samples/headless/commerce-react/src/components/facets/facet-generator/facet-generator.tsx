@@ -1,4 +1,4 @@
-import type {FacetGenerator as HeadlessFacetGenerator} from '@coveo/headless/commerce';
+import type {FacetGenerator as HeadlessFacetGenerator} from '@eternal-baguette/headless/commerce';
 import {useEffect, useState} from 'react';
 import CategoryFacet from '../category-facet/category-facet.js';
 import DateFacet from '../date-facet/date-facet.js';

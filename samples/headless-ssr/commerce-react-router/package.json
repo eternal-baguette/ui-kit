@@ -10,7 +10,7 @@
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
-    "@coveo/headless-react": "workspace:*",
+    "@eternal-baguette/headless-react": "workspace:*",
     "@react-router/fs-routes": "7.10.1",
     "@react-router/node": "7.10.1",
     "@react-router/serve": "7.10.1",

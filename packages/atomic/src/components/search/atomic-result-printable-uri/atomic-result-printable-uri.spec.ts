@@ -2,7 +2,7 @@ import {
   buildInteractiveResult,
   type InteractiveResult,
   type Result,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import type {i18n} from 'i18next';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
@@ -13,7 +13,7 @@ import {createTestI18n} from '@/vitest-utils/testing-helpers/i18n-utils';
 import {AtomicResultPrintableUri} from './atomic-result-printable-uri';
 import './atomic-result-printable-uri';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 const buildFakeInteractiveResult = (
   interactiveResult?: Partial<InteractiveResult>

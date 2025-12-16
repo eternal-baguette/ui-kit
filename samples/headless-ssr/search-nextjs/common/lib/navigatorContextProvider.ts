@@ -1,4 +1,4 @@
-import type {NavigatorContext} from '@coveo/headless/ssr-commerce';
+import type {NavigatorContext} from '@eternal-baguette/headless/ssr-commerce';
 import type {ReadonlyHeaders} from 'next/dist/server/web/spec-extension/adapters/headers';
 
 /**

@@ -15,7 +15,7 @@ import {
   buildTabManager,
   TabManager,
   TabManagerState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, h, Prop, State, VNode} from '@stencil/core';
 import {getFieldValueCaption} from '../../../../utils/field-utils';
 import {

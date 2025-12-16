@@ -16,7 +16,7 @@ export interface LoggerOptions {
 
 export function buildLogger(options: LoggerOptions | undefined) {
   return pino({
-    name: '@coveo/headless',
+    name: '@eternal-baguette/headless',
     level: options?.level || 'warn',
     formatters: {
       log: options?.logFormatter,

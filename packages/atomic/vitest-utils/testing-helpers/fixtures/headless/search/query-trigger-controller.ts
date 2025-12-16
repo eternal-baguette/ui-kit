@@ -1,4 +1,4 @@
-import type {QueryTrigger, QueryTriggerState} from '@coveo/headless';
+import type {QueryTrigger, QueryTriggerState} from '@eternal-baguette/headless';
 import {vi} from 'vitest';
 import {genericSubscribe} from '../common';
 

@@ -13,7 +13,7 @@ Add `transpilePackages` to your `next.config.js`:
 ```js
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ['@coveo/atomic-react', '@coveo/atomic'],
+  transpilePackages: ['@eternal-baguette/atomic-react', '@eternal-baguette/atomic'],
 };
 
 export default nextConfig;
@@ -41,7 +41,7 @@ pnpm run build:assets
 Add the atomic styles to your `app/layout.tsx`:
 
 ```tsx
-import '@coveo/atomic/themes/coveo.css';
+import '@eternal-baguette/atomic/themes/coveo.css';
 ```
 
 ## Getting Started

@@ -1,4 +1,4 @@
-import type {SearchBox} from '@coveo/headless/ssr-commerce-next';
+import type {SearchBox} from '@eternal-baguette/headless/ssr-commerce-next';
 import {getElement, updateQueryParam} from '../common/utils.js';
 
 export function Search(searchBox: SearchBox) {

@@ -3,7 +3,7 @@ import {
   type StandaloneSearchBox as HeadlessStandaloneSearchBox,
   type StandaloneSearchBoxState,
   type Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, type ContextType} from 'react';
 import {AppContext} from '../../context/engine';
 import {standaloneSearchBoxStorageKey} from './standalone-search-box-storage-key';

@@ -8,5 +8,5 @@
   "name": "SSR Commerce",
   "entryPoints": ["../src/ssr-commerce/index.ts"],
   "gitRevision": "main",
-  "plugin": ["@coveo/documentation"]
+  "plugin": ["@eternal-baguette/documentation"]
 }

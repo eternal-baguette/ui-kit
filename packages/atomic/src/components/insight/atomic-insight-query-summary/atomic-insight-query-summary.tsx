@@ -2,7 +2,7 @@ import {
   buildQuerySummary,
   QuerySummary,
   QuerySummaryState,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Component, State, h} from '@stencil/core';
 import {
   BindStateToController,

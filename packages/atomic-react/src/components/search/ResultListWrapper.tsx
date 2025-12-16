@@ -1,10 +1,10 @@
-import type {AtomicResultList} from '@coveo/atomic/components';
+import type {AtomicResultList} from '@eternal-baguette/atomic/components';
 import type {
   ItemDisplayDensity,
   ItemDisplayImageSize,
   ItemDisplayLayout,
-} from '@coveo/atomic/loader';
-import type {Result} from '@coveo/headless';
+} from '@eternal-baguette/atomic/loader';
+import type {Result} from '@eternal-baguette/headless';
 import React, {type JSX, useEffect, useRef} from 'react';
 import {createRoot} from 'react-dom/client';
 import {renderToString} from 'react-dom/server';

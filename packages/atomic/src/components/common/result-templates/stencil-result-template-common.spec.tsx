@@ -1,4 +1,4 @@
-import {ResultTemplatesHelpers} from '@coveo/headless';
+import {ResultTemplatesHelpers} from '@eternal-baguette/headless';
 import {
   makeMatchConditions,
   makeDefinedConditions,

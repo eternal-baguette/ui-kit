@@ -1,4 +1,7 @@
-import type {InteractiveProduct, Product} from '@coveo/headless/commerce';
+import type {
+  InteractiveProduct,
+  Product,
+} from '@eternal-baguette/headless/commerce';
 import type {LitElement} from 'lit';
 import type {InteractiveItemContextEvent} from '@/src/components/common/item-list/context/interactive-item-context-controller';
 import {

@@ -1,4 +1,4 @@
-import type {NavigatorContextProvider} from '@coveo/headless/ssr';
+import type {NavigatorContextProvider} from '@eternal-baguette/headless/ssr';
 
 export const createMockNavigatorContextProvider =
   (): NavigatorContextProvider => () => ({

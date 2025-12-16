@@ -5,7 +5,7 @@ import type {
   RegularFacet as HeadlessRegularFacet,
   RegularFacetState,
   RegularFacetValue,
-} from '@coveo/headless-react/ssr-commerce-next';
+} from '@eternal-baguette/headless-react/ssr-commerce-next';
 import {useEffect, useRef, useState} from 'react';
 
 interface IRegularFacetProps {

@@ -1,4 +1,4 @@
-import {Value} from '@coveo/bueno';
+import {Value} from '@eternal-baguette/bueno';
 import {
   requiredNonEmptyString,
   validatePayload,

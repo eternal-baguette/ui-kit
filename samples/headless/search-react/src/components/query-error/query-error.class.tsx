@@ -3,7 +3,7 @@ import {
   type QueryError as HeadlessQueryError,
   type QueryErrorState,
   type Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, type ContextType} from 'react';
 import {AppContext} from '../../context/engine';
 

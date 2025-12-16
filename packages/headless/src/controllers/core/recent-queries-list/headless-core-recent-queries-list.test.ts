@@ -1,4 +1,4 @@
-import {ArrayValue, NumberValue} from '@coveo/bueno';
+import {ArrayValue, NumberValue} from '@eternal-baguette/bueno';
 import {deselectAllBreadcrumbs} from '../../../features/breadcrumb/breadcrumb-actions.js';
 import {queryReducer as query} from '../../../features/query/query-slice.js';
 import {

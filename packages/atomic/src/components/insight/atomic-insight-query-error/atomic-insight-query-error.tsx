@@ -3,7 +3,7 @@ import {
   QueryErrorState,
   buildQueryError,
   getOrganizationEndpoint,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Component, h, State} from '@stencil/core';
 import {
   BindStateToController,

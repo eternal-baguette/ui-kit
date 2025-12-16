@@ -1,4 +1,4 @@
-import {SortBy, type SortCriterion} from '@coveo/headless/commerce';
+import {SortBy, type SortCriterion} from '@eternal-baguette/headless/commerce';
 import {beforeAll, describe, expect, it, vi} from 'vitest';
 import {renderSortOption as renderCommonSortOption} from '@/src/components/common/sort/option';
 import {createTestI18n} from '@/vitest-utils/testing-helpers/i18n-utils';
@@ -9,7 +9,7 @@ import {
   renderCommerceSortOption,
 } from './option';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 vi.mock('@/src/components/common/sort/option', {spy: true});
 
 describe('#renderCommerceSortOption', () => {

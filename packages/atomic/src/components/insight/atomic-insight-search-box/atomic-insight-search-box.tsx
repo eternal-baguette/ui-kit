@@ -1,10 +1,10 @@
-import {loadInsightSearchActions} from '@coveo/headless/insight';
+import {loadInsightSearchActions} from '@eternal-baguette/headless/insight';
 import {
   buildSearchBox as buildInsightSearchBox,
   SearchBox as InsightSearchBox,
   SearchBoxState as InsightSearchBoxState,
   Suggestion as InsightSuggestion,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Component, Element, h, Prop, State} from '@stencil/core';
 import SearchSlimIcon from '../../../images/search-slim.svg';
 import {hasKeyboard, isMacOS} from '../../../utils/device-utils';

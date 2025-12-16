@@ -6,7 +6,7 @@ import buildConfig from '../../packages/headless/build.config.json' with {
 import {listExportsFromIndex} from './list-imports.mjs';
 
 function getHeadlessPackageName(useCase) {
-  const prefix = '@coveo/headless';
+  const prefix = '@eternal-baguette/headless';
   return useCase === 'search' ? prefix : `${prefix}/${useCase}`;
 }
 
@@ -87,7 +87,7 @@ function getHeadlessAffectedEndpointsForSingleFile(
  *   'packages/headless/src/utils/helper.ts'
  * ];
  * const affected = getAllHeadlessAffectedEndpoints(changedFiles, '/path/to/project');
- * // Returns: ['@coveo/headless', '@coveo/headless/commerce']
+ * // Returns: ['@eternal-baguette/headless', '@eternal-baguette/headless/commerce']
  */
 export function getAllHeadlessAffectedEndpoints(changedFiles, projectRoot) {
   const dependencies = getHeadlessIndexDependencyTree(projectRoot);

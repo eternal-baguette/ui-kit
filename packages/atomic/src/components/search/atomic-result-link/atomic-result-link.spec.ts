@@ -1,4 +1,4 @@
-import type {InteractiveResult, Result} from '@coveo/headless';
+import type {InteractiveResult, Result} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
@@ -9,7 +9,7 @@ import {buildFakeResult} from '@/vitest-utils/testing-helpers/fixtures/headless/
 import {AtomicResultLink} from './atomic-result-link';
 import './atomic-result-link';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-result-link', () => {
   let mockResult: Result;

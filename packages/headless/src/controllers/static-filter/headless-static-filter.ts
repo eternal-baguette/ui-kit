@@ -1,4 +1,4 @@
-import {Schema} from '@coveo/bueno';
+import {Schema} from '@eternal-baguette/bueno';
 import type {SearchEngine} from '../../app/search-engine/search-engine.js';
 import {executeSearch} from '../../features/search/search-actions.js';
 import {

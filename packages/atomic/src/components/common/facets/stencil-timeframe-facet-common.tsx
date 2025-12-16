@@ -11,7 +11,7 @@ import {
   RelativeDatePeriod,
   RelativeDateUnit,
   SearchStatusState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {h, VNode} from '@stencil/core';
 import {parseDate} from '../../../utils/date-utils';
 import {getFieldValueCaption} from '../../../utils/field-utils';

@@ -3,7 +3,7 @@ import {
   type FoldedResult,
   type FoldedResultList,
   type FoldedResultListState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {css, html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {map} from 'lit/directives/map.js';

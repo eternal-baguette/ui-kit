@@ -45,7 +45,7 @@ index b759048..03fd3da 100644
  /* eslint-disable */
  /* tslint:disable */
  import { fromEvent } from 'rxjs';
-+import customElementsManifest from '@coveo/atomic/custom-elements-manifest';
++import customElementsManifest from '@eternal-baguette/atomic/custom-elements-manifest';
 +
 +
 +const createPropertyToAttributeMap = (): Map<string, string> => {

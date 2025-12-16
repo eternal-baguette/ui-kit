@@ -2,7 +2,7 @@ import {
   buildProductTemplatesManager,
   type Product,
   type Template,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import type {ItemTarget} from '@/src/components/common/layout/item-layout-utils';
 import {
   TemplateProvider,

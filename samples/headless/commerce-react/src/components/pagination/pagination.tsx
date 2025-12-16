@@ -1,4 +1,4 @@
-import type {Pagination as HeadlessPagination} from '@coveo/headless/commerce';
+import type {Pagination as HeadlessPagination} from '@eternal-baguette/headless/commerce';
 import {useEffect, useState} from 'react';
 
 interface IPaginationProps {

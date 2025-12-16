@@ -1,8 +1,8 @@
-import {NumberValue} from '@coveo/bueno';
+import {NumberValue} from '@eternal-baguette/bueno';
 import {
   IPXActionsHistoryActionCreators,
   loadIPXActionsHistoryActions,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {
   buildRecommendationList,
   RecommendationList,
@@ -10,7 +10,7 @@ import {
   loadConfigurationActions,
   Result as RecsResult,
   buildInteractiveResult as buildRecsInteractiveResult,
-} from '@coveo/headless/recommendation';
+} from '@eternal-baguette/headless/recommendation';
 import {
   Component,
   State,

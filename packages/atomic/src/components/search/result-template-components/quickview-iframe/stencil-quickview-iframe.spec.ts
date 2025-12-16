@@ -1,4 +1,4 @@
-import type {SearchEngine} from '@coveo/headless';
+import type {SearchEngine} from '@eternal-baguette/headless';
 import type {VNode} from '@stencil/core';
 import {afterEach, beforeEach, describe, expect, it, vi} from 'vitest';
 import {renderStencilVNode} from '@/vitest-utils/testing-helpers/stencil-vnode-renderer';

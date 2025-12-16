@@ -1,4 +1,7 @@
-import type {Product, ProductList} from '@coveo/headless/ssr-commerce-next';
+import type {
+  Product,
+  ProductList,
+} from '@eternal-baguette/headless/ssr-commerce-next';
 import {getElement} from '../common/utils.js';
 
 export function ProductGrid(productList: ProductList) {

@@ -14,7 +14,7 @@
         script.src = 'http://localhost:3000/atomic-hosted-page/v1/atomic-hosted-page/atomic-hosted-page.esm.js';
         document.head.appendChild(script);
       } else {
-        import('@coveo/atomic-hosted-page/loader').then(({defineCustomElements}) => {
+        import('@eternal-baguette/atomic-hosted-page/loader').then(({defineCustomElements}) => {
           defineCustomElements();
         });
       }

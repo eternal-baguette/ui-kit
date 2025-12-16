@@ -1,4 +1,4 @@
-import type {FoldedResult, Result} from '@coveo/headless';
+import type {FoldedResult, Result} from '@eternal-baguette/headless';
 import {fetchItemContext} from '@/src/components/common/item-list/fetch-item-context';
 
 /**

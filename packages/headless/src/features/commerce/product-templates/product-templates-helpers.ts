@@ -1,4 +1,4 @@
-import {isArray, isNullOrUndefined} from '@coveo/bueno';
+import {isArray, isNullOrUndefined} from '@eternal-baguette/bueno';
 import type {
   ChildProduct,
   Product,

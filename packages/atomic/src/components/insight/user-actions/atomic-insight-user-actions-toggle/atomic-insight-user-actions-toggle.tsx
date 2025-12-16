@@ -2,7 +2,7 @@ import {
   buildUserActions as buildInsightUserActions,
   UserActions as InsightUserActions,
   UserActionsState as InsightUserActionsState,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Component, h, Prop, Element, State} from '@stencil/core';
 import Clockicon from '../../../../images/clock.svg';
 import {

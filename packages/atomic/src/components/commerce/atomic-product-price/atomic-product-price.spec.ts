@@ -1,4 +1,4 @@
-import {buildContext} from '@coveo/headless/commerce';
+import {buildContext} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {describe, expect, it, vi} from 'vitest';
 import {renderInAtomicProduct} from '@/vitest-utils/testing-helpers/fixtures/atomic/commerce/atomic-product-fixture';
@@ -8,7 +8,7 @@ import {buildFakeProduct} from '@/vitest-utils/testing-helpers/fixtures/headless
 import type {AtomicProductPrice} from './atomic-product-price';
 import './atomic-product-price';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-product-price', () => {
   const mockedEngine = buildFakeCommerceEngine();

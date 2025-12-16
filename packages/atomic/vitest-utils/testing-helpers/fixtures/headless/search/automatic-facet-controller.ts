@@ -1,4 +1,7 @@
-import type {AutomaticFacet, AutomaticFacetState} from '@coveo/headless';
+import type {
+  AutomaticFacet,
+  AutomaticFacetState,
+} from '@eternal-baguette/headless';
 import {vi} from 'vitest';
 import {genericSubscribe} from '../common';
 

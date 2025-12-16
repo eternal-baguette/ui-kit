@@ -1,6 +1,6 @@
 /** biome-ignore-all lint/style/noNonNullAssertion: For testing, locators should always exist */
 
-import type {DateFilterRange} from '@coveo/headless';
+import type {DateFilterRange} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {when} from 'lit/directives/when.js';
 import {beforeEach, describe, expect, it, type MockInstance, vi} from 'vitest';

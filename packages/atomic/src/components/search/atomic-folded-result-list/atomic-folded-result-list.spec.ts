@@ -3,7 +3,7 @@ import {
   buildInteractiveResult,
   buildResultsPerPage,
   buildTabManager,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
@@ -29,7 +29,7 @@ vi.mock('@/src/components/common/interface/store', {spy: true});
 vi.mock('@/src/components/common/template-controller/template-utils', {
   spy: true,
 });
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-folded-result-list', () => {
   const interactiveResult = vi.fn();

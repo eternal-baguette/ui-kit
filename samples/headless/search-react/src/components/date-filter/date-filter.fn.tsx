@@ -1,7 +1,7 @@
 import {
   buildDateRange,
   type DateFilter as HeadlessDateFilter,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Fragment, type FunctionComponent, useEffect, useState} from 'react';
 import {parseDate} from '../date-facet/date-utils';
 

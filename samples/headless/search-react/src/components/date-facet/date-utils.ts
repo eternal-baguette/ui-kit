@@ -1,4 +1,4 @@
-import {API_DATE_FORMAT, buildDateRange} from '@coveo/headless';
+import {API_DATE_FORMAT, buildDateRange} from '@eternal-baguette/headless';
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
 

@@ -1,11 +1,11 @@
 import {
   type CommerceEngineConfiguration,
   getSampleCommerceEngineConfiguration,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {describe, expect, it, vi} from 'vitest';
 import {getAnalyticsConfig} from './analytics-config';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('#getAnalyticsConfig', () => {
   it('should return default configuration when analytics is not defined in commerceEngineConfig', () => {
@@ -16,7 +16,7 @@ describe('#getAnalyticsConfig', () => {
     expect(config).toEqual({
       enabled,
       source: {
-        '@coveo/atomic': '0.0.0',
+        '@eternal-baguette/atomic': '0.0.0',
       },
     });
   });
@@ -30,7 +30,7 @@ describe('#getAnalyticsConfig', () => {
     expect(config).toEqual({
       enabled,
       source: {
-        '@coveo/atomic': '0.0.0',
+        '@eternal-baguette/atomic': '0.0.0',
       },
       trackingId: commerceEngineConfig.analytics.trackingId,
     });

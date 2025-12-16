@@ -1,7 +1,7 @@
 import type {
   AnalyticsConfiguration,
   SearchEngineConfiguration,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {
   type AnalyticsPayload,
   augmentAnalyticsConfigWithAtomicVersion,

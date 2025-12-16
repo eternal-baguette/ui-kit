@@ -1,4 +1,4 @@
-import {NumberValue, Schema} from '@coveo/bueno';
+import {NumberValue, Schema} from '@eternal-baguette/bueno';
 import type {
   CategoryFacet,
   DateFacet,
@@ -6,13 +6,13 @@ import type {
   ProductListingSummaryState,
   RegularFacet,
   SearchSummaryState,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {
   buildProductListing,
   buildSearch,
   type FacetGenerator,
   type Summary,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {map} from 'lit/directives/map.js';
@@ -31,7 +31,7 @@ import '../atomic-commerce-timeframe-facet/atomic-commerce-timeframe-facet';
 import type {
   FacetType,
   MappedGeneratedFacetController,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {keyed} from 'lit/directives/keyed.js';
 import {bindStateToController} from '@/src/decorators/bind-state';
 import {LightDomMixin} from '@/src/mixins/light-dom';

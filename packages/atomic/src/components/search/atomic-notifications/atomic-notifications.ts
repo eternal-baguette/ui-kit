@@ -1,9 +1,9 @@
-import {NumberValue, Schema} from '@coveo/bueno';
+import {NumberValue, Schema} from '@eternal-baguette/bueno';
 import {
   buildNotifyTrigger,
   type NotifyTrigger,
   type NotifyTriggerState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {map} from 'lit/directives/map.js';

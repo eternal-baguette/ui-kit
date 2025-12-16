@@ -1,7 +1,7 @@
 import {
   buildSSRSearchParameterSerializer,
   type NavigatorContext,
-} from '@coveo/headless-react/ssr';
+} from '@eternal-baguette/headless-react/ssr';
 import type {GetServerSidePropsContext} from 'next';
 import {AuthorFacet} from '@/common/components/react/facets';
 import ResultList from '@/common/components/react/result-list';

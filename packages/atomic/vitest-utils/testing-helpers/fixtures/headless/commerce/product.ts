@@ -1,4 +1,4 @@
-import type {Product} from '@coveo/headless/commerce';
+import type {Product} from '@eternal-baguette/headless/commerce';
 
 export const buildFakeProduct = (product?: Partial<Product>): Product =>
   ({

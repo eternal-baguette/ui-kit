@@ -3,7 +3,7 @@ import {
   type Pager as HeadlessPager,
   type PagerState,
   type Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, type ContextType} from 'react';
 import {AppContext} from '../../context/engine';
 

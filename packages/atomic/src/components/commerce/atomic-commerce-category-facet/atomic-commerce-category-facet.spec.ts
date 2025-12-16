@@ -1,4 +1,4 @@
-import type {CategoryFacet, Summary} from '@coveo/headless/commerce';
+import type {CategoryFacet, Summary} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {beforeEach, describe, expect, it, type MockInstance, vi} from 'vitest';
 import {page, userEvent} from 'vitest/browser';
@@ -8,7 +8,7 @@ import {buildFakeSummary} from '@/vitest-utils/testing-helpers/fixtures/headless
 import type {AtomicCommerceCategoryFacet} from './atomic-commerce-category-facet';
 import './atomic-commerce-category-facet';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-commerce-category-facet', () => {
   let mockedSummary: Summary;

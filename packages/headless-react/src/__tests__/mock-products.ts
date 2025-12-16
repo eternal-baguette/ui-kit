@@ -1,6 +1,6 @@
 import {randomUUID} from 'node:crypto';
-import type {Product} from '@coveo/headless/ssr-commerce';
-import {ResultType} from '@coveo/headless/ssr-commerce';
+import type {Product} from '@eternal-baguette/headless/ssr-commerce';
+import {ResultType} from '@eternal-baguette/headless/ssr-commerce';
 
 const createMockProduct = (overrides: Partial<Product> = {}): Product => ({
   additionalFields: {},

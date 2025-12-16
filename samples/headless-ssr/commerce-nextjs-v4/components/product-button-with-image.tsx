@@ -2,7 +2,7 @@ import type {
   Product,
   ProductList,
   Recommendations,
-} from '@coveo/headless-react/ssr-commerce-next';
+} from '@eternal-baguette/headless-react/ssr-commerce-next';
 import Image from 'next/image';
 import {useRouter} from 'next/navigation';
 

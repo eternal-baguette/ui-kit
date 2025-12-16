@@ -7,7 +7,7 @@ import {
   buildResultsPerPage as buildInsightResultsPerPage,
   FoldedCollection as InsightFoldedCollection,
   buildInteractiveResult as buildInsightInteractiveResult,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {
   Component,
   Element,

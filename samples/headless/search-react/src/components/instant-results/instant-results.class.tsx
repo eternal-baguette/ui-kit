@@ -6,7 +6,7 @@ import {
   type InstantResultsState,
   type SearchBoxState,
   type Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, type ContextType, type ReactNode} from 'react';
 import {AppContext} from '../../context/engine';
 

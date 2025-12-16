@@ -1,4 +1,4 @@
-import type {Result} from '@coveo/headless/ssr';
+import type {Result} from '@eternal-baguette/headless/ssr';
 
 interface ResultListCommonProps {
   results: Result[];

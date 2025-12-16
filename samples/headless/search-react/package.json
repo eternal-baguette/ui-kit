@@ -8,8 +8,8 @@
     "node": "^20.9.0 || ^22.11.0"
   },
   "dependencies": {
-    "@coveo/auth": "2.1.1",
-    "@coveo/headless": "workspace:*",
+    "@eternal-baguette/auth": "2.1.1",
+    "@eternal-baguette/headless": "workspace:*",
     "@testing-library/jest-dom": "6.6.3",
     "@testing-library/react": "catalog:",
     "@types/escape-html": "1.0.4",

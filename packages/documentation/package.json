@@ -1,7 +1,7 @@
 {
   "private": true,
   "version": "1.0.0",
-  "name": "@coveo/documentation",
+  "name": "@eternal-baguette/documentation",
   "type": "module",
   "main": "dist/index.js",
   "files": [

@@ -1,4 +1,4 @@
-import type {CommerceEngineConfiguration} from '@coveo/headless/commerce';
+import type {CommerceEngineConfiguration} from '@eternal-baguette/headless/commerce';
 import {augmentAnalyticsConfigWithAtomicVersion} from '../../common/interface/analytics-config';
 
 export function getAnalyticsConfig(

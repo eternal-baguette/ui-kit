@@ -1,5 +1,5 @@
-import {Schema, StringValue} from '@coveo/bueno';
-import {type Result, ResultTemplatesHelpers} from '@coveo/headless';
+import {Schema, StringValue} from '@eternal-baguette/bueno';
+import {type Result, ResultTemplatesHelpers} from '@eternal-baguette/headless';
 import dayjs from 'dayjs';
 import type {DurationUnitType} from 'dayjs/plugin/duration';
 import duration from 'dayjs/plugin/duration';

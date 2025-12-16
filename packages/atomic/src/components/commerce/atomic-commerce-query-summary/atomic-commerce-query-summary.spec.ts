@@ -4,7 +4,7 @@ import {
   type ProductListingSummaryState,
   type SearchSummaryState,
   type Summary,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {describe, expect, it, vi} from 'vitest';
 import {AriaLiveRegionController} from '@/src/utils/accessibility-utils';
@@ -16,7 +16,7 @@ import {buildFakeSummary} from '@/vitest-utils/testing-helpers/fixtures/headless
 import type {AtomicCommerceQuerySummary} from './atomic-commerce-query-summary';
 import './atomic-commerce-query-summary';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-commerce-query-summary', () => {
   const mockedEngine = buildFakeCommerceEngine();

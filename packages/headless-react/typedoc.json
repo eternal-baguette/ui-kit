@@ -15,7 +15,7 @@
   "categorizeByGroup": true,
   "entryPoints": ["./temp/ssr-commerce.json", "./temp/ssr.json"],
   "gitRevision": "main",
-  "plugin": ["@coveo/documentation"],
+  "plugin": ["@eternal-baguette/documentation"],
   "hoistOther.renameModulesTo": "Reference",
   "router": "kebab",
   "hoistOther.nestedOrder": {

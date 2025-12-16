@@ -33,14 +33,14 @@ import {
   AtomicTimeframe,
   AtomicTimeframeFacet,
   type Bindings,
-} from '@coveo/atomic-react';
+} from '@eternal-baguette/atomic-react';
 import {
   buildSearchEngine,
   getSampleSearchEngineConfiguration,
   loadAdvancedSearchQueryActions,
   type Result,
   type SearchEngineConfiguration,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import type React from 'react';
 import {type FunctionComponent, useMemo} from 'react';
 

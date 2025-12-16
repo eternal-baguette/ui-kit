@@ -6,7 +6,7 @@ import {
   type InteractiveResult,
   type InteractiveResultProps,
   type Result,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
 import {page} from 'vitest/browser';
@@ -30,7 +30,7 @@ vi.mock('@/src/components/common/interface/store', {spy: true});
 vi.mock('@/src/components/common/template-controller/template-utils', {
   spy: true,
 });
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-result-list', () => {
   const interactiveResult = vi.fn();

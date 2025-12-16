@@ -1,6 +1,8 @@
 import {execSync} from 'node:child_process';
 import {writeFileSync} from 'node:fs';
-import cem from '@coveo/atomic/custom-elements-manifest' with {type: 'json'};
+import cem from '@eternal-baguette/atomic/custom-elements-manifest' with {
+  type: 'json',
+};
 
 const isLitDeclaration = (declaration) =>
   declaration?.superclass?.name === 'LitElement';
@@ -101,7 +103,7 @@ for (const entry of entries) {
     [
       `import {createComponent} from '@lit/react';`,
       `import React from 'react';`,
-      `import {${sortedImports.join(',')}} from '@coveo/atomic/components';`,
+      `import {${sortedImports.join(',')}} from '@eternal-baguette/atomic/components';`,
       entry.content,
     ].join('\n')
   );

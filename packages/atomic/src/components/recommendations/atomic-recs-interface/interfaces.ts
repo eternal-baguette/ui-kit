@@ -1,4 +1,4 @@
-import type {RecommendationEngine} from '@coveo/headless/recommendation';
+import type {RecommendationEngine} from '@eternal-baguette/headless/recommendation';
 import type {CommonBindings} from '../../common/interface/bindings';
 import type {AtomicRecsInterface} from './atomic-recs-interface';
 import type {RecsStore} from './store';

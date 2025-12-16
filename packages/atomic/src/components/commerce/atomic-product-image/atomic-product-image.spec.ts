@@ -1,4 +1,4 @@
-import type {Product} from '@coveo/headless/commerce';
+import type {Product} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
@@ -8,7 +8,7 @@ import {buildFakeProduct} from '@/vitest-utils/testing-helpers/fixtures/headless
 import type {AtomicProductImage} from './atomic-product-image';
 import './atomic-product-image';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 vi.mock('@/src/utils/xss-utils', () => ({
   filterProtocol: vi.fn((url: string) => url),
 }));

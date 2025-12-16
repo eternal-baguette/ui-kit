@@ -6,7 +6,7 @@ import {
   type RecommendationListState,
   type Result,
   type Unsubscribe,
-} from '@coveo/headless/recommendation';
+} from '@eternal-baguette/headless/recommendation';
 import {Component, type ContextType} from 'react';
 import {AppContext} from '../../context/engine';
 import {filterProtocol} from '../../utils/filter-protocol';

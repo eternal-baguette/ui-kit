@@ -2,7 +2,7 @@ import {
   type DateFacet,
   type DateFacetValue,
   deserializeRelativeDate,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface RelativeDateFacetProps {

@@ -5,7 +5,7 @@ import {
   BreadcrumbManager as InsightBreadcrumbManager,
   BreadcrumbManagerState as InsightBreadcrumbManagerState,
   buildBreadcrumbManager as buildInsightBreadcrumbManager,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Component, h, State, Prop, Element, Watch, Host} from '@stencil/core';
 import {rectEquals} from '../../../utils/dom-utils';
 import {

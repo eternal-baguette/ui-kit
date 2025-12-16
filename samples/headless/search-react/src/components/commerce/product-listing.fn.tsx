@@ -1,4 +1,4 @@
-import type {ProductListing as HeadlessProductListing} from '@coveo/headless/commerce';
+import type {ProductListing as HeadlessProductListing} from '@eternal-baguette/headless/commerce';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface ProductListingProps {

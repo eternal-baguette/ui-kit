@@ -3,7 +3,7 @@ import {
   type Result,
   ResultTemplatesHelpers,
   type SearchEngine,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import type {RecsBindings} from '../components/recommendations/atomic-recs-interface/interfaces';
 import type {Bindings} from '../components/search/atomic-search-interface/atomic-search-interface';
 import {readFromObject} from './object-utils';

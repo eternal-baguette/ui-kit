@@ -4,7 +4,7 @@ import {
   type Cart,
   type CommerceEngine,
   type Context,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useEffect, useRef, useState} from 'react';
 import RecommendationsInterface from '../components/use-cases/recommendations-interface/recommendations-interface.js';
 import {saveCartItemsToLocaleStorage} from '../utils/cart-utils.js';

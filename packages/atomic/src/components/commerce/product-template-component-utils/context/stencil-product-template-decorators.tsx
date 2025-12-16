@@ -1,4 +1,4 @@
-import {Product} from '@coveo/headless/commerce';
+import {Product} from '@eternal-baguette/headless/commerce';
 import {itemContext} from '@/src/components/common/item-list/stencil-item-decorators';
 
 /**

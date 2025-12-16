@@ -1,4 +1,4 @@
-import {coveoCdnResolve} from '@coveo/create-atomic-rollup-plugin';
+import {coveoCdnResolve} from '@eternal-baguette/create-atomic-rollup-plugin';
 import {Config} from '@stencil/core';
 import {string as html} from 'rollup-plugin-string';
 export const config: Config = {

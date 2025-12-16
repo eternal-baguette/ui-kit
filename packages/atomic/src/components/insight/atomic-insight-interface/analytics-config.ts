@@ -1,7 +1,7 @@
 import type {
   AnalyticsConfiguration as InsightAnalyticsConfiguration,
   EngineConfiguration as InsightEngineConfiguration,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {
   type AnalyticsPayload,
   augmentAnalyticsWithAtomicVersion,

@@ -1,4 +1,4 @@
-import {Schema} from '@coveo/bueno';
+import {Schema} from '@eternal-baguette/bueno';
 import {
   nonEmptyString,
   requiredNonEmptyString,

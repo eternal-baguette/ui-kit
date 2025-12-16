@@ -12,7 +12,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@coveo/atomic": "workspace:*",
+    "@eternal-baguette/atomic": "workspace:*",
     "vue": "3.5.18"
   },
   "devDependencies": {

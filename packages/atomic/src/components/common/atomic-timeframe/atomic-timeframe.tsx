@@ -1,4 +1,4 @@
-import {RelativeDateUnit} from '@coveo/headless';
+import {RelativeDateUnit} from '@eternal-baguette/headless';
 import {Component, Prop} from '@stencil/core';
 import {Timeframe} from '../facets/stencil-timeframe-facet-common';
 

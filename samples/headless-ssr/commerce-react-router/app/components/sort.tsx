@@ -1,4 +1,7 @@
-import {SortBy, type SortCriterion} from '@coveo/headless-react/ssr-commerce';
+import {
+  SortBy,
+  type SortCriterion,
+} from '@eternal-baguette/headless-react/ssr-commerce';
 import {useSort} from '@/lib/commerce-engine';
 
 export default function Sort() {

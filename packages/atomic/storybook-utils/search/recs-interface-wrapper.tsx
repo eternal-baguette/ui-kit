@@ -1,7 +1,7 @@
 import {
   getSampleRecommendationEngineConfiguration,
   RecommendationEngineConfiguration,
-} from '@coveo/headless/recommendation';
+} from '@eternal-baguette/headless/recommendation';
 import {Decorator, StoryContext} from '@storybook/web-components-vite';
 import {html} from 'lit';
 import type * as _ from '../../src/components.js';

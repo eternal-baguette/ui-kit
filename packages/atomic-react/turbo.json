@@ -2,11 +2,14 @@
   "extends": ["//"],
   "tasks": {
     "gen:lit": {
-      "dependsOn": ["@coveo/atomic#build:cem"],
+      "dependsOn": ["@eternal-baguette/atomic#build:cem"],
       "outputs": ["src/components/stencil-generated/**/*"]
     },
     "release:phase1": {
-      "dependsOn": ["^release:phase1", "@coveo/headless#release:phase1"],
+      "dependsOn": [
+        "^release:phase1",
+        "@eternal-baguette/headless#release:phase1"
+      ],
       "outputs": []
     }
   }

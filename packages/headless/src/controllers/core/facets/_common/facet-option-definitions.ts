@@ -5,7 +5,7 @@ import {
   RecordValue,
   type SchemaDefinition,
   StringValue,
-} from '@coveo/bueno';
+} from '@eternal-baguette/bueno';
 import type {FacetSearchRequestOptions} from '../../../../api/search/facet-search/base/base-facet-search-request.js';
 
 export const facetId = new StringValue({

@@ -3,7 +3,7 @@ import {
   FoldedResultListState as InsightFoldedResultListState,
   FoldedResult as InsightFoldedResult,
   FoldedResultList as InsightFoldedResultList,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Component, Element, State, h, Listen, Prop} from '@stencil/core';
 import {buildCustomEvent} from '../../../../utils/event-utils';
 import {

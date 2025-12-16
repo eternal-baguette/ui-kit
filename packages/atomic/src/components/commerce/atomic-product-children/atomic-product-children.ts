@@ -1,5 +1,5 @@
-import type {ChildProduct} from '@coveo/headless/commerce';
-import {ProductTemplatesHelpers} from '@coveo/headless/commerce';
+import type {ChildProduct} from '@eternal-baguette/headless/commerce';
+import {ProductTemplatesHelpers} from '@eternal-baguette/headless/commerce';
 import {html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {createProductContextController} from '@/src/components/commerce/product-template-component-utils/context/product-context-controller';

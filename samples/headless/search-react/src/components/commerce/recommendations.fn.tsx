@@ -1,4 +1,4 @@
-import type {Recommendations as HeadlessRecommendations} from '@coveo/headless/commerce';
+import type {Recommendations as HeadlessRecommendations} from '@eternal-baguette/headless/commerce';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface RecommendationsProps {

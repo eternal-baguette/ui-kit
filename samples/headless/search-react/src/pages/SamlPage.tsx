@@ -2,8 +2,8 @@ import {
   buildSamlClient,
   type SamlClient,
   type SamlClientOptions,
-} from '@coveo/auth';
-import {buildSearchEngine} from '@coveo/headless';
+} from '@eternal-baguette/auth';
+import {buildSearchEngine} from '@eternal-baguette/headless';
 import {
   type FunctionComponent,
   type PropsWithChildren,

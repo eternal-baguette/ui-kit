@@ -1,4 +1,4 @@
-import {isNullOrUndefined} from '@coveo/bueno';
+import {isNullOrUndefined} from '@eternal-baguette/bueno';
 import DOMPurify from 'dompurify';
 import type {LitElement} from 'lit';
 import {debounce} from '../../../utils/debounce-utils';

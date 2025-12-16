@@ -1,4 +1,4 @@
-import type {Controller} from '@coveo/headless';
+import type {Controller} from '@eternal-baguette/headless';
 import {vi} from 'vitest';
 
 type SolutionTypeAvailabilities = {

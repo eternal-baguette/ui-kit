@@ -4,7 +4,7 @@ import {
   type CategoryFieldSuggestionsOptions,
   type CategoryFieldSuggestions as HeadlessCategoryFieldSuggestions,
   type Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, type ContextType} from 'react';
 import {AppContext} from '../../../context/engine';
 

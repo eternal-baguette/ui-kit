@@ -7,7 +7,7 @@ import {
   type InferControllersMapFromDefinition,
   SolutionType,
   type CommerceEngine as SSRCommerceEngine,
-} from '@coveo/headless/ssr-commerce';
+} from '@eternal-baguette/headless/ssr-commerce';
 import {
   type Context,
   type PropsWithChildren,

@@ -3,9 +3,9 @@ import type {
   AnalyticsConfiguration,
   EngineConfiguration,
   SearchEngineConfiguration,
-} from '@coveo/headless';
-import type {InsightEngineConfiguration} from '@coveo/headless/insight';
-import type {RecommendationEngineConfiguration} from '@coveo/headless/recommendation';
+} from '@eternal-baguette/headless';
+import type {InsightEngineConfiguration} from '@eternal-baguette/headless/insight';
+import type {RecommendationEngineConfiguration} from '@eternal-baguette/headless/recommendation';
 import {getAtomicVersion} from '../../../global/environment';
 
 export type AnalyticsPayload = Parameters<AnalyticsClientSendEventHook>[1];
@@ -45,7 +45,8 @@ export function augmentAnalyticsConfigWithAtomicVersion(): Required<
 > {
   return {
     source: {
-      '@coveo/atomic': versionMatcher.exec(getAtomicVersion())?.[0] || '0.0.0',
+      '@eternal-baguette/atomic':
+        versionMatcher.exec(getAtomicVersion())?.[0] || '0.0.0',
     },
   };
 }

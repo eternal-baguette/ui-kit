@@ -67,7 +67,7 @@ export default function (plop: NodePlopAPI) {
 
   plop.setHelper('inc', (value) => parseInt(value) + 1);
 
-  plop.setGenerator('@coveo/atomic', {
+  plop.setGenerator('@eternal-baguette/atomic', {
     description: 'A Coveo Atomic Generator',
     prompts: [
       {

@@ -1,7 +1,7 @@
 import {
   InteractiveResult as RecsInteractiveResult,
   Result as RecsResult,
-} from '@coveo/headless/recommendation';
+} from '@eternal-baguette/headless/recommendation';
 import {Component, h, Prop, Element, Listen, Host} from '@stencil/core';
 import {parentNodeToString} from '../../../utils/dom-utils';
 import {

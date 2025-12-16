@@ -1,10 +1,10 @@
-import type {AtomicCommerceRecommendationList} from '@coveo/atomic/components';
+import type {AtomicCommerceRecommendationList} from '@eternal-baguette/atomic/components';
 import type {
   ItemDisplayBasicLayout,
   ItemDisplayDensity,
   ItemDisplayImageSize,
-} from '@coveo/atomic/loader';
-import type {Product} from '@coveo/headless/commerce';
+} from '@eternal-baguette/atomic/loader';
+import type {Product} from '@eternal-baguette/headless/commerce';
 import React, {type JSX, useEffect, useRef} from 'react';
 import {createRoot} from 'react-dom/client';
 import {renderToString} from 'react-dom/server';

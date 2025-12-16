@@ -1,4 +1,4 @@
-import {getOrganizationEndpoint} from '@coveo/headless';
+import {getOrganizationEndpoint} from '@eternal-baguette/headless';
 import type {InitializationOptions} from './atomic-hosted-ui.js';
 
 export async function getHostedPage(

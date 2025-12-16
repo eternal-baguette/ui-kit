@@ -2,7 +2,7 @@ import {
   buildRecentQueriesList,
   type RecentQueriesList,
   type SearchBox,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {errorGuard} from '@/src/decorators/error-guard';

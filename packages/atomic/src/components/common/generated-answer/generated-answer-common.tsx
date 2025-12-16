@@ -5,7 +5,7 @@ import {
   InteractiveCitation,
   InteractiveCitationProps,
   SearchStatusState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {h} from '@stencil/core';
 import {
   GeneratedAnswerData,

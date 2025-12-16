@@ -1,4 +1,4 @@
-import {ArrayValue} from '@coveo/bueno';
+import {ArrayValue} from '@eternal-baguette/bueno';
 import type {CategoryFacetMetadata} from 'coveo.analytics/dist/definitions/searchPage/searchPageEvents.js';
 import type {InsightAppState} from '../../../state/insight-app-state.js';
 import {

@@ -2,7 +2,7 @@ import type {
   FacetManagerPayload,
   Facet as HeadlessFacet,
   FacetManager as HeadlessFacetManager,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {
   Children,
   type FunctionComponent,

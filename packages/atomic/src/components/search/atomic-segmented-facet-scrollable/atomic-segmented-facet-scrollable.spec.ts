@@ -1,4 +1,4 @@
-import {buildSearchStatus} from '@coveo/headless';
+import {buildSearchStatus} from '@eternal-baguette/headless';
 import {html, type TemplateResult} from 'lit';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
 import {renderInAtomicSearchInterface} from '@/vitest-utils/testing-helpers/fixtures/atomic/search/atomic-search-interface-fixture';
@@ -7,7 +7,7 @@ import {buildFakeSearchStatus} from '@/vitest-utils/testing-helpers/fixtures/hea
 import type {AtomicSegmentedFacetScrollable} from './atomic-segmented-facet-scrollable';
 import './atomic-segmented-facet-scrollable';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-segmented-facet-scrollable', () => {
   const mockedEngine = buildFakeSearchEngine();

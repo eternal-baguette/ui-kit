@@ -1,4 +1,4 @@
-import {UserAction as IUserAction} from '@coveo/headless/insight';
+import {UserAction as IUserAction} from '@eternal-baguette/headless/insight';
 import {FunctionalComponent, h} from '@stencil/core';
 import BookmarkIcon from '../../../../images/bookmark.svg';
 import DocumentIcon from '../../../../images/document.svg';

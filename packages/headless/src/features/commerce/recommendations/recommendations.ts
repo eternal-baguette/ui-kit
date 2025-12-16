@@ -1,4 +1,4 @@
-import {Schema, StringValue} from '@coveo/bueno';
+import {Schema, StringValue} from '@eternal-baguette/bueno';
 import type {RecommendationsOptions} from '../../../controllers/commerce/recommendations/headless-recommendations.js';
 import {requiredNonEmptyString} from '../../../utils/validate-payload.js';
 

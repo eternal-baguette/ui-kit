@@ -13,10 +13,10 @@ describe('#getAnalyticsSources', () => {
   it('with a source, returns an array with `@coveo/headless` and the serialized framework-version pair', () => {
     const state = createMockState();
     state.configuration.analytics.source = {
-      '@coveo/atomic': '1.2.3',
+      '@eternal-baguette/atomic': '1.2.3',
     };
     expect(getAnalyticsSource(state.configuration.analytics)).toEqual([
-      '@coveo/atomic@1.2.3',
+      '@eternal-baguette/atomic@1.2.3',
       `@coveo/headless@${VERSION}`,
     ]);
   });

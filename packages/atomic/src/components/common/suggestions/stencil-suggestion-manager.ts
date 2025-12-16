@@ -1,4 +1,4 @@
-import {isNullOrUndefined} from '@coveo/bueno';
+import {isNullOrUndefined} from '@eternal-baguette/bueno';
 import {forceUpdate} from '@stencil/core';
 import DOMPurify from 'dompurify';
 import {debounce} from '../../../utils/debounce-utils';

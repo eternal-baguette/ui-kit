@@ -1,4 +1,4 @@
-import {isNullOrUndefined} from '@coveo/bueno';
+import {isNullOrUndefined} from '@eternal-baguette/bueno';
 import {
   SearchBox,
   SearchBoxState,
@@ -7,7 +7,7 @@ import {
   StandaloneSearchBoxState,
   buildStandaloneSearchBox,
   SearchBoxOptions,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {
   Component,
   h,

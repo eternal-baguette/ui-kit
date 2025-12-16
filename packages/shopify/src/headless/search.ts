@@ -1,9 +1,12 @@
-import {buildSearchEngine, type SearchEngineOptions} from '@coveo/headless';
+import {
+  buildSearchEngine,
+  type SearchEngineOptions,
+} from '@eternal-baguette/headless';
 import {COVEO_SHOPIFY_CONFIG_KEY} from '../constants';
 import type {CoveoShopifyOptions} from '../types';
 import {publishCustomShopifyEvent} from '../utilities/shopify';
 
-export * from '@coveo/headless';
+export * from '@eternal-baguette/headless';
 export * from '../constants';
 export {COVEO_SHOPIFY_CONFIG_KEY} from '../constants';
 export type * from '../types';

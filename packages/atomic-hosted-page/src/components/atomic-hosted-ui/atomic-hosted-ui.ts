@@ -1,5 +1,5 @@
-import {Schema, StringValue} from '@coveo/bueno';
-import type {PlatformEnvironment} from '@coveo/headless';
+import {Schema, StringValue} from '@eternal-baguette/bueno';
+import type {PlatformEnvironment} from '@eternal-baguette/headless';
 import {html, LitElement} from 'lit';
 import {customElement, property} from 'lit/decorators.js';
 import {getHostedPage} from './api.js';

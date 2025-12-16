@@ -2,7 +2,7 @@ import {
   buildRecommendationEngine,
   buildRecommendationList,
   getSampleRecommendationEngineConfiguration,
-} from '@coveo/headless/recommendation';
+} from '@eternal-baguette/headless/recommendation';
 import {useMemo} from 'react';
 import {RecommendationList} from '../components/recommendation-list/recommendation-list.class';
 import {RecommendationList as RecommendationListFn} from '../components/recommendation-list/recommendation-list.fn';

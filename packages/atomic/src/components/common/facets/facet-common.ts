@@ -1,4 +1,4 @@
-import type {FacetValue, SearchStatusState} from '@coveo/headless';
+import type {FacetValue, SearchStatusState} from '@eternal-baguette/headless';
 import type {i18n} from 'i18next';
 import type {RefOrCallback} from 'lit/directives/ref.js';
 

@@ -1,4 +1,4 @@
-import {SchemaValidationError} from '@coveo/bueno';
+import {SchemaValidationError} from '@eternal-baguette/bueno';
 import type {Mock} from 'vitest';
 import {configuration} from '../../../app/common-reducers.js';
 import {registerFieldsToInclude} from '../../../features/fields/fields-actions.js';

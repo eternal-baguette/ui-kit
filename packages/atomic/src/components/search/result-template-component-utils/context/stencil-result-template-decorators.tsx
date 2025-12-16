@@ -1,4 +1,4 @@
-import {FoldedResult, Result} from '@coveo/headless';
+import {FoldedResult, Result} from '@eternal-baguette/headless';
 import {
   InteractiveItemContext,
   InteractiveItemContextEvent,

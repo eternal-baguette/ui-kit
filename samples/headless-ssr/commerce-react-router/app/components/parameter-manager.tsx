@@ -1,4 +1,4 @@
-import {buildParameterSerializer} from '@coveo/headless-react/ssr-commerce';
+import {buildParameterSerializer} from '@eternal-baguette/headless-react/ssr-commerce';
 import {useEffect, useMemo, useRef} from 'react';
 import {useSearchParams} from 'react-router';
 import {usePersistQuery} from '@/app/hooks/use-recent-queries';

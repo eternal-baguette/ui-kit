@@ -1,5 +1,5 @@
 {
-  "name": "@coveo/create-atomic-rollup-plugin",
+  "name": "@eternal-baguette/create-atomic-rollup-plugin",
   "version": "1.2.3",
   "description": "Rollup plugin for resolving Coveo Atomic dependencies from CDN or npm",
   "type": "module",

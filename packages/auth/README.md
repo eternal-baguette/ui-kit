@@ -19,7 +19,7 @@ npm i @coveo/auth
 ### Example
 
 ```
-import {buildSamlClient} from '@coveo/auth`;
+import {buildSamlClient} from '@eternal-baguette/auth`;
 
 const organizationId = '<organization id>';
 const provider = '<configured SAML auth provider name>';
@@ -36,8 +36,8 @@ main();
 ### Example with `@coveo/headless`
 
 ```
-import {buildSamlClient} from '@coveo/auth`;
-import {buildSearchEngine} from '@coveo/headless`;
+import {buildSamlClient} from '@eternal-baguette/auth`;
+import {buildSearchEngine} from '@eternal-baguette/headless`;
 
 async function main() {
   const saml = buildSamlClient(...);

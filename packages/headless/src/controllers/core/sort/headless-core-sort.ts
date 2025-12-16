@@ -1,4 +1,4 @@
-import {ArrayValue, isArray, Schema} from '@coveo/bueno';
+import {ArrayValue, isArray, Schema} from '@eternal-baguette/bueno';
 import {configuration} from '../../../app/common-reducers.js';
 import type {CoreEngine} from '../../../app/engine.js';
 import {updatePage} from '../../../features/pagination/pagination-actions.js';

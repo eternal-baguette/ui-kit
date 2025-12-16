@@ -1,4 +1,4 @@
-import {UserAction as IUserAction} from '@coveo/headless/insight';
+import {UserAction as IUserAction} from '@eternal-baguette/headless/insight';
 import {Component, h, Prop, Watch, State} from '@stencil/core';
 import Flag from '../../../../images/flag.svg';
 import ThreeDotsIcon from '../../../../images/three-dots.svg';

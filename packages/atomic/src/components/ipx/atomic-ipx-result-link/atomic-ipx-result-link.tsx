@@ -1,9 +1,9 @@
-import {isUndefined} from '@coveo/bueno';
+import {isUndefined} from '@eternal-baguette/bueno';
 import {
   IPXActionsHistoryActionCreators,
   InteractiveResult,
   loadIPXActionsHistoryActions,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, h, Prop, Element} from '@stencil/core';
 import {buildCustomEvent} from '../../../utils/event-utils';
 import {

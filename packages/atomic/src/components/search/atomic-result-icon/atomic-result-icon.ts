@@ -1,5 +1,5 @@
-import type {Result} from '@coveo/headless';
-import {ResultTemplatesHelpers} from '@coveo/headless';
+import type {Result} from '@eternal-baguette/headless';
+import {ResultTemplatesHelpers} from '@eternal-baguette/headless';
 import bgIcons from '@salesforce-ux/design-system/design-tokens/dist/bg-standard.common';
 import {css, html, LitElement, nothing} from 'lit';
 import {customElement, state} from 'lit/decorators.js';

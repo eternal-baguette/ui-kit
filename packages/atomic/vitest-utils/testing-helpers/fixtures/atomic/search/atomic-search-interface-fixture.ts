@@ -1,4 +1,4 @@
-import type {SearchEngine} from '@coveo/headless';
+import type {SearchEngine} from '@eternal-baguette/headless';
 import {provide} from '@lit/context';
 import type {i18n} from 'i18next';
 import {html, LitElement, type TemplateResult} from 'lit';

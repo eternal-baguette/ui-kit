@@ -1,4 +1,4 @@
-import type {GeneratedAnswerCitation} from '@coveo/headless';
+import type {GeneratedAnswerCitation} from '@eternal-baguette/headless';
 import type {Page} from '@playwright/test';
 import {BasePageObject} from '@/playwright-utils/base-page-object';
 

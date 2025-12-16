@@ -6,7 +6,7 @@ import {
   Schema,
   type SchemaDefinition,
   StringValue,
-} from '@coveo/bueno';
+} from '@eternal-baguette/bueno';
 import type {CoreEngine} from '../../../../../app/engine.js';
 import {
   type FacetResultsMustMatch,

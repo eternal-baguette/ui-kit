@@ -1,4 +1,4 @@
-import {Schema, StringValue} from '@coveo/bueno';
+import {Schema, StringValue} from '@eternal-baguette/bueno';
 import {
   buildFacetConditionsManager as buildInsightFacetConditionsManager,
   buildNumericFacet as buildInsightNumericFacet,
@@ -18,7 +18,7 @@ import {
   SearchStatus as InsightSearchStatus,
   SearchStatusState as InsightSearchStatusState,
   loadNumericFacetSetActions as loadInsightNumericFacetSetActions,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Component, Element, h, Listen, Prop, State} from '@stencil/core';
 import {
   BindStateToController,

@@ -1,4 +1,4 @@
-import {Schema, StringValue} from '@coveo/bueno';
+import {Schema, StringValue} from '@eternal-baguette/bueno';
 import {
   buildFacetConditionsManager,
   FacetConditionsManager,
@@ -21,7 +21,7 @@ import {
   buildTabManager,
   TabManager,
   TabManagerState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, Element, h, Listen, Prop, State} from '@stencil/core';
 import {
   BindStateToController,

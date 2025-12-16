@@ -4,7 +4,7 @@ import {
   type Tab,
   type TabManager,
   type TabManagerState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {type CSSResultGroup, html, LitElement} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import type {Bindings} from '@/src/components/search/atomic-search-interface/atomic-search-interface';

@@ -1,8 +1,8 @@
-import type {SearchEngine} from '@coveo/headless';
+import type {SearchEngine} from '@eternal-baguette/headless';
 import {afterEach, beforeEach, describe, expect, it, vi} from 'vitest';
 import {createSearchStore, type SearchStore} from './store';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('SearchStore', () => {
   let store: SearchStore;

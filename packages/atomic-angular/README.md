@@ -25,7 +25,7 @@ For example:
 ```typescript
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-import {AtomicAngularModule} from '@coveo/atomic-angular';
+import {AtomicAngularModule} from '@eternal-baguette/atomic-angular';
 
 @NgModule({
   declarations: [AppComponent],

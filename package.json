@@ -31,7 +31,7 @@
     "@actions/core": "1.11.1",
     "@actions/github": "6.0.1",
     "@biomejs/biome": "2.1.4",
-    "@coveo/ci": "workspace:*",
+    "@eternal-baguette/ci": "workspace:*",
     "@cspell/dict-fr-fr": "2.3.2",
     "@tsconfig/node20": "20.1.6",
     "@types/jest": "catalog:",
@@ -53,7 +53,7 @@
     "vitest": "catalog:"
   },
   "overrides": {
-    "@coveo/ci": {
+    "@eternal-baguette/ci": {
       "@types/async-retry": {
         "@types/retry": "0.12.5"
       }

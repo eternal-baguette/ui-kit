@@ -40,7 +40,7 @@ It should include the controllers, their settings, and the search engine configu
      defineResultList,
      defineFacet,
      getSampleSearchEngineConfiguration,
-   } from '@coveo/headless-react/ssr';
+   } from '@eternal-baguette/headless-react/ssr';
 
    export const engineDefinition = defineSearchEngine({
      configuration: {
@@ -161,7 +161,7 @@ import { engineDefinition } from '...';
 import {
   InferStaticState,
   InferHydratedState,
-} from '@coveo/headless-react/ssr';
+} from '@eternal-baguette/headless-react/ssr';
 
 const { hydrateStaticState, StaticStateProvider, HydratedStateProvider } =
   engineDefinition; ①

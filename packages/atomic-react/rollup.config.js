@@ -52,22 +52,22 @@ if (isCDN) {
 }
 
 const packageMappings = {
-  '@coveo/headless/commerce': {
+  '@eternal-baguette/headless/commerce': {
     cdn: `/headless/${headlessVersion}/commerce/headless.esm.js`,
   },
-  '@coveo/headless/insight': {
+  '@eternal-baguette/headless/insight': {
     cdn: `/headless/${headlessVersion}/insight/headless.esm.js`,
   },
-  '@coveo/headless/recommendation': {
+  '@eternal-baguette/headless/recommendation': {
     cdn: `/headless/${headlessVersion}/recommendation/headless.esm.js`,
   },
-  '@coveo/headless/case-assist': {
+  '@eternal-baguette/headless/case-assist': {
     cdn: `/headless/${headlessVersion}/case-assist/headless.esm.js`,
   },
-  '@coveo/headless': {
+  '@eternal-baguette/headless': {
     cdn: `/headless/${headlessVersion}/headless.esm.js`,
   },
-  '@coveo/atomic/loader': {
+  '@eternal-baguette/atomic/loader': {
     cdn: `/atomic/${atomicVersion}/loader/index.js`,
   },
 };
@@ -101,13 +101,13 @@ const commonExternal = [
   'lit',
   /^lit\/.*/,
   /^@lit\/.*/,
-  '@coveo/atomic',
-  '@coveo/atomic/loader',
-  '@coveo/headless',
+  '@eternal-baguette/atomic',
+  '@eternal-baguette/atomic/loader',
+  '@eternal-baguette/headless',
   /@coveo\/headless\/.*/,
 ];
 
-const esmExternal = [...commonExternal, '@coveo/atomic/components'];
+const esmExternal = [...commonExternal, '@eternal-baguette/atomic/components'];
 
 /** @type {import('rollup').ExternalOption} */
 const cdnExternal = [

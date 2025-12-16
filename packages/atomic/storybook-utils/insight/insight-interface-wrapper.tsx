@@ -1,7 +1,7 @@
 import {
   getSampleInsightEngineConfiguration,
   InsightEngineConfiguration,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Decorator, StoryContext} from '@storybook/web-components-vite';
 import {html} from 'lit';
 import type * as _ from '../../src/components.js';  

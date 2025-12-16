@@ -5,7 +5,7 @@ import {
   type ContextOptions,
   loadProductListingActions,
   loadSearchActions,
-} from '@coveo/headless-react/ssr-commerce';
+} from '@eternal-baguette/headless-react/ssr-commerce';
 import {useContext, useEngine} from '@/lib/commerce-engine';
 
 // A hardcoded list of storefront associations for switching app context by language, country, and currency.

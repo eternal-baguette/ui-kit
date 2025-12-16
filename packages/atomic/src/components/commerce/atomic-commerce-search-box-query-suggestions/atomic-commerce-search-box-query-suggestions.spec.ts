@@ -1,4 +1,4 @@
-import {loadQuerySuggestActions} from '@coveo/headless/commerce';
+import {loadQuerySuggestActions} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {beforeEach, describe, expect, it, type MockInstance, vi} from 'vitest';
@@ -17,7 +17,7 @@ import {buildFakeLoadQuerySuggestActions} from '@/vitest-utils/testing-helpers/f
 import {AtomicCommerceSearchBoxQuerySuggestions} from './atomic-commerce-search-box-query-suggestions';
 import './atomic-commerce-search-box-query-suggestions';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-commerce-search-box-query-suggestions', () => {
   beforeEach(() => {

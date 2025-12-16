@@ -1,4 +1,4 @@
-import type {CoreEngine} from '@coveo/headless';
+import type {CoreEngine} from '@eternal-baguette/headless';
 import type {AnyBindings} from '../components/common/interface/bindings';
 import {closest} from './dom-utils';
 import {buildCustomEvent} from './event-utils';

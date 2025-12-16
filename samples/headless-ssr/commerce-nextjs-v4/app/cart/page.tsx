@@ -1,4 +1,4 @@
-import type {ContextOptions} from '@coveo/headless-react/ssr-commerce-next';
+import type {ContextOptions} from '@eternal-baguette/headless-react/ssr-commerce-next';
 import {headers} from 'next/headers';
 import * as externalCartAPI from '@/actions/external-cart-api';
 import Cart from '@/components/cart';

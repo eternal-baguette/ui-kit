@@ -1,5 +1,5 @@
 {
-  "name": "@coveo/headless-react",
+  "name": "@eternal-baguette/headless-react",
   "version": "2.8.0",
   "description": "React utilities for SSR (Server Side Rendering) with headless",
   "homepage": "https://docs.coveo.com/en/headless/latest/",
@@ -41,7 +41,7 @@
     "serve:typedoc": "live-server ./docs"
   },
   "dependencies": {
-    "@coveo/headless": "workspace:*"
+    "@eternal-baguette/headless": "workspace:*"
   },
   "devDependencies": {
     "@testing-library/react": "catalog:",
@@ -49,7 +49,7 @@
     "typescript": "catalog:",
     "typedoc": "catalog:",
     "vitest": "catalog:",
-    "@coveo/documentation": "workspace:*"
+    "@eternal-baguette/documentation": "workspace:*"
   },
   "peerDependencies": {
     "react": "^18 || ^19",

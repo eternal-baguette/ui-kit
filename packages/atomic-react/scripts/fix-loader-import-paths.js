@@ -7,9 +7,9 @@ const files = [
 ];
 
 const oldImport =
-  "import { defineCustomElements } from '@coveo/atomic/dist/atomic/loader';";
+  "import { defineCustomElements } from '@eternal-baguette/atomic/dist/atomic/loader';";
 const newImport =
-  "import { defineCustomElements } from '@coveo/atomic/loader';";
+  "import { defineCustomElements } from '@eternal-baguette/atomic/loader';";
 
 const updateFiles = async () => {
   await Promise.all(

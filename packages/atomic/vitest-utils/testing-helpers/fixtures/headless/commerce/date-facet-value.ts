@@ -1,4 +1,4 @@
-import type {DateFacetValue} from '@coveo/headless/commerce';
+import type {DateFacetValue} from '@eternal-baguette/headless/commerce';
 
 const defaultDateFacetValue = {
   start: 'past-1-month',

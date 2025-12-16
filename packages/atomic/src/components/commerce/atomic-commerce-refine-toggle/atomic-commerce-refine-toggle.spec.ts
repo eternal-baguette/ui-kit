@@ -4,7 +4,7 @@ import {
   type ProductListingSummaryState,
   type SearchSummaryState,
   type Summary,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {describe, expect, it, vi} from 'vitest';
 import {userEvent} from 'vitest/browser';
@@ -16,7 +16,7 @@ import {buildFakeSummary} from '@/vitest-utils/testing-helpers/fixtures/headless
 import type {AtomicCommerceRefineToggle} from './atomic-commerce-refine-toggle';
 import './atomic-commerce-refine-toggle';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-commerce-refine-toggle', () => {
   const mockedEngine = buildFakeCommerceEngine();

@@ -23,7 +23,7 @@ const buenoVersion = isNightly
     : `v${buenoJson.version}`;
 const buenoPath = isCDN
   ? `/bueno/${buenoVersion}/bueno.esm.js`
-  : '@coveo/bueno';
+  : '@eternal-baguette/bueno';
 
 /**
  * @type {import('esbuild').BuildOptions}

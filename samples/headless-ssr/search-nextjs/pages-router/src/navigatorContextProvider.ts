@@ -1,5 +1,5 @@
 import type {IncomingHttpHeaders} from 'node:http';
-import type {NavigatorContext} from '@coveo/headless/ssr';
+import type {NavigatorContext} from '@eternal-baguette/headless/ssr';
 
 /**
  * Provides navigation context for Coveo within Next.js  Pages Router applications.

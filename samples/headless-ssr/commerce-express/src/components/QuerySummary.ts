@@ -1,7 +1,7 @@
 import type {
   SearchSummaryState,
   Summary,
-} from '@coveo/headless/ssr-commerce-next';
+} from '@eternal-baguette/headless/ssr-commerce-next';
 import {getElement} from '../common/utils.js';
 
 export function QuerySummary(summary: Summary) {

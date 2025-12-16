@@ -9,7 +9,7 @@ import type {
   FilterSuggestions as HeadlessFilterSuggestions,
   FilterSuggestionsGenerator as HeadlessFilterSuggestionsGenerator,
   RegularFacetSearchResult,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useEffect, useState} from 'react';
 import FilterSuggestions from './filter-suggestions.js';
 

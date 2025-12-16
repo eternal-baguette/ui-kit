@@ -7,9 +7,9 @@
 
     <script type="module">
       if (import.meta.env) {
-        const {defineCustomElements} = await import('@coveo/atomic/loader');
-        const css = await import('@coveo/atomic/themes/coveo.css');
-        import('@coveo/atomic/themes/coveo.css');
+        const {defineCustomElements} = await import('@eternal-baguette/atomic/loader');
+        const css = await import('@eternal-baguette/atomic/themes/coveo.css');
+        import('@eternal-baguette/atomic/themes/coveo.css');
         defineCustomElements();
       } else {
         console;

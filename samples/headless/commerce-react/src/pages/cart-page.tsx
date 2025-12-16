@@ -3,7 +3,7 @@ import {
   type CommerceEngine,
   type Context,
   type Cart as HeadlessCart,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useEffect} from 'react';
 import Cart from '../components/cart/cart.js';
 import RecommendationsInterface from '../components/use-cases/recommendations-interface/recommendations-interface.js';

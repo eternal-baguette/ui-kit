@@ -1,4 +1,4 @@
-import {buildDictionaryFieldContext} from '@coveo/headless';
+import {buildDictionaryFieldContext} from '@eternal-baguette/headless';
 import {useContext} from 'react';
 import {AppContext} from '../../context/engine';
 

@@ -1,7 +1,7 @@
 import {
   ResultTemplateCondition as RecsResultTemplateCondition,
   ResultTemplate as RecsResultTemplate,
-} from '@coveo/headless/recommendation';
+} from '@eternal-baguette/headless/recommendation';
 import {Component, Element, Prop, Method, State} from '@stencil/core';
 import {MapProp} from '../../../utils/props-utils';
 import {

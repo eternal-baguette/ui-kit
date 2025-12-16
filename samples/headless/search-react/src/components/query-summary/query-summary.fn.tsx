@@ -1,4 +1,4 @@
-import type {QuerySummary as HeadlessQuerySummary} from '@coveo/headless';
+import type {QuerySummary as HeadlessQuerySummary} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface QuerySummaryProps {

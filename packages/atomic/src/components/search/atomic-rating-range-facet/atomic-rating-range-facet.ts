@@ -1,4 +1,9 @@
-import {NumberValue, RecordValue, Schema, StringValue} from '@coveo/bueno';
+import {
+  NumberValue,
+  RecordValue,
+  Schema,
+  StringValue,
+} from '@eternal-baguette/bueno';
 import {
   buildFacetConditionsManager,
   buildNumericFacet,
@@ -17,7 +22,7 @@ import {
   type SearchStatusState,
   type TabManager,
   type TabManagerState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';

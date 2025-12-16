@@ -1,5 +1,5 @@
-import type {AtomicFoldedResultList} from '@coveo/atomic/components';
-import type {FoldedResult} from '@coveo/headless';
+import type {AtomicFoldedResultList} from '@eternal-baguette/atomic/components';
+import type {FoldedResult} from '@eternal-baguette/headless';
 import React, {type JSX, useEffect, useRef} from 'react';
 import {createRoot} from 'react-dom/client';
 import {renderToString} from 'react-dom/server';

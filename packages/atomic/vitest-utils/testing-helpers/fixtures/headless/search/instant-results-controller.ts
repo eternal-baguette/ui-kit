@@ -2,7 +2,7 @@ import type {
   InstantResults,
   InstantResultsState,
   Result,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {vi} from 'vitest';
 import {genericSubscribe} from '../common';
 

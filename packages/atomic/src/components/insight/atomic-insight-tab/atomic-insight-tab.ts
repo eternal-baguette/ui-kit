@@ -1,8 +1,8 @@
 import type {
   Tab as InsightTab,
   TabState as InsightTabState,
-} from '@coveo/headless/insight';
-import {buildTab as buildInsightTab} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
+import {buildTab as buildInsightTab} from '@eternal-baguette/headless/insight';
 import {css, html, LitElement} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';

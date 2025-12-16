@@ -1,5 +1,5 @@
 {
-  "name": "@coveo/atomic",
+  "name": "@eternal-baguette/atomic",
   "type": "module",
   "version": "3.42.1",
   "description": "A web-component library for building modern UIs interfacing with the Coveo platform",
@@ -83,8 +83,8 @@
     "chromatic": "chromatic -d=dist-storybook"
   },
   "dependencies": {
-    "@coveo/bueno": "workspace:*",
-    "@coveo/headless": "workspace:*",
+    "@eternal-baguette/bueno": "workspace:*",
+    "@eternal-baguette/headless": "workspace:*",
     "@coveo/relay-event-types": "catalog:",
     "@lit/context": "1.1.6",
     "@open-wc/lit-helpers": "0.7.0",
@@ -165,8 +165,8 @@
     "wait-on": "8.0.4"
   },
   "peerDependencies": {
-    "@coveo/bueno": "workspace:*",
-    "@coveo/headless": "workspace:*",
+    "@eternal-baguette/bueno": "workspace:*",
+    "@eternal-baguette/headless": "workspace:*",
     "typescript": ">=5.0.0"
   },
   "peerDependenciesMeta": {

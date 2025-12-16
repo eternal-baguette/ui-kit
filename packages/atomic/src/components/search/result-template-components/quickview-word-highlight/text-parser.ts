@@ -1,4 +1,4 @@
-import type {TermsToHighlight} from '@coveo/headless';
+import type {TermsToHighlight} from '@eternal-baguette/headless';
 
 /**
  * @internal

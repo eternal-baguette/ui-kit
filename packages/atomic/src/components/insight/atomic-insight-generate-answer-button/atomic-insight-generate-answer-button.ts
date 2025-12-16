@@ -1,5 +1,8 @@
-import type {QuerySummary, QuerySummaryState} from '@coveo/headless/insight';
-import {buildQuerySummary} from '@coveo/headless/insight';
+import type {
+  QuerySummary,
+  QuerySummaryState,
+} from '@eternal-baguette/headless/insight';
+import {buildQuerySummary} from '@eternal-baguette/headless/insight';
 import {html, LitElement} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {renderIconButton} from '@/src/components/common/icon-button';

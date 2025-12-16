@@ -1,8 +1,8 @@
 import type {
   ProductTemplate,
   ProductTemplateCondition,
-} from '@coveo/headless/commerce';
-import {ProductTemplatesHelpers} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
+import {ProductTemplatesHelpers} from '@eternal-baguette/headless/commerce';
 import {html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {ProductTemplateController} from '@/src/components/common/product-template/product-template-controller';

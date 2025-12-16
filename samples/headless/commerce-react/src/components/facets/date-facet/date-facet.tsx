@@ -1,4 +1,4 @@
-import type {DateFacet as HeadlessDateFacet} from '@coveo/headless/commerce';
+import type {DateFacet as HeadlessDateFacet} from '@eternal-baguette/headless/commerce';
 import {useEffect, useState} from 'react';
 
 interface IDateFacetProps {

@@ -5,7 +5,7 @@ import type {
   LocationFacetValue,
   NumericFacetValue,
   RegularFacetValue,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useEffect, useState} from 'react';
 
 interface BreadcrumbManagerProps {

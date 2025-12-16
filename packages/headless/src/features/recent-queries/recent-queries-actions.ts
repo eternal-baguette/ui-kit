@@ -1,4 +1,4 @@
-import {ArrayValue, NumberValue, StringValue} from '@coveo/bueno';
+import {ArrayValue, NumberValue, StringValue} from '@eternal-baguette/bueno';
 import {createAction} from '@reduxjs/toolkit';
 import {validatePayload} from '../../utils/validate-payload.js';
 

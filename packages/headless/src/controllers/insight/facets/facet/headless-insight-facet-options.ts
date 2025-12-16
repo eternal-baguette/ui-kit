@@ -1,4 +1,9 @@
-import {ArrayValue, RecordValue, Schema, StringValue} from '@coveo/bueno';
+import {
+  ArrayValue,
+  RecordValue,
+  Schema,
+  StringValue,
+} from '@eternal-baguette/bueno';
 import {facetResultsMustMatch} from '../../../../features/facets/facet-api/request.js';
 import {facetSortCriteria} from '../../../../features/facets/facet-set/interfaces/request.js';
 import {

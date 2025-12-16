@@ -1,5 +1,8 @@
-import {isUndefined} from '@coveo/bueno';
-import type {InteractiveProduct, Product} from '@coveo/headless/commerce';
+import {isUndefined} from '@eternal-baguette/bueno';
+import type {
+  InteractiveProduct,
+  Product,
+} from '@eternal-baguette/headless/commerce';
 import {type CSSResultGroup, css, html, LitElement} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';

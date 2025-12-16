@@ -1,4 +1,4 @@
-import {isNullOrUndefined} from '@coveo/bueno';
+import {isNullOrUndefined} from '@eternal-baguette/bueno';
 import type {Middleware, UnknownAction} from '@reduxjs/toolkit';
 
 type UnknownActionWithAnalyticsPayload = UnknownAction & {

@@ -1,4 +1,4 @@
-import {getSampleCommerceEngineConfiguration} from '@coveo/headless/commerce';
+import {getSampleCommerceEngineConfiguration} from '@eternal-baguette/headless/commerce';
 import type {Meta, StoryObj as Story} from '@storybook/web-components-vite';
 import {getStorybookHelpers} from '@wc-toolkit/storybook-helpers';
 import {html} from 'lit';

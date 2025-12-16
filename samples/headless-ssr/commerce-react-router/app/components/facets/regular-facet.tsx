@@ -3,7 +3,7 @@ import type {
   RegularFacet as HeadlessRegularFacet,
   RegularFacetState,
   RegularFacetValue,
-} from '@coveo/headless-react/ssr-commerce';
+} from '@eternal-baguette/headless-react/ssr-commerce';
 import {useEffect, useRef, useState} from 'react';
 
 export default function RegularFacet({

@@ -1,4 +1,8 @@
-import {buildTab, buildTabManager, type TabManagerState} from '@coveo/headless';
+import {
+  buildTab,
+  buildTabManager,
+  type TabManagerState,
+} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {describe, expect, it, vi} from 'vitest';
 import {renderInAtomicSearchInterface} from '@/vitest-utils/testing-helpers/fixtures/atomic/search/atomic-search-interface-fixture';
@@ -7,7 +11,7 @@ import type {AtomicTabManager} from './atomic-tab-manager';
 import './atomic-tab-manager';
 import {mockConsole} from '@/vitest-utils/testing-helpers/testing-utils/mock-console';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-tab-manager', () => {
   const renderTabManager = async ({

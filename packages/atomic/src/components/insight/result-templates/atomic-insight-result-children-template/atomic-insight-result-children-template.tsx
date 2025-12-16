@@ -1,4 +1,4 @@
-import {ResultTemplate, ResultTemplateCondition} from '@coveo/headless';
+import {ResultTemplate, ResultTemplateCondition} from '@eternal-baguette/headless';
 import {Component, Element, Prop, State, Method} from '@stencil/core';
 import {MapProp} from '../../../../utils/props-utils';
 import {

@@ -2,7 +2,7 @@ import type {
   DateFacetValue,
   InsightEngine,
   NumericFacetValue,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {DEFAULT_MOBILE_BREAKPOINT} from '@/src/utils/replace-breakpoint-utils';
 import type {
   FacetInfo,

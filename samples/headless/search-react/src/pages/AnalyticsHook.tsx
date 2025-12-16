@@ -4,7 +4,7 @@ import {
   getSampleSearchEngineConfiguration,
   type SearchBox as HeadlessSearchBox,
   type SearchEngine,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component} from 'react';
 import {SearchBox} from '../components/search-box/search-box.fn';
 

@@ -1,4 +1,4 @@
-import type {Facet, FacetSearchState} from '@coveo/headless';
+import type {Facet, FacetSearchState} from '@eternal-baguette/headless';
 import type {i18n} from 'i18next';
 import {shouldUpdateFacetSearchComponent} from './facet-search-utils';
 

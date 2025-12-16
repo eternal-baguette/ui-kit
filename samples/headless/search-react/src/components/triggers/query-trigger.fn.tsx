@@ -1,4 +1,4 @@
-import type {QueryTrigger as HeadlessQueryTrigger} from '@coveo/headless';
+import type {QueryTrigger as HeadlessQueryTrigger} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface HeadlessQueryTriggerProps {

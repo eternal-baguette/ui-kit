@@ -123,8 +123,8 @@ import {
   InitializableComponent,
   BindStateToController,
   Bindings,
-} from '@coveo/atomic';
-import {ControllerState, Controller, buildController} from '@coveo/headless';
+} from '@eternal-baguette/atomic';
+import {ControllerState, Controller, buildController} from '@eternal-baguette/headless';
 import {Component, State} from '@stencil/core';
 
 @Component({
@@ -155,7 +155,7 @@ export class AtomicComponent implements InitializableComponent {
 `ResultContext` is a utility that automatically fetches the `result` from the parent component's rendered `atomic-result`. This utility is used inside of custom result template components.
 
 ```typescript
-import {ResultContext} from '@coveo/atomic';
+import {ResultContext} from '@eternal-baguette/atomic';
 import {Component, State} from '@stencil/core';
 
 @Component({

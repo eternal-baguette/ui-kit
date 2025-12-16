@@ -2,7 +2,7 @@ import {
   buildQueryError,
   type QueryError,
   type QueryErrorState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {describe, expect, it, vi} from 'vitest';
 import {getAriaMessageFromErrorType} from '@/src/components/common/query-error/utils';
@@ -11,7 +11,7 @@ import {buildFakeSearchEngine} from '@/vitest-utils/testing-helpers/fixtures/hea
 import type {AtomicQueryError} from './atomic-query-error';
 import './atomic-query-error';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 vi.mock('@/src/components/common/query-error/utils', {spy: true});
 
 describe('atomic-query-error', () => {

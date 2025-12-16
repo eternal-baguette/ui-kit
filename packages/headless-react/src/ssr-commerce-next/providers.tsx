@@ -7,7 +7,7 @@ import type {
   InferControllerStaticStateMapFromDefinitionsWithSolutionType,
   InferHydratedState,
   SolutionType,
-} from '@coveo/headless/ssr-commerce-next';
+} from '@eternal-baguette/headless/ssr-commerce-next';
 import {type PropsWithChildren, useEffect, useState} from 'react';
 import type {ReactCommerceEngineDefinition} from './commerce-engine.js';
 

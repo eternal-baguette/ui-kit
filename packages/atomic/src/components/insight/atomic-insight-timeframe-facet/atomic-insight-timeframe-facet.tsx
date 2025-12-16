@@ -16,7 +16,7 @@ import {
   RangeFacetSortCriterion as InsightRangeFacetSortCriterion,
   FacetValueRequest as InsightFacetValueRequest,
   CategoryFacetValueRequest as InsightCategoryFacetValueRequest,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Component, Element, h, Listen, Prop, State} from '@stencil/core';
 import {
   BindStateToController,

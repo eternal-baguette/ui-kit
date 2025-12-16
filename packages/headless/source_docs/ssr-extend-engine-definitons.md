@@ -107,7 +107,7 @@ import {
   getSampleSearchEngineConfiguration,
   loadQueryActions,
   SearchCompletedAction,
-} from '@coveo/headless-react/ssr';
+} from '@eternal-baguette/headless-react/ssr';
 
 const engineDefinition = defineSearchEngine({ ①
   configuration: getSampleSearchEngineConfiguration(),
@@ -184,7 +184,7 @@ const hydratedState = await hydrateStaticState({
 >   defineResultList,
 >   defineFacet,
 >   getSampleSearchEngineConfiguration,
-> } from '@coveo/headless-react/ssr';
+> } from '@eternal-baguette/headless-react/ssr';
 > 
 > export const engineDefinition = defineSearchEngine({
 >   configuration: {
@@ -204,7 +204,7 @@ const hydratedState = await hydrateStaticState({
 > 
 > ```ts
 > import { engineDefinition } from './common/engine-definition.ts';
-> import { loadQueryActions } from '@coveo/headless-react/ssr';
+> import { loadQueryActions } from '@eternal-baguette/headless-react/ssr';
 > 
 > // ...
 > 

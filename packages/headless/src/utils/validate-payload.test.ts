@@ -1,4 +1,8 @@
-import {NumberValue, Schema, SchemaValidationError} from '@coveo/bueno';
+import {
+  NumberValue,
+  Schema,
+  SchemaValidationError,
+} from '@eternal-baguette/bueno';
 import type {CoreEngine} from '../app/engine.js';
 import {buildMockSearchEngine} from '../test/mock-engine-v2.js';
 import {createMockState} from '../test/mock-state.js';

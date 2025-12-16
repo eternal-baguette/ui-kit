@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import '@coveo/create-atomic-component-project';
+import '@eternal-baguette/create-atomic-component-project';
 import {
   cpSync,
   readFileSync,

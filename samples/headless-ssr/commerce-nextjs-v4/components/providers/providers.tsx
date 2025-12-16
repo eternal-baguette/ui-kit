@@ -1,6 +1,6 @@
 'use client';
 
-import {buildProviderWithDefinition} from '@coveo/headless-react/ssr-commerce-next';
+import {buildProviderWithDefinition} from '@eternal-baguette/headless-react/ssr-commerce-next';
 import {
   listingEngineDefinition,
   recommendationEngineDefinition,

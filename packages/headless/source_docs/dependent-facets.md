@@ -21,13 +21,13 @@ The **Movie subgenre** facet only appears after a selection is made in the **Mov
 The facet conditions manager lets you define dependencies to use when enabling a facet.
 
 ```typescript
-import { buildFacetConditionsManager } from "@coveo/headless";
+import { buildFacetConditionsManager } from "@eternal-baguette/headless";
 import type {
   SearchEngine,
   Facet,
   AnyFacetValuesCondition,
   FacetValueRequest,
-} from "@coveo/headless";
+} from "@eternal-baguette/headless";
 
 function makeDependent(
   engine: SearchEngine,

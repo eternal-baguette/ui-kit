@@ -1,4 +1,4 @@
-import type {SearchEngine} from '@coveo/headless';
+import type {SearchEngine} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
 import {renderFunctionFixture} from '@/vitest-utils/testing-helpers/fixture';

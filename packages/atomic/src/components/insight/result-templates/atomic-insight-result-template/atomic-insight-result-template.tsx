@@ -1,7 +1,7 @@
 import {
   ResultTemplate as InsightResultTemplate,
   ResultTemplateCondition as InsightResultTemplateCondition,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Component, Element, Prop, Method, State} from '@stencil/core';
 import {MapProp} from '../../../../utils/props-utils';
 import {

@@ -1,4 +1,4 @@
-import type {ResultList, ResultListState} from '@coveo/headless';
+import type {ResultList, ResultListState} from '@eternal-baguette/headless';
 import {vi} from 'vitest';
 import {genericSubscribe} from '../common.js';
 

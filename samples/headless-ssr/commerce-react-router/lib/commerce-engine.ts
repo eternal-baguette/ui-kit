@@ -1,7 +1,7 @@
 import {
   defineCommerceEngine,
   type InferStaticState,
-} from '@coveo/headless-react/ssr-commerce';
+} from '@eternal-baguette/headless-react/ssr-commerce';
 import options from './commerce-engine-config.js';
 
 const engineDefinition = defineCommerceEngine(options);

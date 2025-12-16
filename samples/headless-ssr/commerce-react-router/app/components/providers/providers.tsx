@@ -1,4 +1,4 @@
-import {buildProviderWithDefinition} from '@coveo/headless-react/ssr-commerce';
+import {buildProviderWithDefinition} from '@eternal-baguette/headless-react/ssr-commerce';
 import {
   _listingEngineDefinition,
   _recommendationEngineDefinition,

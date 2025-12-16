@@ -1,4 +1,4 @@
-import {InlineLink} from '@coveo/headless';
+import {InlineLink} from '@eternal-baguette/headless';
 import {
   Component,
   h,

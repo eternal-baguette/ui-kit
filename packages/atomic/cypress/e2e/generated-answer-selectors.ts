@@ -1,4 +1,4 @@
-import {GeneratedAnswerFeedback} from '@coveo/headless';
+import {GeneratedAnswerFeedback} from '@eternal-baguette/headless';
 
 export const generatedAnswerComponent = 'atomic-generated-answer';
 export const feedbackModal = 'atomic-generated-answer-feedback-modal';

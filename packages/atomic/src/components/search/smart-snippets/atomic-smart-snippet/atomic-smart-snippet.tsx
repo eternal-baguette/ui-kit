@@ -14,7 +14,7 @@ import {
   SmartSnippetState,
   TabManager,
   TabManagerState,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component, Prop, State, Element, Listen, h} from '@stencil/core';
 import {
   InitializableComponent,

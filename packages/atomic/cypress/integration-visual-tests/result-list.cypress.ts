@@ -25,7 +25,7 @@ describe('screenshots for result lists display mode', () => {
 
   it('should display result list properly', () => {
     cy.eyesOpen({
-      appName: '@coveo/atomic',
+      appName: '@eternal-baguette/atomic',
       testName: 'Result templates',
     });
 

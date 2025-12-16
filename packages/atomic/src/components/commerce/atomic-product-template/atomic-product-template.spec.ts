@@ -1,4 +1,4 @@
-import type {Product} from '@coveo/headless/commerce';
+import type {Product} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {describe, expect, it, vi} from 'vitest';
 import {page} from 'vitest/browser';

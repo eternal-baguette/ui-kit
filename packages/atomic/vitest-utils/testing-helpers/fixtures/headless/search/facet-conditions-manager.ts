@@ -1,4 +1,4 @@
-import type {FacetConditionsManager} from '@coveo/headless';
+import type {FacetConditionsManager} from '@eternal-baguette/headless';
 import {vi} from 'vitest';
 import {genericSubscribe} from '@/vitest-utils/testing-helpers/fixtures/headless/common';
 

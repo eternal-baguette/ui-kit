@@ -1,5 +1,8 @@
-import type {ResultTemplate, ResultTemplateCondition} from '@coveo/headless';
-import {ResultTemplatesHelpers} from '@coveo/headless';
+import type {
+  ResultTemplate,
+  ResultTemplateCondition,
+} from '@eternal-baguette/headless';
+import {ResultTemplatesHelpers} from '@eternal-baguette/headless';
 import {html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {ResultTemplateController} from '@/src/components/common/result-templates/result-template-controller';

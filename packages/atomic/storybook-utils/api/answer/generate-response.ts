@@ -1,4 +1,4 @@
-import type {GeneratedAnswerCitation} from '@coveo/headless';
+import type {GeneratedAnswerCitation} from '@eternal-baguette/headless';
 import {delay, HttpResponse} from 'msw';
 
 interface Citations extends Partial<GeneratedAnswerCitation> {

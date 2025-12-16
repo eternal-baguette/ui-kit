@@ -411,15 +411,15 @@ describe('#buildBaseCommerceAPIRequest', () => {
         analytics: {
           ...state.configuration.analytics,
           source: {
-            '@coveo/atomic': '10.0.1',
+            '@eternal-baguette/atomic': '10.0.1',
           },
         },
       },
     });
 
     const getAnalyticsSourceReturnValue = [
-      '@coveo/atomic@10.0.1',
-      '@coveo/headless@10.1.2',
+      '@eternal-baguette/atomic@10.0.1',
+      '@eternal-baguette/headless@10.1.2',
     ];
 
     vi.mocked(getAnalyticsSource).mockReturnValue(

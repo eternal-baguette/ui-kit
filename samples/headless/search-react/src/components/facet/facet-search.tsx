@@ -2,7 +2,7 @@ import type {
   FacetSearchState,
   FacetSearch as HeadlessFacetSearch,
   SpecificFacetSearchResult,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import type {FunctionComponent} from 'react';
 
 interface FacetSearchProps {

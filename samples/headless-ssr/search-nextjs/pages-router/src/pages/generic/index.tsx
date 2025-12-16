@@ -1,7 +1,7 @@
 import {
   buildSSRSearchParameterSerializer,
   type NavigatorContext,
-} from '@coveo/headless/ssr';
+} from '@eternal-baguette/headless/ssr';
 import type {GetServerSidePropsContext} from 'next';
 import SearchPage from '@/common/components/generic/search-page';
 import {

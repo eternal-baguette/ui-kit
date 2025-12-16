@@ -29,22 +29,22 @@ const buenoVersion = isNightly
 
 export function generateExternalPackageMappings() {
   return {
-    '@coveo/headless/commerce': {
+    '@eternal-baguette/headless/commerce': {
       cdn: `/headless/${headlessVersion}/commerce/headless.esm.js`,
     },
-    '@coveo/headless/insight': {
+    '@eternal-baguette/headless/insight': {
       cdn: `/headless/${headlessVersion}/insight/headless.esm.js`,
     },
-    '@coveo/headless/recommendation': {
+    '@eternal-baguette/headless/recommendation': {
       cdn: `/headless/${headlessVersion}/recommendation/headless.esm.js`,
     },
-    '@coveo/headless/case-assist': {
+    '@eternal-baguette/headless/case-assist': {
       cdn: `/headless/${headlessVersion}/case-assist/headless.esm.js`,
     },
-    '@coveo/headless': {
+    '@eternal-baguette/headless': {
       cdn: `/headless/${headlessVersion}/headless.esm.js`,
     },
-    '@coveo/bueno': {
+    '@eternal-baguette/bueno': {
       cdn: `/bueno/${buenoVersion}/bueno.esm.js`,
     },
   };

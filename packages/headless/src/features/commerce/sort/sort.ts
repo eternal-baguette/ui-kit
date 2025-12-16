@@ -1,4 +1,9 @@
-import {ArrayValue, EnumValue, RecordValue, StringValue} from '@coveo/bueno';
+import {
+  ArrayValue,
+  EnumValue,
+  RecordValue,
+  StringValue,
+} from '@eternal-baguette/bueno';
 import {
   buildRelevanceSortCriterion,
   type SortByFields as CoreSortByFields,

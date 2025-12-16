@@ -1,4 +1,4 @@
-import {Result} from '@coveo/headless';
+import {Result} from '@eternal-baguette/headless';
 import {
   Component,
   Prop,

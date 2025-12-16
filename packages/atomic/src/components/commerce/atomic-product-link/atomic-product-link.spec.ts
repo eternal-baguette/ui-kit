@@ -1,4 +1,7 @@
-import type {InteractiveProduct, Product} from '@coveo/headless/commerce';
+import type {
+  InteractiveProduct,
+  Product,
+} from '@eternal-baguette/headless/commerce';
 import {html, nothing} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
@@ -11,7 +14,7 @@ import {buildFakeProduct} from '@/vitest-utils/testing-helpers/fixtures/headless
 import {AtomicProductLink} from './atomic-product-link';
 import './atomic-product-link';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-product-link', () => {
   let mockProduct: Product;

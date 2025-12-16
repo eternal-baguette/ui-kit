@@ -1,4 +1,4 @@
-import type {DidYouMean as HeadlessDidYouMean} from '@coveo/headless/commerce';
+import type {DidYouMean as HeadlessDidYouMean} from '@eternal-baguette/headless/commerce';
 import {useEffect, useState} from 'react';
 
 interface IDidYouMeanProps {

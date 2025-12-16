@@ -1,4 +1,4 @@
-import {EnumValue, type SchemaDefinition} from '@coveo/bueno';
+import {EnumValue, type SchemaDefinition} from '@eternal-baguette/bueno';
 import {createAction} from '@reduxjs/toolkit';
 import {validatePayload} from '../../../utils/validate-payload.js';
 import {SortBy, type SortCriterion} from './sort.js';

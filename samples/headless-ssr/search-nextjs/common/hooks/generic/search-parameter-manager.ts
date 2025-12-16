@@ -4,7 +4,7 @@ import {
   buildSSRSearchParameterSerializer,
   type SearchParameterManager,
   type SearchParameterManagerState,
-} from '@coveo/headless/ssr';
+} from '@eternal-baguette/headless/ssr';
 import {useEffect, useMemo, useState} from 'react';
 import {useAppHistoryRouter} from '../../components/common/history-router';
 

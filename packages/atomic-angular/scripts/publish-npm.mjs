@@ -15,12 +15,12 @@ const resolveWorkspaceVersions = () => {
   const entries = [
     {
       section: 'dependencies',
-      name: '@coveo/atomic',
+      name: '@eternal-baguette/atomic',
       source: resolve(packagesDir, 'atomic/package.json'),
     },
     {
       section: 'peerDependencies',
-      name: '@coveo/headless',
+      name: '@eternal-baguette/headless',
       source: resolve(packagesDir, 'headless/package.json'),
     },
   ];
@@ -50,4 +50,4 @@ const resolveWorkspaceVersions = () => {
 
 resolveWorkspaceVersions();
 process.env.INIT_CWD = distDir;
-await import('@coveo/ci/npm-publish-package.mjs');
+await import('@eternal-baguette/ci/npm-publish-package.mjs');

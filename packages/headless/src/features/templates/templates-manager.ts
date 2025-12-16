@@ -4,7 +4,7 @@ import {
   Schema,
   SchemaValidationError,
   Value,
-} from '@coveo/bueno';
+} from '@eternal-baguette/bueno';
 import {requiredNonEmptyString} from '../../utils/validate-payload.js';
 
 export type TemplateCondition<ItemType> = (item: ItemType) => boolean;

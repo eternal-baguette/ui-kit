@@ -1,4 +1,4 @@
-import {NumberValue, Schema, StringValue} from '@coveo/bueno';
+import {NumberValue, Schema, StringValue} from '@eternal-baguette/bueno';
 import {
   buildRecommendations,
   type Product,
@@ -6,7 +6,7 @@ import {
   type RecommendationsState,
   type RecommendationsSummaryState,
   type Summary,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {type CSSResultGroup, css, html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {keyed} from 'lit/directives/keyed.js';

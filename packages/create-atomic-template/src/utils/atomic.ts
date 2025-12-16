@@ -1,5 +1,5 @@
 // @ts-ignore Stencil does not support subpath exports.
-import {defineCustomElements} from '@coveo/atomic/loader';
+import {defineCustomElements} from '@eternal-baguette/atomic/loader';
 
 export function waitForAtomic() {
   defineCustomElements();

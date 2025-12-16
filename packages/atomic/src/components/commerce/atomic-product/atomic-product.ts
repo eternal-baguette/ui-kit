@@ -1,4 +1,7 @@
-import type {InteractiveProduct, Product} from '@coveo/headless/commerce';
+import type {
+  InteractiveProduct,
+  Product,
+} from '@eternal-baguette/headless/commerce';
 import {type CSSResultGroup, html, LitElement} from 'lit';
 import {customElement, property} from 'lit/decorators.js';
 import {ref} from 'lit/directives/ref.js';

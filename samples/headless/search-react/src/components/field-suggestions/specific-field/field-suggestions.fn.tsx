@@ -1,4 +1,4 @@
-import type {FieldSuggestions as HeadlessFieldSuggestions} from '@coveo/headless';
+import type {FieldSuggestions as HeadlessFieldSuggestions} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface FieldSuggestionsProps {

@@ -17,7 +17,7 @@ import {
   type Parameters,
   type Recommendations,
   type SolutionType,
-} from '@coveo/headless/ssr-commerce';
+} from '@eternal-baguette/headless/ssr-commerce';
 import {type PropsWithChildren, useEffect, useState} from 'react';
 import type {ReactCommerceEngineDefinition} from './commerce-engine.js';
 

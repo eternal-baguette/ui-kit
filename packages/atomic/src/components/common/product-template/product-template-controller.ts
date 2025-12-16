@@ -1,7 +1,7 @@
 import type {
   ProductTemplate,
   ProductTemplateCondition,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import type {ReactiveControllerHost} from 'lit';
 import {
   BaseTemplateController,

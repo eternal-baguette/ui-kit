@@ -1,5 +1,5 @@
 {
-  "name": "@coveo/create-atomic-template",
+  "name": "@eternal-baguette/create-atomic-template",
   "description": "{{titleCase project}} project",
   "version": "0.0.0",
   "private": true,
@@ -7,12 +7,12 @@
     "lint": "prettier --check . && eslint ."
   },
   "dependencies": {
-    "@coveo/atomic": "workspace:*",
-    "@coveo/headless": "workspace:*",
+    "@eternal-baguette/atomic": "workspace:*",
+    "@eternal-baguette/headless": "workspace:*",
     "@stencil/core": "catalog:"
   },
   "devDependencies": {
-    "@coveo/create-atomic-rollup-plugin": "catalog:",
+    "@eternal-baguette/create-atomic-rollup-plugin": "catalog:",
     "@rollup/plugin-replace": "catalog:",
     "esbuild": "catalog:",
     "gts": "3.1.1",

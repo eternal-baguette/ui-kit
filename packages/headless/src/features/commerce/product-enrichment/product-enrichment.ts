@@ -1,4 +1,4 @@
-import {ArrayValue, Schema} from '@coveo/bueno';
+import {ArrayValue, Schema} from '@eternal-baguette/bueno';
 import type {ProductEnrichmentOptions} from '../../../controllers/commerce/product-enrichment/headless-product-enrichment.js';
 import {
   nonEmptyString,

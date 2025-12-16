@@ -2,7 +2,7 @@ import {
   ResultTemplate,
   ResultTemplateCondition,
   ResultTemplatesHelpers,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {h} from '@stencil/core';
 import {aggregate, isElementNode, isVisualNode} from '@/src/utils/utils';
 import {tableElementTagName} from '../table-element-utils';

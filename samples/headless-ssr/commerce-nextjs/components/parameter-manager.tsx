@@ -1,6 +1,6 @@
 'use client';
 
-import {buildParameterSerializer} from '@coveo/headless-react/ssr-commerce';
+import {buildParameterSerializer} from '@eternal-baguette/headless-react/ssr-commerce';
 import {useSearchParams} from 'next/navigation';
 import {useEffect, useMemo, useRef} from 'react';
 import {usePersistQuery} from '@/hooks/use-recent-queries';

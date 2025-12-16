@@ -1,4 +1,4 @@
-import type {FoldedResult, Result} from '@coveo/headless';
+import type {FoldedResult, Result} from '@eternal-baguette/headless';
 import {css, html, LitElement, type PropertyValues} from 'lit';
 import {customElement, state} from 'lit/decorators.js';
 import type {Bindings} from '@/src/components/search/atomic-search-interface/interfaces';

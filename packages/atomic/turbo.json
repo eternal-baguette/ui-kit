@@ -4,8 +4,8 @@
     "build": {
       "dependsOn": [
         "build:storybook",
-        "@coveo/atomic-angular-builder#gen:lit",
-        "@coveo/atomic-react#gen:lit"
+        "@eternal-baguette/atomic-angular-builder#gen:lit",
+        "@eternal-baguette/atomic-react#gen:lit"
       ],
       "outputs": []
     },

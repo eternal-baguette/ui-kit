@@ -1,4 +1,4 @@
-import {FacetResultsMustMatch} from '@coveo/headless';
+import {FacetResultsMustMatch} from '@eternal-baguette/headless';
 import {
   buildFacet as buildInsightFacet,
   buildFacetConditionsManager as buildInsightFacetConditionsManager,
@@ -12,7 +12,7 @@ import {
   FacetValueRequest as InsightFacetValueRequest,
   SearchStatus as InsightSearchStatus,
   SearchStatusState as InsightSearchStatusState,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Component, h, State, Prop, Element, VNode} from '@stencil/core';
 import {
   BindStateToController,

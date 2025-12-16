@@ -22,10 +22,10 @@ import {
   type InsightEngineConfiguration,
   type LogLevel,
   loadFieldActions,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {buildFakeInsightEngine} from '@/vitest-utils/testing-helpers/fixtures/headless/insight/engine.js';
 
-vi.mock('@coveo/headless/insight', {spy: true});
+vi.mock('@eternal-baguette/headless/insight', {spy: true});
 vi.mock('./analytics-config.js', {spy: true});
 vi.mock('./store.js', {spy: true});
 vi.mock('@/src/utils/init-queue.js', {spy: true});

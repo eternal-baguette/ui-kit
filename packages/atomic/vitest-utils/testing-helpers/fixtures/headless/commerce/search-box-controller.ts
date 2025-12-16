@@ -1,4 +1,7 @@
-import type {SearchBox, SearchBoxState} from '@coveo/headless/commerce';
+import type {
+  SearchBox,
+  SearchBoxState,
+} from '@eternal-baguette/headless/commerce';
 import {vi} from 'vitest';
 import {genericSubscribe} from '../common';
 

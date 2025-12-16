@@ -1,4 +1,4 @@
-import type {SearchEngine} from '@coveo/headless';
+import type {SearchEngine} from '@eternal-baguette/headless';
 import type {
   CommonBindings,
   NonceBindings,

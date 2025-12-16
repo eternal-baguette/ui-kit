@@ -1,7 +1,7 @@
 import {
   buildCommerceEngine,
   type CommerceEngine,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {loadCartItemsFromLocalStorage} from '../utils/cart-utils.js';
 
 export const getEngine = () => {

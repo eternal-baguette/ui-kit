@@ -1,4 +1,4 @@
-import {buildQuickview, type Result} from '@coveo/headless';
+import {buildQuickview, type Result} from '@eternal-baguette/headless';
 import {type FunctionComponent, useContext, useEffect, useState} from 'react';
 import {AppContext} from '../../context/engine';
 

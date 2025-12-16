@@ -1,4 +1,9 @@
-import {EnumValue, isArray, RecordValue, StringValue} from '@coveo/bueno';
+import {
+  EnumValue,
+  isArray,
+  RecordValue,
+  StringValue,
+} from '@eternal-baguette/bueno';
 
 /**
  * The available sort orders.

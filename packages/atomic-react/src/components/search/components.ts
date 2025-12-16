@@ -70,7 +70,7 @@ import {
   AtomicTableElement as LitAtomicTableElement,
   AtomicTabManager as LitAtomicTabManager,
   AtomicText as LitAtomicText,
-} from '@coveo/atomic/components';
+} from '@eternal-baguette/atomic/components';
 import {createComponent} from '@lit/react';
 import React from 'react';
 

@@ -182,7 +182,7 @@ Instead, use `deselectAllBreadcrumbs`.
 
 ```ts
 import { engine } from './engine';
-import { loadBreadcrumbActions } from '@coveo/headless';
+import { loadBreadcrumbActions } from '@eternal-baguette/headless';
 
 const breadcrumbActionCreators = loadBreadcrumbActions(headlessEngine);
 const action = breadcrumbActionCreators.deselectAllFacets();
@@ -194,7 +194,7 @@ headlessEngine.dispatch(action);
 
 ```ts
 import { engine } from './engine';
-import { loadBreadcrumbActions } from '@coveo/headless';
+import { loadBreadcrumbActions } from '@eternal-baguette/headless';
 
 const breadcrumbActionCreators = loadBreadcrumbActions(headlessEngine);
 const action = breadcrumbActionCreators.deselectAllBreadcrumbs();
@@ -236,7 +236,7 @@ const controller = buildDateFacet(engine, {
 **Headless Version 2 Example**
 
 ```ts
-import { buildSearchEngine } from '@coveo/headless';
+import { buildSearchEngine } from '@eternal-baguette/headless';
 
 export const headlessEngine = buildSearchEngine({
   configuration: {

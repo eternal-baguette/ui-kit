@@ -19,7 +19,7 @@ The exact endpoints you need to implement depend on the `proxyBaseUrl` you want 
 **Example**
 
 ```ts
-import { buildSearchEngine } from '@coveo/headless';
+import { buildSearchEngine } from '@eternal-baguette/headless';
 
 const searchEngine = buildSearchEngine({
   organizationId: 'my-org-id',
@@ -57,7 +57,7 @@ If you’re using the `legacy` analytics mode, your `proxyBaseUrl` must end with
 **Example**
 
 ```ts
-import { buildSearchEngine } from '@coveo/headless';
+import { buildSearchEngine } from '@eternal-baguette/headless';
 
 const searchEngine = buildSearchEngine({
   organizationId: 'my-org-id',
@@ -82,7 +82,7 @@ If you’re setting the `proxyBaseUrl` option in your search engine or action co
 **Example**
 
 ```ts
-import { buildCaseAssistEngine } from '@coveo/headless/case-assist';
+import { buildCaseAssistEngine } from '@eternal-baguette/headless/case-assist';
 
 const caseAssistEngine = buildCaseAssistEngine({
   caseAssistId: 'my-case-assist-id',
@@ -102,7 +102,7 @@ If you’re setting the `proxyBaseUrl` option in your case assist engine, action
 **Example**
 
 ```ts
-import { buildCommerceEngine } from '@coveo/headless/commerce';
+import { buildCommerceEngine } from '@eternal-baguette/headless/commerce';
 
 const commerceEngine = buildCommerceEngine({
   configuration: {
@@ -127,7 +127,7 @@ If you’re setting the `proxyBaseUrl` option in your commerce engine or action 
 **Example**
 
 ```ts
-import { buildInsightEngine } from '@coveo/headless/insight';
+import { buildInsightEngine } from '@eternal-baguette/headless/insight';
 
 const searchEngine = buildInsightEngine({
   organizationId: 'my-org-id',
@@ -150,7 +150,7 @@ If you’re setting the `proxyBaseUrl` option in your insight engine configurati
 **Example**
 
 ```ts
-import { buildRecommendationEngine } from '@coveo/headless/recommendation';
+import { buildRecommendationEngine } from '@eternal-baguette/headless/recommendation';
 
 const RecommendationEngine = buildRecommendationEngine({
   configuration: {

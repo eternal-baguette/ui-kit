@@ -4,7 +4,7 @@ import {
   buildInstantProducts,
   buildStandaloneSearchBox,
   type CommerceEngine,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import type React from 'react';
 import CartTab from '../components/cart-tab/cart-tab.js';
 import StandaloneSearchBox from '../components/standalone-search-box/standalone-search-box.js';

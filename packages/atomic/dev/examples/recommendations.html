@@ -7,8 +7,8 @@
 
     <script type="module">
       if (import.meta.env) {
-        const {defineCustomElements} = await import('@coveo/atomic/loader');
-        import('@coveo/atomic/themes/coveo.css');
+        const {defineCustomElements} = await import('@eternal-baguette/atomic/loader');
+        import('@eternal-baguette/atomic/themes/coveo.css');
         defineCustomElements();
       } else {
         import('http://localhost:3000/atomic/v0.0.0/atomic.esm.js');
@@ -21,7 +21,7 @@
 
     <script type="module">
       const {loadContextActions} = await (import.meta.env
-        ? import('@coveo/headless/recommendation')
+        ? import('@eternal-baguette/headless/recommendation')
         : import('http://localhost:3000/headless/v0.0.0/recommendation/headless.esm.js'));
 
       (async () => {

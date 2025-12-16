@@ -69,7 +69,7 @@
       "ignoreDependencies": ["@types/conventional-changelog-writer"]
     },
     "utils/cdn": {
-      "ignoreDependencies": ["@coveo/bueno", "local-web-server"]
+      "ignoreDependencies": ["@eternal-baguette/bueno", "local-web-server"]
     },
 
     // Projects to enable bunch by bunch.

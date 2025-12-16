@@ -2,7 +2,7 @@ import {
   getSampleSearchEngineConfiguration,
   type SearchEngine,
   type SearchEngineConfiguration,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {vi} from 'vitest';
 
 export const buildFakeSearchEngine = ({

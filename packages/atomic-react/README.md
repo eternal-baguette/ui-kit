@@ -87,7 +87,7 @@ import {
   AtomicResultList,
   buildSearchEngine,
   getSampleSearchEngineConfiguration,
-} from '@coveo/atomic-react';
+} from '@eternal-baguette/atomic-react';
 import {useMemo} from 'react';
 
 const MyResultTemplateForYouTubeVideos: React.FC<{result: Result}> = ({
@@ -201,11 +201,11 @@ import {
   AtomicResultLink,
   AtomicSearchInterface,
   AtomicResultList,
-} from '@coveo/atomic-react';
+} from '@eternal-baguette/atomic-react';
 import {
   buildSearchEngine,
   getSampleSearchEngineConfiguration,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {useMemo} from 'react';
 
 const MyStyledResultLink: React.FC<
@@ -255,11 +255,11 @@ import {
   AtomicSearchInterface,
   AtomicResultList,
   AtomicResultBadge,
-} from '@coveo/atomic-react';
+} from '@eternal-baguette/atomic-react';
 import {
   buildSearchEngine,
   getSampleSearchEngineConfiguration,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {useMemo} from 'react';
 
 const myStyles = `
@@ -297,7 +297,7 @@ const MyPage = () => {
 The Atomic React search interface component exposes an optional `localization` option, which takes a callback function that lets you handle [localization](https://docs.coveo.com/en/atomic/latest/usage/atomic-localization/).
 
 ```tsx
-import {AtomicSearchInterface} from '@coveo/atomic-react';
+import {AtomicSearchInterface} from '@eternal-baguette/atomic-react';
 
 <AtomicSearchInterface
   localization={(i18n) => {
@@ -320,9 +320,9 @@ You can do that by running `npm view @coveo/atomic-react@latest version dependen
 $ npm view @coveo/atomic-react@latest version dependencies devDependencies peerDependencies
 
 version = '2.1.35'
-dependencies = { '@coveo/atomic': '2.19.16' }
+dependencies = { '@eternal-baguette/atomic': '2.19.16' }
 devDependencies = {
-  '@coveo/headless': '2.8.10',
+  '@eternal-baguette/headless': '2.8.10',
   '@rollup/plugin-commonjs': '^22.0.2',
   '@rollup/plugin-node-resolve': '^14.1.0',
   '@rollup/plugin-replace': '^4.0.0',
@@ -338,7 +338,7 @@ devDependencies = {
   'rollup-plugin-terser': '^7.0.2'
 }
 peerDependencies = {
-  '@coveo/headless': '^2.0.0',
+  '@eternal-baguette/headless': '^2.0.0',
   react: '>=18.0.0',
   'react-dom': '>=18.0.0'
 }

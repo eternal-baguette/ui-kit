@@ -3,7 +3,7 @@
 import type {
   NumericFacet as HeadlessNumericFacet,
   NumericFacetState,
-} from '@coveo/headless-react/ssr-commerce-next';
+} from '@eternal-baguette/headless-react/ssr-commerce-next';
 import {useEffect, useRef, useState} from 'react';
 
 interface INumericFacetProps {

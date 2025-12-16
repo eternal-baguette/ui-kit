@@ -1,4 +1,4 @@
-import type {SearchBox as HeadlessSearchBox} from '@coveo/headless';
+import type {SearchBox as HeadlessSearchBox} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface SearchBoxProps {

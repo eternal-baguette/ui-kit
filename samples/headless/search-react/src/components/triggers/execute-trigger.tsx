@@ -3,7 +3,7 @@ import {
   type ExecuteTriggerParams,
   type FunctionExecutionTrigger,
   type SearchEngine,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 
 /**
  * This sample creates an instance of the headless execute trigger controller

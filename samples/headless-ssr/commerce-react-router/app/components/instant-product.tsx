@@ -1,4 +1,4 @@
-import type {Product} from '@coveo/headless-react/ssr-commerce';
+import type {Product} from '@eternal-baguette/headless-react/ssr-commerce';
 import {useNavigate} from 'react-router';
 import {useInstantProducts} from '@/lib/commerce-engine';
 import AddToCartButton from './add-to-cart-button.js';

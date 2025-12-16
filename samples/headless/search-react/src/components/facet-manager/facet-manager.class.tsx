@@ -4,7 +4,7 @@ import {
   type FacetManagerState,
   type FacetManager as HeadlessFacetManager,
   type Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Children, Component, type ContextType, type ReactElement} from 'react';
 import {AppContext} from '../../context/engine';
 

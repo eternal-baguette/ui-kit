@@ -1,4 +1,7 @@
-import {buildQuerySummary, type QuerySummaryState} from '@coveo/headless';
+import {
+  buildQuerySummary,
+  type QuerySummaryState,
+} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {describe, expect, it, vi} from 'vitest';
 import {AriaLiveRegionController} from '@/src/utils/accessibility-utils';
@@ -8,7 +11,7 @@ import {buildFakeSummary} from '@/vitest-utils/testing-helpers/fixtures/headless
 import type {AtomicQuerySummary} from './atomic-query-summary';
 import './atomic-query-summary';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 vi.mock('@/src/mixins/bindings-mixin', () => ({
   InitializeBindingsMixin: vi.fn().mockImplementation((superClass) => {
     return class extends superClass {

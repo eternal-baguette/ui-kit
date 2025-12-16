@@ -3,7 +3,7 @@ import type {
   ChildProduct,
   InteractiveProduct as HeadlessInteractiveProduct,
   Product,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useEffect, useState} from 'react';
 import {saveCartItemsToLocaleStorage} from '../../utils/cart-utils.js';
 import {formatCurrency} from '../../utils/format-currency.js';

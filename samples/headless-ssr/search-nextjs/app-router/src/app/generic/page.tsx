@@ -1,4 +1,4 @@
-import {buildSSRSearchParameterSerializer} from '@coveo/headless/ssr';
+import {buildSSRSearchParameterSerializer} from '@eternal-baguette/headless/ssr';
 import {headers} from 'next/headers';
 import SearchPage from '@/common/components/generic/search-page';
 import {

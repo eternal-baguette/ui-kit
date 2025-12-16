@@ -11,7 +11,7 @@ import {
   buildSmartSnippet as buildInsightSmartSnippet,
   SmartSnippet as InsightSmartSnippet,
   SmartSnippetState as InsightSmartSnippetState,
-} from '@coveo/headless/insight';
+} from '@eternal-baguette/headless/insight';
 import {Component, Prop, State, Element, h} from '@stencil/core';
 import {
   InitializableComponent,

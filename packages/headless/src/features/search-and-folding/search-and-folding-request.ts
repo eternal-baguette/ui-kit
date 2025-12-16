@@ -1,4 +1,4 @@
-import {isNullOrUndefined} from '@coveo/bueno';
+import {isNullOrUndefined} from '@eternal-baguette/bueno';
 import type {EventDescription} from 'coveo.analytics';
 import {getSearchApiBaseUrl} from '../../api/platform-client.js';
 import type {SearchRequest} from '../../api/search/search/search-request.js';

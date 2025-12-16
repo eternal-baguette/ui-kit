@@ -1,5 +1,5 @@
-import type {AtomicSearchInterface} from '@coveo/atomic/components';
-import {getSampleSearchEngineConfiguration} from '@coveo/headless';
+import type {AtomicSearchInterface} from '@eternal-baguette/atomic/components';
+import {getSampleSearchEngineConfiguration} from '@eternal-baguette/headless';
 // biome-ignore lint/correctness/noUnusedImports: <>
 import {Component, h, Prop} from '@stencil/core';
 import type {Router} from 'stencil-router-v2';

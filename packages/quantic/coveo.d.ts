@@ -2,7 +2,7 @@ import {
   InsightEngine,
   SearchEngine,
   RecommendationEngine,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {LightningElement} from 'lwc';
 import * as BuenoTypes from './force-app/main/default/staticresources/coveobueno/definitions/index';
 import {CoreEngine} from './force-app/main/default/staticresources/coveoheadless/definitions/app/engine';

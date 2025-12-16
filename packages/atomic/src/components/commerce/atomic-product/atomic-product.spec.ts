@@ -1,4 +1,4 @@
-import type {Product} from '@coveo/headless/commerce';
+import type {Product} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
 import type {
@@ -12,7 +12,7 @@ import {buildFakeProduct} from '@/vitest-utils/testing-helpers/fixtures/headless
 import {AtomicProduct} from './atomic-product';
 import './atomic-product';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-product', () => {
   let consoleWarnSpy: ReturnType<typeof vi.spyOn>;

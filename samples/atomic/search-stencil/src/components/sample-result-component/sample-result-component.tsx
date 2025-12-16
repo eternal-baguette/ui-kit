@@ -1,5 +1,5 @@
-import {resultContext} from '@coveo/atomic';
-import type {Result} from '@coveo/headless';
+import {resultContext} from '@eternal-baguette/atomic';
+import type {Result} from '@eternal-baguette/headless';
 // biome-ignore lint/correctness/noUnusedImports: <>
 import {Component, Element, h, State} from '@stencil/core';
 

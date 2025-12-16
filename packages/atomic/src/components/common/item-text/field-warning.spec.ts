@@ -1,8 +1,8 @@
-import {isArray} from '@coveo/bueno';
+import {isArray} from '@eternal-baguette/bueno';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
 import {possiblyWarnOnBadFieldType} from './field-warning';
 
-vi.mock('@coveo/bueno', {spy: true});
+vi.mock('@eternal-baguette/bueno', {spy: true});
 
 describe('field-warning', () => {
   describe('#possiblyWarnOnBadFieldType', () => {

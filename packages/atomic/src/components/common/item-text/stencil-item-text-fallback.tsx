@@ -1,4 +1,4 @@
-import {isUndefined} from '@coveo/bueno';
+import {isUndefined} from '@eternal-baguette/bueno';
 import {Fragment, FunctionalComponent, VNode, h} from '@stencil/core';
 import {possiblyWarnOnBadFieldType} from './field-warning';
 

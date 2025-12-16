@@ -2,7 +2,7 @@
 import {
   SolutionType,
   type CommerceEngine as SSRCommerceEngine,
-} from '@coveo/headless/ssr-commerce-next';
+} from '@eternal-baguette/headless/ssr-commerce-next';
 import {cleanup, render, screen} from '@testing-library/react';
 import React, {type Context, createContext} from 'react';
 import {afterEach, describe, expect, test, vi} from 'vitest';

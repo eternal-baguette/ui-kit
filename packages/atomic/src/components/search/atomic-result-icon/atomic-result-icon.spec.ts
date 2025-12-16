@@ -1,4 +1,4 @@
-import type {Result} from '@coveo/headless';
+import type {Result} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
 import {page} from 'vitest/browser';
@@ -7,7 +7,7 @@ import {buildFakeResult} from '@/vitest-utils/testing-helpers/fixtures/headless/
 import {AtomicResultIcon} from './atomic-result-icon';
 import './atomic-result-icon';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-result-icon', () => {
   let mockResult: Result;

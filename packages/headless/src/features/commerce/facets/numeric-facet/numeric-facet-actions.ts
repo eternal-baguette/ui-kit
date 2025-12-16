@@ -4,7 +4,7 @@ import {
   NumberValue,
   RecordValue,
   StringValue,
-} from '@coveo/bueno';
+} from '@eternal-baguette/bueno';
 import {createAction} from '@reduxjs/toolkit';
 import {
   requiredNonEmptyString,

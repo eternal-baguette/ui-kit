@@ -1,4 +1,4 @@
-import type {SmartSnippetFeedback} from '@coveo/headless';
+import type {SmartSnippetFeedback} from '@eternal-baguette/headless';
 import type {i18n} from 'i18next';
 import {html} from 'lit';
 import type {FunctionalComponent} from '@/src/utils/functional-component-utils';

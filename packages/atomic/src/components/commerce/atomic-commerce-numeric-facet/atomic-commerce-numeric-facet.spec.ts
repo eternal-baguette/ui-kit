@@ -3,7 +3,7 @@ import {
   type Context,
   type NumericFacet,
   type Summary,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html, LitElement} from 'lit';
 import {
   afterEach,
@@ -23,7 +23,7 @@ import {buildFakeSummary} from '@/vitest-utils/testing-helpers/fixtures/headless
 import type {AtomicCommerceNumericFacet} from './atomic-commerce-numeric-facet';
 import './atomic-commerce-numeric-facet';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-commerce-numeric-facet', () => {
   let mockedSummary: Summary;

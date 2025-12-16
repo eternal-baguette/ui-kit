@@ -1,4 +1,4 @@
-import {isString} from '@coveo/bueno';
+import {isString} from '@eternal-baguette/bueno';
 import {
   API_DATE_FORMAT,
   isSearchApiDate,

@@ -1,6 +1,6 @@
-import {Schema, StringValue} from '@coveo/bueno';
-import type {Result} from '@coveo/headless';
-import {ResultTemplatesHelpers} from '@coveo/headless';
+import {Schema, StringValue} from '@eternal-baguette/bueno';
+import type {Result} from '@eternal-baguette/headless';
+import {ResultTemplatesHelpers} from '@eternal-baguette/headless';
 import {css, html, LitElement, nothing} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {when} from 'lit-html/directives/when.js';

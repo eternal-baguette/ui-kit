@@ -1,4 +1,9 @@
-import {ArrayValue, RecordValue, Schema, StringValue} from '@coveo/bueno';
+import {
+  ArrayValue,
+  RecordValue,
+  Schema,
+  StringValue,
+} from '@eternal-baguette/bueno';
 import {contextDefinition} from '../../../features/commerce/context/context-validation.js';
 import {parametersDefinition} from '../../../features/commerce/parameters/parameters-schema.js';
 import {

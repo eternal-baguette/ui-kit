@@ -9,7 +9,7 @@ async function setup() {
 
 async function buildFiles() {
   console.log('building files');
-  await execute('npx', ['turbo', '@coveo/headless#build']);
+  await execute('npx', ['turbo', '@eternal-baguette/headless#build']);
 }
 
 function readFileSizes() {

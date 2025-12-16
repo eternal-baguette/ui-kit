@@ -1,4 +1,4 @@
-import {SchemaValidationError} from '@coveo/bueno';
+import {SchemaValidationError} from '@eternal-baguette/bueno';
 import type {Parameters} from '../../../../features/commerce/parameters/parameters-actions.js';
 import {parametersDefinition} from '../../../../features/commerce/parameters/parameters-schema.js';
 import {parametersReducer as commerceParameters} from '../../../../features/commerce/parameters/parameters-slice.js';

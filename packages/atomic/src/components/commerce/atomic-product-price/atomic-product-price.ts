@@ -3,7 +3,7 @@ import {
   type Context,
   type ContextState,
   type Product,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {css, html, LitElement} from 'lit';
 import {customElement, state} from 'lit/decorators.js';
 import {createProductContextController} from '@/src/components/commerce/product-template-component-utils/context/product-context-controller.js';

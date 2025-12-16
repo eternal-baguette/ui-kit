@@ -1,4 +1,7 @@
-import type {FacetValue, SpecificFacetSearchResult} from '@coveo/headless/ssr';
+import type {
+  FacetValue,
+  SpecificFacetSearchResult,
+} from '@eternal-baguette/headless/ssr';
 import FacetSearchCommon from './facet-search';
 
 interface FacetProps {

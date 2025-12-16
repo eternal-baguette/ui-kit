@@ -1,4 +1,8 @@
-import {RecordValue, Schema, type SchemaDefinition} from '@coveo/bueno';
+import {
+  RecordValue,
+  Schema,
+  type SchemaDefinition,
+} from '@eternal-baguette/bueno';
 import type {UnknownAction} from '@reduxjs/toolkit';
 import type {
   CommerceEngine,

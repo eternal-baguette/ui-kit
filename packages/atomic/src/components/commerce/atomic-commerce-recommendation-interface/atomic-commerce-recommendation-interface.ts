@@ -1,3 +1,4 @@
+import type {CurrencyCodeISO4217} from '@coveo/relay-event-types';
 import {
   buildContext,
   type CommerceEngine,
@@ -6,8 +7,7 @@ import {
   VERSION as HEADLESS_VERSION,
   loadConfigurationActions,
   loadContextActions,
-} from '@coveo/headless/commerce';
-import type {CurrencyCodeISO4217} from '@coveo/relay-event-types';
+} from '@eternal-baguette/headless/commerce';
 import {provide} from '@lit/context';
 import i18next, {type i18n} from 'i18next';
 import {type CSSResultGroup, css, html, LitElement} from 'lit';

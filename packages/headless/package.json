@@ -1,5 +1,5 @@
 {
-  "name": "@coveo/headless",
+  "name": "@eternal-baguette/headless",
   "homepage": "https://docs.coveo.com/en/headless/latest/",
   "repository": {
     "type": "git",
@@ -109,7 +109,7 @@
     }
   },
   "dependencies": {
-    "@coveo/bueno": "workspace:*",
+    "@eternal-baguette/bueno": "workspace:*",
     "@coveo/relay": "1.2.7",
     "@coveo/relay-event-types": "catalog:",
     "@reduxjs/toolkit": "2.6.0",
@@ -125,7 +125,7 @@
     "reselect": "5.1.1"
   },
   "devDependencies": {
-    "@coveo/documentation": "workspace:*",
+    "@eternal-baguette/documentation": "workspace:*",
     "live-server": "1.2.2",
     "node-fetch": "3.3.2",
     "typedoc": "catalog:",

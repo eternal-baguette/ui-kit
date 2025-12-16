@@ -2,7 +2,7 @@ import {
   buildCommerceEngine,
   buildProductListing,
   getSampleCommerceEngineConfiguration,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useMemo} from 'react';
 import {ProductListing} from '../../components/commerce/product-listing.fn';
 import {AppContext} from '../../context/engine';

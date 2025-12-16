@@ -1,4 +1,4 @@
-import {ArrayValue, NumberValue, RecordValue} from '@coveo/bueno';
+import {ArrayValue, NumberValue, RecordValue} from '@eternal-baguette/bueno';
 import {createAction} from '@reduxjs/toolkit';
 import type {CategoryFacetSearchResult} from '../../../../api/search/facet-search/category-facet-search/category-facet-search-response.js';
 import {

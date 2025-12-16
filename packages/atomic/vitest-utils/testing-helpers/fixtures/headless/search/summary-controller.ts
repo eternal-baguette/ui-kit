@@ -1,4 +1,4 @@
-import type {QuerySummary, QuerySummaryState} from '@coveo/headless';
+import type {QuerySummary, QuerySummaryState} from '@eternal-baguette/headless';
 import {genericSubscribe} from '../common';
 
 export const defaultState = {

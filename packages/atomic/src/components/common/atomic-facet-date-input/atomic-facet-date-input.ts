@@ -2,7 +2,7 @@ import {
   buildDateRange,
   type DateFilterRange,
   type DateRangeRequest,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {html, LitElement} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {ifDefined} from 'lit/directives/if-defined.js';

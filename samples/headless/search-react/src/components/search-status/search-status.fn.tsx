@@ -1,4 +1,4 @@
-import type {SearchStatus as HeadlessSearchStatus} from '@coveo/headless';
+import type {SearchStatus as HeadlessSearchStatus} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface SearchStatusProps {

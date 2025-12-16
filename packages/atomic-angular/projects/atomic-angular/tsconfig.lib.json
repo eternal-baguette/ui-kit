@@ -7,7 +7,7 @@
     "declarationMap": true,
     "inlineSources": true,
     "types": [],
-    "paths": {"@coveo/atomic-angular": ["../atomic-angular/*"]}
+    "paths": {"@eternal-baguette/atomic-angular": ["../atomic-angular/*"]}
   },
   "exclude": ["src/test.ts", "**/*.spec.ts"]
 }

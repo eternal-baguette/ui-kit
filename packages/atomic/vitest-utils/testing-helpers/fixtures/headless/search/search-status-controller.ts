@@ -1,4 +1,4 @@
-import type {SearchStatus} from '@coveo/headless';
+import type {SearchStatus} from '@eternal-baguette/headless';
 import {genericSubscribe} from '../common';
 
 export const buildFakeSearchStatus = (

@@ -8,5 +8,5 @@
   "name": "SSR Search",
   "entryPoints": ["../src/ssr/index.ts"],
   "gitRevision": "main",
-  "plugin": ["@coveo/documentation"]
+  "plugin": ["@eternal-baguette/documentation"]
 }

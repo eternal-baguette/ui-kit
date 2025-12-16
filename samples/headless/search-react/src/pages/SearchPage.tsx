@@ -80,7 +80,7 @@ import {
   type StandaloneSearchBoxAnalytics,
   type StaticFilterValue,
   type Unsubscribe,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {Component} from 'react';
 import {AutomaticFacetGenerator} from '../components/automatic-facet-generator/automatic-facet-generator.class';
 import {AutomaticFacetGenerator as AutomaticFacetGeneratorFn} from '../components/automatic-facet-generator/automatic-facet-generator.fn';

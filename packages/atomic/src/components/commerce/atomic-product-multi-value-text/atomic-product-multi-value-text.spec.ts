@@ -4,7 +4,7 @@ import {
   buildProductListing,
   buildSearch,
   type Product,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {describe, expect, it, vi} from 'vitest';
@@ -17,7 +17,7 @@ import {buildFakeSearch} from '@/vitest-utils/testing-helpers/fixtures/headless/
 import {AtomicProductMultiValueText} from './atomic-product-multi-value-text';
 import './atomic-product-multi-value-text';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-product-multi-value-text', () => {
   const mockedEngine = buildFakeCommerceEngine();

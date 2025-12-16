@@ -1,5 +1,5 @@
-import {isUndefined} from '@coveo/bueno';
-import type {InteractiveResult, Result} from '@coveo/headless';
+import {isUndefined} from '@eternal-baguette/bueno';
+import type {InteractiveResult, Result} from '@eternal-baguette/headless';
 import {type CSSResultGroup, css, html, LitElement} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';

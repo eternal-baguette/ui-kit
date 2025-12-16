@@ -2,7 +2,7 @@ import {
   type RecommendationList as HeadlessRecommendationList,
   loadClickAnalyticsActions,
   type Result,
-} from '@coveo/headless/recommendation';
+} from '@eternal-baguette/headless/recommendation';
 import {type FunctionComponent, useContext, useEffect, useState} from 'react';
 import {AppContext} from '../../context/engine';
 import {filterProtocol} from '../../utils/filter-protocol';

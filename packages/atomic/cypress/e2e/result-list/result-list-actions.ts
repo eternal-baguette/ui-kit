@@ -1,4 +1,4 @@
-import {ResultWithFolding} from '@coveo/headless/dist/definitions/features/folding/folding-slice';
+import {ResultWithFolding} from '@eternal-baguette/headless/dist/definitions/features/folding/folding-slice';
 import {
   TestFixture,
   generateComponentHTML,

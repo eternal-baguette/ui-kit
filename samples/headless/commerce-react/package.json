@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@coveo/headless": "workspace:*",
+    "@eternal-baguette/headless": "workspace:*",
     "react": "catalog:",
     "react-dom": "catalog:"
   },

@@ -6,7 +6,7 @@ import {
   type ProductListingSummaryState,
   type SearchSummaryState,
   type Summary,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {userEvent} from 'storybook/test';
@@ -24,7 +24,7 @@ import {buildFakeSummary} from '@/vitest-utils/testing-helpers/fixtures/headless
 import type {AtomicCommerceProductsPerPage} from './atomic-commerce-products-per-page';
 import './atomic-commerce-products-per-page';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 vi.mock('@/src/components/common/items-per-page/validate.js', {spy: true});
 
 describe('atomic-commerce-products-per-page', () => {

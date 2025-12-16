@@ -1,7 +1,7 @@
 import type {
   InstantProducts as HeadlessInstantProducts,
   Product,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useEffect, useState} from 'react';
 
 interface IInstantProductProps {

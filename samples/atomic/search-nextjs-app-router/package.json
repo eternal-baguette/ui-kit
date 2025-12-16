@@ -13,9 +13,9 @@
     "next": "catalog:",
     "react": "catalog:",
     "react-dom": "catalog:",
-    "@coveo/atomic-react": "workspace:*",
-    "@coveo/atomic": "workspace:*",
-    "@coveo/headless": "workspace:*"
+    "@eternal-baguette/atomic-react": "workspace:*",
+    "@eternal-baguette/atomic": "workspace:*",
+    "@eternal-baguette/headless": "workspace:*"
   },
   "devDependencies": {
     "typescript": "catalog:",

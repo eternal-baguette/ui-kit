@@ -5,7 +5,7 @@ import {
   type SearchEngine,
   type SearchEngineDefinitionOptions,
   type SearchEngineOptions,
-} from '@coveo/headless/ssr';
+} from '@eternal-baguette/headless/ssr';
 // Workaround to prevent Next.js erroring about importing CSR only hooks
 import React from 'react';
 import {singleton} from '../utils.js';

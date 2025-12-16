@@ -1,4 +1,4 @@
-import type {DidYouMean as HeadlessDidYouMean} from '@coveo/headless';
+import type {DidYouMean as HeadlessDidYouMean} from '@eternal-baguette/headless';
 import {type FunctionComponent, useEffect, useState} from 'react';
 
 interface DidYouMeanProps {

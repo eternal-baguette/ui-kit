@@ -2,7 +2,7 @@ import {
   buildCommerceEngine,
   buildRecommendations,
   getSampleCommerceEngineConfiguration,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useMemo} from 'react';
 import {Recommendations} from '../../components/commerce/recommendations.fn';
 import {AppContext} from '../../context/engine';

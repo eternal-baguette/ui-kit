@@ -8,7 +8,7 @@ import {
   type Cart,
   type CommerceEngine,
   type Context,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {useCallback, useEffect} from 'react';
 import DidYouMean from '../components/did-you-mean/did-you-mean.js';
 import SearchBox from '../components/search-box/search-box.js';

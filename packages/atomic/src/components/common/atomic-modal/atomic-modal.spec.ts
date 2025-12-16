@@ -8,7 +8,7 @@ import {AtomicModal} from './atomic-modal';
 import './atomic-modal';
 import '@/src/components/common/atomic-component-error/atomic-component-error';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 vi.mock('@/src/utils/replace-breakpoint-utils', {spy: true});
 vi.mock('@/src/mixins/bindings-mixin', () => ({
   InitializeBindingsMixin: vi.fn().mockImplementation((superClass) => {

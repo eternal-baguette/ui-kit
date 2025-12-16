@@ -1,8 +1,8 @@
-import type {i18n} from '@coveo/atomic';
+import type {i18n} from '@eternal-baguette/atomic';
 import {
   buildRecommendationEngine,
   getSampleRecommendationEngineConfiguration,
-} from '@coveo/headless/recommendation';
+} from '@eternal-baguette/headless/recommendation';
 // biome-ignore lint/style/useImportType: <React is needed>
 import React, {useEffect, useRef} from 'react';
 import {AtomicRecsInterface} from '../search/components';

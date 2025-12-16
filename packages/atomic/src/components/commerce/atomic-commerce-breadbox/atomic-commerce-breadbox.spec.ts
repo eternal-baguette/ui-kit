@@ -4,7 +4,7 @@ import {
   buildContext,
   buildProductListing,
   buildSearch,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
@@ -19,7 +19,7 @@ import {mockConsole} from '@/vitest-utils/testing-helpers/testing-utils/mock-con
 import type {AtomicCommerceBreadbox} from './atomic-commerce-breadbox';
 import './atomic-commerce-breadbox';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 vi.mock('@/src/utils/date-utils', () => {
   const parseDate = vi.fn((date) => {
     const d = new Date(date);

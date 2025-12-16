@@ -1,4 +1,4 @@
-import {isNullOrUndefined} from '@coveo/bueno';
+import {isNullOrUndefined} from '@eternal-baguette/bueno';
 import {createReducer, type Reducer} from '@reduxjs/toolkit';
 import type P from 'pino';
 import type {Logger} from 'pino';

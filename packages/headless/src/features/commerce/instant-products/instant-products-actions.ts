@@ -1,4 +1,4 @@
-import {RecordValue, StringValue} from '@coveo/bueno';
+import {RecordValue, StringValue} from '@eternal-baguette/bueno';
 import {createAction} from '@reduxjs/toolkit';
 import type {ChildProduct} from '../../../api/commerce/common/product.js';
 import {

@@ -1,4 +1,4 @@
-import {loadRecommendationActions} from '@coveo/headless/recommendation';
+import {loadRecommendationActions} from '@eternal-baguette/headless/recommendation';
 import {Component, Element, Fragment, h, Prop, State} from '@stencil/core';
 import CloseIcon from '../../../images/close.svg';
 import SearchIcon from '../../../images/search.svg';

@@ -1,7 +1,7 @@
 import {
   SearchEngineConfiguration,
   getSampleSearchEngineConfiguration,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import { Decorator, StoryContext } from '@storybook/web-components-vite';
 import { html } from 'lit';
 import type * as _ from '../../src/components.js';

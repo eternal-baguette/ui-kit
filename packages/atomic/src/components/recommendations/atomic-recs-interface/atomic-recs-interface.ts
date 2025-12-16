@@ -1,7 +1,7 @@
 import {
   VERSION as HEADLESS_VERSION,
   loadConfigurationActions,
-} from '@coveo/headless';
+} from '@eternal-baguette/headless';
 import {
   buildRecommendationEngine,
   EcommerceDefaultFieldsToInclude,
@@ -11,7 +11,7 @@ import {
   type RecommendationEngine,
   type RecommendationEngineConfiguration,
   type LogLevel as RecsLogLevel,
-} from '@coveo/headless/recommendation';
+} from '@eternal-baguette/headless/recommendation';
 import {provide} from '@lit/context';
 import i18next, {type i18n} from 'i18next';
 import {html, LitElement} from 'lit';

@@ -1,5 +1,5 @@
-import type {Result} from '@coveo/headless';
-import {ResultTemplatesHelpers} from '@coveo/headless';
+import type {Result} from '@eternal-baguette/headless';
+import {ResultTemplatesHelpers} from '@eternal-baguette/headless';
 import {css, html, LitElement} from 'lit';
 import {customElement, property, state} from 'lit/decorators.js';
 import {when} from 'lit/directives/when.js';

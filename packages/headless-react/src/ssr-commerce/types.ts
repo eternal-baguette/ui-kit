@@ -7,7 +7,7 @@ import type {
   InferControllersMapFromDefinition,
   SolutionType,
   CommerceEngine as SSRCommerceEngine,
-} from '@coveo/headless/ssr-commerce';
+} from '@eternal-baguette/headless/ssr-commerce';
 import type {FunctionComponent, PropsWithChildren} from 'react';
 
 export type ContextHydratedState<

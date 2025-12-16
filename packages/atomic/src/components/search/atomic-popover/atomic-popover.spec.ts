@@ -1,4 +1,4 @@
-import {buildSearchStatus} from '@coveo/headless';
+import {buildSearchStatus} from '@eternal-baguette/headless';
 import {html} from 'lit';
 import {beforeEach, describe, expect, it, vi} from 'vitest';
 import {page, userEvent} from 'vitest/browser';
@@ -10,7 +10,7 @@ import type {AtomicPopover} from './atomic-popover';
 import './atomic-popover';
 import '@/src/components/common/atomic-component-error/atomic-component-error';
 
-vi.mock('@coveo/headless', {spy: true});
+vi.mock('@eternal-baguette/headless', {spy: true});
 
 describe('atomic-popover', () => {
   const mockEngine = buildFakeSearchEngine();

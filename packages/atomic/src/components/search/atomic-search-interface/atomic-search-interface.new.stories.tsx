@@ -1,4 +1,4 @@
-import {getSampleSearchEngineConfiguration} from '@coveo/headless';
+import {getSampleSearchEngineConfiguration} from '@eternal-baguette/headless';
 import type {Meta, StoryObj as Story} from '@storybook/web-components-vite';
 import {getStorybookHelpers} from '@wc-toolkit/storybook-helpers';
 import {html} from 'lit';

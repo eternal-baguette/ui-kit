@@ -1,4 +1,4 @@
-import {ArrayValue, RecordValue, StringValue} from '@coveo/bueno';
+import {ArrayValue, RecordValue, StringValue} from '@eternal-baguette/bueno';
 import {
   requiredEmptyAllowedString,
   requiredNonEmptyString,

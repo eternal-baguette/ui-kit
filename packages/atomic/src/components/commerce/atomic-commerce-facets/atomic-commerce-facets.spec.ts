@@ -13,7 +13,7 @@ import {
   type Search,
   type SearchSummaryState,
   type Summary,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html} from 'lit';
 import {beforeEach, describe, expect, it, type MockInstance, vi} from 'vitest';
 import {page} from 'vitest/browser';
@@ -33,7 +33,7 @@ import type {AtomicCommerceFacets} from './atomic-commerce-facets';
 import './atomic-commerce-facets';
 
 vi.mock('@/src/components/common/interface/store', {spy: true});
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 
 describe('atomic-commerce-facets', () => {
   let mockedFacetGenerator: FacetGenerator;

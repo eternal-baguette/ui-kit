@@ -9,7 +9,7 @@ import {
   buildStandaloneSearchBox,
   loadQuerySetActions,
   loadQuerySuggestActions,
-} from '@coveo/headless/commerce';
+} from '@eternal-baguette/headless/commerce';
 import {html, type TemplateResult} from 'lit';
 import {ifDefined} from 'lit/directives/if-defined.js';
 import {describe, expect, it, vi} from 'vitest';
@@ -24,7 +24,7 @@ import {buildFakeStandaloneSearchBox} from '@/vitest-utils/testing-helpers/fixtu
 import {AtomicCommerceSearchBox} from './atomic-commerce-search-box';
 import './atomic-commerce-search-box';
 
-vi.mock('@coveo/headless/commerce', {spy: true});
+vi.mock('@eternal-baguette/headless/commerce', {spy: true});
 vi.mock('@/src/utils/device-utils', {spy: true});
 vi.mock(import('@/src/utils/utils'), async (importOriginal) => {
   const mod = await importOriginal();

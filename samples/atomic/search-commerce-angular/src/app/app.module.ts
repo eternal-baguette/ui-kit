@@ -1,6 +1,6 @@
 import {NgModule} from '@angular/core';
 import {BrowserModule} from '@angular/platform-browser';
-import {AtomicAngularModule} from '@coveo/atomic-angular';
+import {AtomicAngularModule} from '@eternal-baguette/atomic-angular';
 import {AppComponent} from './app.component';
 import {AppRoutingModule} from './app-routing.module';
 import {AtomicAngularPageComponent} from './atomic-angular-page/atomic-angular-page.component';

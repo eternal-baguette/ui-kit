@@ -1,4 +1,4 @@
-import type {TemplatesManager} from '@coveo/headless';
+import type {TemplatesManager} from '@eternal-baguette/headless';
 import {afterEach, beforeEach, describe, expect, it, vi} from 'vitest';
 import {
   TemplateProvider,

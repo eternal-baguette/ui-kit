@@ -1,4 +1,4 @@
-import type {Template, TemplatesManager} from '@coveo/headless';
+import type {Template, TemplatesManager} from '@eternal-baguette/headless';
 
 export interface TemplateElement<ItemType> extends HTMLElement {
   getTemplate(): Promise<Template<ItemType, DocumentFragment> | null>;
