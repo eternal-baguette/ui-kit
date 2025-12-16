@@ -1,4 +1,4 @@
-name: release
+name: CD
 on:
   workflow_dispatch:
 
@@ -15,7 +15,7 @@ jobs:
       - uses: ./.github/actions/setup
       - name: Generate a token
         id: generate-token
-        uses: actions/create-github-app-token@v4
+        uses: actions/create-github-app-token@v2
         with:
           app-id: ${{ secrets.GH_APP_ID }}
           private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
