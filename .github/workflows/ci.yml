@@ -23,4 +23,4 @@ jobs:
           save-cache: "true"
       - name: Changeset status
         run: pnpm changeset status --since=main
-        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.ref == 'main' && contains(github.event.pull_request.labels.*.name, 'release') && github.event.pull_request.user.id == vars.GH_APP_UID }} 
+        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.ref == 'main' && !(contains(github.event.pull_request.labels.*.name, 'release') && github.event.pull_request.user.id == vars.GH_APP_UID) }} 
