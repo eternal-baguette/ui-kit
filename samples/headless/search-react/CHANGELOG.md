@@ -1,5 +1,14 @@
 # @samples/headless-search-react
 
+## 0.0.2
+
+### Patch Changes
+
+- 6eff147: Bump all once to sync it all
+- Updated dependencies [6eff147]
+  - @eternal-baguette/headless@3.37.2
+  - @eternal-baguette/auth@2.1.5
+
 ## 0.0.1
 
 ### Patch Changes

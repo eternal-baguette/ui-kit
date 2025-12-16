@@ -1,5 +1,13 @@
 # @samples/headless-ssr-search-nextjs-pages-router
 
+## 0.0.2
+
+### Patch Changes
+
+- 6eff147: Bump all once to sync it all
+- Updated dependencies [6eff147]
+  - @samples/headless-ssr-search-nextjs-common@0.0.2
+
 ## 0.0.1
 
 ### Patch Changes

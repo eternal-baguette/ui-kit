@@ -1,5 +1,14 @@
 # @eternal-baguette/atomic-angular
 
+## 3.8.2
+
+### Patch Changes
+
+- 6eff147: Bump all once to sync it all
+- Updated dependencies [6eff147]
+  - @eternal-baguette/headless@3.37.2
+  - @eternal-baguette/atomic@3.42.3
+
 ## 3.8.1
 
 ### Patch Changes

@@ -1,74 +1,60 @@
 # @eternal-baguette/create-atomic-result-component
 
+## 1.3.11
+
+### Patch Changes
+
+- 6eff147: Bump all once to sync it all
+- Updated dependencies [6eff147]
+  - @eternal-baguette/create-atomic-component-project@1.5.12
+
 ## <small>1.3.10 (2025-10-30)</small>
 
-* ci: fix pnpm pack including node_modules for create-atomic packages (#6333) ([c9debba](https://github.com/coveo/ui-kit/commits/c9debba)), closes [#6333](https://github.com/coveo/ui-kit/issues/6333)
-* ci: migrate to pnpm (#6135) ([00e44cd](https://github.com/coveo/ui-kit/commits/00e44cd)), closes [#6135](https://github.com/coveo/ui-kit/issues/6135)
-* [Version Bump][skip ci]: ui-kit publish ([b33d02f](https://github.com/coveo/ui-kit/commits/b33d02f))
-* [Version Bump][skip ci]: ui-kit publish ([a4a23ae](https://github.com/coveo/ui-kit/commits/a4a23ae))
-
-
+- ci: fix pnpm pack including node_modules for create-atomic packages (#6333) ([c9debba](https://github.com/coveo/ui-kit/commits/c9debba)), closes [#6333](https://github.com/coveo/ui-kit/issues/6333)
+- ci: migrate to pnpm (#6135) ([00e44cd](https://github.com/coveo/ui-kit/commits/00e44cd)), closes [#6135](https://github.com/coveo/ui-kit/issues/6135)
+- [Version Bump][skip ci]: ui-kit publish ([b33d02f](https://github.com/coveo/ui-kit/commits/b33d02f))
+- [Version Bump][skip ci]: ui-kit publish ([a4a23ae](https://github.com/coveo/ui-kit/commits/a4a23ae))
 
 ## <small>1.3.9 (2025-10-29)</small>
 
-* ci: migrate to pnpm (#6135) ([00e44cd](https://github.com/coveo/ui-kit/commits/00e44cd)), closes [#6135](https://github.com/coveo/ui-kit/issues/6135)
-* [Version Bump][skip ci]: ui-kit publish ([a4a23ae](https://github.com/coveo/ui-kit/commits/a4a23ae))
-
-
+- ci: migrate to pnpm (#6135) ([00e44cd](https://github.com/coveo/ui-kit/commits/00e44cd)), closes [#6135](https://github.com/coveo/ui-kit/issues/6135)
+- [Version Bump][skip ci]: ui-kit publish ([a4a23ae](https://github.com/coveo/ui-kit/commits/a4a23ae))
 
 ## <small>1.3.8 (2025-10-22)</small>
 
-* [Version Bump][skip ci]: ui-kit publish ([e2ffade](https://github.com/coveo/ui-kit/commits/e2ffade))
-
-
+- [Version Bump][skip ci]: ui-kit publish ([e2ffade](https://github.com/coveo/ui-kit/commits/e2ffade))
 
 ## <small>1.3.7 (2025-10-15)</small>
 
-* [Version Bump][skip ci]: ui-kit publish ([2e3b4d2](https://github.com/coveo/ui-kit/commits/2e3b4d2))
-
-
+- [Version Bump][skip ci]: ui-kit publish ([2e3b4d2](https://github.com/coveo/ui-kit/commits/2e3b4d2))
 
 ## <small>1.3.6 (2025-10-08)</small>
 
-* chore: more cleanup of dependencies in multiples packages (#6119) ([ff6c837](https://github.com/coveo/ui-kit/commits/ff6c837)), closes [#6119](https://github.com/coveo/ui-kit/issues/6119)
-
-
+- chore: more cleanup of dependencies in multiples packages (#6119) ([ff6c837](https://github.com/coveo/ui-kit/commits/ff6c837)), closes [#6119](https://github.com/coveo/ui-kit/issues/6119)
 
 ## <small>1.3.5 (2025-10-01)</small>
 
-* [Version Bump][skip ci]: ui-kit publish ([b0bb0b7](https://github.com/coveo/ui-kit/commits/b0bb0b7))
-
-
+- [Version Bump][skip ci]: ui-kit publish ([b0bb0b7](https://github.com/coveo/ui-kit/commits/b0bb0b7))
 
 ## <small>1.3.4 (2025-09-18)</small>
 
-* [Version Bump][skip ci]: ui-kit publish ([a3fb13e](https://github.com/coveo/ui-kit/commits/a3fb13e))
-
-
+- [Version Bump][skip ci]: ui-kit publish ([a3fb13e](https://github.com/coveo/ui-kit/commits/a3fb13e))
 
 ## <small>1.3.3 (2025-09-17)</small>
 
-* chore: deduplicate dependencies in create-atomic-* (#6029) ([ba54e8e](https://github.com/coveo/ui-kit/commits/ba54e8e)), closes [#6029](https://github.com/coveo/ui-kit/issues/6029)
-
-
+- chore: deduplicate dependencies in create-atomic-\* (#6029) ([ba54e8e](https://github.com/coveo/ui-kit/commits/ba54e8e)), closes [#6029](https://github.com/coveo/ui-kit/issues/6029)
 
 ## <small>1.3.2 (2025-09-03)</small>
 
-* [Version Bump][skip ci]: ui-kit publish ([1793fed](https://github.com/coveo/ui-kit/commits/1793fed))
-
-
+- [Version Bump][skip ci]: ui-kit publish ([1793fed](https://github.com/coveo/ui-kit/commits/1793fed))
 
 ## <small>1.3.1 (2025-08-28)</small>
 
-* [Version Bump][skip ci]: ui-kit publish ([c4f6ced](https://github.com/coveo/ui-kit/commits/c4f6ced))
-
-
+- [Version Bump][skip ci]: ui-kit publish ([c4f6ced](https://github.com/coveo/ui-kit/commits/c4f6ced))
 
 ## 1.3.0 (2025-08-27)
 
-* feat(cli): port over atomic-result-component from cli  (#5919) ([2899a2c](https://github.com/coveo/ui-kit/commits/2899a2c)), closes [#5919](https://github.com/coveo/ui-kit/issues/5919)
-
-
+- feat(cli): port over atomic-result-component from cli (#5919) ([2899a2c](https://github.com/coveo/ui-kit/commits/2899a2c)), closes [#5919](https://github.com/coveo/ui-kit/issues/5919)
 
 ## 1.2.20 (2024-05-13)
 

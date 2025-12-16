@@ -1,5 +1,13 @@
 # @eternal-baguette/shopify
 
+## 1.9.11
+
+### Patch Changes
+
+- 6eff147: Bump all once to sync it all
+- Updated dependencies [6eff147]
+  - @eternal-baguette/headless@3.37.2
+
 ## 1.9.10
 
 ### Patch Changes

@@ -1,5 +1,13 @@
 # @eternal-baguette/headless-react
 
+## 2.8.2
+
+### Patch Changes
+
+- 6eff147: Bump all once to sync it all
+- Updated dependencies [6eff147]
+  - @eternal-baguette/headless@3.37.2
+
 ## 2.8.1
 
 ### Patch Changes

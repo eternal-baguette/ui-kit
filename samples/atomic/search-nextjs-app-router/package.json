@@ -1,6 +1,6 @@
 {
   "name": "@samples/atomic-search-nextjs-app-router",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": true,
   "scripts": {
     "build:assets": "node ../../../utils/ci/copy-files.mjs ../../../packages/atomic-react/dist/assets public/assets ../../../packages/atomic-react/dist/lang public/lang",
