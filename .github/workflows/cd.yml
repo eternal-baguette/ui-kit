@@ -31,6 +31,5 @@ jobs:
           title: "chore: update versions"
           publish: pnpm ci:publish
         env:
-          HUSKY: 0
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }} # Temporary, to be replaced by NPM TP after first publish
