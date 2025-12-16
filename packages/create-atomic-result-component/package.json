@@ -14,12 +14,7 @@
     "template/src/components/sample-result-component/src/**/*",
     "template/.gitignore"
   ],
-  "scripts": {
-    "release:phase1": "pnpm run publish:bump",
-    "publish:bump": "pnpm --filter @coveo/ci bump",
-    "release:phase3": "pnpm --filter @coveo/ci npm-publish",
-    "promote:npm:latest": "pnpm --filter @coveo/ci promote-npm-prod"
-  },
+  "scripts": {},
   "keywords": [
     "coveo",
     "cli",

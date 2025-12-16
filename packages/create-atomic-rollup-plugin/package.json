@@ -12,10 +12,7 @@
     "clean": "node ../../utils/ci/rm-rf.mjs dist",
     "build": "pnpm run clean && pnpm run build:ts",
     "build:ts": "tsc -p tsconfig.json",
-    "lint": "npx @biomejs/biome check .",
-    "release:phase3": "pnpm --filter @coveo/ci npm-publish",
-    "release:phase1": "pnpm --filter @coveo/ci bump",
-    "promote:npm:latest": "pnpm --filter @coveo/ci promote-npm-prod"
+    "lint": "npx @biomejs/biome check ."
   },
   "keywords": [
     "coveo",
