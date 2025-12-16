@@ -44,6 +44,8 @@ jobs:
       - name: Checkout PR branch
         if: steps.changeset.outputs.pullRequestNumber != ''
         run: gh pr checkout ${{ steps.changeset.outputs.pullRequestNumber }}
+        env:
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
       - name: Extract commit information
         if: steps.changeset.outputs.pullRequestNumber != ''
         id: git-info
