@@ -1,5 +1,13 @@
 # @samples/atomic-search-nextjs-app-router
 
+## 0.0.3
+
+### Patch Changes
+
+- Updated dependencies [d26ed9f]
+  - @eternal-baguette/atomic@3.42.4
+  - @eternal-baguette/atomic-react@3.7.4
+
 ## 0.0.2
 
 ### Patch Changes
