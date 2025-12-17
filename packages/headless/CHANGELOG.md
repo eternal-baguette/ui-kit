@@ -1,5 +1,12 @@
 # @eternal-baguette/headless
 
+## 3.37.3
+
+### Patch Changes
+
+- Updated dependencies [f6289bf]
+  - @eternal-baguette/bueno@1.2.0
+
 ## 3.37.2
 
 ### Patch Changes
