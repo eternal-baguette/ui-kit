@@ -1,5 +1,12 @@
 # @samples/atomic-search-vuejs
 
+## 0.0.8
+
+### Patch Changes
+
+- Updated dependencies [5d86536]
+  - @eternal-baguette/atomic@4.0.4
+
 ## 0.0.7
 
 ### Patch Changes

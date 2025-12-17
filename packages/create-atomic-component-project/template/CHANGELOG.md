@@ -1,5 +1,12 @@
 # @eternal-baguette/sample-component-project
 
+## 0.0.9
+
+### Patch Changes
+
+- Updated dependencies [5d86536]
+  - @eternal-baguette/atomic@4.0.4
+
 ## 0.0.8
 
 ### Patch Changes
