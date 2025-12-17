@@ -1,5 +1,12 @@
 # @eternal-baguette/atomic-angular-builder
 
+## 0.0.4
+
+### Patch Changes
+
+- @eternal-baguette/atomic@4.0.0
+- @eternal-baguette/headless@3.37.3
+
 ## 0.0.3
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @samples/headless-search-react
 
+## 0.0.3
+
+### Patch Changes
+
+- @eternal-baguette/headless@3.37.3
+
 ## 0.0.2
 
 ### Patch Changes
