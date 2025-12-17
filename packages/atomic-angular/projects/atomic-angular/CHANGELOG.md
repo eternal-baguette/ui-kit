@@ -1,5 +1,13 @@
 # @eternal-baguette/atomic-angular
 
+## 3.8.8
+
+### Patch Changes
+
+- Updated dependencies [4a78f6e]
+  - @eternal-baguette/atomic@5.0.0
+  - @eternal-baguette/headless@3.37.7
+
 ## 3.8.7
 
 ### Patch Changes

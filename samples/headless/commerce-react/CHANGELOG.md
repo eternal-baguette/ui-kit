@@ -1,5 +1,11 @@
 # @samples/headless-commerce-react
 
+## 0.1.7
+
+### Patch Changes
+
+- @eternal-baguette/headless@3.37.7
+
 ## 0.1.6
 
 ### Patch Changes
