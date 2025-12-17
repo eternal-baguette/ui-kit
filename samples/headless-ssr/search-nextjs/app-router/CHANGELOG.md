@@ -1,5 +1,11 @@
 # @samples/headless-ssr-search-nextjs-app-router
 
+## 0.0.5
+
+### Patch Changes
+
+- @samples/headless-ssr-search-nextjs-common@0.0.5
+
 ## 0.0.4
 
 ### Patch Changes

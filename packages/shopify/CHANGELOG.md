@@ -1,5 +1,11 @@
 # @eternal-baguette/shopify
 
+## 1.9.14
+
+### Patch Changes
+
+- @eternal-baguette/headless@3.37.5
+
 ## 1.9.13
 
 ### Patch Changes

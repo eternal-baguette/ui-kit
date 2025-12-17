@@ -1,5 +1,13 @@
 # @eternal-baguette/atomic-hosted-page
 
+## 1.2.27
+
+### Patch Changes
+
+- Updated dependencies [7309b93]
+  - @eternal-baguette/bueno@1.2.2
+  - @eternal-baguette/headless@3.37.5
+
 ## 1.2.26
 
 ### Patch Changes
