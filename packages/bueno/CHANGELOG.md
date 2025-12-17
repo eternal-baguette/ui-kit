@@ -1,5 +1,11 @@
 # @eternal-baguette/bueno
 
+## 1.2.0
+
+### Minor Changes
+
+- f6289bf: Some fake change for Bueno
+
 ## 1.1.6
 
 ### Patch Changes

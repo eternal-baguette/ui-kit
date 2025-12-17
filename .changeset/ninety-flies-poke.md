@@ -1,4 +1,0 @@
----
----
-
-Remove old CI scritps
