@@ -1,5 +1,11 @@
 # @eternal-baguette/bueno
 
+## 1.2.3
+
+### Patch Changes
+
+- 5fe39a5: Another test
+
 ## 1.2.2
 
 ### Patch Changes

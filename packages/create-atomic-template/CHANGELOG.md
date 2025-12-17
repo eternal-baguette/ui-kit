@@ -1,5 +1,12 @@
 # @eternal-baguette/create-atomic-template
 
+## 0.0.7
+
+### Patch Changes
+
+- @eternal-baguette/atomic@4.0.3
+- @eternal-baguette/headless@3.37.6
+
 ## 0.0.6
 
 ### Patch Changes

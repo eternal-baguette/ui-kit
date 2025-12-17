@@ -1,5 +1,12 @@
 # @eternal-baguette/sample-component-project
 
+## 0.0.8
+
+### Patch Changes
+
+- @eternal-baguette/atomic@4.0.3
+- @eternal-baguette/headless@3.37.6
+
 ## 0.0.7
 
 ### Patch Changes

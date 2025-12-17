@@ -1,5 +1,11 @@
 # @samples/headless-ssr-commerce-nextjs
 
+## 0.0.6
+
+### Patch Changes
+
+- @eternal-baguette/headless-react@2.8.6
+
 ## 0.0.5
 
 ### Patch Changes

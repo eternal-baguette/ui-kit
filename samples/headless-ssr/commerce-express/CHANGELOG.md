@@ -1,5 +1,11 @@
 # @samples/headless-ssr-commerce-express
 
+## 0.0.6
+
+### Patch Changes
+
+- @eternal-baguette/headless@3.37.6
+
 ## 0.0.5
 
 ### Patch Changes
