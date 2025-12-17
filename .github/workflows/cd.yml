@@ -178,7 +178,7 @@ jobs:
         id: changeset
         uses: changesets/action@v1
         with:
-          publish: "pnpm ci:publish"
+          publish: "pnpm release"
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
   
