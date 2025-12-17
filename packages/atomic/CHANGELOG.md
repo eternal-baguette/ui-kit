@@ -1,5 +1,11 @@
 # @eternal-baguette/atomic
 
+## 4.0.4
+
+### Patch Changes
+
+- 5d86536: Fix in Atomic
+
 ## 4.0.3
 
 ### Patch Changes

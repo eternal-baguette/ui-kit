@@ -1,5 +1,11 @@
 # @samples/atomic-search-commerce-react
 
+## 0.0.8
+
+### Patch Changes
+
+- @eternal-baguette/atomic-react@3.7.9
+
 ## 0.0.7
 
 ### Patch Changes
