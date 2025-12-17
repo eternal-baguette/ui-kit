@@ -18,7 +18,7 @@
     "pre-commit": "lint-staged",
     "promote:npm:latest": "turbo promote:npm:latest",
     "notify:docs": "node ./scripts/notify-docs/published-ui-kit.mjs",
-    "release": "pnpm publish -r && changeset publish",
+    "release": "changeset publish",
     "knip": "knip"
   },
   "devDependencies": {
