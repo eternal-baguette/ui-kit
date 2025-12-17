@@ -1,5 +1,11 @@
 # @eternal-baguette/bueno
 
+## 1.2.2
+
+### Patch Changes
+
+- 7309b93: Baguette
+
 ## 1.2.1
 
 ### Patch Changes

@@ -1,5 +1,12 @@
 # @eternal-baguette/atomic-react
 
+## 3.7.7
+
+### Patch Changes
+
+- @eternal-baguette/atomic@4.0.2
+- @eternal-baguette/headless@3.37.5
+
 ## 3.7.6
 
 ### Patch Changes

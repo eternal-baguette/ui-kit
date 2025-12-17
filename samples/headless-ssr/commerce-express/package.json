@@ -1,7 +1,7 @@
 {
   "name": "@samples/headless-ssr-commerce-express",
   "description": "Headless Commerce SSR Generic Sample using the new simplified ssr-next API",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": true,
   "scripts": {
     "dev": "pnpm build:client --watch=forever & pnpm build:server --watch & pnpm start -- --watch",
