@@ -1,5 +1,12 @@
 # @samples/atomic-search-stencil
 
+## 0.0.5
+
+### Patch Changes
+
+- @eternal-baguette/atomic@4.0.1
+- @eternal-baguette/headless@3.37.4
+
 ## 0.0.4
 
 ### Patch Changes
