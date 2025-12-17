@@ -201,3 +201,5 @@ You can also use `--name=atomic-ball` if you'd like, but the script will automat
 This will create the component in the specified directory (`src/components/search/atomic-ball` in this case), or use the default `src/components/commerce/atomic-ball` if no `output` is provided.
 
 ## Men trip not on mountains; they stumble upon stones.
+
+Fix
