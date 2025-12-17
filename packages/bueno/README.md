@@ -31,7 +31,3 @@ To run the unit tests for the components and watch, run:
 ```bash
 pnpm run test:watch
 ```
-
-# I Thought I Was More Of A Wine-Keeper Than A Secret-Keeper.
-test1
-test2
