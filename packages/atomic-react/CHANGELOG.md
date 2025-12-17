@@ -1,5 +1,13 @@
 # @eternal-baguette/atomic-react
 
+## 3.7.9
+
+### Patch Changes
+
+- Updated dependencies [4a78f6e]
+  - @eternal-baguette/atomic@5.0.0
+  - @eternal-baguette/headless@3.37.7
+
 ## 3.7.8
 
 ### Patch Changes

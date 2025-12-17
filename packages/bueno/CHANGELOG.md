@@ -1,5 +1,11 @@
 # @eternal-baguette/bueno
 
+## 1.3.0
+
+### Minor Changes
+
+- 9be8f44: Feature!
+
 ## 1.2.3
 
 ### Patch Changes

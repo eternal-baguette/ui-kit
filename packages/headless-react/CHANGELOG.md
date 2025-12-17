@@ -1,5 +1,11 @@
 # @eternal-baguette/headless-react
 
+## 2.8.7
+
+### Patch Changes
+
+- @eternal-baguette/headless@3.37.7
+
 ## 2.8.6
 
 ### Patch Changes
