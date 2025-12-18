@@ -1,5 +1,13 @@
 # @eternal-baguette/atomic
 
+## 5.0.1
+
+### Patch Changes
+
+- Updated dependencies [e6237aa]
+  - @eternal-baguette/bueno@1.4.0
+  - @eternal-baguette/headless@3.37.8
+
 ## 5.0.0
 
 ### Patch Changes
