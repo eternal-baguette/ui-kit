@@ -83,7 +83,7 @@ jobs:
         with:
           github-token: ${{ steps.generate-token.outputs.token }}
           script: |
-            const prNumber = process.env.PR_NUMBER;
+            const pull_number = process.env.PR_NUMBER;
             const headSha = process.env.HEAD_SHA;
             const treeSha = process.env.TREE_SHA;
             const commitMessage = process.env.COMMIT_MESSAGE;
@@ -115,40 +115,14 @@ jobs:
               force: true
             });
             
-            core.info(`✓ Updated branch ${headRef} to signed commit ${newCommit.sha}`);
+            core.info(`Force merging ${pull_number}`);
             
-            // Add label to the PR
-            await github.rest.issues.addLabels({
+            const { data: mergeResult } = await github.rest.pulls.merge({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: prNumber,
-              labels: ['release']
-            });
-            
-            core.info(`✓ Added 'release' label to PR #${prNumber}`);
-      - name: Merge PR forcefully
-        if: steps.changeset.outputs.pullRequestNumber != ''
-        id: merge-pr
-        uses: actions/github-script@v8
-        env:
-          PR_NUMBER: ${{ steps.changeset.outputs.pullRequestNumber }}
-          HEAD_REF: "changeset-release/${{github.ref_name}}"
-          BASE_REF: "${{github.ref_name}}"
-        with:
-          github-token: ${{ steps.generate-token.outputs.token }}
-          script: |
-            const prNumber = process.env.PR_NUMBER;
-            const headRef = process.env.HEAD_REF;
-            const baseRef = process.env.BASE_REF;
-            
-            core.info(`Force merging ${headRef} into ${baseRef}`);
-            
-            const { data: mergeResult } = await github.rest.repos.merge({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              base: baseRef,
-              head: headRef,
-              commit_message: `Merge pull request #${prNumber} from ${headRef}`
+              pull_number,
+              merge_method: 'squash',
+              sha: newCommit.sha
             });
             
             core.info(`✓ Branch merged successfully`);
