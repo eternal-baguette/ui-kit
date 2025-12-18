@@ -1,5 +1,13 @@
 # @samples/atomic-search-nextjs-pages-router
 
+## 0.0.9
+
+### Patch Changes
+
+- @eternal-baguette/atomic@5.0.1
+- @eternal-baguette/headless@3.37.8
+- @eternal-baguette/atomic-react@3.7.10
+
 ## 0.0.8
 
 ### Patch Changes

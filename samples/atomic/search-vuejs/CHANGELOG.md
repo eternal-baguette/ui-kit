@@ -1,5 +1,11 @@
 # @samples/atomic-search-vuejs
 
+## 0.0.9
+
+### Patch Changes
+
+- @eternal-baguette/atomic@5.0.1
+
 ## 0.0.8
 
 ### Patch Changes
