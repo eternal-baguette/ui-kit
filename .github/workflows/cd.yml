@@ -52,6 +52,7 @@ jobs:
         id: changeset
         uses: changesets/action@v1
         with:
+          version: "pnpm changeset version"
           commit: ${{ env.commit }}
           title: ${{ env.commit }}
         env:
