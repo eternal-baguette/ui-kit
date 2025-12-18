@@ -31,5 +31,3 @@ To run the unit tests for the components and watch, run:
 ```bash
 pnpm run test:watch
 ```
-
-:godmode: :suspect:
