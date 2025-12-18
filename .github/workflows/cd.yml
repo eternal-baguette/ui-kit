@@ -70,7 +70,8 @@ jobs:
           echo "head-sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
           echo "tree-sha=$(git rev-parse HEAD^{tree})" >> $GITHUB_OUTPUT
           echo "parent-sha=$(git rev-parse HEAD~1)" >> $GITHUB_OUTPUT
-      - name: Doctor commit with signature
+      - name: Sign PR commit and Merge PR
+        id: merge-pr
         if: steps.changeset.outputs.pullRequestNumber != ''
         uses: actions/github-script@v8
         env:
