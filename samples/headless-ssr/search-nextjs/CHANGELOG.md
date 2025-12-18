@@ -1,5 +1,12 @@
 # @samples/headless-ssr-search-nextjs-common
 
+## 0.0.9
+
+### Patch Changes
+
+- @eternal-baguette/headless@3.37.9
+- @eternal-baguette/headless-react@2.8.9
+
 ## 0.0.8
 
 ### Patch Changes
