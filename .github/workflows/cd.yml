@@ -115,17 +115,40 @@ jobs:
               force: true
             });
             
-            core.info(`Force merging ${pull_number}`);
+            core.info(`Waiting for ref update to propagate...`);
             
-            const { data: mergeResult } = await github.rest.pulls.merge({
-              owner: context.repo.owner,
-              repo: context.repo.repo,
-              pull_number,
-              merge_method: 'squash',
-              sha: newCommit.sha
-            });
+            // Retry merge with exponential backoff to handle race condition
+            let mergeResult;
+            let attempt = 0;
+            const maxAttempts = 5;
             
-            core.info(`✓ Branch merged successfully`);
+            while (attempt < maxAttempts) {
+              try {
+                attempt++;
+                core.info(`Merge attempt ${attempt}/${maxAttempts}`);
+                
+                const { data } = await github.rest.pulls.merge({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  pull_number,
+                  merge_method: 'squash',
+                  sha: newCommit.sha
+                });
+                
+                mergeResult = data;
+                core.info(`✓ Branch merged successfully`);
+                break;
+              } catch (error) {
+                if (error.status === 409 && attempt < maxAttempts) {
+                  const delay = Math.pow(2, attempt) * 1000; // Exponential backoff
+                  core.warning(`Merge conflict detected (attempt ${attempt}), retrying in ${delay}ms...`);
+                  await new Promise(resolve => setTimeout(resolve, delay));
+                } else {
+                  throw error;
+                }
+              }
+            }
+            
             core.info(`Merge commit SHA: ${mergeResult.sha}`);
             core.setOutput('merge-commit-sha', mergeResult.sha);
   
