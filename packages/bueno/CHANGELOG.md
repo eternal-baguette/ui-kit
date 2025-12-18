@@ -1,5 +1,11 @@
 # @eternal-baguette/bueno
 
+## 1.4.1
+
+### Patch Changes
+
+- 33bb7c3: Clean
+
 ## 1.4.0
 
 ### Minor Changes

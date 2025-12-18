@@ -1,7 +1,7 @@
 {
   "name": "@samples/headless-ssr-commerce-nextjs-v4",
   "description": "Examples of @coveo/headless-react/ssr-commerce-next utils using Next.js app router",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "private": true,
   "scripts": {
     "dev": "next dev",

@@ -1,5 +1,11 @@
 # @samples/atomic-search-commerce-angular
 
+## 0.0.10
+
+### Patch Changes
+
+- @eternal-baguette/atomic-angular@3.8.10
+
 ## 0.0.9
 
 ### Patch Changes

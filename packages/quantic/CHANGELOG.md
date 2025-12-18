@@ -1,5 +1,13 @@
 # @eternal-baguette/quantic
 
+## 3.34.9
+
+### Patch Changes
+
+- Updated dependencies [33bb7c3]
+  - @eternal-baguette/bueno@1.4.1
+  - @eternal-baguette/headless@3.37.9
+
 ## 3.34.8
 
 ### Patch Changes
