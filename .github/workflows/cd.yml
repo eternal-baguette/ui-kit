@@ -52,6 +52,7 @@ jobs:
         id: changeset
         uses: changesets/action@v1
         with:
+          setupGitUser: false
           version: "pnpm changeset version"
           commit: ${{ env.commit }}
           title: ${{ env.commit }}
@@ -175,10 +176,15 @@ jobs:
           private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
           owner: eternal-baguette
           repositories: "ui-kit"
+      - name: Setup Git user
+        run: |
+          git config --global user.name '${{ steps.generate-token.outputs.app-slug }}[bot]'
+          git config --global user.email '${{ vars.GH_APP_UID }}+${{ steps.generate-token.outputs.app-slug }}[bot]@users.noreply.github.com'
       - name: Publish to NPM
         id: changeset
         uses: changesets/action@v1
         with:
+          setupGitUser: false
           publish: "pnpm release"
         env:
           GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
