@@ -1,5 +1,11 @@
 # @eternal-baguette/bueno
 
+## 1.4.0
+
+### Minor Changes
+
+- e6237aa: test patch
+
 ## 1.3.0
 
 ### Minor Changes
