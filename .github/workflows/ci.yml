@@ -9,11 +9,18 @@ permissions:
 env:
   CYPRESS_VERIFY_TIMEOUT: 60000
 jobs:
-  build:
-    name: "Build"
+  ci:
+    name: "CI"
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - run: git branch ${{ github.event.pull_request.base.ref }} origin/${{ github.event.pull_request.base.ref }}
+        if: ${{ github.event_name == 'pull_request' }}
       - uses: ./.github/actions/setup
         with:
           save-cache: "true"
+      - name: Changeset status
+        run: pnpm changeset status --since=main
+        if: ${{ github.event_name == 'pull_request' && github.event.pull_request.base.ref == 'main' && !(contains(github.event.pull_request.labels.*.name, 'release') && github.event.pull_request.user.id == vars.GH_APP_UID) }} 

@@ -1,6 +1,6 @@
 {
   "name": "@eternal-baguette/create-atomic-rollup-plugin",
-  "version": "1.2.3",
+  "version": "1.2.4",
   "description": "Rollup plugin for resolving Coveo Atomic dependencies from CDN or npm",
   "type": "module",
   "main": "dist/index.js",
@@ -12,10 +12,7 @@
     "clean": "node ../../utils/ci/rm-rf.mjs dist",
     "build": "pnpm run clean && pnpm run build:ts",
     "build:ts": "tsc -p tsconfig.json",
-    "lint": "npx @biomejs/biome check .",
-    "release:phase3": "pnpm --filter @coveo/ci npm-publish",
-    "release:phase1": "pnpm --filter @coveo/ci bump",
-    "promote:npm:latest": "pnpm --filter @coveo/ci promote-npm-prod"
+    "lint": "npx @biomejs/biome check ."
   },
   "keywords": [
     "coveo",
@@ -31,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coveo/ui-kit.git",
+    "url": "git+https://github.com/eternal-baguette/ui-kit.git",
     "directory": "packages/create-atomic-rollup-plugin"
   },
   "devDependencies": {

@@ -1,6 +1,6 @@
 {
   "name": "@eternal-baguette/create-atomic-component-project",
-  "version": "1.5.11",
+  "version": "1.5.12",
   "description": "Initialize a Coveo Atomic Library Project",
   "type": "module",
   "main": "index.js",
@@ -15,12 +15,7 @@
     "template/tsconfig.json",
     "template/src/**/*"
   ],
-  "scripts": {
-    "release:phase3": "pnpm --filter @coveo/ci npm-publish",
-    "publish:bump": "pnpm --filter @coveo/ci bump",
-    "release:phase1": "pnpm run publish:bump",
-    "promote:npm:latest": "pnpm --filter @coveo/ci promote-npm-prod"
-  },
+  "scripts": {},
   "keywords": [
     "coveo",
     "cli",
@@ -33,7 +28,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coveo/ui-kit.git",
+    "url": "git+https://github.com/eternal-baguette/ui-kit.git",
     "directory": "packages/create-atomic-component-project"
   }
 }

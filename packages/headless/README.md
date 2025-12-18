@@ -93,3 +93,6 @@ Please see [the contributor guide](./contributors/adding-a-controller.md) for gu
 # Contribution guide: Troubleshooting bundle content.
 
 Please see [the contributor guide](./contributors/troubleshooting-bundles-content.md) for guidance.
+
+# Temp-stuff
+Losing a rock is better than never having a rock!

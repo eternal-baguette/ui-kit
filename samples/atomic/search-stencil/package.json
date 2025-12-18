@@ -1,6 +1,6 @@
 {
   "name": "@samples/atomic-search-stencil",
-  "version": "0.0.0",
+  "version": "0.0.10",
   "private": true,
   "type": "module",
   "scripts": {

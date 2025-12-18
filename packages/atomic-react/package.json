@@ -2,11 +2,11 @@
   "name": "@eternal-baguette/atomic-react",
   "sideEffects": false,
   "type": "module",
-  "version": "3.7.1",
+  "version": "3.7.11",
   "description": "React specific wrapper for the Atomic component library",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coveo/ui-kit.git",
+    "url": "git+https://github.com/eternal-baguette/ui-kit.git",
     "directory": "packages/atomic-react"
   },
   "scripts": {
@@ -17,10 +17,7 @@
     "build:fixGeneratedImportPaths": "fix-esm-import-path src/components/stencil-generated",
     "build:bundles": "rollup --config rollup.config.js",
     "build:types": "tsc --project tsconfig.types.json",
-    "build:assets": "node ../../utils/ci/copy-files.mjs ../atomic/dist/atomic/assets dist/assets ../atomic/dist/atomic/lang dist/lang",
-    "release:phase3": "pnpm --filter @coveo/ci npm-publish",
-    "release:phase1": "pnpm --filter @coveo/ci bump",
-    "promote:npm:latest": "pnpm --filter @coveo/ci promote-npm-prod"
+    "build:assets": "node ../../utils/ci/copy-files.mjs ../atomic/dist/atomic/assets dist/assets ../atomic/dist/atomic/lang dist/lang"
   },
   "module": "./dist/esm/atomic-react.mjs",
   "main": "./dist/cjs/atomic-react.cjs",
@@ -72,5 +69,8 @@
       "import": "./dist/esm/recommendation/atomic-react.mjs",
       "require": "./dist/cjs/recommendation/atomic-react.cjs"
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@eternal-baguette/atomic-angular-builder",
-  "version": "0.0.0",
+  "version": "0.0.10",
   "scripts": {
     "ng": "ng",
     "dev": "ng serve",
@@ -32,5 +32,8 @@
   },
   "engines": {
     "node": "^20.9.0 || ^22.11.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

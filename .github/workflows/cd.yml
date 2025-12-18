@@ -1,14 +1,221 @@
-name: Create release
+name: CD
 on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
+  pull-requests: write
+  id-token: write
+
+env:
+  commit: "chore: update versions"
+  RULESET_ID: "11169046"
 
 jobs:
-  todo:
-    name: "Todo"
+  version:
+    name: "Create Version PR & Merge"
+    runs-on: ubuntu-latest
+    outputs:
+      merge-commit-sha: ${{ steps.merge-pr.outputs.merge-commit-sha }}
+    environment: NPM
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/setup
+        with:
+          save-cache: "true"
+      - name: Generate a token
+        id: generate-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: eternal-baguette
+          repositories: "ui-kit"
+      - name: Freeze main branch & hotfix branches
+        uses: actions/github-script@v8
+        with:
+          github-token: ${{ steps.generate-token.outputs.token }}
+          script: |
+            core.info(`Enabling ruleset ${process.env.RULESET_ID} to freeze main branch`);
+            await github.rest.repos.updateRepoRuleset({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ruleset_id: process.env.RULESET_ID,
+              enforcement: 'active'
+            });
+            core.info(`✓ Main branch frozen`);
+      - name: Setup Git user
+        run: |
+          git config --global user.name '${{ steps.generate-token.outputs.app-slug }}[bot]'
+          git config --global user.email '${{ vars.GH_APP_UID }}+${{ steps.generate-token.outputs.app-slug }}[bot]@users.noreply.github.com'
+      - name: Create version PR
+        id: changeset
+        uses: changesets/action@v1
+        with:
+          setupGitUser: false
+          version: "pnpm changeset version"
+          commit: ${{ env.commit }}
+          title: ${{ env.commit }}
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+      - name: Checkout PR branch
+        if: steps.changeset.outputs.pullRequestNumber != ''
+        run: gh pr checkout ${{ steps.changeset.outputs.pullRequestNumber }}
+        env:
+          GH_TOKEN: ${{ steps.generate-token.outputs.token }}
+      - name: Extract commit information
+        if: steps.changeset.outputs.pullRequestNumber != ''
+        id: git-info
+        run: |
+          echo "head-sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
+          echo "tree-sha=$(git rev-parse HEAD^{tree})" >> $GITHUB_OUTPUT
+          echo "parent-sha=$(git rev-parse HEAD~1)" >> $GITHUB_OUTPUT
+      - name: Sign PR commit and Merge PR
+        id: merge-pr
+        if: steps.changeset.outputs.pullRequestNumber != ''
+        uses: actions/github-script@v8
+        env:
+          PR_NUMBER: ${{ steps.changeset.outputs.pullRequestNumber }}
+          TREE_SHA: ${{ steps.git-info.outputs.tree-sha }}
+          HEAD_SHA: ${{ steps.git-info.outputs.head-sha }}
+          PARENT_SHA: ${{ steps.git-info.outputs.parent-sha }}
+          COMMIT_MESSAGE: ${{ env.commit }}
+          HEAD_REF: "changeset-release/${{github.ref_name}}"
+        with:
+          github-token: ${{ steps.generate-token.outputs.token }}
+          script: |
+            const pull_number = process.env.PR_NUMBER;
+            const headSha = process.env.HEAD_SHA;
+            const treeSha = process.env.TREE_SHA;
+            const commitMessage = process.env.COMMIT_MESSAGE;
+            const parentSha = process.env.PARENT_SHA;
+            const headRef = process.env.HEAD_REF;
+            
+            core.info(`Original commit: ${headSha}`);
+            core.info(`Tree SHA: ${treeSha}`);
+            core.info(`Message: ${commitMessage}`);
+            core.info(`Parent: ${parentSha}`);
+            
+            // Create a new signed commit with the same tree
+            const { data: newCommit } = await github.rest.git.createCommit({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              message: commitMessage,
+              tree: treeSha,
+              parents: [parentSha]
+            });
+            
+            core.info(`New signed commit: ${newCommit.sha}`);
+            
+            // Force update the PR branch to point to the new signed commit
+            await github.rest.git.updateRef({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ref: `heads/${headRef}`,
+              sha: newCommit.sha,
+              force: true
+            });
+            
+            core.info(`Waiting for ref update to propagate...`);
+            
+            // Retry merge with exponential backoff to handle race condition
+            let mergeResult;
+            let attempt = 0;
+            const maxAttempts = 5;
+            
+            while (attempt < maxAttempts) {
+              try {
+                attempt++;
+                core.info(`Merge attempt ${attempt}/${maxAttempts}`);
+                
+                const { data } = await github.rest.pulls.merge({
+                  owner: context.repo.owner,
+                  repo: context.repo.repo,
+                  pull_number,
+                  merge_method: 'squash',
+                  sha: newCommit.sha
+                });
+                
+                mergeResult = data;
+                core.info(`✓ Branch merged successfully`);
+                break;
+              } catch (error) {
+                if (error.status === 409 && attempt < maxAttempts) {
+                  const delay = Math.pow(2, attempt) * 1000; // Exponential backoff
+                  core.warning(`Merge conflict detected (attempt ${attempt}), retrying in ${delay}ms...`);
+                  await new Promise(resolve => setTimeout(resolve, delay));
+                } else {
+                  throw error;
+                }
+              }
+            }
+            
+            core.info(`Merge commit SHA: ${mergeResult.sha}`);
+            core.setOutput('merge-commit-sha', mergeResult.sha);
+  
+  publish:
+    name: "NPM Publish"
+    needs: version
+    if: needs.version.outputs.merge-commit-sha != ''
+    environment: NPM
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: echo "This is a placeholder job for CD workflow."
+        with:
+          ref: ${{ needs.version.outputs.merge-commit-sha }}
+      - uses: ./.github/actions/setup
+      - name: Upgrade npm for OIDC support
+        run: npm install -g npm@latest
+      - name: Generate a token
+        id: generate-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: eternal-baguette
+          repositories: "ui-kit"
+      - name: Setup Git user
+        run: |
+          git config --global user.name '${{ steps.generate-token.outputs.app-slug }}[bot]'
+          git config --global user.email '${{ vars.GH_APP_UID }}+${{ steps.generate-token.outputs.app-slug }}[bot]@users.noreply.github.com'
+      - name: Publish to NPM
+        id: changeset
+        uses: changesets/action@v1
+        with:
+          setupGitUser: false
+          publish: "pnpm release"
+        env:
+          GITHUB_TOKEN: ${{ steps.generate-token.outputs.token }}
+  
+  clean:
+    name: "Clean up - Thaw main branch"
+    needs: publish
+    if: ${{ always() }}
+    environment: NPM
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate a token
+        id: generate-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.GH_APP_ID }}
+          private-key: ${{ secrets.GH_APP_PRIVATE_KEY }}
+          owner: eternal-baguette
+          repositories: "ui-kit"
+      - name: Thaw main branch
+        uses: actions/github-script@v8
+        if: always()
+        env:
+          RULESET_ID: ${{ env.RULESET_ID }}
+        with:
+          github-token: ${{ steps.generate-token.outputs.token }}
+          script: |
+            core.info(`Disabling ruleset ${process.env.RULESET_ID} to thaw main branch`);
+            await github.rest.repos.updateRepoRuleset({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              ruleset_id: process.env.RULESET_ID,
+              enforcement: 'disabled'
+            });
+            core.info(`✓ Main branch thawed`);
+

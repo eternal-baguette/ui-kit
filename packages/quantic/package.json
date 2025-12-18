@@ -1,6 +1,6 @@
 {
   "name": "@eternal-baguette/quantic",
-  "version": "3.34.0",
+  "version": "3.34.9",
   "description": "A Salesforce Lightning Web Component (LWC) library for building modern UIs interfacing with the Coveo platform",
   "author": "coveo.com",
   "homepage": "https://coveo.com",
@@ -8,7 +8,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coveo/ui-kit.git"
+    "url": "git+https://github.com/eternal-baguette/ui-kit.git"
   },
   "scripts": {
     "lint:check:tests": "eslint force-app/main/default/lwc/ --format junit -o reports/eslint.xml",
@@ -39,9 +39,6 @@
     "publish:sfdx": "ts-node scripts/build/create-package.ts --remove-translations",
     "promote:sfdx": "pnpm run publish:sfdx -- --promote",
     "promote:sfdx:ci": "pnpm run publish:sfdx -- --promote --ci",
-    "release:phase1": "pnpm --filter @coveo/ci bump",
-    "release:phase3": "pnpm --filter @coveo/ci npm-publish",
-    "promote:npm:latest": "pnpm --filter @coveo/ci promote-npm-prod",
     "preinstall": "node scripts/npm/check-sfdx-project.js",
     "postinstall": "node scripts/npm/setup-quantic.js",
     "babel:headless": "babel ./node_modules/@eternal-baguette/headless/dist/quantic --delete-dir-on-start --out-dir .tmp/quantic-compiled --extensions .js --minified"
@@ -92,5 +89,8 @@
     "docs/out/quantic-docs.json",
     "!force-app/main/default/lwc/**/__tests__",
     "!force-app/main/default/lwc/**/e2e"
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }

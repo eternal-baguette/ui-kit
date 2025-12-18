@@ -1,3 +1,63 @@
+# @samples/headless-search-react
+
+## 0.0.9
+
+### Patch Changes
+
+- @eternal-baguette/headless@3.37.9
+
+## 0.0.8
+
+### Patch Changes
+
+- @eternal-baguette/headless@3.37.8
+
+## 0.0.7
+
+### Patch Changes
+
+- @eternal-baguette/headless@3.37.7
+
+## 0.0.6
+
+### Patch Changes
+
+- @eternal-baguette/headless@3.37.6
+
+## 0.0.5
+
+### Patch Changes
+
+- @eternal-baguette/headless@3.37.5
+
+## 0.0.4
+
+### Patch Changes
+
+- @eternal-baguette/headless@3.37.4
+
+## 0.0.3
+
+### Patch Changes
+
+- @eternal-baguette/headless@3.37.3
+
+## 0.0.2
+
+### Patch Changes
+
+- 6eff147: Bump all once to sync it all
+- Updated dependencies [6eff147]
+  - @eternal-baguette/headless@3.37.2
+  - @eternal-baguette/auth@2.1.5
+
+## 0.0.1
+
+### Patch Changes
+
+- Updated dependencies [7f7fbdb]
+  - @eternal-baguette/headless@3.37.1
+
 # Change Log
 
 All notable changes to this project will be documented in this file.

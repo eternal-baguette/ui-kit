@@ -1,9 +1,10 @@
 {
   "name": "@eternal-baguette/atomic-angular",
-  "version": "3.8.0",
+  "version": "3.8.10",
   "license": "Apache-2.0",
   "repository": {
-    "url": "https://github.com/coveo/ui-kit"
+    "url": "git+https://github.com/eternal-baguette/ui-kit.git",
+    "directory": "packages/atomic-angular/projects/atomic-angular"
   },
   "peerDependencies": {
     "@angular/common": "14 - 19",
@@ -15,5 +16,8 @@
   },
   "engines": {
     "node": "^20.9.0 || ^22.11.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

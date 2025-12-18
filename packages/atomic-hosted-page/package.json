@@ -1,10 +1,10 @@
 {
   "name": "@eternal-baguette/atomic-hosted-page",
   "description": "Web Component used to inject a Coveo Hosted Search Page in the DOM.",
-  "version": "1.2.22",
+  "version": "1.2.31",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coveo/ui-kit.git",
+    "url": "git+https://github.com/eternal-baguette/ui-kit.git",
     "directory": "packages/atomic-hosted-page"
   },
   "type": "module",
@@ -35,10 +35,7 @@
     "clean": "node ../../utils/ci/rm-rf.mjs dist/*",
     "build": "node ../../utils/ci/rm-rf.mjs dist cdn && tsc --outdir dist && tsc --outdir cdn --project tsconfig.cdn.json && node ./scripts/esbuild.js",
     "start": "node ./scripts/start.js",
-    "e2e": "playwright test",
-    "release:phase3": "pnpm --filter @coveo/ci npm-publish",
-    "release:phase1": "pnpm --filter @coveo/ci bump",
-    "promote:npm:latest": "pnpm --filter @coveo/ci promote-npm-prod"
+    "e2e": "playwright test"
   },
   "dependencies": {
     "@eternal-baguette/bueno": "workspace:*",
@@ -53,5 +50,8 @@
   },
   "engines": {
     "node": "^20.9.0 || ^22.11.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

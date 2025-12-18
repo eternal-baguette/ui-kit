@@ -1,7 +1,7 @@
 {
   "name": "@eternal-baguette/create-atomic",
   "description": "Coveo Atomic Generator",
-  "version": "1.41.5",
+  "version": "1.41.6",
   "files": [
     "/dist",
     "template/.env.example",
@@ -27,17 +27,14 @@
   "main": "index.mjs",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/coveo/ui-kit.git",
+    "url": "git+https://github.com/eternal-baguette/ui-kit.git",
     "directory": "packages/create-atomic"
   },
   "scripts": {
     "start": "node ./index.mjs",
     "build": "node ../../utils/ci/rm-rf.mjs template && pnpm run build:ts && node ./scripts/preparePackageJsonTemplate.mjs",
     "build:ts": "tsc -p tsconfig.json",
-    "lint": "prettier --check . && eslint .",
-    "release:phase3": "pnpm --filter @coveo/ci npm-publish",
-    "release:phase1": "pnpm --filter @coveo/ci bump",
-    "promote:npm:latest": "pnpm --filter @coveo/ci promote-npm-prod"
+    "lint": "prettier --check . && eslint ."
   },
   "keywords": [
     "coveo",
